@@ -504,7 +504,7 @@ function renderPhotoSlots() {
 function renderAudioSlots() {
   document.getElementById('audio-slots').innerHTML = audioSlots.map((slot, i) => {
     if (slot.path && !slot.isBlob) {
-      // ファイルあり：プレーヤー＋変更・削除ボタン（file inputはオーバーレイしない）
+      // サーバー上のファイル：プレーヤー表示
       return `
         <div class="audio-slot has-file" id="audio-slot-${i}">
           <span style="font-size:18px">🎵</span>
@@ -517,8 +517,24 @@ function renderAudioSlots() {
             <button class="btn-clear-audio" onclick="clearAudio(${i})">🗑 削除</button>
           </div>
         </div>`;
+    } else if (slot.file && slot.isBlob) {
+      // ローカルファイル選択済み（フォルダ未選択）：プレーヤー表示
+      const blobUrl = slot.blobUrl || (slot.blobUrl = URL.createObjectURL(slot.file));
+      return `
+        <div class="audio-slot has-file" id="audio-slot-${i}">
+          <span style="font-size:18px">🎵</span>
+          <span class="slot-name">${slot.displayName}</span>
+          <audio controls src="${blobUrl}"></audio>
+          <p style="font-size:10px;color:#e67e22;text-align:center">📁 フォルダ選択後に保存されます</p>
+          <div class="audio-slot-btns">
+            <button class="btn-change-file">📂 変更
+              <input type="file" accept="audio/*" onchange="onAudioChange(event,${i})">
+            </button>
+            <button class="btn-clear-audio" onclick="clearAudio(${i})">🗑 削除</button>
+          </div>
+        </div>`;
     } else {
-      // ファイルなし：クリックでファイル選択
+      // 未選択
       return `
         <div class="audio-slot empty" id="audio-slot-${i}">
           <span style="font-size:24px">🎤</span>
