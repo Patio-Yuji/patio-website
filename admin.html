@@ -231,8 +231,17 @@
     <!-- 経歴 -->
     <div class="form-group">
       <label>経歴</label>
-      <textarea id="f-career-detail" placeholder="例：&#10;【見出し】テレビ出演&#10;・〇〇番組（TBS）&#10;・△△番組（NTV）&#10;&#10;【見出し】MC実績&#10;・展示会MC&#10;・式典司会"></textarea>
-      <p class="form-hint">「【見出し】タイトル」で見出しを作れます。項目は改行して入力してください。</p>
+      <p class="form-hint" style="margin-bottom:8px">「【見出し】タイトル」で見出し、「・内容」で項目を入力してください。サイトでは左右2カラムで表示されます。</p>
+      <div class="form-row">
+        <div>
+          <label style="font-size:12px;color:#4bb6c5;font-weight:normal;margin-bottom:4px;display:block">◀ 左カラム</label>
+          <textarea id="f-career-left" style="height:200px" placeholder="【見出し】テレビ出演&#10;・〇〇番組（TBS）&#10;・△△番組（NTV）&#10;&#10;【見出し】MC実績&#10;・展示会MC"></textarea>
+        </div>
+        <div>
+          <label style="font-size:12px;color:#e67e22;font-weight:normal;margin-bottom:4px;display:block">▶ 右カラム</label>
+          <textarea id="f-career-right" style="height:200px" placeholder="【見出し】モデル&#10;・雑誌モデル&#10;&#10;【見出し】その他"></textarea>
+        </div>
+      </div>
     </div>
 
     <!-- SNS -->
@@ -536,37 +545,28 @@ async function loadFromProfileHTML(id) {
     const audioEl = doc.querySelector('audio[src]');
     const audios = audioEl ? [audioEl.getAttribute('src')] : [];
 
-    // 経歴：【見出し】形式に変換
-    let careerDetail = '';
-    const careerBody = doc.querySelector('.staff-career__body');
-    if (careerBody) {
-      const blocks = [];
-      let current = null;
-      careerBody.childNodes.forEach(node => {
-        if (node.nodeType !== 1) return;
-        if (node.classList.contains('staff-career__list')) {
-          // .staff-career__list の中に name + text がある
-          const name = node.querySelector('.staff-career__name');
-          const items = node.querySelectorAll('.staff-career__text li');
-          if (name) {
-            const lines = ['【見出し】' + name.textContent.trim()];
-            items.forEach(li => lines.push('・' + li.textContent.trim()));
-            blocks.push(lines.join('\n'));
-          }
-        } else if (node.classList.contains('staff-career__name')) {
-          current = { title: node.textContent.trim(), items: [] };
-          blocks.push(current);
-        } else if (node.classList.contains('staff-career__text') && current) {
-          node.querySelectorAll('li').forEach(li => current.items.push('・' + li.textContent.trim()));
+
+    // 2カラムに分割
+    const careerLists = doc.querySelectorAll('.staff-career__list');
+    function parseCareerList(el) {
+      if (!el) return '';
+      const lines = [];
+      el.querySelectorAll('.staff-career__name').forEach(name => {
+        lines.push('【見出し】' + name.textContent.trim());
+        const ul = name.nextElementSibling;
+        if (ul && ul.classList.contains('staff-career__text')) {
+          ul.querySelectorAll('li').forEach(li => {
+            const t = li.textContent.trim();
+            if (t) lines.push('・' + t);
+          });
         }
       });
-      careerDetail = blocks.map(b => {
-        if (typeof b === 'string') return b;
-        return ['【見出し】' + b.title, ...b.items].join('\n');
-      }).join('\n\n');
+      return lines.join('\n');
     }
+    const careerLeft = parseCareerList(careerLists[0]);
+    const careerRight = parseCareerList(careerLists[1]);
 
-    return { images, audios, careerDetail };
+    return { images, audios, careerLeft, careerRight };
   } catch(e) {
     return null;
   }
@@ -579,7 +579,8 @@ function resetForm() {
   document.getElementById('f-name').value = '';
   document.getElementById('f-order').value = '0';
   document.getElementById('f-sex').value = '女性';
-  document.getElementById('f-career-detail').value = '';
+  document.getElementById('f-career-left').value = '';
+  document.getElementById('f-career-right').value = '';
   document.getElementById('f-sns-instagram').value = '';
   document.getElementById('f-sns-twitter').value = '';
   document.getElementById('f-sns-youtube').value = '';
@@ -609,7 +610,8 @@ function openEditModal(id) {
   document.getElementById('f-name').value = c.name || '';
   document.getElementById('f-order').value = c.order ?? 0;
   document.getElementById('f-sex').value = c.sex || '女性';
-  document.getElementById('f-career-detail').value = c.careerDetail || '';
+  document.getElementById('f-career-left').value = c.careerLeft || '';
+  document.getElementById('f-career-right').value = c.careerRight || '';
   document.getElementById('f-sns-instagram').value = (c.sns && c.sns.instagram) || '';
   document.getElementById('f-sns-twitter').value = (c.sns && c.sns.twitter) || '';
   document.getElementById('f-sns-youtube').value = (c.sns && c.sns.youtube) || '';
@@ -632,7 +634,7 @@ function openEditModal(id) {
 
   // 写真・音声：cast-data.jsにimages[]があればそれを使い、なければprofileHTMLから読み込む
   const hasMultiImages = c.images && c.images.length > 1;
-  const hasCareer = !!c.careerDetail;
+  const hasCareer = !!(c.careerLeft || c.careerRight);
 
   const imgs = c.images || (c.image ? [c.image] : []);
   photoSlots = [{},{},{},{}];
@@ -663,8 +665,9 @@ function openEditModal(id) {
         renderAudioSlots();
       }
       // 経歴補完
-      if (!hasCareer && data.careerDetail) {
-        document.getElementById('f-career-detail').value = data.careerDetail;
+      if (!hasCareer) {
+        if (data.careerLeft) document.getElementById('f-career-left').value = data.careerLeft;
+        if (data.careerRight) document.getElementById('f-career-right').value = data.careerRight;
       }
     });
   }
@@ -704,7 +707,8 @@ async function submitForm() {
     name,
     order: parseInt(document.getElementById('f-order').value) || 0,
     career: categories.join('、'),
-    careerDetail: document.getElementById('f-career-detail').value.trim(),
+    careerLeft: document.getElementById('f-career-left').value.trim(),
+    careerRight: document.getElementById('f-career-right').value.trim(),
     sex: document.getElementById('f-sex').value,
     ages: getAllSelected('ages'),
     categories,
