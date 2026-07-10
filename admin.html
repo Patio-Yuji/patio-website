@@ -295,11 +295,11 @@
       <div class="form-row">
         <div>
           <label style="font-size:12px;color:#4bb6c5;font-weight:normal;margin-bottom:4px;display:block">◀ 左カラム</label>
-          <textarea id="f-career-left" style="height:200px" placeholder="【見出し】テレビ出演&#10;・〇〇番組（TBS）&#10;・△△番組（NTV）&#10;&#10;【見出し】MC実績&#10;・展示会MC"></textarea>
+          <textarea id="f-career-left" style="height:800px" placeholder="【見出し】テレビ出演&#10;・〇〇番組（TBS）&#10;・△△番組（NTV）&#10;&#10;【見出し】MC実績&#10;・展示会MC"></textarea>
         </div>
         <div>
           <label style="font-size:12px;color:#e67e22;font-weight:normal;margin-bottom:4px;display:block">▶ 右カラム</label>
-          <textarea id="f-career-right" style="height:200px" placeholder="【見出し】モデル&#10;・雑誌モデル&#10;&#10;【見出し】その他"></textarea>
+          <textarea id="f-career-right" style="height:800px" placeholder="【見出し】モデル&#10;・雑誌モデル&#10;&#10;【見出し】その他"></textarea>
         </div>
       </div>
     </div>
@@ -747,6 +747,7 @@ function closeModal() {
 }
 
 async function submitForm() {
+  try {
   const name = document.getElementById('f-name').value.trim();
   if (!name) { alert('名前は必須です'); return; }
 
@@ -808,6 +809,10 @@ async function submitForm() {
   }
   closeModal();
   renderGrid();
+  } catch(e) {
+    alert('保存中にエラーが発生しました:\n' + e.message);
+    console.error(e);
+  }
 }
 
 function deleteCast(id) {
