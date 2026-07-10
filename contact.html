@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Patio.では、MCやナレーターをはじめ、モデル、役者など幅広いニーズに対応できる人材を保有しております。">
+  <link rel="icon" href="img/cropped-favicon-32x32.png" sizes="32x32">
+  <link rel="apple-touch-icon" href="img/cropped-favicon-180x180.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com/">
+  <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500&family=Nunito:wght@300;400;600&family=M+PLUS+Rounded+1c:wght@300;400;500&display=fallback" rel="stylesheet"> 
+  <link rel="stylesheet" href="css/reset.css?v=20260710b">
+  <link rel="stylesheet" href="css/common.css?v=20260710b">
+  <link rel="stylesheet" href="css/style.css?v=20260710b">
+  <title>お問い合わせ – MC、ナレーター、モデルのことならパティオにお任せください。</title>
+  
+  <style>
+    /* 注意文の赤文字化 */
+    .contact-form__notice { color: #c00 !important; font-size: 0.9em !important; margin-top: 4px !important; margin-bottom: 16px !important; font-weight: bold !important; display: block !important; }
+
+    /* 同意チェックボックスの大きさ完全復元 */
+    .contact-form__agree { margin: 30px 0 !important; text-align: left !important; }
+    .contact-form__agree input[type="checkbox"] { width: 22px !important; height: 22px !important; vertical-align: middle !important; margin-right: 8px !important; transform: none !important; -webkit-appearance: checkbox !important; display: inline-block !important; opacity: 1 !important; position: static !important; cursor: pointer !important; }
+    .contact-form__agree label { display: inline-flex !important; align-items: center !important; font-size: 15px !important; cursor: pointer !important; color: #23222f !important; font-weight: bold !important; }
+    
+    /* ファイル選択のデザイン調整 */
+    input[type="file"] { margin-bottom: 10px !important; font-size: 14px !important; display: block !important; vertical-align: middle !important; }
+    
+    /* 確認画面へ/送信するボタン - 元サイトの.submit-btnと同じ寸法(400x70/角丸5/矢印アイコン)に統一 */
+    .submit-wrap-patio { width: 400px !important; max-width: 100% !important; margin: 45px auto 0 !important; position: relative !important; box-sizing: border-box !important; }
+    .submit-btn-patio { width: 100% !important; height: 70px !important; background: #fff !important; border: 1px solid #000 !important; border-radius: 5px !important; font-size: 20px !important; cursor: pointer !important; -webkit-appearance: none !important; box-sizing: border-box !important; opacity: 1 !important; transition: opacity 0.2s linear !important; }
+    .submit-wrap-patio::after { content: "" !important; display: block !important; width: 12px !important; height: 12px !important; position: absolute !important; top: 50% !important; right: 15px !important; transform: translate(-50%, -50%) rotate(45deg) !important; border-top: 2px solid #000 !important; border-right: 2px solid #000 !important; }
+    .submit-wrap-patio:hover .submit-btn-patio { opacity: 0.7 !important; }
+    .submit-wrap-patio.sending-mode::after { display: none !important; }
+
+    /* 戻るボタン - 元サイトの.back-btnと同じ寸法(400x70/角丸5)に統一 */
+    .back-btn-center { width: 400px !important; max-width: 100% !important; margin: 25px auto 45px !important; text-align: center !important; }
+    .back-btn-patio { width: 100% !important; height: 70px !important; background: #fff !important; border: 1px solid #000 !important; border-radius: 5px !important; font-size: 20px !important; cursor: pointer !important; -webkit-appearance: none !important; box-sizing: border-box !important; opacity: 1 !important; transition: opacity 0.2s linear !important; }
+    .back-btn-patio:hover { opacity: 0.7 !important; }
+    
+    /* Cの青文字カラーコード復元 */
+    .page-header__title-en span, .page-nav__en span { color: #4bb6c5 !important; opacity: 1 !important; }
+    
+</style>
+
+</head>
+<body>
+  <header class="header">
+  <div class="header__inner">
+    <div class="header__logo">
+      <a href="index.html">
+        <img src="img/logo.png" alt="Patio 株式会社パティオ">
+      </a>
+    </div>
+    &nbsp; &nbsp;<p class="header__desc">MC、ナレーター、モデルのことなら<br>パティオにお任せください。</p>
+    <ul id="menu-main" class="header__nav">
+      <li><a href="profile.html">キャスト一覧</a></li>
+      <li><a href="company.html">会社概要</a></li>
+      <li><a href="commission.html">ご依頼について</a></li>
+      <li><a href="contact.html">お問い合わせ</a></li>
+    </ul>
+    <label for="sp_menu" class="header__menu-btn"><img src="img/icon_menu.svg" alt=""></label>
+    <input type="checkbox" id="sp_menu" name="sp_menu" class="header__menu-check">
+    <div class="menu-overlay"></div>
+    <div class="sp-menu">
+      <a href="javascript:void(0);" class="sp-menu__close js-menu-close"><img src="img/icon_menu_close.svg" alt=""></a>
+      <ul class="sp-menu__nav">
+        <li><a href="profile.html">キャスト一覧</a></li>
+        <li><a href="company.html">会社概要</a></li>
+        <li><a href="commission.html">ご依頼について</a></li>
+        <li><a href="contact.html">お問い合わせ</a></li>
+      </ul>
+    </div>
+  </div>
+</header>
+
+<div class="content" style="padding-top:134px;">
+  <div class="page page-contact">
+    <div class="page-header">
+      <div class="page-header__inner">
+        <div class="page-header__bg01"></div>
+        <div class="page-header__content">
+          <div class="page-header__bg02" style="background-image: url(&#39;img/page_header_dot_bg.png&#39;) !important;"></div>
+          <div class="page-header__heading">
+            <h1 class="page-header__title">お問い合わせ</h1>
+            <p class="page-header__title-en"><span>C</span>ONTACT</p>
+          </div>
+          <p class="page-header__desc">お仕事のご依頼・キャスト登録 フォーム</p>
+        </div>
+        <div class="page-header__img">
+          <picture>
+            <source media="(max-width: 768px)" srcset="img/page_header_contact_sp.png">
+            <img src="img/page_header_contact.png" alt="">
+          </picture>
+        </div>
+      </div>
+    </div>
+    <div class="page__body">
+      <div class="breadcrumb">
+        <span><a href="index.html" class="home"><span>HOME</span></a></span> &gt; <span><span class="post post-page current-item">お問い合わせ</span></span>
+      </div>
+
+      <div class="contact-form">
+        <form id="js-patio-form" data-type="contact">
+          
+          <div class="contact-form-group input-view-section">
+            <div class="contact-text input" id="form">
+              <p>お問い合わせフォームをご利用の際は、必ず個人情報保護方針をご一読ください。<br>内容にご同意の上、下記フォームに必要事項をご入力いただき、「確認画面へ」ボタンをクリックしてください。<br>なお、繫忙期はご返答が遅れる場合がございます。ご了承ください。</p>
+              <p class="contact-form__notice">※当フォームはお問い合わせ専用です。営業・ご提案・広告掲載等のご連絡はご遠慮ください。</p>
+            </div>
+            <div class="contact-tab-group">
+              <a class="current">お仕事のご依頼はこちら</a><br>
+              <a href="register.html#form">キャスト登録はこちら</a>
+            </div>
+            <p class="contact-form__text">ご依頼される企業様はこちらを入力してください。</p>
+            <table>
+              <tbody>
+                <tr><th><div>企業名<span class="required">必須</span></div></th><td><input type="text" name="company" id="company" size="60" required></td></tr>
+                <tr><th><div>ご担当者名<span class="required">必須</span></div></th><td><input type="text" name="name" id="name" size="60" required></td></tr>
+                <tr><th><div>フリガナ<span class="required">必須</span></div></th><td><input type="text" name="kana" id="kana" size="60" required></td></tr>
+                <tr><th><div>電話番号<span class="required">必須</span></div></th><td><div class="row"><input type="text" name="tel" id="tel" size="60" required inputmode="tel"><span class="placeholder">例）03-1234-5678</span></div></td></tr>
+                <tr><th><div>メールアドレス<span class="required">必須</span></div></th><td><div class="row"><input type="email" name="email" id="email" size="60" required><span class="placeholder">例）aaa@bbb.jp</span></div></td></tr>
+                <tr>
+                  <th><div>住所</div></th>
+                  <td>
+                    <div class="dl">
+                      <div class="dt">郵便番号</div>
+                      <div class="dd postal">
+                        <input type="text" name="zip1" id="zip1" maxlength="3">
+                        <span class="hyphen">-</span>
+                        <input type="text" name="zip2" id="zip2" maxlength="4">
+                        <span class="postal-btn">
+                          <label style="cursor:pointer; font-size:14px; display:inline-flex; align-items:center;">
+                            <input type="checkbox" class="zip-check" checked> <span>住所の自動入力</span>
+                          </label>
+                        </span>
+                      </div>
+                    </div>
+                    <div class="dl"><div class="dt">都道府県</div><div class="dd"><input type="text" name="pref" id="pref" size="60"></div></div>
+                    <div class="dl"><div class="dt">市区町村</div><div class="dd"><input type="text" name="city" id="city" size="60"></div></div>
+                    <div class="dl"><div class="dt">番地・マンション名</div><div class="dd"><input type="text" name="address" id="address" size="60"></div></div>
+                  </td>
+                </tr>
+                <tr><th><div>ご依頼内容<span class="required">必須</span></div></th><td><p class="input-text">日時、場所、希望イメージなど、わかる範囲で詳しくお願いいたします。</p><p><textarea name="message" id="message" cols="50" rows="5" required></textarea></p></td></tr>
+              </tbody>
+            </table>
+            <div class="contact-form__privacy">
+              <p class="title">個人情報保護方針</p>
+              <p>当サイトの運営に際し、お客様のプライバシーを尊重し個人情報に対して十分な配慮を行うとともに、大切に保護し、適正な管理を行うことに努めております。</p>
+              <p>【個人情報の利用目的】<br>a) お客様のご要望に合わせたサービスをご提供するための各種ご連絡。<br>b) お問い合わせいただいたご質問への回答のご連絡。</p>
+              <ul>
+                <li>取得した個人情報は、ご本人の同意なしに目的以外では利用しません。</li>
+                <li>情報が漏洩しないよう対策を講じ、従業員だけでなく委託業者も監督します。</li>
+                <li>ご本人の同意を得ずに第三者に情報を提供しません。</li>
+                <li>ご本人からの求めに応じ情報を開示します。</li>
+                <li>公開された個人情報が事実と異なる場合、訂正や削除に応じます。</li>
+                <li>個人情報の取り扱いに関する苦情に対し、適切・迅速に対処します。</li>
+              </ul>
+            </div>
+            <div class="contact-form__agree">
+              <label><input type="checkbox" name="privacy" required> <span>個人情報の取り扱いに同意します。</span></label><br><span class="required">必須</span>
+            </div>
+            <div class="submit-wrap-patio">
+              <input type="submit" value="確認画面へ" class="submit-btn-patio">
+            </div>
+          </div>
+
+          <div class="contact-form-group confirm-view-section" style="display:none;">
+            <div class="contact-text confirm">
+              <p>💡 入力内容をご確認いただき、間違いがなければ最下部の「送信する」ボタンを押してください。</p>
+            </div>
+            <div class="contact-tab-group">
+              <a class="current">お仕事のご依頼 内容確認</a>
+            </div>
+            <p class="contact-form__text" style="font-weight:bold; color:#a8919b;">以下の内容で送信します。</p>
+            <table>
+              <tbody>
+                <tr><th><div>企業名</div></th><td><span id="v-company"></span></td></tr>
+                <tr><th><div>ご担当者名</div></th><td><span id="v-name"></span></td></tr>
+                <tr><th><div>フリガナ</div></th><td><span id="v-kana"></span></td></tr>
+                <tr><th><div>電話番号</div></th><td><span id="v-tel"></span></td></tr>
+                <tr><th><div>メールアドレス</div></th><td><span id="v-email"></span></td></tr>
+                <tr><th><div>住所</div></th><td><span id="v-full-address"></span></td></tr>
+                <tr><th><div>ご依頼内容</div></th><td><span id="v-message" style="white-space:pre-wrap;"></span></td></tr>
+              </tbody>
+            </table>
+            <div class="submit-wrap-patio">
+              <input type="button" id="js-send-btn" value="送信する" class="submit-btn-patio" style="background:#23222f !important; color:#fff !important;">
+            </div>
+            <div class="back-btn-center">
+              <input type="button" id="js-back-btn" value="戻る" class="back-btn-patio">
+            </div>
+          </div>
+
+        </form>
+      </div>
+    </div>
+
+    <div class="page-nav">
+      <a href="commission.html" class="page-nav__prev">
+        <div class="page-nav__ja">ご依頼について</div>
+        <div class="page-nav__en"><span>C</span>OMMISSION</div>
+      </a>
+      <a href="company.html" class="page-nav__next">
+        <div class="page-nav__ja">会社概要</div>
+        <div class="page-nav__en"><span>C</span>OMPANY</div>
+      </a>
+    </div>
+  </div>
+</div>
+
+  <footer class="footer">
+    <div class="footer__inner">
+      <div class="footer__left">
+        <a href="index.html" class="footer__logo">
+          <img src="img/logo.png" width="340" alt="Patio 株式会社パティオ">
+        </a>
+        <div class="footer__desc">
+          &nbsp; &nbsp; &nbsp; &nbsp;<p>MC、ナレーター、モデルのことなら<br>パティオにお任せください。</p>
+          <a href="https://x.com/patio_info" target="_blank" class="footer__twitter">
+            <img src="img/icon_twitter.svg" alt="x">
+          </a>
+          <div style="margin-top:10px; font-size:13px; font-weight:bold; white-space:nowrap; display:block;">
+            <a href="https://x.com/patio_info" target="_blank" style="color:#23222f; text-decoration:underline; margin-left:24px;">⇦ パティオ公式Xの最新ポストはコチラ</a>
+          </div>
+        </div>
+      </div>
+      <ul id="menu-main-footer" class="footer__nav">
+        <li><a href="profile.html">キャスト一覧</a></li>
+        <li><a href="company.html">会社概要</a></li>
+        <li><a href="commission.html">ご依頼について</a></li>
+        <li><a href="contact.html">お問い合わせ</a></li>
+      </ul>
+    </div>
+    <div class="pagetop js-pagetop"><img src="img/pagetop.svg" alt=""></div>
+    <small class="footer__copy">Copyright © Patio, All Rights Reserved.</small>
+  </footer>
+
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+<script src="js/common.js?v=20260710b"></script>
+
+<script src="https://ajaxzip3.github.io/ajaxzip3.js" charset="UTF-8"></script>
+<script>
+  $(function() {
+    var gasUrl = "https://script.google.com/macros/s/AKfycbzJ9kF60hHm5srARI-8uhKA_w190CPyc5gBKFkj-Y7gs4qDy9cFlZvIf5Ji59NzTyOy9g/exec";
+
+    $('.js-menu-close, .menu-overlay').on('click', function() {
+      $('#sp_menu').prop('checked', false);
+    });
+
+    // 住所自動入力
+    $('.zip-check').on('change', function() {
+      if($(this).is(':checked')) {
+        AjaxZip3.zip2addr('zip1','zip2','pref','pref','city');
+      }
+    });
+    $('#zip2').on('keyup', function() {
+      if($('.zip-check').is(':checked') || $('.zip-check').length === 0) {
+        AjaxZip3.zip2addr('zip1','zip2','pref','pref','city');
+      }
+    });
+
+    // 完全画面切り替え
+    $('#js-patio-form').on('submit', function(e) {
+      e.preventDefault();
+      
+      if(!$('#js-patio-form')[0].checkValidity()) {
+        return;
+      }
+      
+      $('#js-patio-form input:not([type="submit"]):not([type="button"]), #js-patio-form textarea').each(function() {
+        var name = $(this).attr('name');
+        var val = $(this).val();
+        if(name) {
+          if($(this).attr('type') === 'file') {
+            var attachedFiles = [];
+            if($('input[name="photo_1"]')[0].files[0]) attachedFiles.push('📎 ' + $('input[name="photo_1"]')[0].files[0].name);
+            if($('input[name="photo_2"]')[0].files[0]) attachedFiles.push('📎 ' + $('input[name="photo_2"]')[0].files[0].name);
+            if($('input[name="photo_3"]')[0].files[0]) attachedFiles.push('📎 ' + $('input[name="photo_3"]')[0].files[0].name);
+            
+            if(name.indexOf('photo_') !== -1) {
+              var f = this.files[0];
+              $('#v-' + name).text(f ? '📎 ' + f.name : '選択されていません');
+            } else {
+              $('#v-photos').html(attachedFiles.length > 0 ? attachedFiles.join('<br>') : '選択されていません');
+            }
+          } else {
+            $('#v-' + name).text(val ? val : '（未入力）');
+          }
+        }
+      });
+      
+      var fullAddress = '〒' + $('#zip1').val() + '-' + $('#zip2').val() + ' ' + $('#pref').val() + ' ' + $('#city').val() + ' ' + $('#address').val();
+      $('#v-full-address').text(fullAddress);
+
+      $('.contact-text.input').hide();
+      $('.contact-text.confirm').show();
+      $('.contact-form-group.input-view-section').hide();
+      $('.contact-form-group.confirm-view-section').show();
+      window.scrollTo({ top: $('.contact-text.confirm').offset().top - 150, behavior: 'smooth' });
+    });
+
+    $(document).on('click', '#js-back-btn', function() {
+      $('.contact-text.input').show();
+      $('.contact-text.confirm').hide();
+      $('.contact-form-group.input-view-section').show();
+      $('.contact-form-group.confirm-view-section').hide();
+      window.scrollTo({ top: $('#form').offset().top - 150, behavior: 'smooth' });
+    });
+
+    $(document).on('click', '#js-send-btn', function() {
+      var btnWrap = $(this).parent('.submit-wrap-patio');
+      btnWrap.addClass('sending-mode');
+      $(this).val('送信中...').prop('disabled', true);
+      $('#js-back-btn').hide();
+      
+      var finalData = {
+        "form_type": $('#js-patio-form').data('type')
+      };
+      
+      var formArray = $('#js-patio-form').serializeArray();
+      $.each(formArray, function(i, field) {
+        finalData[field.name] = field.value;
+      });
+      
+      var fileInputs = $('input[type="file"]');
+      var filePromises = [];
+      
+      fileInputs.each(function(index) {
+        var input = this;
+        if (input.files && input.files[0]) {
+          var name = $(input).attr('name') || 'photo_' + (index + 1);
+          var label = $(input).data('label') || '写真' + (index + 1);
+          var file = input.files[0];
+          var promise = new Promise(function(resolve) {
+            var reader = new FileReader();
+            reader.onload = function(e) {
+              resolve({
+                "name": name,
+                "label": label,
+                "filename": file.name,
+                "mimeType": file.type,
+                "data": e.target.result.split(',')[1]
+              });
+            };
+            reader.readAsDataURL(file);
+          });
+          filePromises.push(promise);
+        }
+      });
+      
+      Promise.all(filePromises).then(function(files) {
+        if (files.length > 0) {
+          finalData['files'] = files;
+        }
+        
+        fetch(gasUrl, {
+          method: 'POST',
+          mode: 'no-cors',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify(finalData)
+        }).then(function() {
+          $('.contact-form').html('<div style="padding:60px 20px; text-align:center; font-size:16px; font-weight:bold; color:#23222f; background:#fff; border-radius:12px; box-shadow:0 4px 20px rgba(0,0,0,0.05);"><p style="font-size:20px; margin-bottom:15px; color:#4bb6c5;">送信が完了いたしました</p><p>この度はお問い合わせ・ご応募いただき誠にありがとうございました。<br>自動返信メールがご入力アドレス宛に届きますのでご確認ください。</p><p style="margin-top:30px;"><a href="index.html" style="color:#4bb6c5; text-decoration:underline; font-weight:bold;">➔ トップページへ戻る</a></p></div>');
+          window.scrollTo({ top: $('.contact-form').offset().top - 150, behavior: 'smooth' });
+        }).catch(function(err) {
+          alert('通信エラーが発生しました。お手数ですがしばらく経ってから再度お試しください。');
+          location.reload();
+        });
+      });
+    });
+
+});
+</script>
+
+</body>
+</html>

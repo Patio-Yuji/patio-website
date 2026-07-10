@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Patio.では、MCやナレーターをはじめ、モデル、役者など幅広いニーズに対応できる人材を保有しております。">
+  <title>キャスト – MC、ナレーター、モデルのことならパティオにお任せください。</title>
+  
+  <link rel="icon" href="img/cropped-favicon-32x32.png" sizes="32x32">
+  <link rel="apple-touch-icon" href="img/cropped-favicon-180x180.png">
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500&family=Nunito:wght@300;400;600&family=M+PLUS+Rounded+1c:wght@300;400;500&display=fallback" rel="stylesheet">
+  
+  <link rel="stylesheet" href="css/reset.css?v=20260710b">
+  <link rel="stylesheet" href="css/common.css?v=20260710b">
+  <link rel="stylesheet" href="css/style.css?v=20260710b">
+
+  <style>
+    .page-header__bg02 { background-image: url("img/page_header_dot_bg.png") !important; }
+    .header__inner { display: flex; justify-content: space-between; align-items: center; width: 100%; max-width: 1280px; margin: 0 auto; }
+    .header__nav { display: flex; list-style: none; margin-left: auto; }
+    .profile-archive__content { display: flex; justify-content: space-between; width: 100%; max-width: 1280px; margin: 0 auto; }
+    .profile-empty { display: none; width: 100%; text-align: center; padding: 40px 0; font-size: 18px; color: #555; }
+    .profile-search { flex-shrink: 0; width: 310px; }
+    .profile-main { flex-grow: 1; margin-left: 30px; width: calc(100% - 340px); }
+    @media (max-width: 1280px) { .profile-search { width: 280px; } .profile-main { width: calc(100% - 320px); } }
+    @media (max-width: 768px) { .profile-archive__content { display: block; } .profile-search { width: 100%; } .profile-main { width: 100%; margin-left: 0; } }
+  </style>
+  
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+<script src="js/common.js?v=20260710b"></script>
+</head>
+<body>
+
+  <header class="header is-scrolled">
+    <div class="header__inner">
+      <div class="header__logo">
+        <a href="index.html">
+          <img src="img/logo.png" alt="Patio 株式会社パティオ">
+        </a>
+      </div>
+      &nbsp; &nbsp;<p class="header__desc">MC、ナレーター、モデルのことなら<br>パティオにお任せください。</p>
+      <ul id="menu-main" class="header__nav">
+        <li><a href="profile.html">キャスト一覧</a></li>
+        <li><a href="company.html">会社概要</a></li>
+        <li><a href="commission.html">ご依頼について</a></li>
+        <li><a href="contact.html">お問い合わせ</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <div class="content" style="padding-top: 134px;">
+    <div class="page profile-archive">
+      <div class="page-header">
+        <div class="page-header__inner">
+          <div class="page-header__bg01"></div>
+          <div class="page-header__content">
+            <div class="page-header__bg02"></div>
+            <div class="page-header__heading">
+              <h1 class="page-header__title">キャスト一覧</h1>
+              <p class="page-header__title-en"><span>P</span>ROFILE</p>
+            </div>
+            <p class="page-header__desc">在籍キャストのプロフィール紹介</p>
+          </div>
+          <div class="page-header__img">
+            <picture>
+              <source media="(max-width: 768px)" srcset="img/page_header_profile_archive_sp.png">
+              <img src="img/page_header_profile_archive.png" alt="">
+            </picture>
+          </div>
+        </div>
+      </div>
+
+      <div class="page__body">
+        <div class="breadcrumb" style="max-width:1280px; margin: 20px auto;"><a href="index.html">HOME</a> ➔ <span>キャスト</span></div>
+        
+        <div class="profile-archive__content" style="margin-bottom: 100px;">
+          <div class="profile-search">
+            <div class="profile-search__heading">
+              <div class="profile-search__icon">
+                <img src="img/icon_search.svg" alt="">
+              </div> 
+              絞り込み検索
+            </div>
+            <form id="searchform" onsubmit="return false;">
+              <dl class="profile-search__item keyword">
+                <dt>検索ワード</dt>
+                <dd><input type="text" id="search-word" placeholder="フリーワード" value=""></dd>
+              </dl>
+              <dl class="profile-search__item js-search-accordion">
+                <dt>性別</dt>
+                <dd style="display:block;">
+                  <label><input type="checkbox" name="sex[]" value="男性">男性</label>
+                  <label><input type="checkbox" name="sex[]" value="女性">女性</label>
+                </dd>
+              </dl>
+              <dl class="profile-search__item js-search-accordion">
+                <dt>年代</dt>
+                <dd style="display:block;">
+                  <label><input type="checkbox" name="age[]" value="40代以上">40代以上</label>
+                  <label><input type="checkbox" name="age[]" value="20~30代">20代～30代</label>
+                  <label><input type="checkbox" name="age[]" value="10代以下">10代以下</label>
+                </dd>
+              </dl>
+              <dl class="profile-search__item js-search-accordion">
+                <dt>カテゴリ</dt>
+                <dd style="display:block;">
+                  <label><input type="checkbox" name="cat[]" value="MC/司会">MC/司会</label>
+                  <label><input type="checkbox" name="cat[]" value="アナウンサー">アナウンサー</label>
+                  <label><input type="checkbox" name="cat[]" value="ナレーター">ナレーター</label>
+                  <label><input type="checkbox" name="cat[]" value="声優">声優</label>
+                  <label><input type="checkbox" name="cat[]" value="宅録">宅録</label>
+                  <label><input type="checkbox" name="cat[]" value="講師">講師</label>
+                  <label><input type="checkbox" name="cat[]" value="ラジオDJ">ラジオDJ</label>
+                  <label><input type="checkbox" name="cat[]" value="役者">役者</label>
+                  <label><input type="checkbox" name="cat[]" value="モデル">モデル</label>
+                  <label><input type="checkbox" name="cat[]" value="コンパニオン">コンパニオン</label>
+                </dd>
+              </dl>
+              <dl class="profile-search__item js-search-accordion">
+                <dt>言語</dt>
+                <dd style="display:block;">
+                  <label><input type="checkbox" name="lang[]" value="バイリンガル">バイリンガル</label>
+                  <label><input type="checkbox" name="lang[]" value="英語">英語</label>
+                  <label><input type="checkbox" name="lang[]" value="中国語">中国語</label>
+                </dd>
+              </dl>
+              <dl class="profile-search__item js-search-accordion">
+                <dt>地域</dt>
+                <dd style="display:block;">
+                  <label><input type="checkbox" name="region[]" value="関東">関東</label>
+                  <label><input type="checkbox" name="region[]" value="関西">関西</label>
+                  <label><input type="checkbox" name="region[]" value="その他">その他</label>
+                </dd>
+              </dl>
+            </form>
+          </div>
+
+          <div class="profile-main">
+            <div class="profile-main__list" id="cast-container"></div>
+            <div class="profile-empty" id="empty-message">該当するキャストが見つかりませんでした。</div>
+          </div>
+        </div>
+
+        <div class="page-nav">
+          <a href="commission.html" class="page-nav__prev">
+            <div class="page-nav__ja">ご依頼について</div>
+            <div class="page-nav__en"><span>C</span>OMMISSION</div>
+          </a>
+          <a href="contact.html" class="page-nav__next">
+            <div class="page-nav__ja">お問い合わせ</div>
+            <div class="page-nav__en"><span>C</span>ONTACT</div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+    <footer class="footer">
+    <div class="footer__inner">
+      <div class="footer__left">
+        <a href="index.html" class="footer__logo">
+          <img src="img/logo.png" width="340" alt="Patio 株式会社パティオ">
+        </a>
+        <div class="footer__desc">
+          &nbsp; &nbsp; &nbsp; &nbsp;<p>MC、ナレーター、モデルのことなら<br>パティオにお任せください。</p>
+          <a href="https://x.com/patio_info" target="_blank" class="footer__twitter">
+            <img src="img/icon_twitter.svg" alt="x">
+          </a>
+          <div style="margin-top:10px; font-size:13px; font-weight:bold; white-space:nowrap; display:block;">
+            <a href="https://x.com/patio_info" target="_blank" style="color:#23222f; text-decoration:underline; margin-left:24px;">⇦ パティオ公式Xの最新ポストはコチラ</a>
+          </div>
+        </div>
+      </div>
+      <ul id="menu-main-footer" class="footer__nav">
+        <li><a href="profile.html">キャスト一覧</a></li>
+        <li><a href="company.html">会社概要</a></li>
+        <li><a href="commission.html">ご依頼について</a></li>
+        <li><a href="contact.html">お問い合わせ</a></li>
+      </ul>
+    </div>
+    <div class="pagetop js-pagetop"><img src="img/pagetop.svg" alt=""></div>
+    <small class="footer__copy">Copyright © Patio, All Rights Reserved.</small>
+  </footer>
+
+  <script src="js/cast-data.js?v=20260710b"></script>
+  <script src="js/search.js?v=20260710b"></script>
+</body>
+</html>

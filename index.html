@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Patio.では、MCやナレーターをはじめ、モデル、役者など幅広いニーズに対応できる人材を保有しております。">
+  <title>MC、ナレーター、モデルのことならパティオにお任せください。</title>
+  
+  <link rel="icon" href="img/cropped-favicon-32x32.png" sizes="32x32">
+  <link rel="apple-touch-icon" href="img/cropped-favicon-180x180.png">
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500&family=Nunito:wght@300;400;600&family=M+PLUS+Rounded+1c:wght@300;400;500&display=fallback" rel="stylesheet">
+  
+  <link rel="stylesheet" href="css/reset.css?v=20260710b">
+  <link rel="stylesheet" href="css/common.css?v=20260710b">
+  <link rel="stylesheet" href="css/style.css?v=20260710b">
+
+  <style>
+    .hero__bg02 { background-image: url("img/top_hero_dot_bg.png") !important; }
+    .service__bg { background-color: #d0c1c7 !important; }
+    .solution { background-image: url("img/top_solution_bg.png") !important; }
+    .aside::before, .aside::after { background-image: url("img/top_bottom_dot_bg.png") !important; }
+    .register-copy { background-image: url("img/register_copy_bg.png") !important; }
+    @media (max-width: 768px) {
+      .hero__bg02 { background-image: url("img/top_hero_dot_bg_sp.png") !important; }
+      .solution { background-image: url("img/top_solution_bg_sp.png") !important; }
+    }
+    .header__inner { display: flex; justify-content: space-between; align-items: center; width: 100%; max-width: 1280px; margin: 0 auto; }
+    .header__nav { display: flex; list-style: none; margin-left: auto; }
+    /* X(Twitter)埋め込みウィジェットが自身の幅を誤って大きく計算し、ページ全体の横幅がずれる不具合の予防策 */
+    .aside__news { overflow: hidden !important; max-width: 100% !important; box-sizing: border-box !important; }
+    .aside__news iframe { max-width: 100% !important; }
+    .x-scroll-container { overflow-x: hidden !important; max-width: 100% !important; }
+  </style>
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+<script src="js/common.js?v=20260710b"></script>
+
+  <!-- WOWガタつき完全消滅パッチ -->
+  <style>
+    .hero__title span, .wow {
+      animation: none !important;
+      opacity: 1 !important;
+      visibility: visible !important;
+    }
+  </style>
+</head>
+<body class="home">
+
+  <header class="header">
+    <div class="header__inner">
+      <div class="header__logo">
+        <a href="index.html">
+          <img src="img/logo.png" alt="Patio 株式会社パティオ">
+        </a>
+      </div>
+      &nbsp; &nbsp;<p class="header__desc">MC、ナレーター、モデルのことなら<br>パティオにお任せください。</p>
+      
+      <ul id="menu-main" class="header__nav">
+        <li><a href="profile.html">キャスト一覧</a></li>
+        <li><a href="company.html">会社概要</a></li>
+        <li><a href="commission.html">ご依頼について</a></li>
+        <li><a href="contact.html">お問い合わせ</a></li>
+      </ul>
+
+      <label for="sp_menu" class="header__menu-btn"><img src="img/icon_menu.svg" alt="メニュー"></label>
+      <input type="checkbox" id="sp_menu" name="sp_menu" class="header__menu-check">
+      <div class="menu-overlay"></div>
+      <div class="sp-menu">
+        <a href="javascript:void(0);" class="sp-menu__close js-menu-close"><img src="img/icon_menu_close.svg" alt="閉じる"></a>
+        <ul class="sp-menu__nav">
+          <li><a href="profile.html">キャスト一覧</a></li>
+          <li><a href="company.html">会社概要</a></li>
+          <li><a href="commission.html">ご依頼について</a></li>
+          <li><a href="contact.html">お問い合わせ</a></li>
+        </ul>
+      </div>
+    </div>
+  </header>
+
+  <div class="content">
+    <section class="hero">
+      <div class="hero__bg01"></div>
+      <div class="hero__bg02"></div>
+      <div class="hero__content">
+        <h2 class="hero__title"><span>Warm</span> Professionals</h2>
+        <p class="hero__desc">時代とともにイベントの形は変わっても、<br>パティオのスタンスは変わりません。<br>経験豊富なキャストで、皆様のご要望に柔軟にお応えします。<br>これからも、ご縁をいただいたお仕事ひとつひとつを大切に、<br>皆様のお役に立てるよう努めてまいります。</p>
+        <a href="https://x.com/patio_info" class="hero__news" target="_blank" rel="noopener"><img src="img/icon_twitter_w.svg" alt="">新着情報</a>
+        <div class="hero__imggroup">
+          <div class="hero__img"><img src="img/top_hero_img01.jpg" alt=""></div>
+          <div class="hero__img"><img src="img/top_hero_img02.jpg" alt=""></div>
+          <div class="hero__img"><img src="img/top_hero_img03.jpg" alt=""></div>
+          <div class="hero__img"><img src="img/top_hero_img04.jpg" alt=""></div>
+          <div class="hero__img"><img src="img/top_hero_img05.jpg" alt=""></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="service">
+      <h2 class="service__title"><span>O</span>ur services</h2>
+      <div class="service__bg"></div>
+      <div class="service__sideimg">
+        <img src="img/top_service_img01.png" alt="">
+        <div class="service__sidetext">Patio.</div>
+      </div>
+      <div class="service__body">
+        <p class="service__text">TV、CM、広告、WEB動画、企業VP、通販番組、記者発表会、映画試写会、タレントトークショー、表彰式、セミナー、シンポジウム、株主総会、PRイベント、配信イベント、パーティーなど、喋りのプロを中心に様々なご要望に応じたキャスティングが可能です。</p>
+        <div class="service-box">
+          <p class="service-box__label">最近増えてきているご依頼内容の一例</p>
+          <ul class="service-box__list">
+            <li>Zoomなどのオンライン配信に慣れているMCやリポーターを起用したい。</li>
+            <li>宅録可能なナレーターにナレーションをお願いしたい。</li>
+          </ul>
+        </div>
+        <div class="service-block">
+          <div class="service-block__item">
+            <p class="service-block__index">01</p>
+            <div class="service-block__img"><img src="img/top_service_icon01.svg" alt=""></div>
+            <p class="service-block__text">いい人材を見付け<br>られるだろうか？</p>
+          </div>
+          <div class="service-block__item">
+            <p class="service-block__index">02</p>
+            <div class="service-block__img"><img src="img/top_service_icon02.svg" alt=""></div>
+            <p class="service-block__text">クライアントに説得力の<br>ある提案をしたい</p>
+          </div>
+          <div class="service-block__item">
+            <p class="service-block__index">03</p>
+            <div class="service-block__img"><img src="img/top_service_icon03.svg" alt=""></div>
+            <p class="service-block__text">絶対に失敗できない！</p>
+          </div>
+          <div class="service-block__item">
+            <p class="service-block__index">04</p>
+            <div class="service-block__img"><img src="img/top_service_icon04.svg" alt=""></div>
+            <p class="service-block__text">予算が少ないけど<br>MCを起用したい！</p>
+          </div>
+        </div>
+      </div>
+      <div class="service__arrow"><img src="img/top_service_triangle.svg" alt=""></div>
+    </section>
+
+    <section class="solution">
+      <div class="solution__content">
+        <h2 class="solution__title">パティオの提案力で解決</h2>
+        <p class="solution__copy">パティオには、元局アナ・バイリンガル・トークショー・声優など数多くの実績を持つベテランから、若手でフレッシュな新人まで、様々な人材が在籍しており、それぞれ得意分野を持っております。<br>2,000件以上の現場実績を持つ現役MCの専門コーディネーターが、御社のご要望に応じた最適な人材をご提案いたします。</p>
+        <ol class="solution__list">
+          <li><span>01</span>魅力あふれる多くの候補者から選べる！</li>
+          <li><span>02</span>詳細で分かりやすいプロフィール、ボイスサンプルや動画でイメージしやすく！</li>
+          <li><span>03</span>専門コーディネーターによる最適なキャスティングをお約束！</li>
+          <li><span>04</span>ご予算ベースのご提案も！</li>
+        </ol>
+        <div class="solution-box">
+          <span class="solution-box__icon"><img src="img/top_solution_icon.svg" alt=""></span>
+          <div class="solution-box__textgroup">
+            <p class="solution-box__text01"><span>宅録・オンラインセミナー・ウェビナーにも対応しております。</span></p>
+            <p class="solution-box__text02">お気軽にお問い合わせください。</p>
+          </div>
+          <a href="contact.html" class="solution-box__btn">お問い合わせをする</a>
+        </div>
+      </div>
+    </section>
+
+    <div class="cast-wrap">
+      <div class="cast-list">
+        <a href="commission.html#mc" class="cast">
+          <div class="cast__text">
+            <h2 class="cast__title">
+              <span class="cast__icon"><img src="img/icon_headset.svg" alt=""></span>
+              MC・司会・アナウンサー
+            </h2>
+            <ul class="cast__list">
+              <li>TV番組キャスター、リポーター</li>
+              <li>通販、インフォマーシャル</li>
+              <li>企業VPナビゲーター</li>
+              <li>記者発表会、トークショー</li>
+              <li>式典、表彰式、パーティー</li>
+              <li>セミナー、ウェビナー</li>
+              <li>イベント、展示会</li>
+            </ul>
+          </div>
+          <div class="cast__img">
+            <picture>
+              <source media="(max-width: 768px)" srcset="img/top_cast_img01_sp.png">
+              <img src="img/top_cast_img01.png" alt="">
+            </picture>
+          </div>
+          <p class="cast__sidetext">REPORTER</p>
+        </a>
+
+        <a href="commission.html#vc" class="cast">
+          <div class="cast__text">
+            <h2 class="cast__title">
+              <span class="cast__icon"><img src="img/icon_microphone.svg" alt=""></span>
+              ナレーター・声優
+            </h2>
+            <ul class="cast__list">
+              <li>TVCMナレーション</li>
+              <li>ラジオCMナレーション</li>
+              <li>WEB動画ナレーション</li>
+              <li>企業VPナレーション</li>
+              <li>音声ガイド</li>
+              <li>館内インフォメーション</li>
+              <li>サウンドロゴ</li>
+            </ul>
+          </div>
+          <div class="cast__img">
+            <picture>
+              <source media="(max-width: 768px)" srcset="img/top_cast_img02_sp.png">
+              <img src="img/top_cast_img02.png" alt="">
+            </picture>
+          </div>
+          <p class="cast__sidetext">NARRATOR</p>
+        </a>
+
+        <a href="commission.html#mo" class="cast">
+          <div class="cast__text">
+            <h2 class="cast__title">
+              <span class="cast__icon"><img src="img/icon_camera.svg" alt=""></span>
+              モデル・役者・コンパニオン
+            </h2>
+            <ul class="cast__list">
+              <li>TVCM</li>
+              <li>WEB動画</li>
+              <li>企業VP</li>
+              <li>雑誌、広告</li>
+              <li>メイクショー</li>
+              <li>レースクイーン</li>
+              <li>VIPアテンド、受付</li>
+            </ul>
+          </div>
+          <div class="cast__img">
+            <picture>
+              <source media="(max-width: 768px)" srcset="img/top_cast_img03_sp.png">
+              <img src="img/top_cast_img03.png" alt="">
+            </picture>
+          </div>
+          <p class="cast__sidetext">MODEL</p>
+        </a>
+      </div>
+    </div>
+    
+    <div class="aside">
+      <div class="aside__inner">
+        <div class="aside__banners">
+          <a href="profile.html" class="aside-banner">
+            <div class="aside-banner__img"><img src="img/top_banner_img01.png" alt=""></div>
+            <div class="aside-banner__textgroup">
+              <p class="aside-banner__title">キャスト一覧</p>
+              <p class="aside-banner__text">パティオに在籍しているキャストのプロフィールはこちらからご覧ください。</p>
+              <p class="aside-banner__btn">今すぐCHECK</p>
+            </div>
+          </a>
+          <a href="register.html" class="aside-banner">
+            <div class="aside-banner__img"><img src="img/top_banner_img02.png" alt=""></div>
+            <div class="aside-banner__textgroup">
+              <p class="aside-banner__title">キャスト登録</p>
+              <p class="aside-banner__text">登録希望の方はこちらからお問い合わせください。</p>
+              <p class="aside-banner__btn">今すぐCHECK</p>
+            </div>
+          </a>
+        </div>
+        
+        <div id="news" class="aside__news">
+          <p>新着情報</p>
+          <div class="aside__news-feed">
+            <div class="x-scroll-container">
+              <a class="twitter-timeline" data-height="600" href="https://twitter.com/patio_info?ref_src=twsrc%5Etfw">Tweets by patio_info</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+        <footer class="footer">
+    <div class="footer__inner">
+      <div class="footer__left">
+        <a href="index.html" class="footer__logo">
+          <img src="img/logo.png" width="340" alt="Patio 株式会社パティオ">
+        </a>
+        <div class="footer__desc">
+          &nbsp; &nbsp; &nbsp; &nbsp;<p>MC、ナレーター、モデルのことなら<br>パティオにお任せください。</p>
+          <a href="https://x.com/patio_info" target="_blank" class="footer__twitter">
+            <img src="img/icon_twitter.svg" alt="x">
+          </a>
+          <div style="margin-top:10px; font-size:13px; font-weight:bold; white-space:nowrap; display:block;">
+            <a href="https://x.com/patio_info" target="_blank" style="color:#23222f; text-decoration:underline; margin-left:24px;">⇦ パティオ公式Xの最新ポストはコチラ</a>
+          </div>
+        </div>
+      </div>
+      <ul id="menu-main-footer" class="footer__nav">
+        <li><a href="profile.html">キャスト一覧</a></li>
+        <li><a href="company.html">会社概要</a></li>
+        <li><a href="commission.html">ご依頼について</a></li>
+        <li><a href="contact.html">お問い合わせ</a></li>
+      </ul>
+    </div>
+    <div class="pagetop js-pagetop"><img src="img/pagetop.svg" alt=""></div>
+    <small class="footer__copy">Copyright © Patio, All Rights Reserved.</small>
+  </footer>
+
+  <script>
+    $(function() {
+      $('.js-menu-close, .menu-overlay').on('click', function() {
+        $('#sp_menu').prop('checked', false);
+      });
+
+      function updateHeaderScrolled() {
+        if ($(window).scrollTop() > 0) {
+          $('.header').addClass('is-scrolled');
+        } else {
+          $('.header').removeClass('is-scrolled');
+        }
+      }
+      $(window).on('scroll', updateHeaderScrolled);
+      updateHeaderScrolled();
+    });
+
+    // 戻る/進むで復元されたスクロール位置に合わせてヘッダーの状態(is-scrolled)を再同期する
+    window.addEventListener('pageshow', function () {
+      if ($(window).scrollTop() > 0) {
+        $('.header').addClass('is-scrolled');
+      } else {
+        $('.header').removeClass('is-scrolled');
+      }
+    });
+  </script>
+  <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+</body>
+</html>
