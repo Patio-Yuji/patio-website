@@ -436,7 +436,7 @@ function renderGrid() {
   document.getElementById('cast-grid').innerHTML = filtered.map(c => `
     <div class="cast-card">
       <img src="${encodeJaPath((c.images && c.images[0]) || c.image || '')}" alt="${c.name}"
-        onerror="this.style.background='#ddd';this.removeAttribute('src')">
+        onerror="this.style.background='#ddd';this.alt='画像なし'">
       <div class="card-body">
         <div class="card-name">${c.name}</div>
         <div class="card-cats">${(c.categories || []).join(' / ') || ''}</div>
