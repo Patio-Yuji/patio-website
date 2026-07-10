@@ -5250,10 +5250,9 @@ const CAST_DATA = [
     "regions": [
       "関東"
     ],
-    "image": "uploads/2026/07/cast_1369_photo2.jpg",
+    "image": "../uploads/2026/04/貴理子02-2.jpg",
     "images": [
-      "uploads/2026/07/cast_1369_photo2.jpg",
-      "uploads/2026/07/cast_1369_photo1.jpg"
+      "../uploads/2026/04/貴理子02-2.jpg"
     ],
     "audio": "",
     "audios": [],
