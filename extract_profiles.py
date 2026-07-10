@@ -128,11 +128,10 @@ for cast in cast_data:
     if not html_path.exists():
         continue
     data = parse_profile(html_path)
-    # imagesが未設定 or 1枚のみの場合に補完
-    if not cast.get('images') or len(cast.get('images', [])) <= 1:
-        if data['images']:
-            cast['images'] = data['images']
-            cast['image'] = data['images'][0]
+    # 画像を常にプロフィールHTMLから上書き（強制モード）
+    if data['images']:
+        cast['images'] = data['images']
+        cast['image'] = data['images'][0]
     # audiosが未設定の場合に補完
     if not cast.get('audios') and data['audios']:
         cast['audios'] = data['audios']

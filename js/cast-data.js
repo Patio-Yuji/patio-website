@@ -23,7 +23,7 @@ const CAST_DATA = [
     "regions": [
       "関東"
     ],
-    "image": "uploads/2021/09/1412909857-334738_2.jpg",
+    "image": "../uploads/2021/09/1412909857-334738_2.jpg",
     "audio": "uploads/2022/02/か_金子恵理子_発表会日英.mp3",
     "sns": {
       "instagram": "https://www.instagram.com/ericokaneco.3c.communication/",
@@ -32,9 +32,9 @@ const CAST_DATA = [
       "facebook": "https://www.facebook.com/eriko.kaneko.31"
     },
     "images": [
-      "uploads/2021/09/1412909857-334738_2.jpg",
-      "uploads/2022/02/金子恵理子11-1.jpg",
-      "uploads/2022/02/金子恵理子10-1.jpg"
+      "../uploads/2021/09/1412909857-334738_2.jpg",
+      "../uploads/2022/02/金子恵理子11-1.jpg",
+      "../uploads/2022/02/金子恵理子10-1.jpg"
     ],
     "audios": [
       "uploads/2022/02/か_金子恵理子_発表会日英.mp3"
@@ -66,7 +66,7 @@ const CAST_DATA = [
     "regions": [
       "関東"
     ],
-    "image": "uploads/2021/09/関本なこ05-2.jpg",
+    "image": "../uploads/2021/09/関本なこ05-2.jpg",
     "audio": "uploads/2022/04/せ_関本なこMC.mp3",
     "sns": {
       "instagram": "https://www.instagram.com/nakoringo11/?hl=ja",
@@ -75,10 +75,10 @@ const CAST_DATA = [
       "facebook": ""
     },
     "images": [
-      "uploads/2021/09/関本なこ05-2.jpg",
-      "uploads/2021/09/関本なこ14-2.jpg",
-      "uploads/2022/04/関本なこ06-2.jpg",
-      "uploads/2022/04/関本なこ15-2.jpg"
+      "../uploads/2021/09/関本なこ05-2.jpg",
+      "../uploads/2021/09/関本なこ14-2.jpg",
+      "../uploads/2022/04/関本なこ06-2.jpg",
+      "../uploads/2022/04/関本なこ15-2.jpg"
     ],
     "audios": [
       "uploads/2022/04/せ_関本なこMC.mp3"
@@ -108,7 +108,7 @@ const CAST_DATA = [
     "regions": [
       "関東"
     ],
-    "image": "uploads/2022/06/IMG_1490.jpg",
+    "image": "../uploads/2022/06/IMG_1490.jpg",
     "audio": "uploads/2022/06/く_草場浩子-1.mp3",
     "sns": {
       "instagram": "https://www.instagram.com/aloha.hiro/",
@@ -117,10 +117,10 @@ const CAST_DATA = [
       "facebook": ""
     },
     "images": [
-      "uploads/2022/06/IMG_1490.jpg",
-      "uploads/2022/06/IMG_1488.jpg",
-      "uploads/2022/06/IMG_1493-0.jpg",
-      "uploads/2022/06/IMG_1491.jpg"
+      "../uploads/2022/06/IMG_1490.jpg",
+      "../uploads/2022/06/IMG_1488.jpg",
+      "../uploads/2022/06/IMG_1493-0.jpg",
+      "../uploads/2022/06/IMG_1491.jpg"
     ],
     "audios": [
       "uploads/2022/06/く_草場浩子-1.mp3"
@@ -149,7 +149,7 @@ const CAST_DATA = [
     "regions": [
       "関東"
     ],
-    "image": "uploads/2021/09/1505895867-069737_2.jpg",
+    "image": "../uploads/2021/09/1505895867-069737_2.jpg",
     "audio": "uploads/2022/02/や_矢作奈穂子NA.mp3",
     "sns": {
       "instagram": "https://www.instagram.com/naoko.yahagi/",
@@ -158,8 +158,8 @@ const CAST_DATA = [
       "facebook": ""
     },
     "images": [
-      "uploads/2021/09/1505895867-069737_2.jpg",
-      "uploads/2021/09/1505895867-069737_3.jpg"
+      "../uploads/2021/09/1505895867-069737_2.jpg",
+      "../uploads/2021/09/1505895867-069737_3.jpg"
     ],
     "audios": [
       "uploads/2022/02/や_矢作奈穂子NA.mp3"
@@ -190,7 +190,7 @@ const CAST_DATA = [
     "regions": [
       "関東"
     ],
-    "image": "uploads/2022/02/大庭有貴03-2.jpg",
+    "image": "../uploads/2022/02/大庭有貴03-2.jpg",
     "audio": "uploads/2022/02/大庭有貴.mp3",
     "sns": {
       "instagram": "https://www.instagram.com/yukioba_yukiee/?hl=ja",
@@ -199,10 +199,10 @@ const CAST_DATA = [
       "facebook": ""
     },
     "images": [
-      "uploads/2022/02/大庭有貴03-2.jpg",
-      "uploads/2022/02/大庭有貴10-2.jpg",
-      "uploads/2021/09/1486233907-030777_4.jpg",
-      "uploads/2022/02/大庭有貴24.jpg"
+      "../uploads/2022/02/大庭有貴03-2.jpg",
+      "../uploads/2022/02/大庭有貴10-2.jpg",
+      "../uploads/2021/09/1486233907-030777_4.jpg",
+      "../uploads/2022/02/大庭有貴24.jpg"
     ],
     "audios": [
       "uploads/2022/02/大庭有貴.mp3"
@@ -237,7 +237,7 @@ const CAST_DATA = [
       "関東",
       "関西"
     ],
-    "image": "uploads/2023/10/瀬戸あさみ01-2.jpg",
+    "image": "../uploads/2023/10/瀬戸あさみ01-2.jpg",
     "audio": "uploads/2023/10/せ_瀬戸あさみ_MC.mp3",
     "sns": {
       "instagram": "https://www.instagram.com/asamin_93/",
@@ -246,9 +246,9 @@ const CAST_DATA = [
       "facebook": ""
     },
     "images": [
-      "uploads/2023/10/瀬戸あさみ01-2.jpg",
-      "uploads/2023/10/瀬戸あさみ10-2.jpg",
-      "uploads/2023/10/瀬戸あさみ23.jpg"
+      "../uploads/2023/10/瀬戸あさみ01-2.jpg",
+      "../uploads/2023/10/瀬戸あさみ10-2.jpg",
+      "../uploads/2023/10/瀬戸あさみ23.jpg"
     ],
     "audios": [
       "uploads/2023/10/せ_瀬戸あさみ_MC.mp3"
@@ -281,7 +281,7 @@ const CAST_DATA = [
     "regions": [
       "関東"
     ],
-    "image": "uploads/2022/07/和泉ちえ08.jpg",
+    "image": "../uploads/2022/07/和泉ちえ08.jpg",
     "audio": "uploads/2022/07/い_和泉ちえ.mp3",
     "sns": {
       "instagram": "https://www.instagram.com/chieri225/",
@@ -290,10 +290,10 @@ const CAST_DATA = [
       "facebook": "https://www.facebook.com/chieri225"
     },
     "images": [
-      "uploads/2022/07/和泉ちえ08.jpg",
-      "uploads/2022/07/和泉ちえ14.jpg",
-      "uploads/2022/07/和泉ちえ08-2.jpg",
-      "uploads/2022/07/和泉ちえ14-2.jpg"
+      "../uploads/2022/07/和泉ちえ08.jpg",
+      "../uploads/2022/07/和泉ちえ14.jpg",
+      "../uploads/2022/07/和泉ちえ08-2.jpg",
+      "../uploads/2022/07/和泉ちえ14-2.jpg"
     ],
     "audios": [
       "uploads/2022/07/い_和泉ちえ.mp3"
@@ -324,7 +324,7 @@ const CAST_DATA = [
     "regions": [
       "関東"
     ],
-    "image": "uploads/2021/09/佐々木舞05.jpg",
+    "image": "../uploads/2021/09/佐々木舞05.jpg",
     "audio": "uploads/2022/04/さ_佐々木舞2.mp3",
     "sns": {
       "instagram": "https://www.instagram.com/maitrip0818/?hl=ja",
@@ -333,8 +333,8 @@ const CAST_DATA = [
       "facebook": ""
     },
     "images": [
-      "uploads/2021/09/佐々木舞05.jpg",
-      "uploads/2021/09/佐々木舞12.jpg"
+      "../uploads/2021/09/佐々木舞05.jpg",
+      "../uploads/2021/09/佐々木舞12.jpg"
     ],
     "audios": [
       "uploads/2022/04/さ_佐々木舞2.mp3"
@@ -368,7 +368,7 @@ const CAST_DATA = [
     "regions": [
       "関東"
     ],
-    "image": "uploads/2022/02/9fd5fe5f24e70742cd7428f8c48af9cf.jpeg",
+    "image": "../uploads/2022/02/9fd5fe5f24e70742cd7428f8c48af9cf.jpeg",
     "audio": "uploads/2022/02/橘ゆり2016.mp3",
     "sns": {
       "instagram": "https://www.instagram.com/yuri.tachibana.mc/?hl=ja",
@@ -377,10 +377,10 @@ const CAST_DATA = [
       "facebook": ""
     },
     "images": [
-      "uploads/2022/02/9fd5fe5f24e70742cd7428f8c48af9cf.jpeg",
-      "uploads/2022/02/6de7b2078068c8a8d0047fd6fbd71917.jpg",
-      "uploads/2022/02/d17fba888d7ab3d90f83a432ccdeff91.jpg",
-      "uploads/2022/02/15cbbadceb7fe46fd357490dc14d78f8.jpg"
+      "../uploads/2022/02/9fd5fe5f24e70742cd7428f8c48af9cf.jpeg",
+      "../uploads/2022/02/6de7b2078068c8a8d0047fd6fbd71917.jpg",
+      "../uploads/2022/02/d17fba888d7ab3d90f83a432ccdeff91.jpg",
+      "../uploads/2022/02/15cbbadceb7fe46fd357490dc14d78f8.jpg"
     ],
     "audios": [
       "uploads/2022/02/橘ゆり2016.mp3"
@@ -413,7 +413,7 @@ const CAST_DATA = [
     "regions": [
       "関東"
     ],
-    "image": "uploads/2022/02/円城寺佳子27-1.jpg",
+    "image": "../uploads/2022/02/円城寺佳子27-1.jpg",
     "audio": "uploads/2022/02/円城寺佳子_明るめ軽快.mp3",
     "sns": {
       "instagram": "https://www.instagram.com/yoshiko_enjoji/?hl=ja",
@@ -422,10 +422,10 @@ const CAST_DATA = [
       "facebook": "https://www.facebook.com/yoshikoenjoji"
     },
     "images": [
-      "uploads/2022/02/円城寺佳子27-1.jpg",
-      "uploads/2022/02/円城寺佳子30-1.jpg",
-      "uploads/2022/02/円城寺佳子01.jpg",
-      "uploads/2022/02/円城寺佳子07-2.jpg"
+      "../uploads/2022/02/円城寺佳子27-1.jpg",
+      "../uploads/2022/02/円城寺佳子30-1.jpg",
+      "../uploads/2022/02/円城寺佳子01.jpg",
+      "../uploads/2022/02/円城寺佳子07-2.jpg"
     ],
     "audios": [
       "uploads/2022/02/円城寺佳子_明るめ軽快.mp3"
@@ -454,7 +454,7 @@ const CAST_DATA = [
     "regions": [
       "関東"
     ],
-    "image": "uploads/2022/07/堀井ふき01-2.jpg",
+    "image": "../uploads/2022/07/堀井ふき01-2.jpg",
     "audio": "uploads/2022/07/ほ_堀井ふきMC.mp3",
     "sns": {
       "instagram": "https://www.instagram.com/fuuu___gram/",
@@ -463,10 +463,10 @@ const CAST_DATA = [
       "facebook": ""
     },
     "images": [
-      "uploads/2022/07/堀井ふき01-2.jpg",
-      "uploads/2022/07/堀井ふき10.jpg",
-      "uploads/2022/07/堀井ふき13-2.jpg",
-      "uploads/2022/07/堀井ふき91.jpg"
+      "../uploads/2022/07/堀井ふき01-2.jpg",
+      "../uploads/2022/07/堀井ふき10.jpg",
+      "../uploads/2022/07/堀井ふき13-2.jpg",
+      "../uploads/2022/07/堀井ふき91.jpg"
     ],
     "audios": [
       "uploads/2022/07/ほ_堀井ふきMC.mp3"
@@ -497,7 +497,7 @@ const CAST_DATA = [
     "regions": [
       "関東"
     ],
-    "image": "uploads/2022/04/【顔】金子菜々美2024-1.jpg",
+    "image": "../uploads/2022/04/【顔】金子菜々美2024-1.jpg",
     "audio": "uploads/2022/04/か_金子菜々美MC.mp3",
     "sns": {
       "instagram": "https://www.instagram.com/773n.k/",
@@ -506,10 +506,10 @@ const CAST_DATA = [
       "facebook": ""
     },
     "images": [
-      "uploads/2022/04/【顔】金子菜々美2024-1.jpg",
-      "uploads/2022/04/金子菜々美17.jpg",
-      "uploads/2022/04/金子菜々美08-2.jpg",
-      "uploads/2022/04/金子菜々美16-2.jpg"
+      "../uploads/2022/04/【顔】金子菜々美2024-1.jpg",
+      "../uploads/2022/04/金子菜々美17.jpg",
+      "../uploads/2022/04/金子菜々美08-2.jpg",
+      "../uploads/2022/04/金子菜々美16-2.jpg"
     ],
     "audios": [
       "uploads/2022/04/か_金子菜々美MC.mp3"
@@ -542,7 +542,7 @@ const CAST_DATA = [
     "regions": [
       "関東"
     ],
-    "image": "uploads/2026/04/松田理奈03.jpg",
+    "image": "../uploads/2026/04/松田理奈03.jpg",
     "audio": "uploads/2026/04/ま_松田理奈_ナレーション4パターン.mp3",
     "sns": {
       "instagram": "https://www.instagram.com/rinamatsuda_mcnr/",
@@ -551,8 +551,8 @@ const CAST_DATA = [
       "facebook": ""
     },
     "images": [
-      "uploads/2026/04/松田理奈03.jpg",
-      "uploads/2026/04/松田理奈12.jpg"
+      "../uploads/2026/04/松田理奈03.jpg",
+      "../uploads/2026/04/松田理奈12.jpg"
     ],
     "audios": [
       "uploads/2026/04/ま_松田理奈_ナレーション4パターン.mp3"
@@ -582,7 +582,7 @@ const CAST_DATA = [
     "regions": [
       "関東"
     ],
-    "image": "uploads/2025/04/長谷川朋加03-2.jpg",
+    "image": "../uploads/2025/04/長谷川朋加03-2.jpg",
     "audio": "uploads/2025/04/は_長谷川朋加_自己紹介.mp3",
     "sns": {
       "instagram": "https://www.instagram.com/hasegawatomoka/",
@@ -591,9 +591,9 @@ const CAST_DATA = [
       "facebook": ""
     },
     "images": [
-      "uploads/2025/04/長谷川朋加03-2.jpg",
-      "uploads/2025/04/長谷川朋加10-2.jpg",
-      "uploads/2025/04/長谷川朋加24.png"
+      "../uploads/2025/04/長谷川朋加03-2.jpg",
+      "../uploads/2025/04/長谷川朋加10-2.jpg",
+      "../uploads/2025/04/長谷川朋加24.png"
     ],
     "audios": [
       "uploads/2025/04/は_長谷川朋加_自己紹介.mp3"
@@ -624,7 +624,7 @@ const CAST_DATA = [
     "regions": [
       "関東"
     ],
-    "image": "uploads/2021/09/1493924770-842365_2.jpg",
+    "image": "../uploads/2021/09/1493924770-842365_2.jpg",
     "audio": "uploads/2024/04/よ_吉岡仁美.mp3",
     "sns": {
       "instagram": "https://www.instagram.com/hs2fl/",
@@ -633,9 +633,9 @@ const CAST_DATA = [
       "facebook": ""
     },
     "images": [
-      "uploads/2021/09/1493924770-842365_2.jpg",
-      "uploads/2021/09/1493924770-842365_3.jpg",
-      "uploads/2021/09/1493924770-842365_4.jpg"
+      "../uploads/2021/09/1493924770-842365_2.jpg",
+      "../uploads/2021/09/1493924770-842365_3.jpg",
+      "../uploads/2021/09/1493924770-842365_4.jpg"
     ],
     "audios": [
       "uploads/2024/04/よ_吉岡仁美.mp3"
@@ -664,7 +664,7 @@ const CAST_DATA = [
     "regions": [
       "関東"
     ],
-    "image": "uploads/2022/02/美香子05-6-1.jpg",
+    "image": "../uploads/2022/02/美香子05-6-1.jpg",
     "audio": "",
     "sns": {
       "instagram": "https://www.instagram.com/minamihimeno_/",
@@ -673,10 +673,10 @@ const CAST_DATA = [
       "facebook": ""
     },
     "images": [
-      "uploads/2022/02/美香子05-6-1.jpg",
-      "uploads/2021/09/美香子13-2.jpg",
-      "uploads/2022/02/美香子06-2-2-1.jpg",
-      "uploads/2021/09/美香子06.jpg"
+      "../uploads/2022/02/美香子05-6-1.jpg",
+      "../uploads/2021/09/美香子13-2.jpg",
+      "../uploads/2022/02/美香子06-2-2-1.jpg",
+      "../uploads/2021/09/美香子06.jpg"
     ],
     "careerLeft": "【見出し】【MC】\n・サントリー「プレミアム・モルツ」ファンイベント\n・タカラトミー商談会/ファントミラージュコーナー\n・着物ショー花嫁衣装の部\n・ハクビ「きものフューチャー」表彰式プレゼンター\n・ドラッグストアショー\n・TOKYO international beauty festival\n・Interop Tokyo\n・東京ゲームショウ\n・東日本旅客鉄道株式会社発表会\n・鍋屋バイテック\n・ドバイ競馬中継\n・競馬祝賀会\n・漫画家や医療従事者へのインタビュー\n・姫野みなみの「一緒にstudy」\n【見出し】【TV/WEB/VP】\n・テレビ信州「MSAのやったもんガチ」番組アシスタント\n・姫野みなみの「一緒にstudy」キャスター\n・武田薬品工業「アジレクト」解説動画ナビゲーター\n・BREWDOG（ブリュードッグ）×TELMIC Neo cm\n・iDeCo公式チャンネル「みんなはどう思う？カンタンiDeCo勉強会」井出さん役\n・ディズニープラス「フィッシャーズ特別動画スター編」ザカオさんの恋人役\n・大林組リポーター\n・テレビ熊本リポーター\n・ネット番組「ニコジョッキー」ゲスト出演\n・映画「ギフス」アナウンサー役\n・日本テレビ「しゃべくり007」\n・YouTube「ふわふわ筋肉研究所」レギュラー\n・ナイロビライブコマースキャスター\n・ゴルフcm",
     "careerRight": "【見出し】【ラジオ】\n・市川うららFMラジオパーソナリティ\n【見出し】【モデル】\n・XR総合展/テルミック実演モデル\n・着物モデル\n・着物ショーモデル\n・JR東日本モデル\n・ライジンモデル\n・競馬新聞モデル\n【見出し】【イベント】\n・毎日映画コンクール表彰式アテンド\n・パラリンアート世界大会ステージアテンド\n・着物免許授与式代表挨拶\n・少女コミックイメージガールグランプリ\n・東京ゲームショウ\n・シーテックジャパン\n【見出し】【その他】\n・中山馬主協会ウィナーズレディ\n・中国でのタレント活動、動画配信など多数",
@@ -704,7 +704,7 @@ const CAST_DATA = [
     "regions": [
       "関東"
     ],
-    "image": "uploads/2025/10/はらあい01-2.jpg",
+    "image": "../uploads/2025/10/はらあい01-2.jpg",
     "audio": "uploads/2025/10/は_はらあい_自己PR.mp3",
     "sns": {
       "instagram": "",
@@ -713,8 +713,8 @@ const CAST_DATA = [
       "facebook": ""
     },
     "images": [
-      "uploads/2025/10/はらあい01-2.jpg",
-      "uploads/2025/10/はらあい10-2.jpg"
+      "../uploads/2025/10/はらあい01-2.jpg",
+      "../uploads/2025/10/はらあい10-2.jpg"
     ],
     "audios": [
       "uploads/2025/10/は_はらあい_自己PR.mp3"
@@ -744,7 +744,7 @@ const CAST_DATA = [
     "regions": [
       "関東"
     ],
-    "image": "uploads/2021/09/1412908940-896678_2.jpg",
+    "image": "../uploads/2021/09/1412908940-896678_2.jpg",
     "audio": "uploads/2022/06/た_竜瀬葵.mp3",
     "sns": {
       "instagram": "https://www.instagram.com/aoi_tatsuse/",
@@ -753,9 +753,9 @@ const CAST_DATA = [
       "facebook": ""
     },
     "images": [
-      "uploads/2021/09/1412908940-896678_2.jpg",
-      "uploads/2021/09/1412908940-896678_3.jpg",
-      "uploads/2022/06/竜瀬葵09-2.jpg"
+      "../uploads/2021/09/1412908940-896678_2.jpg",
+      "../uploads/2021/09/1412908940-896678_3.jpg",
+      "../uploads/2022/06/竜瀬葵09-2.jpg"
     ],
     "audios": [
       "uploads/2022/06/た_竜瀬葵.mp3"
@@ -787,7 +787,7 @@ const CAST_DATA = [
     "regions": [
       "関東"
     ],
-    "image": "uploads/2022/02/間宮祐子05-5.jpg",
+    "image": "../uploads/2022/02/間宮祐子05-5.jpg",
     "audio": "uploads/2022/02/ま_間宮祐子_日英.mp3",
     "sns": {
       "instagram": "https://www.instagram.com/ycrngsk/?hl=ja",
@@ -796,10 +796,10 @@ const CAST_DATA = [
       "facebook": ""
     },
     "images": [
-      "uploads/2022/02/間宮祐子05-5.jpg",
-      "uploads/2021/09/1462742751-657564_3.jpg",
-      "uploads/2022/02/間宮祐子07_1.jpg",
-      "uploads/2021/09/1462742751-657564_4.jpg"
+      "../uploads/2022/02/間宮祐子05-5.jpg",
+      "../uploads/2021/09/1462742751-657564_3.jpg",
+      "../uploads/2022/02/間宮祐子07_1.jpg",
+      "../uploads/2021/09/1462742751-657564_4.jpg"
     ],
     "audios": [
       "uploads/2022/02/ま_間宮祐子_日英.mp3"
@@ -834,7 +834,7 @@ const CAST_DATA = [
     "regions": [
       "関東"
     ],
-    "image": "uploads/2021/09/天野亜希子06-2.jpg",
+    "image": "../uploads/2021/09/天野亜希子06-2.jpg",
     "audio": "uploads/2022/02/あ_天野亜希子【ストレート・cm・企業ナレ・バラエティ・スポーツ】.mp3",
     "sns": {
       "instagram": "https://www.instagram.com/amano0522/?hl=ja",
@@ -843,8 +843,8 @@ const CAST_DATA = [
       "facebook": ""
     },
     "images": [
-      "uploads/2021/09/天野亜希子06-2.jpg",
-      "uploads/2021/09/天野亜希子13-2.jpg"
+      "../uploads/2021/09/天野亜希子06-2.jpg",
+      "../uploads/2021/09/天野亜希子13-2.jpg"
     ],
     "audios": [
       "uploads/2022/02/あ_天野亜希子【ストレート・cm・企業ナレ・バラエティ・スポーツ】.mp3"
@@ -877,7 +877,7 @@ const CAST_DATA = [
     "regions": [
       "関西"
     ],
-    "image": "uploads/2022/04/長谷川杏里07-1.jpg",
+    "image": "../uploads/2022/04/長谷川杏里07-1.jpg",
     "audio": "uploads/2022/04/は_長谷川杏里.mp3",
     "sns": {
       "instagram": "",
@@ -886,9 +886,9 @@ const CAST_DATA = [
       "facebook": ""
     },
     "images": [
-      "uploads/2022/04/長谷川杏里07-1.jpg",
-      "uploads/2022/04/長谷川杏里14.jpg",
-      "uploads/2022/04/長谷川杏里06-3.jpg"
+      "../uploads/2022/04/長谷川杏里07-1.jpg",
+      "../uploads/2022/04/長谷川杏里14.jpg",
+      "../uploads/2022/04/長谷川杏里06-3.jpg"
     ],
     "audios": [
       "uploads/2022/04/は_長谷川杏里.mp3"
@@ -919,7 +919,7 @@ const CAST_DATA = [
     "regions": [
       "関東"
     ],
-    "image": "uploads/2022/03/平川恵04-2.jpg",
+    "image": "../uploads/2022/03/平川恵04-2.jpg",
     "audio": "uploads/2022/03/ひ_平川恵.mp3",
     "sns": {
       "instagram": "https://www.instagram.com/kei.hirakawa/?hl=ja",
@@ -928,9 +928,9 @@ const CAST_DATA = [
       "facebook": ""
     },
     "images": [
-      "uploads/2022/03/平川恵04-2.jpg",
-      "uploads/2021/09/1576377836-637819_4.jpg",
-      "uploads/2022/03/平川恵03-2.jpg"
+      "../uploads/2022/03/平川恵04-2.jpg",
+      "../uploads/2021/09/1576377836-637819_4.jpg",
+      "../uploads/2022/03/平川恵03-2.jpg"
     ],
     "audios": [
       "uploads/2022/03/ひ_平川恵.mp3"
@@ -959,7 +959,7 @@ const CAST_DATA = [
     "regions": [
       "関東"
     ],
-    "image": "uploads/2021/09/髙橋美香04.jpg",
+    "image": "../uploads/2021/09/髙橋美香04.jpg",
     "audio": "uploads/2022/02/た_髙橋美香.mp3",
     "sns": {
       "instagram": "https://www.instagram.com/mktkhs1128/?hl=ja",
@@ -968,10 +968,10 @@ const CAST_DATA = [
       "facebook": ""
     },
     "images": [
-      "uploads/2021/09/髙橋美香04.jpg",
-      "uploads/2022/02/髙橋美香13.jpg",
-      "uploads/2022/02/髙橋美香03-3.jpg",
-      "uploads/2022/02/髙橋美香14.jpg"
+      "../uploads/2021/09/髙橋美香04.jpg",
+      "../uploads/2022/02/髙橋美香13.jpg",
+      "../uploads/2022/02/髙橋美香03-3.jpg",
+      "../uploads/2022/02/髙橋美香14.jpg"
     ],
     "audios": [
       "uploads/2022/02/た_髙橋美香.mp3"
@@ -1006,7 +1006,7 @@ const CAST_DATA = [
       "関東",
       "関西"
     ],
-    "image": "uploads/2022/08/四宮圭06-1.jpg",
+    "image": "../uploads/2022/08/四宮圭06-1.jpg",
     "audio": "uploads/2022/08/四宮圭　式典.mp3",
     "sns": {
       "instagram": "https://www.instagram.com/kei.shinomiya_mc/",
@@ -1015,10 +1015,10 @@ const CAST_DATA = [
       "facebook": ""
     },
     "images": [
-      "uploads/2022/08/四宮圭06-1.jpg",
-      "uploads/2021/09/四宮圭14-2.jpg",
-      "uploads/2021/09/四宮圭08-1.jpg",
-      "uploads/2021/09/四宮圭15.jpg"
+      "../uploads/2022/08/四宮圭06-1.jpg",
+      "../uploads/2021/09/四宮圭14-2.jpg",
+      "../uploads/2021/09/四宮圭08-1.jpg",
+      "../uploads/2021/09/四宮圭15.jpg"
     ],
     "audios": [
       "uploads/2022/08/四宮圭　式典.mp3"
@@ -1049,7 +1049,7 @@ const CAST_DATA = [
     "regions": [
       "関東"
     ],
-    "image": "uploads/2022/02/安藤きょうこ04-4.jpg",
+    "image": "../uploads/2022/02/安藤きょうこ04-4.jpg",
     "audio": "uploads/2022/02/あ_安藤きょうこ.mp3",
     "sns": {
       "instagram": "https://www.instagram.com/kyon__56/?hl=ja",
@@ -1058,10 +1058,10 @@ const CAST_DATA = [
       "facebook": ""
     },
     "images": [
-      "uploads/2022/02/安藤きょうこ04-4.jpg",
-      "uploads/2022/02/安藤きょうこ14.jpg",
-      "uploads/2021/09/1573586752-207709_3.jpg",
-      "uploads/2021/09/1573586752-207709_4.jpg"
+      "../uploads/2022/02/安藤きょうこ04-4.jpg",
+      "../uploads/2022/02/安藤きょうこ14.jpg",
+      "../uploads/2021/09/1573586752-207709_3.jpg",
+      "../uploads/2021/09/1573586752-207709_4.jpg"
     ],
     "audios": [
       "uploads/2022/02/あ_安藤きょうこ.mp3"
@@ -1094,7 +1094,7 @@ const CAST_DATA = [
     "regions": [
       "関東"
     ],
-    "image": "uploads/2022/01/内田早紀04-3.jpg",
+    "image": "../uploads/2022/01/内田早紀04-3.jpg",
     "audio": "uploads/2022/01/う_内田早紀NA.mp3",
     "sns": {
       "instagram": "",
@@ -1103,10 +1103,10 @@ const CAST_DATA = [
       "facebook": ""
     },
     "images": [
-      "uploads/2022/01/内田早紀04-3.jpg",
-      "uploads/2022/01/内田早紀12.jpg",
-      "uploads/2021/09/1598198483-165721_2.jpg",
-      "uploads/2021/09/1598198483-165721_3.jpg"
+      "../uploads/2022/01/内田早紀04-3.jpg",
+      "../uploads/2022/01/内田早紀12.jpg",
+      "../uploads/2021/09/1598198483-165721_2.jpg",
+      "../uploads/2021/09/1598198483-165721_3.jpg"
     ],
     "audios": [
       "uploads/2022/01/う_内田早紀NA.mp3"
@@ -1136,7 +1136,7 @@ const CAST_DATA = [
     "regions": [
       "関東"
     ],
-    "image": "uploads/2026/05/東城朱音01-2.jpg",
+    "image": "../uploads/2026/05/東城朱音01-2.jpg",
     "audio": "uploads/2026/05/と_東城朱音.mp3",
     "sns": {
       "instagram": "https://www.instagram.com/_akanetojo_/",
@@ -1145,8 +1145,8 @@ const CAST_DATA = [
       "facebook": ""
     },
     "images": [
-      "uploads/2026/05/東城朱音01-2.jpg",
-      "uploads/2026/05/東城朱音10-2.jpg"
+      "../uploads/2026/05/東城朱音01-2.jpg",
+      "../uploads/2026/05/東城朱音10-2.jpg"
     ],
     "audios": [
       "uploads/2026/05/と_東城朱音.mp3"
@@ -1176,7 +1176,7 @@ const CAST_DATA = [
     "regions": [
       "関東"
     ],
-    "image": "uploads/2026/05/1d971f2a8440af0c6bc21a77d6873a55.jpg",
+    "image": "../uploads/2026/05/1d971f2a8440af0c6bc21a77d6873a55.jpg",
     "audio": "uploads/2026/05/中嶋絵美_01自己紹介.mp3",
     "sns": {
       "instagram": "https://www.instagram.com/emi_nakashima1223/",
@@ -1185,10 +1185,10 @@ const CAST_DATA = [
       "facebook": ""
     },
     "images": [
-      "uploads/2026/05/1d971f2a8440af0c6bc21a77d6873a55.jpg",
-      "uploads/2026/05/中嶋絵美10-2.jpg",
-      "uploads/2026/05/468a7954a48f05a4e8c10627d11aed4e.jpg",
-      "uploads/2026/05/中嶋絵美21.jpg"
+      "../uploads/2026/05/1d971f2a8440af0c6bc21a77d6873a55.jpg",
+      "../uploads/2026/05/中嶋絵美10-2.jpg",
+      "../uploads/2026/05/468a7954a48f05a4e8c10627d11aed4e.jpg",
+      "../uploads/2026/05/中嶋絵美21.jpg"
     ],
     "audios": [
       "uploads/2026/05/中嶋絵美_01自己紹介.mp3"
@@ -1219,7 +1219,7 @@ const CAST_DATA = [
     "regions": [
       "関東"
     ],
-    "image": "uploads/2025/03/山本美沙07.jpg",
+    "image": "../uploads/2025/03/山本美沙07.jpg",
     "audio": "uploads/2025/03/お茶cm.mp3",
     "sns": {
       "instagram": "https://www.instagram.com/misa04ray",
@@ -1228,9 +1228,9 @@ const CAST_DATA = [
       "facebook": ""
     },
     "images": [
-      "uploads/2025/03/山本美沙07.jpg",
-      "uploads/2025/03/山本美沙16.jpg",
-      "uploads/2025/03/山本美沙06.jpg"
+      "../uploads/2025/03/山本美沙07.jpg",
+      "../uploads/2025/03/山本美沙16.jpg",
+      "../uploads/2025/03/山本美沙06.jpg"
     ],
     "audios": [
       "uploads/2025/03/お茶cm.mp3"
@@ -1260,7 +1260,7 @@ const CAST_DATA = [
     "regions": [
       "関東"
     ],
-    "image": "uploads/2025/02/山口由恵05-2.jpg",
+    "image": "../uploads/2025/02/山口由恵05-2.jpg",
     "audio": "",
     "sns": {
       "instagram": "https://www.instagram.com/hpyuue8/",
@@ -1269,10 +1269,10 @@ const CAST_DATA = [
       "facebook": ""
     },
     "images": [
-      "uploads/2025/02/山口由恵05-2.jpg",
-      "uploads/2025/02/山口由恵13-2.jpg",
-      "uploads/2025/02/山口由恵04-2.jpg",
-      "uploads/2025/02/IMG_6910.jpeg"
+      "../uploads/2025/02/山口由恵05-2.jpg",
+      "../uploads/2025/02/山口由恵13-2.jpg",
+      "../uploads/2025/02/山口由恵04-2.jpg",
+      "../uploads/2025/02/IMG_6910.jpeg"
     ],
     "careerLeft": "【見出し】【WEB】\n・無垢スタイル建築設計YouTubeルームツアーリポーター\n・AI Market Channelウェビナープレゼンター\n・大成建設「仙味エキス株式会社施工事例」紹介動画ナレーション\n【見出し】【展示会】\n・Data Center Summit 2026/DELL\n・自治体公共Week/日東工業\n・インターフェックス/大成建設\n・JECAFAIR2026/クラフティア\n・Japan IT Week/ソフマップ\n・HCJ2026/楽天トラベルサービス\n・セミコンジャパン/NSK\n・ビルメンヒューマンフェア2025/ケルヒャージャパン\n・CC/CRM2025/ベリントシステム\n・地方自治情報化推進フェア/CEC\n・くらしと街のコンシェルジュ/大成建設\n・Japan IT Week 2025春/デル・テクノロジーズ\n・AWS Summit Japan 2025/サーバーワークスMCCO\n・プライズフェア\n・FIT展・物流展/プリマジェストMCCO\n・EdgeTech+/STマイクロエレクトロニクスMCCO\n・コールセンター/ベリントMCCO\n【見出し】【イベント】\n・パグフェス\n・キャバリアフェス\n・guigui量販店発売イベント\n・プードルフェス2025\n・シタマチ文化祭\n・キヤノンイベント＠ビックカメラ\n・ASUSイベント＠ビックカメラ\n・NHK 4KプロモーションMCCO\n・LondonDogFestival\n・キリンビール体験イベント\n【見出し】【セミナー】\n・AIマーケットカンファレンス2026 ウェビナー＆懇親会",
     "careerRight": "【見出し】【モデル】\n・もみの匠 ストレッチ紹介TikTok動画\n・AIマーケットサービス紹介YouTubeショート動画\n・資生堂メイクモデル\n・写真スタジオ カメラ講座モデル\n・defineファンデーション\n・プラバドール　着画モデル\n【見出し】【ステージアテンド】\n・全国ビルメンテナンス協会設立60周年記念式典\n・特許庁知財功労賞表彰式ステージアテンド\n・叶会ステージアテンド\n【見出し】【コンパニオン】\n・ル・ボラン カーズ・ミート/ランボルギーニ\n・エコプロダクツ/JFEグループ\n・東京モーターショー/JAF\n・第10回医療連携フォーラム/アステラス製薬\n・オートサロン/NGK\n・モーターサイクルショー/NGK（大阪、名古屋、東京）\n・SuperGT motoGP/NGK（年間）\n・キャンピングカーショー/パナソニック\n・IT Week 秋/技研商事インターナショナル\n・ホテルレストランショー/富士工業所\n・ツーリズムEXPO/マレーシア\n・グラブルフェス\n・JTたばこナイトプロモーション\n・サマーソニック/グレンモーレンジ\n・トラックショー/日本製鉄\n・ボードショー/LCカード\n・東京ゲームショウ/cluster\n・ジャパンモビリティショー/SUZUKI\n・名古屋モビリティーショー/SUZUKI\n・福岡モビリティーショー/SUZUKI\n・GUCCIポップアップイベント　他多数",
@@ -1302,7 +1302,7 @@ const CAST_DATA = [
       "関東",
       "関西"
     ],
-    "image": "uploads/2022/09/c3e9efe5d181371e5798af632e73b93c.jpg",
+    "image": "../uploads/2022/09/c3e9efe5d181371e5798af632e73b93c.jpg",
     "audio": "uploads/2022/09/か_香月かおり_宅録サンプル.mp3",
     "sns": {
       "instagram": "https://www.instagram.com/kaori__flower/",
@@ -1311,10 +1311,10 @@ const CAST_DATA = [
       "facebook": ""
     },
     "images": [
-      "uploads/2022/09/c3e9efe5d181371e5798af632e73b93c.jpg",
-      "uploads/2022/09/9ca824d5c73b1c7e2feb6d1fc8c034f2.jpg",
-      "uploads/2022/09/IMG_3570.jpg",
-      "uploads/2022/09/35793-re.jpg"
+      "../uploads/2022/09/c3e9efe5d181371e5798af632e73b93c.jpg",
+      "../uploads/2022/09/9ca824d5c73b1c7e2feb6d1fc8c034f2.jpg",
+      "../uploads/2022/09/IMG_3570.jpg",
+      "../uploads/2022/09/35793-re.jpg"
     ],
     "audios": [
       "uploads/2022/09/か_香月かおり_宅録サンプル.mp3"
@@ -1346,7 +1346,7 @@ const CAST_DATA = [
     "regions": [
       "関東"
     ],
-    "image": "uploads/2025/12/岡崎美玖02-2.jpg",
+    "image": "../uploads/2025/12/岡崎美玖02-2.jpg",
     "audio": "uploads/2025/12/お_岡崎美玖MC.mp3",
     "sns": {
       "instagram": "https://www.instagram.com/ramen_miku39_/",
@@ -1355,9 +1355,9 @@ const CAST_DATA = [
       "facebook": ""
     },
     "images": [
-      "uploads/2025/12/岡崎美玖02-2.jpg",
-      "uploads/2025/12/岡崎美玖10-2.jpg",
-      "uploads/2025/12/岡崎美玖23.jpg"
+      "../uploads/2025/12/岡崎美玖02-2.jpg",
+      "../uploads/2025/12/岡崎美玖10-2.jpg",
+      "../uploads/2025/12/岡崎美玖23.jpg"
     ],
     "audios": [
       "uploads/2025/12/お_岡崎美玖MC.mp3"
@@ -1388,7 +1388,7 @@ const CAST_DATA = [
     "regions": [
       "関東"
     ],
-    "image": "uploads/2022/03/望月美麗02-2.jpg",
+    "image": "../uploads/2022/03/望月美麗02-2.jpg",
     "audio": "uploads/2022/03/も_望月美麗.mp3",
     "sns": {
       "instagram": "https://www.instagram.com/mocchie29/?hl=ja",
@@ -1397,10 +1397,10 @@ const CAST_DATA = [
       "facebook": ""
     },
     "images": [
-      "uploads/2022/03/望月美麗02-2.jpg",
-      "uploads/2022/03/望月美麗11-2.jpg",
-      "uploads/2021/09/1442427165-423980_2.jpg",
-      "uploads/2021/09/1442427165-423980_3.jpg"
+      "../uploads/2022/03/望月美麗02-2.jpg",
+      "../uploads/2022/03/望月美麗11-2.jpg",
+      "../uploads/2021/09/1442427165-423980_2.jpg",
+      "../uploads/2021/09/1442427165-423980_3.jpg"
     ],
     "audios": [
       "uploads/2022/03/も_望月美麗.mp3"
@@ -1432,7 +1432,7 @@ const CAST_DATA = [
     "regions": [
       "関東"
     ],
-    "image": "uploads/2022/11/8f8406f6efd8c899d8f6b58fb409e6d5.jpg",
+    "image": "../uploads/2022/11/8f8406f6efd8c899d8f6b58fb409e6d5.jpg",
     "audio": "uploads/2022/11/や_山中理恵子.mp3",
     "sns": {
       "instagram": "https://www.instagram.com/rieyamako/",
@@ -1441,10 +1441,10 @@ const CAST_DATA = [
       "facebook": ""
     },
     "images": [
-      "uploads/2022/11/8f8406f6efd8c899d8f6b58fb409e6d5.jpg",
-      "uploads/2022/11/257cf520309c301b5049cf90eac14415.jpg",
-      "uploads/2022/11/a4460989603ae8a94a693bfcb41e7088.jpg",
-      "uploads/2022/11/6c8c88b6d5ff39572c77ee0e5176e56a.jpg"
+      "../uploads/2022/11/8f8406f6efd8c899d8f6b58fb409e6d5.jpg",
+      "../uploads/2022/11/257cf520309c301b5049cf90eac14415.jpg",
+      "../uploads/2022/11/a4460989603ae8a94a693bfcb41e7088.jpg",
+      "../uploads/2022/11/6c8c88b6d5ff39572c77ee0e5176e56a.jpg"
     ],
     "audios": [
       "uploads/2022/11/や_山中理恵子.mp3"
@@ -1478,7 +1478,7 @@ const CAST_DATA = [
       "関東",
       "その他"
     ],
-    "image": "uploads/2026/03/水田恵弓02.jpeg",
+    "image": "../uploads/2026/03/水田恵弓02.jpeg",
     "audio": "",
     "sns": {
       "instagram": "https://www.instagram.com/megumimizuta/",
@@ -1487,10 +1487,10 @@ const CAST_DATA = [
       "facebook": "https://www.facebook.com/megumi.mizuta.58/"
     },
     "images": [
-      "uploads/2026/03/水田恵弓02.jpeg",
-      "uploads/2026/03/水田恵弓12-1.jpeg",
-      "uploads/2026/03/水田恵弓01.jpeg",
-      "uploads/2026/03/水田恵弓04.jpeg"
+      "../uploads/2026/03/水田恵弓02.jpeg",
+      "../uploads/2026/03/水田恵弓12-1.jpeg",
+      "../uploads/2026/03/水田恵弓01.jpeg",
+      "../uploads/2026/03/水田恵弓04.jpeg"
     ],
     "careerLeft": "【見出し】【TV/ラジオ】\n・日本テレビ「エヴリィ」\n・RKB毎日放送「今日感テレビ」\n・RKB毎日放送「今日感テレビ日曜版」リポーター\n・RKB毎日放送「たべごころ」産地ナビゲーター\n・RKB毎日放送「天神ウォッチ新聞女子」\n・RKB毎日放送「感動！体感！オンラインツアー」中継リポーター\n・RKB毎日放送「アジチャン特派員」MC＆リポーター\n・TVQ九州放送「すすめ！福岡おたすけ隊」\n・TVQ九州放送「＠らいふＴＶ」よかもん市場放送局\n・TVQ九州放送「週刊よかタイムス」\n・TVQ九州放送「ばりすごタイムス」特番 春・夏・冬休みSP\n・TVQ九州放送「おとななテレビ」\n・TNCテレビ西日本「八ナビプラス ギュギュっと！」\n・TNCテレビ西日本「ももち浜DXストア」\n・TNCテレビ西日本「オトナのゆったり旅マップ」特番\n・BS&CS「ミッドナイト競輪」メインMC\n・熊本テレビ「Ｉlove 熊本 in TOKYO」特番\n・GAORA SPORTS ゴルフ番組「モアサプライズ」\n・J:COM福岡「九州ビジネスチャンネル」MC＆リポーター\n・BS12「クルーズ旅」\n・TOKYO FM「Roomie Roomie!」サッポロビール中継リポーター\n・ラジオショッピングキャスター\n【見出し】【cm/VP/インフォマーシャル】\n・阪急交通社旅番組リポーター（ポルトガル、フランス、中欧3ヵ国、トルコ、スペイン、イタリア、台湾、沖縄、クルーズ、カンボジア、アラブ首長国連邦、インド、エジプト、タイ、ベトナムなど）\n・やずや\n・美彩生\n・長寿の里「百花プレミアム石鹸」\n・盛田屋「豆乳石鹸」\n・新日本製薬「パーフェクトワン」\n・アサヒ緑建\n・利尻ヘアカラートリートメント リポーター\n・アサヒフードアンドヘルスケア「グルコサミン」リポーター\n・ユーグレナ リポーター\n・大鵬薬品「バップフォーレディ」cm\n・太陽生命cm\n・福岡ニッサンcm\n・九州電力cm\n・ハローデイcm\n・Docomocm\n・JR九州高速船「BEETLE」cm\n・久原本家ポン酢cm\n・マルタイラーメンcm\n・ウエムラエナジーcm\n・ゴールドジムcm\n・東京エレクトロン九州cm\n・医療法人唐虹会「虹と海のホスピタル」cm\n・ベスト電器cm\n・オートバックスcm\n・なた豆スッキリ歯磨き粉cm\n・UNIQLO cm\n・朝倉市プロモーション動画 暮らし編\n・マッサージクッション WITH COCO\n・若松ボートレース「北九州ミラクル 植木通彦☆つなぐプロジェクト」\n・ブラカイドー島原編 リポーター\n・積水ハウス動画 リポーター\n・東京建物「ブリリア西新」入居者用案内動画\n・ワンピース法律事務所cm\n・ヤンマー建機紹介動画\n・斉藤工務店動画\n・ナリス化粧品WEB動画\n・Watab（ウォータブ）Webcm\n・国土交通省「九州風景街道（島原半島うみやま街道）」リポーター\n・大京不動産プロモーションモデル\n・泡盛スピリッツPV\n・横河レンタリース紹介VP\n【見出し】【ナレーション】\n・公益財団法人東京観光財団プロモーション動画ナレーション\n・新日本製薬会社紹介ナレーション\n・むなかた季楽里プロモーションビデオナレーション\n・RKB麻日放送「ナチュ日和」ナレーション\n・福太郎めんたいせんべい工場案内映像 めんたいママ＆めんべい少年＆めんべい君役\n・アサヒ緑健康cmナレーション\n・ファミリーマート沖縄cmナレーション\n・典礼会館動画ナレーション\n・新年企業cmナレーション\n・コープ共済動画 お隣さん役\n・ワミレスコングレス動画ナレーション\n・宗像フェスcmナレーション\n・ハウステンボスエジブト展ブース内ナレーション\n・360度VR食堂 おばあちゃんアバターの声\n・通販番組アテレコ\n【見出し】【映画/ドラマ】\n・映画「めんたいぴりり」石切貴子役\n・映画「断捨離パラダイス」河本理那役\n・短編映画「四柱女神」長女SEI役\n・映画「こどもばんぱく」高橋凛子役\n・映画「青空コンチェルト」山本多恵役\n・短編映画「猫背の選択肢」わさびの母役\n・短編映画「あいのしま」島の店主役\n・マレーシアドラマ「FROM SAGA WITH LOVE」ヘアメイクアップアーティスト役（動画配信サービス Viu にて配信中）\n・韓国映画「Layover Hotel」CA役\n【見出し】【モデル】\n・アシックススチールモデル\n・ASPIDA美容クリーム広告ビジュアルモデル\n・ドライビングスクール折尾パンフレット\n・カメリアラインプロモーションPV\n・コンフィットWEB、HPスチール\n・脱毛サロン恋肌 SNS広告\n・JR九州高速船「BEETLE」PV\n・GOLD RUSH 展示会用SNSモデル\n【見出し】【ダンスパフォーマンス】\n・タモリカップ\n・吉村作治先生傘寿お祝い会\n・EOアワード\n・黄綬褒章授賞祝賀会\n・ロータリー創立記念夜間例会\n・美容生活衛生同業組合クリスマスパーティ in リッツカールトン福岡",
     "careerRight": "【見出し】【記者発表会】\n・アサヒビール「未来のレモンサワー」九州沖縄上陸お披露目PRイベント（桜井ユキ）\n・韓国観光公社コリアプラザリニューアルイベント（キムカナ）\n・キャノンメディカルシステムズ医療機器世界初お披露目会\n・筑後川Bizメディアサテライト 完成披露会\n【見出し】【イベント】\n・東京都レディGO！おしごとフェスタ（野々村友紀子、料理家 松山絵美）\n・鹿児島フェス（国生さゆり）\n・ブライダルフェア（道端カレン、小森純）\n・複合施設イベント（アーティスト森本千絵）\n・複合施設イベント（ツリーハウスクリエイター小林崇）\n・ビューティーフェス（紗栄子）\n・魚住りえ出版トークショー\n・学園祭（簡秀吉）\n・台湾エクセレンス（リン・チーリン）\n・商業施設イベント（デジタルイラストレーターナカキパンツ）\n・西鉄バスキャラクターイベント（イラストレーターパントビスコ）\n・福岡市主催一人一花スプリングフェス\n・ミス・アースコンテスト福岡大会\n・九州旅博覧会/韓国観光公社（もーちい、余慶尚美）\n・RKB住宅展示場トークショー（スザンヌ、中上真亜子）\n・K1ボクサーK-jee朝久泰央トークショー\n・DX 総合 EXPO\n・パナソニックプライベートショー\n・ポケモンビンゴ\n・天神コアファッションショー\n・西部ガスプレゼンツ コウケンテツお料理イベント\n・ホテル日航福岡 天童よしみディナーショー\n・ホテル日航福岡 鈴木雅之ディナーショー\n・福岡中央銀行運動会\n・九州日産 大運動会\n・福岡クリスマスマーケット\n・福津スポーツフェスタ\n・九州電力「こども科学研究室」ツアーMC\n・佐賀競馬「さがけいば祭り」\n・日韓交流フェスティバル＆ミュージックフェスティバル in 宗像 総合MC\n・日韓交流の夕べ決起会\n・日韓海峡沿岸県市道交流 知事会議\n・カラリズム×ピアノジャックマン アートライブ～画～\n・TVQ主催アコースティックライブ 影ナレ\n・ドライブインシアター大阪 影ナレ\n・宮崎物産展 in リバーウォーク\n・福岡ボクシングジムイベント\n・オーシャンバレエスクール ShowCase\n・ちょこモ主催ミュージカル\n・広島ウインドオーケストラ佐世保公演・北九州公演 影ナレ\n・台湾観光プロモーション BtoB イベント\n・台湾観光プロモーション BtoC イベント\n・福岡城桜祭り\n・アジア獣医師会連合FAVA2022/ゼノアック\n・サガシル in 福岡\n・各企業決起会\n・各企業スポーツ大会\n・宗像ユリックス吹奏楽団 演奏会 ゲストMC\n・上村建陶 開会式＆イベント\n・須恵高等学校 吹奏楽部定期演奏会\n・ゆめタウン久留米ヘアショー\n・サンリブ宗像 新年イベント\n・サンリブシティ小倉 新春イベント\n・藤島部屋九州場所交流イベント\n・二子山部屋九州場所交流イベント\n・映画試写会\n・東京都サイバーセキュリティー配信番組\n・ブライダル（日航福岡、グランドハイアット、ヒルトン、ニューオータニ、オークラ、他多数）\n【見出し】【トークショー】\n・桜井ユキ、国生さゆり、野々村友紀子、紗栄子、道端カレン、小森純、簡秀吉、リン・チーリン、魚住りえ、キムカナ、もーちい、余慶尚美、スザンヌ、中上真亜子、朝久泰央、パントビスコ、ナカキパンツ、森本千絵、小林崇、料理家 松山絵美、他多数\n【見出し】【セミナー】\n・ジョーシスExective club\n・東京大学バイオデザイン主催Tokyo Biodesign Healthtech Innovation Day 2025\n・BIOVIA User Group Meeting Japan\n・重粒子線ガン治療講演会\n・HIUローカルアカデミー福岡セミナー\n・大福不動産セミナー\n【見出し】【式典】\n・魁皇表彰式\n・中学硬式野球大会表彰式\n・第25回 日韓親善アリランレース表彰式\n・K1福岡大会祝勝会\n・トリアーダ宗像リニューアルオープン記念式典\n・福岡スマートシティアワード\n・アジアデジタルアート大賞展ADAA2022表彰式\n・GOLFコンペ表彰式\n・ロイヤルホテル宗像30周年\n・黄綬褒章受賞祝賀会\n・Fbeiホールディングスグループ(株)ケイエム35周年祝宴\n・宗像市成人式\n・福岡・博多ヨットクラブレース表彰式\n・福岡モーターショー2023開会式\n・ふくこいアジア祭り2023表彰式\n・東急リースグループアワード\n・レバウェルkickoff meeting表彰式\n・レバテック総会表彰式\n【見出し】【その他】\n・ラテンダンスヴォーカルユニット エスティロカラメロ MC＆ダンスメンバー\n・カワムラバンド(サザンオールスターズコピーバンド）元バックダンサー\n・MCレッスン講師\n・スイミングインストラクター\n・ZUMBA（ラテン系ダンスエクササイズ）インストラクター\n・STRONG NATION インストラクター\n・関西コレクションキッズモデルオーディション審査員\n・韓国語講師\n・博多弁台本セリフ変え\n・福岡PR隊\n・オンライン観光ツアー添乗員\n・選挙ウグイス",
@@ -1517,7 +1517,7 @@ const CAST_DATA = [
     "regions": [
       "関東"
     ],
-    "image": "uploads/2022/05/南青良07-2.jpg",
+    "image": "../uploads/2022/05/南青良07-2.jpg",
     "audio": "uploads/2022/05/み_南青良MC.mp3",
     "sns": {
       "instagram": "https://www.instagram.com/minami.seira_insta/?hl=ja",
@@ -1526,8 +1526,8 @@ const CAST_DATA = [
       "facebook": ""
     },
     "images": [
-      "uploads/2022/05/南青良07-2.jpg",
-      "uploads/2022/05/南青良12-2.jpg"
+      "../uploads/2022/05/南青良07-2.jpg",
+      "../uploads/2022/05/南青良12-2.jpg"
     ],
     "audios": [
       "uploads/2022/05/み_南青良MC.mp3"
@@ -1561,7 +1561,7 @@ const CAST_DATA = [
     "regions": [
       "関東"
     ],
-    "image": "uploads/2021/09/1559764620-214066_2.jpg",
+    "image": "../uploads/2021/09/1559764620-214066_2.jpg",
     "audio": "uploads/2021/09/い_石崎賢一_日英.mp3",
     "sns": {
       "instagram": "https://www.instagram.com/ishizaki.kenichi/?hl=ja",
@@ -1570,9 +1570,9 @@ const CAST_DATA = [
       "facebook": ""
     },
     "images": [
-      "uploads/2021/09/1559764620-214066_2.jpg",
-      "uploads/2022/06/20221228ishizaki-2.jpg",
-      "uploads/2021/09/石崎賢一01.jpg"
+      "../uploads/2021/09/1559764620-214066_2.jpg",
+      "../uploads/2022/06/20221228ishizaki-2.jpg",
+      "../uploads/2021/09/石崎賢一01.jpg"
     ],
     "audios": [
       "uploads/2021/09/い_石崎賢一_日英.mp3"
@@ -1608,7 +1608,7 @@ const CAST_DATA = [
     "regions": [
       "関東"
     ],
-    "image": "uploads/2021/09/1618907574-663304_2.jpg",
+    "image": "../uploads/2021/09/1618907574-663304_2.jpg",
     "audio": "uploads/2022/03/マシューまさるバロン_MC日英.mp3",
     "sns": {
       "instagram": "https://www.instagram.com/matthew_masaru_barron/?hl=ja",
@@ -1617,9 +1617,9 @@ const CAST_DATA = [
       "facebook": ""
     },
     "images": [
-      "uploads/2021/09/1618907574-663304_2.jpg",
-      "uploads/2022/03/マシューまさるバロン10-2.jpg",
-      "uploads/2022/03/マシューまさるバロン20.jpg"
+      "../uploads/2021/09/1618907574-663304_2.jpg",
+      "../uploads/2022/03/マシューまさるバロン10-2.jpg",
+      "../uploads/2022/03/マシューまさるバロン20.jpg"
     ],
     "audios": [
       "uploads/2022/03/マシューまさるバロン_MC日英.mp3"
@@ -1649,7 +1649,7 @@ const CAST_DATA = [
     "regions": [
       "関東"
     ],
-    "image": "uploads/2022/06/西垣峻宏04.jpg",
+    "image": "../uploads/2022/06/西垣峻宏04.jpg",
     "audio": "",
     "sns": {
       "instagram": "https://www.instagram.com/mc_nishigaki/",
@@ -1658,9 +1658,9 @@ const CAST_DATA = [
       "facebook": "https://www.facebook.com/mcnishigaki"
     },
     "images": [
-      "uploads/2022/06/西垣峻宏04.jpg",
-      "uploads/2022/06/MCニシガキ05-2.jpg",
-      "uploads/2021/09/西垣峻宏13-2.jpg"
+      "../uploads/2022/06/西垣峻宏04.jpg",
+      "../uploads/2022/06/MCニシガキ05-2.jpg",
+      "../uploads/2021/09/西垣峻宏13-2.jpg"
     ],
     "careerLeft": "【見出し】【表彰式/記者発表/式典】\n・パナソニックコネクト「レッツノート」新モデル発表会\n・タグ・ホイヤー フォーミュラ1×マリオカート リミテッドエディション発表会\n・CHRISTIAN ROLAND Xmas LIMITED STORE（ROLAND、當間ローズ）\n・ベストフォーマルウェアアワード\n・「BTPN Blocnchain Meet up」品川GOOS\n・本田孝保 東久邇宮記念賞受賞パーティー\n・ジュピタープロジェクト ミートアップ in 東京\n・車メーカー リーダーズコンベンション表彰式\n【見出し】【展示会/イベント/フェス/リポート】\n・PRADAイベント\n・LOEWEイベント\n・タカラトミー商談会ゲーム実況\n・BDSバイクセンサー真夏の祭典（くっきー！）\n・InterBEE/パナソニック\n・染谷俊之さん×Dermalogica インスタライブ\n・NHK土曜ドラマ「スニッファー 嗅覚捜査官」広報イベント\n・河村隆一さん所属グループ「Tourbillon 」NEWアルバムリリーストークイベント\n・Belle epoque LIVE 2021\n・May J.×ROUND1_全国カラオケイベント in 静岡\n・東京ゲームショウ/グリー\n・東京おもちゃショー/タカラトミーチャンネル生放送\n・テレビ朝日系列BREAK OUT祭 ～POP-UP GaLLeRY～\n・バブルラン大阪\n・スポーツ博覧会東京 よしもと芸人と一緒に！大人が楽しむ運動会\n・マイナビ主催「JOL*fes」\n・日本財団主催 海と日本PROJECT「未来の海の運動会」\n・未来の運動会シリーズ（東京、大阪、京都、山口）\n・WE COLLECTION OSAKA in Zepp\n・三十路祭りin 名古屋\n・ビキニフェス\n・テレビ神奈川、テレビ埼玉 音楽番組「夢かなえるまで2」公開収録ライブ\n【見出し】【cm/VP】\n・新菱冷熱工業WEB cm\n・JA全農みやぎ「だて正夢」TVcm\n・Jackery Japan商品紹介動画ナビゲーター\n・Saffe顔認証システム「スマートグラス」使用例　吉田太郎役\n・JVC「Everio R」基本機能総合編　父役\n・「いろはす」cm\n・「白鶴丸」cm\n・「ドロリッチ」cm\n・「アリナミンA」cm\n【見出し】【映画】\n・「わが母の記」\n・「海猿 BRAVE HEARTS」\n・「ボクたちの交換日記」",
     "careerRight": "【見出し】【TVドラマ】\n・「謎解きはディナーのあとで」\n・「ストロベリーナイト」\n・「パパドル」\n・「37歳で医者になった僕～研修医純情物語～」\n・「TOKYOエアポート～東京空港管制保安部～」\n・「嬢王3～Special Edition～」\n・「ビギナーズ!」\n・「土俵ガール」\n・「大切なことはすべて君が教えてくれた」\n・「早海さんと呼ばれる日」\n・「絶対零度～特殊犯罪潜入操作～」\n・「陽はまた昇る」\n・「CONTROL～犯罪心理操作～」\n・「ハンチョウ～神南署安積班」\n・「それでも、生きてゆく」\n・「HUNTER～その女たち、賞金稼ぎ～」\n・「最後から二番目の恋」\n・「Wの悲劇」\n・「最後の晩餐」\n・「世にも奇妙な物語」\n・「花ざかりのきみたちへ～イケメン☆パラダイス2011」\n・「主に泣いています」\n・「もう一度君に、プロポーズ」\n・「特命戦隊ゴーバスターズ」\n・「非公認戦隊アキバレンジャー」\n・「クロヒョウ2」\n・「造花の蜜」\n【見出し】【TVバラエティ】\n・日本テレビ「踊る！さんま御殿!!」再現VTR\n・日本テレビ「愛され女と独身有田」\n【見出し】【モデル】\n・nano universe セットアップスーツ「ダメリーノ」モデル\n・テニスウェアメーカー「röche」カタログモデル\n・ヤーマン株式会社「メンズ美容機器」モデル\n・横井定株式会社マスクAIモデル\n【見出し】【その他】\n・披露宴　年間30本\n・イベント　年間150本\n・セミナー、芸能スクール講師　年間50本",
@@ -1688,7 +1688,7 @@ const CAST_DATA = [
     "regions": [
       "関東"
     ],
-    "image": "uploads/2021/09/1423105835-345820_2.jpg",
+    "image": "../uploads/2021/09/1423105835-345820_2.jpg",
     "audio": "uploads/2021/09/こ_古藤ジョウジ.mp3",
     "sns": {
       "instagram": "",
@@ -1697,9 +1697,9 @@ const CAST_DATA = [
       "facebook": ""
     },
     "images": [
-      "uploads/2021/09/1423105835-345820_2.jpg",
-      "uploads/2021/09/1423105835-345820_3.jpg",
-      "uploads/2022/06/古藤ジョウジ10.jpg"
+      "../uploads/2021/09/1423105835-345820_2.jpg",
+      "../uploads/2021/09/1423105835-345820_3.jpg",
+      "../uploads/2022/06/古藤ジョウジ10.jpg"
     ],
     "audios": [
       "uploads/2021/09/こ_古藤ジョウジ.mp3"
@@ -1729,7 +1729,7 @@ const CAST_DATA = [
     "regions": [
       "関東"
     ],
-    "image": "uploads/2021/09/1563434974-844334_2.jpg",
+    "image": "../uploads/2021/09/1563434974-844334_2.jpg",
     "audio": "uploads/2022/03/き_木曽さんちゅう.mp3",
     "sns": {
       "instagram": "https://www.instagram.com/kisosanchu/?hl=ja",
@@ -1738,8 +1738,8 @@ const CAST_DATA = [
       "facebook": ""
     },
     "images": [
-      "uploads/2021/09/1563434974-844334_2.jpg",
-      "uploads/2021/09/1563434974-844334_3.jpg"
+      "../uploads/2021/09/1563434974-844334_2.jpg",
+      "../uploads/2021/09/1563434974-844334_3.jpg"
     ],
     "audios": [
       "uploads/2022/03/き_木曽さんちゅう.mp3"
@@ -1770,7 +1770,7 @@ const CAST_DATA = [
     "regions": [
       "関東"
     ],
-    "image": "uploads/2021/09/1598197489-483821_2.jpg",
+    "image": "../uploads/2021/09/1598197489-483821_2.jpg",
     "audio": "uploads/2022/03/ほ_堀口達哉.mp3",
     "sns": {
       "instagram": "",
@@ -1779,8 +1779,8 @@ const CAST_DATA = [
       "facebook": ""
     },
     "images": [
-      "uploads/2021/09/1598197489-483821_2.jpg",
-      "uploads/2021/09/1598197489-483821_3.jpg"
+      "../uploads/2021/09/1598197489-483821_2.jpg",
+      "../uploads/2021/09/1598197489-483821_3.jpg"
     ],
     "audios": [
       "uploads/2022/03/ほ_堀口達哉.mp3"
@@ -1816,7 +1816,7 @@ const CAST_DATA = [
       "関東",
       "関西"
     ],
-    "image": "uploads/2022/05/吉﨑智宏03-0.jpg",
+    "image": "../uploads/2022/05/吉﨑智宏03-0.jpg",
     "audio": "uploads/2022/05/よ_吉﨑智宏.mp3",
     "sns": {
       "instagram": "https://www.instagram.com/yoshi_chihiro/?hl=ja",
@@ -1825,10 +1825,10 @@ const CAST_DATA = [
       "facebook": "https://www.facebook.com/chihiro.yoshizaki.3"
     },
     "images": [
-      "uploads/2022/05/吉﨑智宏03-0.jpg",
-      "uploads/2022/05/吉﨑智宏14.jpg",
-      "uploads/2022/05/吉﨑智宏23.jpg",
-      "uploads/2022/05/吉﨑智宏12-1.jpg"
+      "../uploads/2022/05/吉﨑智宏03-0.jpg",
+      "../uploads/2022/05/吉﨑智宏14.jpg",
+      "../uploads/2022/05/吉﨑智宏23.jpg",
+      "../uploads/2022/05/吉﨑智宏12-1.jpg"
     ],
     "audios": [
       "uploads/2022/05/よ_吉﨑智宏.mp3"
@@ -1857,7 +1857,7 @@ const CAST_DATA = [
     "regions": [
       "関東"
     ],
-    "image": "uploads/2021/09/1623389547-667546_2.jpg",
+    "image": "../uploads/2021/09/1623389547-667546_2.jpg",
     "audio": "",
     "sns": {
       "instagram": "https://www.instagram.com/serryserry/?hl=ja",
@@ -1866,8 +1866,8 @@ const CAST_DATA = [
       "facebook": ""
     },
     "images": [
-      "uploads/2021/09/1623389547-667546_2.jpg",
-      "uploads/2021/09/1623389547-667546_3.jpg"
+      "../uploads/2021/09/1623389547-667546_2.jpg",
+      "../uploads/2021/09/1623389547-667546_3.jpg"
     ],
     "careerLeft": "【見出し】【TV】\n・フジテレビ系「いいものサタデー」レギュラー\n・フジテレビ系「DJモノフェスタ」レギュラー\n・QVC「エビス化粧品」アドバイザーレギュラー（2018年11月～現在）\n・QVCナビゲーターレギュラー（2022年4月～現在）\n・マイケア「わさシボール」インフォマーシャル\n・CS放送ショッピング専門チャンネル「フジテレビ．ディノス（その後『ディノス・チャンネル』に改名）」専属セールスアンカー（2004年4月～2007年12月）\n・フジテレビ系「ひるこた ！」の通販コーナー「セリーのなないろビューティ」レギュラー（2006年4月～2007年3月）\n・フジテレビ系「D-1選手権」\n・フジテレビ系「高田純次の！ヨイショ　秋の京都“こだわり逸品”買い物旅」\n・フジテレビ系「夜の物産店　逸品！北海道」\n・フジテレビ系「舞妓さんもビックリ！？高田純次の秋の京都で逸品を探せ！」\n・フジテレビ系「ハピふる！」の通販コーナー「ファイヤー！バイヤー！！」レギュラー（2007年10月～2008年3月）\n・フジテレビ系「ハピふる！」の通販コーナー「いいものWAVE」レギュラー（2008年4月～2008年9月）\n・フジテレビ系「スパイスTVどーもキニナル！」の通販コーナー「楠田枝里子のいいものプレミアム」レギュラー（2009年10月～2010年3月）\n・フジテレビ 系「ワケありねーさん」レギュラー（2011年4月～2012年3月）\n・フジテレビ系「スキモノ！」レギュラー（2012年4月～2013年3月）\n【見出し】【WEB】\n・東京都交通局「みんくるショッピング」おすすめバス路線紹介ナビゲーター\n・タカラトミーONLINEおもちゃショーナビゲーター\n・EBiS化粧品公式チャンネルナビゲーター",
     "careerRight": "【見出し】【イベント】\n・バスまつり2024\n・フードスタイリストマロンライブイベント\n・ヒデとロザンナ ロザンナデビュー50周年記念ライブ\n・株式会社ディノス・セシール　創立45周年記念パーティ総合司会\n・株式会社ベルパーク　クリスマスパーティ\n・ワタベウェディング　新作ドレス発表会\n・フードスタイリストマロン　聖誕祭\n・各種ブライダルファッションショー\n・各種お見合いパーティー\n【見出し】【ウェディング】\n・ラロシェル南青山\n・ラロシェル山王\n・リヴァデリエトゥルスキ\n・ヒルトン小田原リゾート＆スパ\n・ノートルダム横浜みなとみらい\n・ボンボンボンラフェメゾン\n【見出し】【その他】\n・アンミカさん、IKKOさんなどタレント掛け合い経験多数\n・セミナー講師\n・エビス化粧品HP、メルマガにて美容コラム執筆中",
@@ -1896,7 +1896,7 @@ const CAST_DATA = [
     "regions": [
       "関東"
     ],
-    "image": "uploads/2021/09/1422169559-956858_2.jpg",
+    "image": "../uploads/2021/09/1422169559-956858_2.jpg",
     "audio": "uploads/2022/03/も_森泉宏一.mp3",
     "sns": {
       "instagram": "https://www.instagram.com/mkoichi14/?hl=ja",
@@ -1905,9 +1905,9 @@ const CAST_DATA = [
       "facebook": ""
     },
     "images": [
-      "uploads/2021/09/1422169559-956858_2.jpg",
-      "uploads/2021/09/1422169559-956858_3.jpg",
-      "uploads/2022/03/森泉宏一26.jpg"
+      "../uploads/2021/09/1422169559-956858_2.jpg",
+      "../uploads/2021/09/1422169559-956858_3.jpg",
+      "../uploads/2022/03/森泉宏一26.jpg"
     ],
     "audios": [
       "uploads/2022/03/も_森泉宏一.mp3"
@@ -1939,7 +1939,7 @@ const CAST_DATA = [
     "regions": [
       "関東"
     ],
-    "image": "uploads/2021/09/1592910968-868678_2.jpg",
+    "image": "../uploads/2021/09/1592910968-868678_2.jpg",
     "audio": "",
     "sns": {
       "instagram": "https://www.instagram.com/wtotakasan/?hl=ja",
@@ -1948,9 +1948,9 @@ const CAST_DATA = [
       "facebook": ""
     },
     "images": [
-      "uploads/2021/09/1592910968-868678_2.jpg",
-      "uploads/2021/09/1592910968-868678_3.jpg",
-      "uploads/2021/09/1592910968-868678_4.jpg"
+      "../uploads/2021/09/1592910968-868678_2.jpg",
+      "../uploads/2021/09/1592910968-868678_3.jpg",
+      "../uploads/2021/09/1592910968-868678_4.jpg"
     ],
     "careerLeft": "【見出し】【MA】\n・ライフネット生命「au医療保険」cm　青年役＆老人役\n【見出し】【MC】\n・ブレイブフロンティアチャンネル　レギュラー出演\n・アルティメット人狼6\n【見出し】【モデル】\n・ディズニープラスWEB動画 マサイさん友人役\n・エステールホールディングス ハンドモデル\n・ニトリルームウェアモデル\n・チャンバラ合戦/本能寺の変～大脱出劇～　織田信長役\n・東京ゲームショウ2019/BEKKO GAMES「戦国布武」真田幸村役\n・東京ゲームショウ2018/ニキ「恋とプロデューサー」ゼン役\n・阪急阪神不動産PR動画 夫婦役\n・謎解きアミューズメント施設VPモデル\n・ゼクシィアプリ イメージモデル 新郎役\n・FTA(予言者育成学園Fortune Tellers Academy)×人狼TLPT動画出演中\n・各種ブライダルモデル多数",
     "careerRight": "【見出し】【舞台】\n・舞台「宇宙兄弟」真壁ケンジ役\n・舞台「ロードス島戦記」ウッドチャック役\n・舞台「PSYCHO-PASS」監視官羽島役\n・舞台「パラノイアショー」\n・舞台「人狼TLPT」シリーズ 仕立屋テイラー役等\n・舞台「ナンジャタウン×人狼TLPT」テイラー役\n・アトラクション公演「WAR→P in fantasy」シリーズ 道具屋ディラルヴァ役等\n【見出し】【コスプレイヤー】\n・「戦国布武」真田幸村役\n・「恋とプロデューサー」ゼン役\n・「ポケモンシリーズ」ダンデ、セキ\n・「スパイファミリー」ロイド・フォージャー\n・「吸血鬼すぐ死ぬ」ロナルド\n・「僕のヒーローアカデミア」心操人使\n・「塔の上のラプンツェル」フリン・ライダー",
@@ -1984,7 +1984,7 @@ const CAST_DATA = [
     "regions": [
       "関東"
     ],
-    "image": "uploads/2022/06/サイラス・望・セスナ01-2.jpg",
+    "image": "../uploads/2022/06/サイラス・望・セスナ01-2.jpg",
     "audio": "uploads/2022/06/サイラス・望・セスナ_cmナレーション集.mp3",
     "sns": {
       "instagram": "https://www.instagram.com/cyrusnozomusethna/",
@@ -1993,9 +1993,9 @@ const CAST_DATA = [
       "facebook": ""
     },
     "images": [
-      "uploads/2022/06/サイラス・望・セスナ01-2.jpg",
-      "uploads/2022/06/サイラス・望・セスナ10-2.jpg",
-      "uploads/2022/06/CyrusCasual1.jpg"
+      "../uploads/2022/06/サイラス・望・セスナ01-2.jpg",
+      "../uploads/2022/06/サイラス・望・セスナ10-2.jpg",
+      "../uploads/2022/06/CyrusCasual1.jpg"
     ],
     "audios": [
       "uploads/2022/06/サイラス・望・セスナ_cmナレーション集.mp3"
@@ -2024,7 +2024,7 @@ const CAST_DATA = [
     "regions": [
       "関東"
     ],
-    "image": "uploads/2022/07/青原健太04.jpg",
+    "image": "../uploads/2022/07/青原健太04.jpg",
     "audio": "",
     "sns": {
       "instagram": "",
@@ -2033,9 +2033,9 @@ const CAST_DATA = [
       "facebook": ""
     },
     "images": [
-      "uploads/2022/07/青原健太04.jpg",
-      "uploads/2022/07/青原健太13.jpg",
-      "uploads/2022/07/青原健太12-2.jpg"
+      "../uploads/2022/07/青原健太04.jpg",
+      "../uploads/2022/07/青原健太13.jpg",
+      "../uploads/2022/07/青原健太12-2.jpg"
     ],
     "careerLeft": "【見出し】【MC/ナレーター】\n・国際福祉機器展/TOTO　思いやりマン役\n【見出し】【役者】\n・TeamN’S劇団EXPO参加作品「ストーカー」三井役\n・演劇ユニット・パーバート第１回公演「喫茶店 vol.1」健司役\n・121841produce 第1回公演「DM～ダーティミラー～」江良井誠役\n・劇団ピンクメロンパン第14回公演「oboroge」タケシ役\n・劇薬混入団すくらっち第33回公演「Pieces～思い出のカケラを集めて～」 西岡洋役\n・劇団インフルエンザ第2回公演「漂流者～諸君狂いたまへ～吉田松陰密航記」宮部鼎蔵役\n・劇団ピンクメロンパン第9回公演「合理的エゴイスト」大学教授、ルドルフ役\n・劇団unlock旗揚げ公演「DM～ダブルミーニング～」 江良井誠刑事役",
     "careerRight": "【見出し】【モデル】\n・JAF「バイクもJAFのロードサービス」モデル\n・企業向けパンフレット エキストラ\n【見出し】【AD/ディレクター】\n・セミナー\n・展示会\n・コミケ\n・夏イベント\n・レース\n・その他、運営、誘導スタッフなど現場多数",
@@ -2062,7 +2062,7 @@ const CAST_DATA = [
     "regions": [
       "関東"
     ],
-    "image": "uploads/2021/09/1414695731-727148_2.jpg",
+    "image": "../uploads/2021/09/1414695731-727148_2.jpg",
     "audio": "uploads/2022/03/や_山内真衣.mp3",
     "sns": {
       "instagram": "https://www.instagram.com/yamamay1101/?hl=ja",
@@ -2071,9 +2071,9 @@ const CAST_DATA = [
       "facebook": ""
     },
     "images": [
-      "uploads/2021/09/1414695731-727148_2.jpg",
-      "uploads/2021/09/1414695731-727148_3.jpg",
-      "uploads/2021/09/1414695731-727148_4.jpg"
+      "../uploads/2021/09/1414695731-727148_2.jpg",
+      "../uploads/2021/09/1414695731-727148_3.jpg",
+      "../uploads/2021/09/1414695731-727148_4.jpg"
     ],
     "audios": [
       "uploads/2022/03/や_山内真衣.mp3"
@@ -2106,7 +2106,7 @@ const CAST_DATA = [
     "regions": [
       "関東"
     ],
-    "image": "uploads/2021/09/1602500048-294000_2.jpg",
+    "image": "../uploads/2021/09/1602500048-294000_2.jpg",
     "audio": "uploads/2022/02/は_陽乃舞歌_日英ブライダル.mp3",
     "sns": {
       "instagram": "",
@@ -2115,10 +2115,10 @@ const CAST_DATA = [
       "facebook": ""
     },
     "images": [
-      "uploads/2021/09/1602500048-294000_2.jpg",
-      "uploads/2021/09/1602500048-294000_3.jpg",
-      "uploads/2021/09/1602500048-294000_4.jpg",
-      "uploads/2022/02/陽乃舞歌11-2.jpg"
+      "../uploads/2021/09/1602500048-294000_2.jpg",
+      "../uploads/2021/09/1602500048-294000_3.jpg",
+      "../uploads/2021/09/1602500048-294000_4.jpg",
+      "../uploads/2022/02/陽乃舞歌11-2.jpg"
     ],
     "audios": [
       "uploads/2022/02/は_陽乃舞歌_日英ブライダル.mp3"
@@ -2149,7 +2149,7 @@ const CAST_DATA = [
     "regions": [
       "関東"
     ],
-    "image": "uploads/2024/11/佐生知嘉子03-2-1.jpg",
+    "image": "../uploads/2024/11/佐生知嘉子03-2-1.jpg",
     "audio": "uploads/2024/11/さ_佐生知嘉子NA.mp3",
     "sns": {
       "instagram": "https://www.instagram.com/chikakosasho/",
@@ -2158,9 +2158,9 @@ const CAST_DATA = [
       "facebook": ""
     },
     "images": [
-      "uploads/2024/11/佐生知嘉子03-2-1.jpg",
-      "uploads/2024/11/佐生知嘉子11-2-1.jpg",
-      "uploads/2024/11/佐生知嘉子12-2.jpg"
+      "../uploads/2024/11/佐生知嘉子03-2-1.jpg",
+      "../uploads/2024/11/佐生知嘉子11-2-1.jpg",
+      "../uploads/2024/11/佐生知嘉子12-2.jpg"
     ],
     "audios": [
       "uploads/2024/11/さ_佐生知嘉子NA.mp3"
@@ -2193,7 +2193,7 @@ const CAST_DATA = [
     "regions": [
       "関東"
     ],
-    "image": "uploads/2021/09/DSC_1758.jpg",
+    "image": "../uploads/2021/09/DSC_1758.jpg",
     "audio": "uploads/2022/08/①展示会.wav",
     "sns": {
       "instagram": "https://www.instagram.com/lapis_lazuli0510/",
@@ -2202,9 +2202,9 @@ const CAST_DATA = [
       "facebook": ""
     },
     "images": [
-      "uploads/2021/09/DSC_1758.jpg",
-      "uploads/2021/09/DSC_1791.jpg",
-      "uploads/2022/08/DSC_1805.jpg"
+      "../uploads/2021/09/DSC_1758.jpg",
+      "../uploads/2021/09/DSC_1791.jpg",
+      "../uploads/2022/08/DSC_1805.jpg"
     ],
     "audios": [
       "uploads/2022/08/①展示会.wav"
@@ -2237,7 +2237,7 @@ const CAST_DATA = [
     "regions": [
       "関東"
     ],
-    "image": "uploads/2025/08/山本秀子02-1.jpg",
+    "image": "../uploads/2025/08/山本秀子02-1.jpg",
     "audio": "uploads/2025/08/や_山本秀子_日本語＆中国語.mp3",
     "sns": {
       "instagram": "https://www.instagram.com/hideko_flamenco/",
@@ -2246,8 +2246,8 @@ const CAST_DATA = [
       "facebook": ""
     },
     "images": [
-      "uploads/2025/08/山本秀子02-1.jpg",
-      "uploads/2025/08/山本秀子01-1.jpg"
+      "../uploads/2025/08/山本秀子02-1.jpg",
+      "../uploads/2025/08/山本秀子01-1.jpg"
     ],
     "audios": [
       "uploads/2025/08/や_山本秀子_日本語＆中国語.mp3"
@@ -2277,7 +2277,7 @@ const CAST_DATA = [
     "regions": [
       "関東"
     ],
-    "image": "uploads/2022/04/爲澤浩子02-2.jpg",
+    "image": "../uploads/2022/04/爲澤浩子02-2.jpg",
     "audio": "uploads/2022/04/た_爲澤浩子.mp3",
     "sns": {
       "instagram": "",
@@ -2286,9 +2286,9 @@ const CAST_DATA = [
       "facebook": ""
     },
     "images": [
-      "uploads/2022/04/爲澤浩子02-2.jpg",
-      "uploads/2022/04/爲澤浩子11-2.jpg",
-      "uploads/2022/04/爲澤浩子03.jpg"
+      "../uploads/2022/04/爲澤浩子02-2.jpg",
+      "../uploads/2022/04/爲澤浩子11-2.jpg",
+      "../uploads/2022/04/爲澤浩子03.jpg"
     ],
     "audios": [
       "uploads/2022/04/た_爲澤浩子.mp3"
@@ -2318,7 +2318,7 @@ const CAST_DATA = [
     "regions": [
       "関東"
     ],
-    "image": "uploads/2021/09/1478428720-857607_2.jpg",
+    "image": "../uploads/2021/09/1478428720-857607_2.jpg",
     "audio": "uploads/2022/06/う_牛尾寿子.mp3",
     "sns": {
       "instagram": "https://www.instagram.com/chako_ushio/",
@@ -2327,9 +2327,9 @@ const CAST_DATA = [
       "facebook": ""
     },
     "images": [
-      "uploads/2021/09/1478428720-857607_2.jpg",
-      "uploads/2021/09/1478428720-857607_3.jpg",
-      "uploads/2021/09/1478428720-857607_4.jpg"
+      "../uploads/2021/09/1478428720-857607_2.jpg",
+      "../uploads/2021/09/1478428720-857607_3.jpg",
+      "../uploads/2021/09/1478428720-857607_4.jpg"
     ],
     "audios": [
       "uploads/2022/06/う_牛尾寿子.mp3"
@@ -2359,7 +2359,7 @@ const CAST_DATA = [
     "regions": [
       "関東"
     ],
-    "image": "uploads/2026/06/b0199f1c2b8f3ae74cfda417f5536f8c.jpg",
+    "image": "../uploads/2026/06/b0199f1c2b8f3ae74cfda417f5536f8c.jpg",
     "audio": "",
     "sns": {
       "instagram": "https://www.instagram.com/koa_kokoro/",
@@ -2368,9 +2368,9 @@ const CAST_DATA = [
       "facebook": ""
     },
     "images": [
-      "uploads/2026/06/b0199f1c2b8f3ae74cfda417f5536f8c.jpg",
-      "uploads/2026/06/f87f236557a0d8091029600af173966e.jpeg",
-      "uploads/2026/06/dc94755304afcb9ee49a340efa2a93bf.jpg"
+      "../uploads/2026/06/b0199f1c2b8f3ae74cfda417f5536f8c.jpg",
+      "../uploads/2026/06/f87f236557a0d8091029600af173966e.jpeg",
+      "../uploads/2026/06/dc94755304afcb9ee49a340efa2a93bf.jpg"
     ],
     "careerLeft": "【見出し】【TV】\n・テレビ埼玉「田村亮の釣りならまかせろ！」\n・TOKYO MX「バラいろダンディ」\n【見出し】【ラジオ】\n・鳥越アズーリFM「コアっくまびーむ！（仮）」MC\n・渋谷クロスFM「めっちゃ！よきラジ」アシスタントMC\n【見出し】【イベント】\n・デザインフェスタ vol.63 ワンコインランウェイMC\n・DX&AI Forum 2026 Spring 東京\n・コミックマーケット\n・横浜いちごフェスティバル\n・いちごパーティーイベント\n・競馬ラボ\n・東スポ杯プレゼンテーター（2回）\n・プロレス大賞\n・競馬場にてノベルティの配布等\n【見出し】【cm】\n・HIS「#いましか出来ないこと」WEBcm\n・SAKE TEAブランド「LUDENS」WEBcm\n・スープカレーチニタcm\n・ランズ珈琲cm\n・遠州山中酒造「葵天下」ポスター\n・ミニストップ広告\n【見出し】【ステージアテンド】\n・富士電機E&C/FEEC事業方針説明会（表彰式＆名刺交換会）",
     "careerRight": "【見出し】【映画/ドラマ】\n・短編映画「STREMER THAN PARADISE」主演 炎城茉莉役\n・TikTokドラマ「rikaちゃんコレクション」主演 莉香役\n・劇場版「ゴードン探偵事務所」清水里咲役\n・朗読劇「ハナカク」深山冬美役\n【見出し】【モデル】\n・マイナビウーマンWEB記事モデル\n・Canon EOS学園モデル\n・東スポ競馬ライブ出演\n・着物レンタル「ARISA」着物モデル\n・TGC teen ICHINOSEKI\n・JJ写真集「ひとりじめ」\n・JJnet掲載\n・週刊SPA!「グラビアン魂」\n・ヤングチャンピオンセンターグラビア\n・ヤングチャンピオンデジタル写真集\n・週刊SPA!「流した汗は嘘をつかない」雑誌＆YouTube\n【見出し】【受賞歴】\n・ミス東スポ2025グランプリ\n・ミスヤングチャンピオン2025グランプリ\n・ミスSPA!2023グランプリ\n・JJモデルオーディション2023グランプリ\n・ミスいちご2026アソシエイツ\n・ミスアキバ2026オノデン賞\n・アパホテル笑顔No.1コンテスト2025準グランプリ",
@@ -2401,7 +2401,7 @@ const CAST_DATA = [
       "関東",
       "関西"
     ],
-    "image": "uploads/2025/08/香月まどか01-2.jpg",
+    "image": "../uploads/2025/08/香月まどか01-2.jpg",
     "audio": "uploads/2025/08/香月まどか_PV.mp3",
     "sns": {
       "instagram": "https://www.instagram.com/m_d_k_710/",
@@ -2410,9 +2410,9 @@ const CAST_DATA = [
       "facebook": ""
     },
     "images": [
-      "uploads/2025/08/香月まどか01-2.jpg",
-      "uploads/2025/08/image2.jpeg",
-      "uploads/2025/08/香月まどか10-2.jpg"
+      "../uploads/2025/08/香月まどか01-2.jpg",
+      "../uploads/2025/08/image2.jpeg",
+      "../uploads/2025/08/香月まどか10-2.jpg"
     ],
     "audios": [
       "uploads/2025/08/香月まどか_PV.mp3"
@@ -2442,7 +2442,7 @@ const CAST_DATA = [
     "regions": [
       "関東"
     ],
-    "image": "uploads/2022/02/IMG_7517.jpeg",
+    "image": "../uploads/2022/02/IMG_7517.jpeg",
     "audio": "uploads/2022/02/や_山本実樹.mp3",
     "sns": {
       "instagram": "https://www.instagram.com/miori_aoishi/?hl=ja",
@@ -2451,10 +2451,10 @@ const CAST_DATA = [
       "facebook": ""
     },
     "images": [
-      "uploads/2022/02/IMG_7517.jpeg",
-      "uploads/2022/02/IMG_7518.jpeg",
-      "uploads/2022/02/IMG_7519.jpeg",
-      "uploads/2022/02/青石実央里27.jpg"
+      "../uploads/2022/02/IMG_7517.jpeg",
+      "../uploads/2022/02/IMG_7518.jpeg",
+      "../uploads/2022/02/IMG_7519.jpeg",
+      "../uploads/2022/02/青石実央里27.jpg"
     ],
     "audios": [
       "uploads/2022/02/や_山本実樹.mp3"
@@ -2487,7 +2487,7 @@ const CAST_DATA = [
     "regions": [
       "関東"
     ],
-    "image": "uploads/2021/09/1581492691-028768_2.jpg",
+    "image": "../uploads/2021/09/1581492691-028768_2.jpg",
     "audio": "uploads/2022/02/し_白石みゆ_日英.mp3",
     "sns": {
       "instagram": "https://www.instagram.com/mc_yuyu_0728/?hl=ja",
@@ -2496,9 +2496,9 @@ const CAST_DATA = [
       "facebook": ""
     },
     "images": [
-      "uploads/2021/09/1581492691-028768_2.jpg",
-      "uploads/2021/09/1581492691-028768_4.jpg",
-      "uploads/2021/09/1581492691-028768_3.jpg"
+      "../uploads/2021/09/1581492691-028768_2.jpg",
+      "../uploads/2021/09/1581492691-028768_4.jpg",
+      "../uploads/2021/09/1581492691-028768_3.jpg"
     ],
     "audios": [
       "uploads/2022/02/し_白石みゆ_日英.mp3"
@@ -2529,7 +2529,7 @@ const CAST_DATA = [
     "regions": [
       "関東"
     ],
-    "image": "uploads/2022/02/秋元リコ08.jpg",
+    "image": "../uploads/2022/02/秋元リコ08.jpg",
     "audio": "uploads/2021/09/あ_秋元リコ.mp3",
     "sns": {
       "instagram": "https://www.instagram.com/akimotorico/",
@@ -2538,10 +2538,10 @@ const CAST_DATA = [
       "facebook": ""
     },
     "images": [
-      "uploads/2022/02/秋元リコ08.jpg",
-      "uploads/2022/02/秋元リコ19.jpg",
-      "uploads/2022/02/秋元リコ07.jpg",
-      "uploads/2022/02/秋元リコ18.jpg"
+      "../uploads/2022/02/秋元リコ08.jpg",
+      "../uploads/2022/02/秋元リコ19.jpg",
+      "../uploads/2022/02/秋元リコ07.jpg",
+      "../uploads/2022/02/秋元リコ18.jpg"
     ],
     "audios": [
       "uploads/2021/09/あ_秋元リコ.mp3"
@@ -2570,7 +2570,7 @@ const CAST_DATA = [
     "regions": [
       "関東"
     ],
-    "image": "uploads/2026/05/93d8fb83ea417813e051721a6821ba93.jpg",
+    "image": "../uploads/2026/05/93d8fb83ea417813e051721a6821ba93.jpg",
     "audio": "uploads/2026/05/0f456d35012a6e7729bb560f06399095.mp3",
     "sns": {
       "instagram": "https://www.instagram.com/riii_maru162cm/",
@@ -2579,10 +2579,10 @@ const CAST_DATA = [
       "facebook": ""
     },
     "images": [
-      "uploads/2026/05/93d8fb83ea417813e051721a6821ba93.jpg",
-      "uploads/2026/05/76f022fa3b57d0d00eae6680140f3204.jpg",
-      "uploads/2026/05/5029c972bb67cad46ce0dfd4d4b481a8.jpg",
-      "uploads/2026/05/e98c26eabd72f5c0ea742c1ddcfb040f.jpg"
+      "../uploads/2026/05/93d8fb83ea417813e051721a6821ba93.jpg",
+      "../uploads/2026/05/76f022fa3b57d0d00eae6680140f3204.jpg",
+      "../uploads/2026/05/5029c972bb67cad46ce0dfd4d4b481a8.jpg",
+      "../uploads/2026/05/e98c26eabd72f5c0ea742c1ddcfb040f.jpg"
     ],
     "audios": [
       "uploads/2026/05/0f456d35012a6e7729bb560f06399095.mp3"
@@ -2612,7 +2612,7 @@ const CAST_DATA = [
     "regions": [
       "関東"
     ],
-    "image": "uploads/2024/01/柿沼里子01-2.jpg",
+    "image": "../uploads/2024/01/柿沼里子01-2.jpg",
     "audio": "uploads/2024/01/か_柿沼里子_VP.mp3",
     "sns": {
       "instagram": "https://www.instagram.com/satokokakinuma/",
@@ -2621,7 +2621,7 @@ const CAST_DATA = [
       "facebook": "https://www.facebook.com/profile.php?id=100009904897446"
     },
     "images": [
-      "uploads/2024/01/柿沼里子01-2.jpg"
+      "../uploads/2024/01/柿沼里子01-2.jpg"
     ],
     "audios": [
       "uploads/2024/01/か_柿沼里子_VP.mp3"
@@ -2652,7 +2652,7 @@ const CAST_DATA = [
     "regions": [
       "関東"
     ],
-    "image": "uploads/2022/02/e93f09547f5b95c555a79550d18328e0.jpg",
+    "image": "../uploads/2022/02/e93f09547f5b95c555a79550d18328e0.jpg",
     "audio": "uploads/2022/02/梅野せんり_フォーラムMC.mp3",
     "sns": {
       "instagram": "https://www.instagram.com/senriumeno/",
@@ -2661,10 +2661,10 @@ const CAST_DATA = [
       "facebook": ""
     },
     "images": [
-      "uploads/2022/02/e93f09547f5b95c555a79550d18328e0.jpg",
-      "uploads/2022/02/梅野せんり13.jpg",
-      "uploads/2022/02/梅野せんり08-1.jpg",
-      "uploads/2022/02/梅野せんり17.jpg"
+      "../uploads/2022/02/e93f09547f5b95c555a79550d18328e0.jpg",
+      "../uploads/2022/02/梅野せんり13.jpg",
+      "../uploads/2022/02/梅野せんり08-1.jpg",
+      "../uploads/2022/02/梅野せんり17.jpg"
     ],
     "audios": [
       "uploads/2022/02/梅野せんり_フォーラムMC.mp3"
@@ -2699,7 +2699,7 @@ const CAST_DATA = [
     "regions": [
       "関東"
     ],
-    "image": "uploads/2023/06/田島葉子03-2.jpg",
+    "image": "../uploads/2023/06/田島葉子03-2.jpg",
     "audio": "uploads/2023/06/た_田島葉子_ABC製薬.mp3",
     "sns": {
       "instagram": "https://www.instagram.com/yoko___tajima8532/",
@@ -2708,8 +2708,8 @@ const CAST_DATA = [
       "facebook": ""
     },
     "images": [
-      "uploads/2023/06/田島葉子03-2.jpg",
-      "uploads/2023/06/田島葉子04-2.jpg"
+      "../uploads/2023/06/田島葉子03-2.jpg",
+      "../uploads/2023/06/田島葉子04-2.jpg"
     ],
     "audios": [
       "uploads/2023/06/た_田島葉子_ABC製薬.mp3"
@@ -2739,7 +2739,7 @@ const CAST_DATA = [
     "regions": [
       "関東"
     ],
-    "image": "uploads/2021/09/1545296376-138203_2.jpg",
+    "image": "../uploads/2021/09/1545296376-138203_2.jpg",
     "audio": "",
     "sns": {
       "instagram": "https://www.instagram.com/maki_yu1007/?hl=ja",
@@ -2748,8 +2748,8 @@ const CAST_DATA = [
       "facebook": ""
     },
     "images": [
-      "uploads/2021/09/1545296376-138203_2.jpg",
-      "uploads/2021/09/1545296376-138203_3.jpg"
+      "../uploads/2021/09/1545296376-138203_2.jpg",
+      "../uploads/2021/09/1545296376-138203_3.jpg"
     ],
     "careerLeft": "【見出し】【VP】\n・関電不動産開発「シエリア蔵前」不動産セミナー動画インタビュアー\n・CASA COLOR ココリア多摩センター体験取材リポーター\n・東芝キヤリア「HEAT PUMP SOLUTION＠山梨」ナビゲーター\n【見出し】【MA】\n・貝印「アイスクリームメーカー」ナレーション\n【見出し】【オンライン】\n・ITトレンドオンラインLIVE配信\n・CEATECオンラインカンファレンス\n・パロアルトネットワークス・ジャパンパートナーデーバーチャル\n・「プロセスマイニングの衝撃」出版＆協会設立記念ライブ配信ウェビナー\n・ITリーダーズ・エグゼクティブミーティングWebライブ\n・アカマイテクノロジーズ主催ラウンドテーブル・オンライン\n・IOTセキュリティフォーラムオンライン\n・日立 JP1パートナーアワードライブ配信\n【見出し】【記者発表会】\n・コパトーン日焼け止め発表会（倉科カナ）\n【見出し】【イベント】\n・NIHONBASHI SPACE WEEKオープニングセレモニー＆レセプションパーティー\n・ミスユニバースジャパン公開オーディション、プロモーションイベント、アフターパーティ等（美馬寛子、板井麻衣子、宮坂絵美理）\n・エクササイズDVD「バイラバイラ」発売イベント（杏里、小島よしお、ヒロシ）\n・茨城マルシェイベント（羽田美智子、フルーツポンチ村上信二、ねばーる君）\n・東京オリンピックパラリンピックPRイベント（ウェルチェアラグビー選手）\n・NHKワンダーランド（ますだおかだ岡田、藤本美貴）\n・NHK放送技術研究公開\n・dancyu祭り\n・神奈川大学ホームカミングデー\n・バイエル薬品目のかがく教室2015～2016\n・東京カメラ部イベント（中井靖也、福田悟、タカウエアキラ、内山慎吾、菊池秀俊、浅井美紀 その他）\n・リクルート納会\n・Kobo×DNP 新書サミット\n・ランコムマスカライベント（田中マヤ）\n・ミンティアガール投票イベント\n・イオンつくばお正月イベント\n・ロリポップXmasイベント\n・KIRINプラスアイPRイベント\n・日産エコドライブ教室全国キャラバン\n・docomoイベント\n・auイベント\n【見出し】【セミナー】\n・日本ストラタステクノロジーカンファレンス\n・丸紅情報システムズ「Azure/0365を美味しく活用！”秘伝のタレ”伝授します」セミナー",
     "careerRight": "【見出し】【トークショー】※敬称略\n・タレント・・・杏里、小島よしお、ヒロシ、ますだおかだ岡田、藤本美貴、倉科カナ、羽田美智子、フルーツポンチ村上信二、ねばーる君\n・モデル・・・美馬寛子、板井麻衣子、宮坂絵美理、田中マヤ\n・カメラマン・・・中井靖也、福田悟、タカウエアキラ、内山慎吾、菊池秀俊、浅井美紀 その他多数\n・アスリート・・・ウェルチェアラグビー選手\n【見出し】【展示会】\n・COMNEXT/トレンドマイクロ\n・国際ロボット展/安川電機\n・JAPANドラッグストアショー/hoyu\n・Okamura Grand Fair\n・CSPI建設・測量生産性向上展/諸岡\n・インタービー/JVCケンウッド\n・CEATEC/YAMAHA、ROAM、SHARP、NEC\n・CP＋/NIKON\n・HVAC&R/DAIKIN\n・ITEM/東芝、日立\n・PAGE/SCREEN、2016/RICOH\n・IGAS/SCREEN\n・JGAS/SCREEN\n・JPCA SHOW/SCREEN\n・インターフェックス/SCREEN\n・Panasonic内覧会Super Box\n・Panasonic内覧会New Box\n・SHARP内覧会\n・HOSPEX/岡村製作所\n・モダンホスピタルショウ/岡村製作所\n・ダイソンアカデミー\n・ホテル&レストランショー/Panasonic\n・リテールテック/Panasonic\n・ドラッグストアショー/資生堂\n・エコプロダクツ/セブン&アイ\n・特許技術情報フェア/日立\n・シーフードショー/ノルウェー水産\n・設計製造ソリューション展\n・IT Week\n・ITプロ 春&秋\n・東京モーターショー/クラリオン\n・東京モーターショー/フォルクスワーゲン\n・東京オートサロン/TOYOタイヤ\n・東京ゲームショウ\n・PVエキスポ\n・インターロップ\n・人とくるまのテクノロジー\n・ENEX\n・東京ガス内覧会\n・大阪ガス内覧会\n【見出し】【モデル】\n・治療院マーケティング研究所 整体DVDモデル",
@@ -2774,7 +2774,7 @@ const CAST_DATA = [
     "regions": [
       "関東"
     ],
-    "image": "uploads/2025/08/豊田ユミ12-2.jpg",
+    "image": "../uploads/2025/08/豊田ユミ12-2.jpg",
     "audio": "uploads/2025/08/と_豊田ユミ_NA.mp3",
     "sns": {
       "instagram": "https://www.instagram.com/yumi_toyoda13/",
@@ -2783,10 +2783,10 @@ const CAST_DATA = [
       "facebook": ""
     },
     "images": [
-      "uploads/2025/08/豊田ユミ12-2.jpg",
-      "uploads/2025/08/豊田ユミ11-2.jpg",
-      "uploads/2025/08/豊田ユミ01-2.jpg",
-      "uploads/2025/08/豊田ユミ10-2.jpg"
+      "../uploads/2025/08/豊田ユミ12-2.jpg",
+      "../uploads/2025/08/豊田ユミ11-2.jpg",
+      "../uploads/2025/08/豊田ユミ01-2.jpg",
+      "../uploads/2025/08/豊田ユミ10-2.jpg"
     ],
     "audios": [
       "uploads/2025/08/と_豊田ユミ_NA.mp3"
@@ -2816,7 +2816,7 @@ const CAST_DATA = [
     "regions": [
       "関東"
     ],
-    "image": "uploads/2025/11/07e9edb394c487cb7e48d53e3a3b1bf7.jpg",
+    "image": "../uploads/2025/11/07e9edb394c487cb7e48d53e3a3b1bf7.jpg",
     "audio": "uploads/2025/11/77ff67c1caa2247b2cc7513fbaec7646.mp3",
     "sns": {
       "instagram": "https://www.instagram.com/chibiyurigram/?hl=ja",
@@ -2825,9 +2825,9 @@ const CAST_DATA = [
       "facebook": ""
     },
     "images": [
-      "uploads/2025/11/07e9edb394c487cb7e48d53e3a3b1bf7.jpg",
-      "uploads/2025/11/dec4da7d1a30d223d704d8760dbb1261.jpg",
-      "uploads/2025/11/d632eed502a13f85a9e9d3eb43199e28.jpg"
+      "../uploads/2025/11/07e9edb394c487cb7e48d53e3a3b1bf7.jpg",
+      "../uploads/2025/11/dec4da7d1a30d223d704d8760dbb1261.jpg",
+      "../uploads/2025/11/d632eed502a13f85a9e9d3eb43199e28.jpg"
     ],
     "audios": [
       "uploads/2025/11/77ff67c1caa2247b2cc7513fbaec7646.mp3"
@@ -2856,7 +2856,7 @@ const CAST_DATA = [
     "regions": [
       "関東"
     ],
-    "image": "uploads/2021/09/山上乃々05-2.jpg",
+    "image": "../uploads/2021/09/山上乃々05-2.jpg",
     "audio": "uploads/2021/09/や_山上乃々_明るめプレゼン.wav",
     "sns": {
       "instagram": "https://www.instagram.com/nonono_susume",
@@ -2865,9 +2865,9 @@ const CAST_DATA = [
       "facebook": ""
     },
     "images": [
-      "uploads/2021/09/山上乃々05-2.jpg",
-      "uploads/2021/09/山上乃々13-2.jpg",
-      "uploads/2021/09/山上乃々58.jpg"
+      "../uploads/2021/09/山上乃々05-2.jpg",
+      "../uploads/2021/09/山上乃々13-2.jpg",
+      "../uploads/2021/09/山上乃々58.jpg"
     ],
     "audios": [
       "uploads/2021/09/や_山上乃々_明るめプレゼン.wav"
@@ -2900,7 +2900,7 @@ const CAST_DATA = [
     "regions": [
       "関東"
     ],
-    "image": "uploads/2024/09/皆月沙耶02.jpg",
+    "image": "../uploads/2024/09/皆月沙耶02.jpg",
     "audio": "uploads/2024/09/み_皆月沙耶_eラーニング.mp3",
     "sns": {
       "instagram": "https://www.instagram.com/minasaya6/?hl=ja",
@@ -2909,10 +2909,10 @@ const CAST_DATA = [
       "facebook": ""
     },
     "images": [
-      "uploads/2024/09/皆月沙耶02.jpg",
-      "uploads/2024/09/皆月沙耶11.jpg",
-      "uploads/2024/09/皆月沙耶04.jpg",
-      "uploads/2024/09/皆月沙耶12.jpg"
+      "../uploads/2024/09/皆月沙耶02.jpg",
+      "../uploads/2024/09/皆月沙耶11.jpg",
+      "../uploads/2024/09/皆月沙耶04.jpg",
+      "../uploads/2024/09/皆月沙耶12.jpg"
     ],
     "audios": [
       "uploads/2024/09/み_皆月沙耶_eラーニング.mp3"
@@ -2944,7 +2944,7 @@ const CAST_DATA = [
       "関東",
       "関西"
     ],
-    "image": "uploads/2022/02/棟近ちなみ10.jpg",
+    "image": "../uploads/2022/02/棟近ちなみ10.jpg",
     "audio": "uploads/2022/02/棟近ちなみ_ニュース_2022.mp3",
     "sns": {
       "instagram": "https://www.instagram.com/chinami_munechika/?hl=ja",
@@ -2953,9 +2953,9 @@ const CAST_DATA = [
       "facebook": ""
     },
     "images": [
-      "uploads/2022/02/棟近ちなみ10.jpg",
-      "uploads/2022/02/棟近ちなみ22.jpg",
-      "uploads/2022/02/IMG_9064.jpeg"
+      "../uploads/2022/02/棟近ちなみ10.jpg",
+      "../uploads/2022/02/棟近ちなみ22.jpg",
+      "../uploads/2022/02/IMG_9064.jpeg"
     ],
     "audios": [
       "uploads/2022/02/棟近ちなみ_ニュース_2022.mp3"
@@ -2987,7 +2987,7 @@ const CAST_DATA = [
       "関東",
       "関西"
     ],
-    "image": "uploads/2025/08/林千寿02-2.jpg",
+    "image": "../uploads/2025/08/林千寿02-2.jpg",
     "audio": "uploads/2025/08/は_林千寿.mp3",
     "sns": {
       "instagram": "https://www.instagram.com/kiwa2432/",
@@ -2996,9 +2996,9 @@ const CAST_DATA = [
       "facebook": ""
     },
     "images": [
-      "uploads/2025/08/林千寿02-2.jpg",
-      "uploads/2025/08/林千寿11-2.jpg",
-      "uploads/2025/08/林千寿12.jpg"
+      "../uploads/2025/08/林千寿02-2.jpg",
+      "../uploads/2025/08/林千寿11-2.jpg",
+      "../uploads/2025/08/林千寿12.jpg"
     ],
     "audios": [
       "uploads/2025/08/は_林千寿.mp3"
@@ -3031,7 +3031,7 @@ const CAST_DATA = [
     "regions": [
       "関東"
     ],
-    "image": "uploads/2023/05/園矢英梨02-2.jpg",
+    "image": "../uploads/2023/05/園矢英梨02-2.jpg",
     "audio": "uploads/2023/05/そ_園矢英梨_日英.mp3",
     "sns": {
       "instagram": "https://www.instagram.com/eririn_shi/",
@@ -3040,9 +3040,9 @@ const CAST_DATA = [
       "facebook": ""
     },
     "images": [
-      "uploads/2023/05/園矢英梨02-2.jpg",
-      "uploads/2023/05/園矢英梨11-2.jpg",
-      "uploads/2023/05/園矢英梨34.jpg"
+      "../uploads/2023/05/園矢英梨02-2.jpg",
+      "../uploads/2023/05/園矢英梨11-2.jpg",
+      "../uploads/2023/05/園矢英梨34.jpg"
     ],
     "audios": [
       "uploads/2023/05/そ_園矢英梨_日英.mp3"
@@ -3073,7 +3073,7 @@ const CAST_DATA = [
     "regions": [
       "関東"
     ],
-    "image": "uploads/2025/03/佐藤愛03-2.jpg",
+    "image": "../uploads/2025/03/佐藤愛03-2.jpg",
     "audio": "uploads/2025/03/さ_佐藤愛_NA_Eスポーツ.mp3",
     "sns": {
       "instagram": "https://www.instagram.com/satoai07/",
@@ -3082,10 +3082,10 @@ const CAST_DATA = [
       "facebook": ""
     },
     "images": [
-      "uploads/2025/03/佐藤愛03-2.jpg",
-      "uploads/2025/03/佐藤愛11-2.jpg",
-      "uploads/2025/03/佐藤愛01-2.jpg",
-      "uploads/2025/03/佐藤愛10-2.jpg"
+      "../uploads/2025/03/佐藤愛03-2.jpg",
+      "../uploads/2025/03/佐藤愛11-2.jpg",
+      "../uploads/2025/03/佐藤愛01-2.jpg",
+      "../uploads/2025/03/佐藤愛10-2.jpg"
     ],
     "audios": [
       "uploads/2025/03/さ_佐藤愛_NA_Eスポーツ.mp3"
@@ -3118,7 +3118,7 @@ const CAST_DATA = [
     "regions": [
       "関東"
     ],
-    "image": "uploads/2022/07/中野えり04-2.jpg",
+    "image": "../uploads/2022/07/中野えり04-2.jpg",
     "audio": "uploads/2022/07/な_中野えり-1.mp3",
     "sns": {
       "instagram": "",
@@ -3127,9 +3127,9 @@ const CAST_DATA = [
       "facebook": ""
     },
     "images": [
-      "uploads/2022/07/中野えり04-2.jpg",
-      "uploads/2022/07/中野えり11-2.jpg",
-      "uploads/2022/07/中野えり12.jpg"
+      "../uploads/2022/07/中野えり04-2.jpg",
+      "../uploads/2022/07/中野えり11-2.jpg",
+      "../uploads/2022/07/中野えり12.jpg"
     ],
     "audios": [
       "uploads/2022/07/な_中野えり-1.mp3"
@@ -3163,7 +3163,7 @@ const CAST_DATA = [
     "regions": [
       "関東"
     ],
-    "image": "uploads/2022/02/勝又楓03-2.jpg",
+    "image": "../uploads/2022/02/勝又楓03-2.jpg",
     "audio": "uploads/2022/02/か_勝又楓NA.mp3",
     "sns": {
       "instagram": "https://www.instagram.com/i_am_kaedekatsumata/?hl=ja",
@@ -3172,11 +3172,11 @@ const CAST_DATA = [
       "facebook": ""
     },
     "images": [
-      "uploads/2022/02/勝又楓03-2.jpg",
-      "uploads/2022/02/勝又楓11-2.jpg",
-      "uploads/2022/02/勝又楓10-2.jpg",
-      "uploads/2022/02/勝又楓01.jpg",
-      "uploads/2022/02/勝又楓02.jpg"
+      "../uploads/2022/02/勝又楓03-2.jpg",
+      "../uploads/2022/02/勝又楓11-2.jpg",
+      "../uploads/2022/02/勝又楓10-2.jpg",
+      "../uploads/2022/02/勝又楓01.jpg",
+      "../uploads/2022/02/勝又楓02.jpg"
     ],
     "audios": [
       "uploads/2022/02/か_勝又楓NA.mp3"
@@ -3207,7 +3207,7 @@ const CAST_DATA = [
     "regions": [
       "関東"
     ],
-    "image": "uploads/2021/09/内田加奈子08.jpg",
+    "image": "../uploads/2021/09/内田加奈子08.jpg",
     "audio": "uploads/2024/06/う_内田加奈子_MC.mp3",
     "sns": {
       "instagram": "https://www.instagram.com/kanako_u_415/",
@@ -3216,10 +3216,10 @@ const CAST_DATA = [
       "facebook": ""
     },
     "images": [
-      "uploads/2021/09/内田加奈子08.jpg",
-      "uploads/2021/09/内田加奈子07.jpg",
-      "uploads/2024/06/内田加奈子12.jpg",
-      "uploads/2024/06/内田加奈子17.jpg"
+      "../uploads/2021/09/内田加奈子08.jpg",
+      "../uploads/2021/09/内田加奈子07.jpg",
+      "../uploads/2024/06/内田加奈子12.jpg",
+      "../uploads/2024/06/内田加奈子17.jpg"
     ],
     "audios": [
       "uploads/2024/06/う_内田加奈子_MC.mp3"
@@ -3256,9 +3256,10 @@ const CAST_DATA = [
     "regions": [
       "関東"
     ],
-    "image": "uploads/2022/03/月脚めぐみ09-2.jpg",
+    "image": "../uploads/2022/03/月脚めぐみ09-2.jpg",
     "images": [
-      "uploads/2022/03/月脚めぐみ09-2.jpg"
+      "../uploads/2022/03/月脚めぐみ09-2.jpg",
+      "../uploads/2022/03/月脚めぐみ15-2.jpg"
     ],
     "audio": "uploads/2022/03/つ_月脚めぐみNA.mp3",
     "audios": [
@@ -3290,7 +3291,7 @@ const CAST_DATA = [
     "regions": [
       "関東"
     ],
-    "image": "uploads/2021/09/1414696165-045171_2.jpg",
+    "image": "../uploads/2021/09/1414696165-045171_2.jpg",
     "audio": "uploads/2021/09/や_山口奈々.mp3",
     "sns": {
       "instagram": "",
@@ -3299,8 +3300,8 @@ const CAST_DATA = [
       "facebook": ""
     },
     "images": [
-      "uploads/2021/09/1414696165-045171_2.jpg",
-      "uploads/2021/09/1414696165-045171_3.jpg"
+      "../uploads/2021/09/1414696165-045171_2.jpg",
+      "../uploads/2021/09/1414696165-045171_3.jpg"
     ],
     "audios": [
       "uploads/2021/09/や_山口奈々.mp3"
@@ -3334,7 +3335,7 @@ const CAST_DATA = [
       "関東",
       "関西"
     ],
-    "image": "uploads/2022/02/青山りか06-2.jpg",
+    "image": "../uploads/2022/02/青山りか06-2.jpg",
     "audio": "uploads/2021/09/あ_青山りかNA.mp3",
     "sns": {
       "instagram": "",
@@ -3343,9 +3344,9 @@ const CAST_DATA = [
       "facebook": ""
     },
     "images": [
-      "uploads/2022/02/青山りか06-2.jpg",
-      "uploads/2021/09/青山りか10.jpg",
-      "uploads/2022/02/青山りか07-2.jpg"
+      "../uploads/2022/02/青山りか06-2.jpg",
+      "../uploads/2021/09/青山りか10.jpg",
+      "../uploads/2022/02/青山りか07-2.jpg"
     ],
     "audios": [
       "uploads/2021/09/あ_青山りかNA.mp3"
@@ -3375,7 +3376,7 @@ const CAST_DATA = [
     "regions": [
       "関東"
     ],
-    "image": "uploads/2021/09/1598198062-546842_2.jpg",
+    "image": "../uploads/2021/09/1598198062-546842_2.jpg",
     "audio": "uploads/2023/05/す_須山梨菜.mp3",
     "sns": {
       "instagram": "https://www.instagram.com/suyamarina/",
@@ -3384,9 +3385,9 @@ const CAST_DATA = [
       "facebook": ""
     },
     "images": [
-      "uploads/2021/09/1598198062-546842_2.jpg",
-      "uploads/2021/09/1598198062-546842_3.jpg",
-      "uploads/2021/09/1598198062-546842_4.jpg"
+      "../uploads/2021/09/1598198062-546842_2.jpg",
+      "../uploads/2021/09/1598198062-546842_3.jpg",
+      "../uploads/2021/09/1598198062-546842_4.jpg"
     ],
     "audios": [
       "uploads/2023/05/す_須山梨菜.mp3"
@@ -3418,7 +3419,7 @@ const CAST_DATA = [
     "regions": [
       "関東"
     ],
-    "image": "uploads/2023/07/柿沼佐智子05-1.jpg",
+    "image": "../uploads/2023/07/柿沼佐智子05-1.jpg",
     "audio": "uploads/2023/07/か_柿沼佐智子_DJ.mp3",
     "sns": {
       "instagram": "https://www.instagram.com/sachiko_honey/",
@@ -3427,8 +3428,8 @@ const CAST_DATA = [
       "facebook": ""
     },
     "images": [
-      "uploads/2023/07/柿沼佐智子05-1.jpg",
-      "uploads/2023/07/柿沼佐智子04-1.jpg"
+      "../uploads/2023/07/柿沼佐智子05-1.jpg",
+      "../uploads/2023/07/柿沼佐智子04-1.jpg"
     ],
     "audios": [
       "uploads/2023/07/か_柿沼佐智子_DJ.mp3"
@@ -3459,7 +3460,7 @@ const CAST_DATA = [
     "regions": [
       "関東"
     ],
-    "image": "uploads/2021/09/臼井しずか02-2.jpg",
+    "image": "../uploads/2021/09/臼井しずか02-2.jpg",
     "audio": "uploads/2022/08/うすいしずかセミナー.mp3",
     "sns": {
       "instagram": "",
@@ -3468,8 +3469,8 @@ const CAST_DATA = [
       "facebook": ""
     },
     "images": [
-      "uploads/2021/09/臼井しずか02-2.jpg",
-      "uploads/2021/09/臼井しずか11-2.jpg"
+      "../uploads/2021/09/臼井しずか02-2.jpg",
+      "../uploads/2021/09/臼井しずか11-2.jpg"
     ],
     "audios": [
       "uploads/2022/08/うすいしずかセミナー.mp3"
@@ -3500,7 +3501,7 @@ const CAST_DATA = [
     "regions": [
       "関東"
     ],
-    "image": "uploads/2022/07/茂木由香06-2.jpg",
+    "image": "../uploads/2022/07/茂木由香06-2.jpg",
     "audio": "uploads/2022/07/も_茂木由香.mp3",
     "sns": {
       "instagram": "https://www.instagram.com/mokaraiboku/",
@@ -3509,9 +3510,9 @@ const CAST_DATA = [
       "facebook": ""
     },
     "images": [
-      "uploads/2022/07/茂木由香06-2.jpg",
-      "uploads/2022/07/茂木由香14-2.jpg",
-      "uploads/2022/07/茂木由香12.jpg"
+      "../uploads/2022/07/茂木由香06-2.jpg",
+      "../uploads/2022/07/茂木由香14-2.jpg",
+      "../uploads/2022/07/茂木由香12.jpg"
     ],
     "audios": [
       "uploads/2022/07/も_茂木由香.mp3"
@@ -3545,7 +3546,7 @@ const CAST_DATA = [
     "regions": [
       "関東"
     ],
-    "image": "uploads/2021/09/1567229447-900079_2.jpg",
+    "image": "../uploads/2021/09/1567229447-900079_2.jpg",
     "audio": "uploads/2021/09/あ_荒井ゆき.mp3",
     "sns": {
       "instagram": "https://www.instagram.com/yuki.arai_326/?hl=ja",
@@ -3554,9 +3555,9 @@ const CAST_DATA = [
       "facebook": ""
     },
     "images": [
-      "uploads/2021/09/1567229447-900079_2.jpg",
-      "uploads/2021/09/1567229447-900079_3.jpg",
-      "uploads/2021/09/1567229447-900079_4.jpg"
+      "../uploads/2021/09/1567229447-900079_2.jpg",
+      "../uploads/2021/09/1567229447-900079_3.jpg",
+      "../uploads/2021/09/1567229447-900079_4.jpg"
     ],
     "audios": [
       "uploads/2021/09/あ_荒井ゆき.mp3"
@@ -3586,7 +3587,7 @@ const CAST_DATA = [
     "regions": [
       "関東"
     ],
-    "image": "uploads/2021/09/1414224137-992473_2.jpg",
+    "image": "../uploads/2021/09/1414224137-992473_2.jpg",
     "audio": "uploads/2023/07/す_鈴木瞳.mp3",
     "sns": {
       "instagram": "",
@@ -3595,8 +3596,8 @@ const CAST_DATA = [
       "facebook": ""
     },
     "images": [
-      "uploads/2021/09/1414224137-992473_2.jpg",
-      "uploads/2021/09/1414224137-992473_3.jpg"
+      "../uploads/2021/09/1414224137-992473_2.jpg",
+      "../uploads/2021/09/1414224137-992473_3.jpg"
     ],
     "audios": [
       "uploads/2023/07/す_鈴木瞳.mp3"
@@ -3628,7 +3629,7 @@ const CAST_DATA = [
     "regions": [
       "関東"
     ],
-    "image": "uploads/2022/06/真波凛07.jpg",
+    "image": "../uploads/2022/06/真波凛07.jpg",
     "audio": "uploads/2022/06/ま_真波凛_日英.mp3",
     "sns": {
       "instagram": "https://www.instagram.com/rin_manami2/",
@@ -3637,10 +3638,10 @@ const CAST_DATA = [
       "facebook": ""
     },
     "images": [
-      "uploads/2022/06/真波凛07.jpg",
-      "uploads/2022/06/真波凛16.jpeg",
-      "uploads/2022/06/真波凛17.jpeg",
-      "uploads/2022/06/真波凛15.jpeg"
+      "../uploads/2022/06/真波凛07.jpg",
+      "../uploads/2022/06/真波凛16.jpeg",
+      "../uploads/2022/06/真波凛17.jpeg",
+      "../uploads/2022/06/真波凛15.jpeg"
     ],
     "audios": [
       "uploads/2022/06/ま_真波凛_日英.mp3"
@@ -3669,7 +3670,7 @@ const CAST_DATA = [
     "regions": [
       "関東"
     ],
-    "image": "uploads/2026/05/cce056e4b43f59a8b099d7128ce87844.jpg",
+    "image": "../uploads/2026/05/cce056e4b43f59a8b099d7128ce87844.jpg",
     "audio": "",
     "sns": {
       "instagram": "https://www.instagram.com/aoiyuka_kapimaru/",
@@ -3678,10 +3679,10 @@ const CAST_DATA = [
       "facebook": ""
     },
     "images": [
-      "uploads/2026/05/cce056e4b43f59a8b099d7128ce87844.jpg",
-      "uploads/2026/05/9486b72e28ca9faa765b81d3c6448c8f.jpg",
-      "uploads/2026/05/a8305c42b15683b10f5c97d977fb1deb.jpg",
-      "uploads/2026/05/674e49060e093b49fcdcb07d53cad5da.jpg"
+      "../uploads/2026/05/cce056e4b43f59a8b099d7128ce87844.jpg",
+      "../uploads/2026/05/9486b72e28ca9faa765b81d3c6448c8f.jpg",
+      "../uploads/2026/05/a8305c42b15683b10f5c97d977fb1deb.jpg",
+      "../uploads/2026/05/674e49060e093b49fcdcb07d53cad5da.jpg"
     ],
     "careerLeft": "【見出し】【モデル】\n・ダイレクトテレショップ「ネクリス」インフォマーシャル\n・横浜市内ホテル広告動画\n・ハチふるcm\n・CChannel（ハンドモデル）\n・ThinkRESORT（ハンドモデル）\n・TBS「金曜日のスマイルたちへ」\n【見出し】【RQ/イメージガール】\n・KROSS×OVERラウンドガール\n・筑波サーキット公式サーキットクイーン2024\n・MarkGonzales公式アンバサダー\n・レジェンドカーレース\n・S耐J'sracing\n【見出し】【MC】\n・国際コインランドリーEXPO/TOSEI\n・東京ゲームショウ2025/AYANEO\n・ブルアカふぇす！4周年記念イベント\n・シタマチ・サクラフェスタステージ\n・SNS広告動画ナレーション\n・大塚製薬VR体験イベント「ただいまループハウス」MCCO\n・EDIX/BenQ MCCO\n【見出し】【ステージアテンド】\n・東京ドリームパーク記念イベントステージアテンド\n・新ものづくり・新サービス展開会式テープカット授賞式アテンド\n・岩谷時子賞授賞式ステージアテンド\n・社員総会 楽！フェス ステージアテンド\n・リゾートトラストレディス表彰式アテンド\n・JACAFAIR開会式テープカットアテンド\n・Rethink Creator AWARDステージアテンド\n【見出し】【学会CO】\n・日本神経免疫学会/UCB\n・日本眼科学会/参天製薬\n・日本美容皮膚科学会/シネロンキャンデラ\n【見出し】【受付】\n・VOLVOトレーニング\n・住友商会株主総会\n・TikTokAWARD\n・Mercedes-Benz Luxury Model Exhibition\n・オールマスコミライオン会\n・アサヒグループホールディングス株主総会\n・VanCleefandArpelsConted’hiverDinnerParty\n・MSD講演会",
     "careerRight": "【見出し】【展示会CO】\n・JAPAN MOBILITY SHOW/NOK、ISUZU GROUP\n・東京オートサロン/三菱自動車、TOYOTAGAZOORacing、クラフトスポーツ\n・自治体・公共Week/unerry\n・IIFES/VEC\n・JAPANドラッグストアショー/王子製薬\n・三菱食品ダイヤモンドフェア/モンデリーズ\n・NEW環境展/ISUZU\n・国際オートアフターマーケット/カストロール\n・JIMTOF/三井精機\n・エコプロ/AGC\n・インターネプコン/YAMAHA\n・ペリエジュエpopup\n・シーテック/JTB、デルタ電子\n・東京ゲームショウ/cluster、モンスターエナジー、フラー\n・東京モーターサイクルショー/JAF、BDS、シュアラスター\n・JIMTOF/芝浦機械\n・東京国際映画祭/コカコーラ\n・FOOMAJAPAN/キーエンス\n・ITEM/富士フイルム\n・ジャパンキャンピングカーショー/Panasonic\n・日経xTECHEXPO/Panasonic\n・東京モーターショー/YOROZU\n・人とくるまのテクノロジー展/日本製鉄、クラレ\n・ライティングフェア/Panasonic\n・ニコニコ超会議/NTT\n・関西機械要素展/キーエンス\n・ニコニコ超会議/超演奏してみた\n・コミックマーケット/Yostar\n【見出し】【イベントCO】\n・BMW車輌展示\n・カルティエ「THE ARTofGIFTING」\n・日本アカデミー賞\n・Dewar’sルーフトップバーイベント\n・Ado SPECIAL LIVE/モンスターエナジー\n・TOMMY HILFIGERイベント\n・ボートレース平和島\n・CHILLOUTサンプリング\n・Pantere de Cartier Pop-up\n・glo POP UP SHOP\n・HERMES Woman's Mini Universe",
@@ -3709,7 +3710,7 @@ const CAST_DATA = [
     "regions": [
       "関東"
     ],
-    "image": "uploads/2025/02/58d33497d98d24588bbf554ca622b5ed.jpg",
+    "image": "../uploads/2025/02/58d33497d98d24588bbf554ca622b5ed.jpg",
     "audio": "uploads/2025/02/し_島崎愛弓_MC.mp3",
     "sns": {
       "instagram": "https://www.instagram.com/ayumishimazaki/?hl=ja",
@@ -3718,8 +3719,8 @@ const CAST_DATA = [
       "facebook": ""
     },
     "images": [
-      "uploads/2025/02/58d33497d98d24588bbf554ca622b5ed.jpg",
-      "uploads/2025/02/f2ad3cf2409c77e11ed66f3bd12e9fab.jpg"
+      "../uploads/2025/02/58d33497d98d24588bbf554ca622b5ed.jpg",
+      "../uploads/2025/02/f2ad3cf2409c77e11ed66f3bd12e9fab.jpg"
     ],
     "audios": [
       "uploads/2025/02/し_島崎愛弓_MC.mp3"
@@ -3748,7 +3749,7 @@ const CAST_DATA = [
     "regions": [
       "関東"
     ],
-    "image": "uploads/2021/09/1433299032-488711_2.jpg",
+    "image": "../uploads/2021/09/1433299032-488711_2.jpg",
     "audio": "",
     "sns": {
       "instagram": "https://www.instagram.com/kitamana0424/?hl=ja",
@@ -3757,9 +3758,9 @@ const CAST_DATA = [
       "facebook": ""
     },
     "images": [
-      "uploads/2021/09/1433299032-488711_2.jpg",
-      "uploads/2021/09/1433299032-488711_3.jpg",
-      "uploads/2021/09/1433299032-488711_4.jpg"
+      "../uploads/2021/09/1433299032-488711_2.jpg",
+      "../uploads/2021/09/1433299032-488711_3.jpg",
+      "../uploads/2021/09/1433299032-488711_4.jpg"
     ],
     "careerLeft": "【見出し】【展示会】\n・東京モーターショー2019/今仙電機製作所\n・IIFES2019/VEC\n・CEATEC2019/京セラ\n・Iot/M2M展/東京エレクトロンデバイス\n・設計製造ソリューション展/シーメンス\n・ネプコン ジャパン/東京エレクトロンデバイス\n・第5回猛暑対策展/日本ピーマック\n・インターフェックス2019/チノー\n・Amazon web service JAPAN summit 2019 影ナレ\n・第36回オートサービスショー2019/京都機械工具\n・モーションエンジニアリング展/NOK\n・国際福祉機器展2018/スマート介護\n・東京ゲームショウ2018/ガンホー\n・ジャパン建材フェア2018/IOT\n・国際モダンホスピタルショウ2018/ジャストシステム\n・Interrop tokyo 2018/HGST\n・東京おもちゃショー2018/アガツマ\n・JAPAN IT week2018/バルテス\n・ジャパンドローン2018/maxell\n・スーパーマーケットトレードショー2018/Panasonic\n・東京オートサロン2018/グッドイヤー\n・ハイウェイテクノフェア2017/NEXCO中日本\n・東京モーターショー2017/トヨタ紡織\n・レジャーホテルフェア2017/カップルズ\n・下水道展2017/メタウォーター\n・夢ナビライブ東京会場2017\n・インターロップ東京2017/DELL EMC\n・東京マラソンEXPO2017/SEIKO(MCCO)\n・2016JAPAN CAKE SHOW TOKYO 影ナレ\n・国際モダンホスピタリショー2016/アストロステージ\n・メンテナンステクノショー/日綜産業\n・おもちゃショー/タカラトミー\n・イオンバリュー展示会/作らない化(MCCO)\n・小泉製機展示会/ティファール\n・リテールテック/スピーノ\n・国際物流総合展/シーアールイー\n・ET展/IPA\n【見出し】【式典/セミナー】\n・全国日産サービス技術大会 応対競技\n・NTTDATA Innovation Conference\n・あずさ監査法人採用選考会\n・Panasonicリビングショールームセミナー\n・先端情報技術普及研究会\n【見出し】【イベント】\n・タカラトミー商談会\n・夏休み2018 宿題・自由研究大作戦/消費者庁\n・Beauty Festa\n・TOYOTAカーナビイベントステージ進行\n・キックターゲット実況\n・鈴鹿8時間耐久レース2017/MOTUL\n・エコライフフェア2017/トヨタ自動車\n・キコウィルソンファミリーショー\n・朝日小学生新聞サマースクール\n・クール刺激ヤバイツアー\n・2016世界キャラクターさみっとin羽生/キューモット\n・Panasonicドライヤーイベント\n・パチンコ店芸能人来店イベント\n・東京都知事選挙、参議院議員選挙、衆議院議員選挙選挙ウグイス",
     "careerRight": "【見出し】【MA】\n・いちはらケーブルテレビ「高校野球速報」ナレーション\n・エフテックVPナレーション\n【見出し】【TV/WEB/雑誌】\n・ショップチャンネル「たかの友梨ビューティクリニック」デモモデル\n・ショップチャンネル「さとう式ボディマジックソックス」デモモデル\n・実録心霊現場現象レポーター\n・フマキラー殺虫剤WEB cm、店頭広報用動画\n・JVCエブリオ店頭VP\n・ブレイクスルーJAPAN\n・セレクションX　VTR\n・スマステ　VTR\n・お願いランキング　VTR\n・雑誌「パチンコ必勝ガイド」ライター\n【見出し】【モデル】\n・アデランス「スパニスト」イメージモデル\n・マス商事イメージモデル\n・NEC「顔認証アプライアンスサーバ」女性顧客役\n・衛生用品カタログモデル＆他媒体撮影モデル\n・ショップチャンネル「たかの友梨ビューティクリニック」デモモデル\n・ショップチャンネル「さとう式ボディマジックソックス」デモモデル\n・フマキラー殺虫剤WEB cm、店頭広報用動画\n・JVCエブリオ店頭広報用動画\n・アクティサポート広告モデル\n・「やすらぎの里」宿泊施設広告モデル\n・MSジャパン新商品発表会モデル\n・湯河原 観光ポスターモデル\n・マツヤサロン ウエディングモデル\n・トレッキングブランド広告モデル\n・美容院アミリHPモデル\n・ヘアサロンモデル\n・治療院マーケティング研究所モデル\n【見出し】【レースクイーン】\n・2008年SUPER GT「Xanavi Racing Queen」\n・2009年SUPER GT「エスロード MOLA Z エスロードガールズ」\n・2010年SUPER GT「R&D SPORT SUBARU REGACY\n・2011年SUPER GT「PUMA MOTORSPORT CREW」\n【見出し】【アテンドコンパニオン】\n・オリエンタルランド授賞式アテンド\n・JIMTOF開会式アテンド\n・日生授賞式アテンド\n・三和トレーディング表彰式アテンド\n【見出し】【その他】\n・舞台「秘蜜」\n・DVD「elega」竹書房\n・CD「first」ユニットMP4",
@@ -3791,7 +3792,7 @@ const CAST_DATA = [
     "regions": [
       "関東"
     ],
-    "image": "uploads/2025/02/佐藤美宏01.jpg",
+    "image": "../uploads/2025/02/佐藤美宏01.jpg",
     "audio": "uploads/2025/02/さ_佐藤美宏.mp3",
     "sns": {
       "instagram": "https://www.instagram.com/mihiro.310",
@@ -3800,9 +3801,9 @@ const CAST_DATA = [
       "facebook": ""
     },
     "images": [
-      "uploads/2025/02/佐藤美宏01.jpg",
-      "uploads/2025/02/佐藤美宏10-1.jpg",
-      "uploads/2025/02/佐藤美宏03.jpg"
+      "../uploads/2025/02/佐藤美宏01.jpg",
+      "../uploads/2025/02/佐藤美宏10-1.jpg",
+      "../uploads/2025/02/佐藤美宏03.jpg"
     ],
     "audios": [
       "uploads/2025/02/さ_佐藤美宏.mp3"
@@ -3834,7 +3835,7 @@ const CAST_DATA = [
     "regions": [
       "関東"
     ],
-    "image": "uploads/2026/06/8044956cef373028980f7efd87784721.jpg",
+    "image": "../uploads/2026/06/8044956cef373028980f7efd87784721.jpg",
     "audio": "uploads/2026/06/8aef26016cf92858b65ff3585fe23bbd.mp3",
     "sns": {
       "instagram": "https://www.instagram.com/chipistagram417/",
@@ -3843,10 +3844,10 @@ const CAST_DATA = [
       "facebook": ""
     },
     "images": [
-      "uploads/2026/06/8044956cef373028980f7efd87784721.jpg",
-      "uploads/2026/06/85499315a08a99398262117d9992172e.jpg",
-      "uploads/2026/06/91efa927345b0970f5b24198a8ed18a2.jpg",
-      "uploads/2026/06/e1980d83370d228c3eaabb2b8b261bc0.jpg"
+      "../uploads/2026/06/8044956cef373028980f7efd87784721.jpg",
+      "../uploads/2026/06/85499315a08a99398262117d9992172e.jpg",
+      "../uploads/2026/06/91efa927345b0970f5b24198a8ed18a2.jpg",
+      "../uploads/2026/06/e1980d83370d228c3eaabb2b8b261bc0.jpg"
     ],
     "audios": [
       "uploads/2026/06/8aef26016cf92858b65ff3585fe23bbd.mp3"
@@ -3880,7 +3881,7 @@ const CAST_DATA = [
     "regions": [
       "関東"
     ],
-    "image": "uploads/2026/06/1e45e0ced6ec0175acad9e05c35a67d8.jpg",
+    "image": "../uploads/2026/06/1e45e0ced6ec0175acad9e05c35a67d8.jpg",
     "audio": "uploads/2026/06/97eadbe18fd17fd71c231267af2dd545.mp3",
     "sns": {
       "instagram": "https://www.instagram.com/mika_mika_mika620/",
@@ -3889,8 +3890,8 @@ const CAST_DATA = [
       "facebook": ""
     },
     "images": [
-      "uploads/2026/06/1e45e0ced6ec0175acad9e05c35a67d8.jpg",
-      "uploads/2026/06/05d4ed4bd3515c8f33dbf36caaf667f4.jpg"
+      "../uploads/2026/06/1e45e0ced6ec0175acad9e05c35a67d8.jpg",
+      "../uploads/2026/06/05d4ed4bd3515c8f33dbf36caaf667f4.jpg"
     ],
     "audios": [
       "uploads/2026/06/97eadbe18fd17fd71c231267af2dd545.mp3"
@@ -3920,7 +3921,7 @@ const CAST_DATA = [
     "regions": [
       "関東"
     ],
-    "image": "uploads/2022/02/加藤美鈴202202.jpg",
+    "image": "../uploads/2022/02/加藤美鈴202202.jpg",
     "audio": "uploads/2022/02/か_加藤美鈴.mp3",
     "sns": {
       "instagram": "https://www.instagram.com/kato_misuzu/?hl=ja",
@@ -3929,11 +3930,11 @@ const CAST_DATA = [
       "facebook": ""
     },
     "images": [
-      "uploads/2022/02/加藤美鈴202202.jpg",
-      "uploads/2022/02/加藤美鈴202219.jpeg",
-      "uploads/2022/02/71CC0FE8-24FC-43D6-AADB-400B0F415C9E.jpeg",
-      "uploads/2022/02/加藤美鈴202230.jpeg",
-      "uploads/2022/02/加藤美鈴202228.jpeg"
+      "../uploads/2022/02/加藤美鈴202202.jpg",
+      "../uploads/2022/02/加藤美鈴202219.jpeg",
+      "../uploads/2022/02/71CC0FE8-24FC-43D6-AADB-400B0F415C9E.jpeg",
+      "../uploads/2022/02/加藤美鈴202230.jpeg",
+      "../uploads/2022/02/加藤美鈴202228.jpeg"
     ],
     "audios": [
       "uploads/2022/02/か_加藤美鈴.mp3"
@@ -3966,7 +3967,7 @@ const CAST_DATA = [
     "regions": [
       "関東"
     ],
-    "image": "uploads/2022/04/3674af066b9ae6e827f36555e39facd7.jpg",
+    "image": "../uploads/2022/04/3674af066b9ae6e827f36555e39facd7.jpg",
     "audio": "uploads/2022/04/の_野村沙綾_日英.mp3",
     "sns": {
       "instagram": "https://www.instagram.com/saaya_saya38/?hl=ja",
@@ -3975,9 +3976,9 @@ const CAST_DATA = [
       "facebook": ""
     },
     "images": [
-      "uploads/2022/04/3674af066b9ae6e827f36555e39facd7.jpg",
-      "uploads/2022/04/6b6e407cfb640814ac072ce6525a4b88.jpg",
-      "uploads/2022/04/078167d4013e8fbebf431d2ddb40b0c1.jpg"
+      "../uploads/2022/04/3674af066b9ae6e827f36555e39facd7.jpg",
+      "../uploads/2022/04/6b6e407cfb640814ac072ce6525a4b88.jpg",
+      "../uploads/2022/04/078167d4013e8fbebf431d2ddb40b0c1.jpg"
     ],
     "audios": [
       "uploads/2022/04/の_野村沙綾_日英.mp3"
@@ -4007,7 +4008,7 @@ const CAST_DATA = [
     "regions": [
       "関東"
     ],
-    "image": "uploads/2021/09/beauty_1749512798073.jpeg",
+    "image": "../uploads/2021/09/beauty_1749512798073.jpeg",
     "audio": "uploads/2025/06/さ_佐東詩織_展示会（BGM有）.mp3",
     "sns": {
       "instagram": "https://www.instagram.com/tetemaru0406/",
@@ -4016,10 +4017,10 @@ const CAST_DATA = [
       "facebook": ""
     },
     "images": [
-      "uploads/2021/09/beauty_1749512798073.jpeg",
-      "uploads/2025/06/beauty_1749512766489.jpeg",
-      "uploads/2025/06/beauty_1749512245749.jpeg",
-      "uploads/2025/06/beauty_1749512417105.jpeg"
+      "../uploads/2021/09/beauty_1749512798073.jpeg",
+      "../uploads/2025/06/beauty_1749512766489.jpeg",
+      "../uploads/2025/06/beauty_1749512245749.jpeg",
+      "../uploads/2025/06/beauty_1749512417105.jpeg"
     ],
     "audios": [
       "uploads/2025/06/さ_佐東詩織_展示会（BGM有）.mp3"
@@ -4050,7 +4051,7 @@ const CAST_DATA = [
     "regions": [
       "関東"
     ],
-    "image": "uploads/2026/07/9e28cb786de4bc8b4d1bb59cd33fe4f2.jpg",
+    "image": "../uploads/2026/07/9e28cb786de4bc8b4d1bb59cd33fe4f2.jpg",
     "audio": "",
     "sns": {
       "instagram": "https://www.instagram.com/mimi__m0818/",
@@ -4059,10 +4060,10 @@ const CAST_DATA = [
       "facebook": ""
     },
     "images": [
-      "uploads/2026/07/9e28cb786de4bc8b4d1bb59cd33fe4f2.jpg",
-      "uploads/2026/07/08ed62627246a0f3f1fbb4d53942a586.jpg",
-      "uploads/2026/07/132526fe27fb4eaec9768a2aa5e07604.jpg",
-      "uploads/2026/07/e0b6785ad3e06c4da0bbee6872ca9ec0.jpg"
+      "../uploads/2026/07/9e28cb786de4bc8b4d1bb59cd33fe4f2.jpg",
+      "../uploads/2026/07/08ed62627246a0f3f1fbb4d53942a586.jpg",
+      "../uploads/2026/07/132526fe27fb4eaec9768a2aa5e07604.jpg",
+      "../uploads/2026/07/e0b6785ad3e06c4da0bbee6872ca9ec0.jpg"
     ],
     "careerLeft": "【見出し】【MC】\n・株式会社ポピンズエデュケア全国展開オンライン配信プログラム「Poppins Online Music」出演中\n・光文社VERY児童館 うたのおねえさん\n・大塚商会未来創造フェア/セミナー\n【見出し】【舞台】\n・ドラマチックシアター「あゆみ」\n・ヨコハマポップスオーケストラ「サウンド・オブ・ミュージック」\n・邦楽ミュージカル「恋娘！近松合戦」遊女役\n・川崎フロンターレ新体制発表会\n・川崎フロンターレファン感謝デー\n・本公演「マリー＝ガブリエルの自画像」ルイーズ役\n【見出し】【ピアニスト】\n・自主ライブ「ECHOES OF A STORY」＠銀座\n【見出し】【モデル】\n・「Summer Girl」ミュージックビデオ\n・キャンメイク撮影用衣装合わせ",
     "careerRight": "【見出し】【ステージアテンド】\n・ショートショートフィルムフェスティバル2025\n【見出し】【コンパニオン】\n・Japan Mobility Show/東海理化\n・ハムフェア2026/JVCケンウッド\n・IT・情シスDXPO東京'26夏/セイ・テクノロジーズ\n・AWS Summit Japan2025/NHSテコラス株式会社\n・コンテンツ東京/ジーピーオンライン\n・ものづくりワールド ZW SOFT JAPAN\n・超RIZIN ライフガード\n・バックオフィスDXPO AME&Company\n・三菱電機 暮らしと設備のソリューション展2025 #しあわせをシェアしよう。\n・国際物流総合展/オプティマインド\n・自動認識総合展/ニッタ\n・WINDEXPO/古河電工\n・クリニックEXPO/ナテック\n・地方自治情報化推進フェア2025/Zoom\n・ゴルフ日本オープン/Audi車両展示\n・大塚商会 秋のビジネスソリューションフェア\n・宣伝会議 販促会議サミット\n・建設技術展/NIPPO関東支社\n・外車メーカーレースドライバー年間表彰式",
@@ -4087,7 +4088,7 @@ const CAST_DATA = [
     "regions": [
       "関東"
     ],
-    "image": "uploads/2023/10/小杉和司05-1.jpg",
+    "image": "../uploads/2023/10/小杉和司05-1.jpg",
     "audio": "",
     "sns": {
       "instagram": "https://www.instagram.com/kazushikosugi_01",
@@ -4096,9 +4097,9 @@ const CAST_DATA = [
       "facebook": ""
     },
     "images": [
-      "uploads/2023/10/小杉和司05-1.jpg",
-      "uploads/2023/10/小杉和司12.jpg",
-      "uploads/2023/10/小杉和司28.jpg"
+      "../uploads/2023/10/小杉和司05-1.jpg",
+      "../uploads/2023/10/小杉和司12.jpg",
+      "../uploads/2023/10/小杉和司28.jpg"
     ],
     "careerLeft": "【見出し】【モデル】\n・新菱冷熱工業WEB cm\n【見出し】【役者】\n・舞台「容疑者のメソッド」（2023年）\n【見出し】【その他】\n・各種イベントスタッフなど多数",
     "height": 180,
@@ -4123,7 +4124,7 @@ const CAST_DATA = [
     "regions": [
       "関東"
     ],
-    "image": "uploads/2026/03/本田将一郎01-2.jpg",
+    "image": "../uploads/2026/03/本田将一郎01-2.jpg",
     "audio": "uploads/2026/03/ほ_本田将一郎_実況.m4a",
     "sns": {
       "instagram": "",
@@ -4132,8 +4133,8 @@ const CAST_DATA = [
       "facebook": ""
     },
     "images": [
-      "uploads/2026/03/本田将一郎01-2.jpg",
-      "uploads/2026/03/本田将一郎10-2.jpg"
+      "../uploads/2026/03/本田将一郎01-2.jpg",
+      "../uploads/2026/03/本田将一郎10-2.jpg"
     ],
     "audios": [
       "uploads/2026/03/ほ_本田将一郎_実況.m4a"
@@ -4164,7 +4165,7 @@ const CAST_DATA = [
     "regions": [
       "関東"
     ],
-    "image": "uploads/2022/04/高森てつ03.jpg",
+    "image": "../uploads/2022/04/高森てつ03.jpg",
     "audio": "uploads/2022/04/た_高森てつ_渋め.mp3",
     "sns": {
       "instagram": "https://www.instagram.com/tetsu_takamori/?hl=ja",
@@ -4173,9 +4174,9 @@ const CAST_DATA = [
       "facebook": ""
     },
     "images": [
-      "uploads/2022/04/高森てつ03.jpg",
-      "uploads/2021/09/1435753049-069341_3.jpg",
-      "uploads/2021/09/1435753049-069341_4.jpg"
+      "../uploads/2022/04/高森てつ03.jpg",
+      "../uploads/2021/09/1435753049-069341_3.jpg",
+      "../uploads/2021/09/1435753049-069341_4.jpg"
     ],
     "audios": [
       "uploads/2022/04/た_高森てつ_渋め.mp3"
@@ -4208,7 +4209,7 @@ const CAST_DATA = [
     "regions": [
       "関東"
     ],
-    "image": "uploads/2022/07/2-3.jpg",
+    "image": "../uploads/2022/07/2-3.jpg",
     "audio": "uploads/2022/07/あ_ATSUHIRO_基本サンプル2パターン.mp3",
     "sns": {
       "instagram": "https://www.instagram.com/atsuhiro0613/",
@@ -4217,9 +4218,9 @@ const CAST_DATA = [
       "facebook": ""
     },
     "images": [
-      "uploads/2022/07/2-3.jpg",
-      "uploads/2022/07/1-4.jpg",
-      "uploads/2022/07/3-3.jpg"
+      "../uploads/2022/07/2-3.jpg",
+      "../uploads/2022/07/1-4.jpg",
+      "../uploads/2022/07/3-3.jpg"
     ],
     "audios": [
       "uploads/2022/07/あ_ATSUHIRO_基本サンプル2パターン.mp3"
@@ -4253,7 +4254,7 @@ const CAST_DATA = [
     "regions": [
       "関東"
     ],
-    "image": "uploads/2021/09/1576376131-234816_2.jpg",
+    "image": "../uploads/2021/09/1576376131-234816_2.jpg",
     "audio": "",
     "sns": {
       "instagram": "https://www.instagram.com/ricky_k_888/",
@@ -4262,9 +4263,9 @@ const CAST_DATA = [
       "facebook": "https://www.facebook.com/ryuki.kanemoto"
     },
     "images": [
-      "uploads/2021/09/1576376131-234816_2.jpg",
-      "uploads/2021/09/輝龍20.jpg",
-      "uploads/2021/09/輝龍21.jpg"
+      "../uploads/2021/09/1576376131-234816_2.jpg",
+      "../uploads/2021/09/輝龍20.jpg",
+      "../uploads/2021/09/輝龍21.jpg"
     ],
     "careerLeft": "【見出し】【cm】\n・キリン「FIRE」TVcm サラリーマン役\n・福耳「8月の夢」MV 高校生役　https://youtu.be/DesDJ2SkOYQ\n・女王蜂「ヴィーナス」PV サラリーマン役\n【見出し】【ドラマ】\n・ドラマ「バウンサー」大学生役\n・ドラマ「奪い愛、冬」チンピラ役\n・ドラマ「リテイク」犯人役\n・ドラマ「エチュード」SP役\n・ドラマ「ラストコップ」絡み役\n・ドラマ「特命係長 只野仁」チンピラ役",
     "careerRight": "【見出し】【映画】\n・映画「Flowers From A Book」ヤクザ役(アメリカ)\n・映画「(タイトル未定)」サラリーマン役\n・短編映画「Flowers From A Book」ヤクザ役\n・短編映画「あの日のこと」 男子高校生役\n・短編映画「Fists of Absinthe」侍役\n【見出し】【舞台】\n・UPS ACADEMY 第17期生 修了公演「永井家の八月」永井正吉役\n【見出し】【その他】\n・各イベントの日本語、中国語、英語通訳スタッフ",
@@ -4291,7 +4292,7 @@ const CAST_DATA = [
     "regions": [
       "関東"
     ],
-    "image": "uploads/2021/09/1623391651-455975_2.jpg",
+    "image": "../uploads/2021/09/1623391651-455975_2.jpg",
     "audio": "uploads/2021/09/た_谷田貴大.mp3",
     "sns": {
       "instagram": "",
@@ -4300,7 +4301,7 @@ const CAST_DATA = [
       "facebook": ""
     },
     "images": [
-      "uploads/2021/09/1623391651-455975_2.jpg"
+      "../uploads/2021/09/1623391651-455975_2.jpg"
     ],
     "audios": [
       "uploads/2021/09/た_谷田貴大.mp3"
@@ -4327,7 +4328,7 @@ const CAST_DATA = [
     "regions": [
       "関東"
     ],
-    "image": "uploads/2022/06/奏希06.jpg",
+    "image": "../uploads/2022/06/奏希06.jpg",
     "audio": "",
     "sns": {
       "instagram": "",
@@ -4336,8 +4337,8 @@ const CAST_DATA = [
       "facebook": ""
     },
     "images": [
-      "uploads/2022/06/奏希06.jpg",
-      "uploads/2022/06/奏希13.jpg"
+      "../uploads/2022/06/奏希06.jpg",
+      "../uploads/2022/06/奏希13.jpg"
     ],
     "careerLeft": "【見出し】【モデル】\n・JA全農みやぎ「一粒のうまさ×つや姫」TVcmモデル\n・東京インテリア「2021summer」TVcmモデル\n・角川武蔵野ミュージアム紹介映像モデル\n・Preferred Robotics「自律搬送ロボット カチャカ」VPモデル\n・ブリリアントヴィレッジ日光「ファミリーグランピング2023」PVモデル\n・イオン「グループ案内」モデル\n・西友「一週間一万円チャレンジ」PVモデル\n・クラシエ「ためして！ナイーブ」WEBモデル\n・光が丘IMA「2021春・GW キャンペーン」キービジュアルモデル\n・小田急電鉄「Check it! Odakyu -小田急で見つかる理想の毎日-」動画モデル\n・東京一番街「東京おかしランド」PVモデル\n・カワダ「SUPER MARIO ブロック／コースター」PV＆カタログモデル\n・日本テレビ系「スッキリ」内　ライフネット生命インフォマーシャルモデル\n・ベネッセ「しまじろうが来た！」こどもちゃれんじ教材エピソード紹介動画モデル\n・リブラン「ミュージション」ファミリープロモーションPVモデル\n・シースター「電動鼻水吸引機メルシーポット」動画モデル\n・アルネットホーム住宅展示場モデル\n・香港の旅行雑誌「U Travel Magazine」北海道特集モデル\n・PLAY LIFE「ウェルカムベビーのお宿・ロイヤルホテル八ヶ岳」WEBモデル\n・リブラン「キッズ撮影会」作例モデル\n・武蔵野創寫舘「撮影会」作例モデル",
     "height": 116,
@@ -4359,7 +4360,7 @@ const CAST_DATA = [
     "regions": [
       "関東"
     ],
-    "image": "uploads/2022/06/IMG_2923.jpeg",
+    "image": "../uploads/2022/06/IMG_2923.jpeg",
     "audio": "",
     "sns": {
       "instagram": "",
@@ -4368,8 +4369,8 @@ const CAST_DATA = [
       "facebook": ""
     },
     "images": [
-      "uploads/2022/06/IMG_2923.jpeg",
-      "uploads/2022/06/IMG_2924.jpeg"
+      "../uploads/2022/06/IMG_2923.jpeg",
+      "../uploads/2022/06/IMG_2924.jpeg"
     ],
     "careerLeft": "【見出し】【モデル】\n・スクールバッグいとう\n・GPC1ウェブ広告（親子出演）\n・スマイルゼミウェブ広告\n・JAF メディア発表会チャイルドシート着用モデル\n・マルエツ「オンラインデリバリー」プロモーション動画モデル\n・宣材撮影\n・愛用者VTR",
     "height": 155,
@@ -4400,7 +4401,7 @@ const CAST_DATA = [
     "regions": [
       "関東"
     ],
-    "image": "uploads/2024/09/IMG_0281ー.jpg",
+    "image": "../uploads/2024/09/IMG_0281ー.jpg",
     "audio": "uploads/2024/09/牛島ちえ　自己紹介.mp3",
     "sns": {
       "instagram": "https://www.instagram.com/chiewasshi/",
@@ -4409,9 +4410,9 @@ const CAST_DATA = [
       "facebook": ""
     },
     "images": [
-      "uploads/2024/09/IMG_0281ー.jpg",
-      "uploads/2024/09/IMG_0314ー.jpg",
-      "uploads/2024/09/Z09_9937_01.jpg"
+      "../uploads/2024/09/IMG_0281ー.jpg",
+      "../uploads/2024/09/IMG_0314ー.jpg",
+      "../uploads/2024/09/Z09_9937_01.jpg"
     ],
     "audios": [
       "uploads/2024/09/牛島ちえ　自己紹介.mp3"
@@ -4442,7 +4443,7 @@ const CAST_DATA = [
     "regions": [
       "関東"
     ],
-    "image": "uploads/2021/09/1623395065-050904_2.jpg",
+    "image": "../uploads/2021/09/1623395065-050904_2.jpg",
     "audio": "uploads/2022/04/ひ_久本真菜_イベント.mp3",
     "sns": {
       "instagram": "https://www.instagram.com/mana_hisamoto/?hl=ja",
@@ -4451,7 +4452,7 @@ const CAST_DATA = [
       "facebook": ""
     },
     "images": [
-      "uploads/2021/09/1623395065-050904_2.jpg"
+      "../uploads/2021/09/1623395065-050904_2.jpg"
     ],
     "audios": [
       "uploads/2022/04/ひ_久本真菜_イベント.mp3"
@@ -4482,7 +4483,7 @@ const CAST_DATA = [
     "regions": [
       "関東"
     ],
-    "image": "uploads/2022/02/高橋友希07-2-1.jpg",
+    "image": "../uploads/2022/02/高橋友希07-2-1.jpg",
     "audio": "",
     "sns": {
       "instagram": "https://www.instagram.com/yuki5ma2yan/?hl=ja",
@@ -4491,10 +4492,10 @@ const CAST_DATA = [
       "facebook": ""
     },
     "images": [
-      "uploads/2022/02/高橋友希07-2-1.jpg",
-      "uploads/2022/02/高橋友希14-2.jpg",
-      "uploads/2022/02/高橋友希13.jpg",
-      "uploads/2022/02/高橋友希15-2.jpg"
+      "../uploads/2022/02/高橋友希07-2-1.jpg",
+      "../uploads/2022/02/高橋友希14-2.jpg",
+      "../uploads/2022/02/高橋友希13.jpg",
+      "../uploads/2022/02/高橋友希15-2.jpg"
     ],
     "careerLeft": "【見出し】【TV】\n・鹿児島読売テレビアナウンサー\n・千葉テレビ「週刊バイクTV」リポーター（2020年4月～）\n・千葉テレビ「元木大介がセレクト！ビジネス隠し玉企業2017」MC\n・千葉テレビ「里崎智也のビジネス配球術」アシスタント\n・千葉テレビ「県政広報番組 ウィークリー千葉県」リポーター\n・BS12「沖縄本島＆宮古島ゆったり滞在～タイムシェアリゾートで居心地よく～」リポーター\n・釣りビジョン「釣りはじめます」群馬編担当\n・Dlife「ジャパカル+」アシスタント\n・BS「Jsports 野球好きニュース」キャスター、ナレーター、取材\n・EX「スーパーJチャンネル」リポーター\n・BS-TBS「ヒットリサーチ」キャスター\n・テレビ東京「TVチャンピオンR 世界包丁細工王決定戦」実況リポーター\n・鹿児島読売テレビ「キバレ！GIANTS！」元巨人宮本和知さんと宮崎キャンプを取材\n・鹿児島読売テレビ「AMP」MC\n・鹿児島読売テレビ「KYT Newsリアルタイム」キャスター、コーナーリポーター\n・鹿児島読売テレビ「サクッとKYT」キャスター\n・鹿児島読売テレビ「夢いろあっと！ねっと」キャスター、リポーター\n・鹿児島読売テレビ「山本さんがゆくホット！かごしま」リポーター、ナレーター\n・鹿児島読売テレビ「ガダルカナルタカが行く！鹿児島ダーツの旅」リポーター\n【見出し】【ラジオ】\n・RF「峰竜太のミネスタ」アシスタント\n・NACK5「夕焼けshuttle」アシスタント\n・NACK5「ニュースルーム」アナウンサー\n・FMぐんま「Friday cafe」パーソナリティ\n・FMぐんま「EVENINʻ」パーソナリティ\n・韓国文化院インターネットラジオ「何でも韓でも！！」MC\n【見出し】【cm/VP/WEB】\n・小林製薬「消臭元」WEB cm リポーター役\n・ドン・キホーテ×サントリー「オールフリー」VP キャスター役\n・一般社団法人 日本損害保険協会「ぼうさい探検隊」ナビゲーター\n・JACLA-TV「わたしにもできる、クルマの取得方法！－AKB48岩立沙穂－」ナビゲーター\n・花王「アタックラク干しプラス」モデル\n・ホットヨガスタジオ「アミーダ」広告モデル\n・第一興商カラオケコンテンツ\n・テスコム電機カタログモデル\n・治療院マーケティング研究所 整体DVDモデル\n【見出し】【記者発表会】\n・エイベックスアートイベント meet your art fair 発表会（片寄涼太）\n・一般社団法人日本最適化栄養食協会設立発表会（青山学院大学 駅伝部 原晋監督）\n・Harley-Davidson新型CVO発表会\n・トライアンフ松本オープニング発表会\n・VAIO新商品発表会\n・SONY新イヤホン発表会\n・伊藤忠×不二製油共同開発プラントベースフード｢ウェルビーンズ｣新商品発表会\n・SHELLY、ケンズカフェTokyo氏家健治、フードエッセイスト・フードディレクター平野紗季⼦）\n・MARKISみなとみらい開業10周年ギネス世界記録挑戦セレモニー（ももクロ高城れに）\n・佐賀県×JAグループ佐賀「いちごさんどう2023」発表会（高橋愛）\n・クラウド会計ソフトfreee「やさしい確定申告」新cm発表会（田中圭）\n・KITTE「WHITE KITTE」光と音の点灯式（松下洸平）\n・舞台「鋼の錬金術師」製作発表会（眞嶋秀斗、岡部麟、蒼木陣、和田琢磨）\n・マッチングアプリwith「これどう？展」記者発表会（ニューヨーク）\n・資生堂「エリクシール」新作発表会\n・花王AUBE「ワンショットチーク」ギネス世界記録挑戦イベント\n・JAL×日本生命 東京2020オリンピック応援企画！美カラテチャレンジPR発表会（植草歩選手）\n【見出し】【イベント】\n・TOTO夏祭り\n・SONY屋外社内夏フェス（3,000人規模）\n・大塚製薬×ウェルシア fitnessイベント（Aya）\n・KDDIスポーツフェスティバル（三拍子）\n・クラブコスメチックス｢すっぴんパウダー」10周年&リニューアルイベント（江野沢愛美）\n・freee起業家向け雑誌｢起業時代｣一周年イベント（槙野智章、鈴木啓太）\n・明治ミルクチョコレートイベント\n・JTバレーボール試合会場内アナウンス\n・SPORTEC2022\n・LAZONAエンタメフェス2022（永野、お見送り芸人しんいち）\n・東京モーターサイクルショー/トライアンフ\n・KANDA FESTIVAL～日本の伝統文化の継承と現代文化との融合～\n・Diorメイクアップショー\n・ジャパンゴルフフェア/シャフトトークショー\n・Porsche Sports car Together Day 2019\n・anan presents 温活×美カラテフェス supported by 日本生命（AKB秋元才加）\n・東京マラソンEXPO/資生堂ANESSA\n・アウトレットモールトークショー（高橋愛）\n・ドコモ5G VR体験イベント\n・日経xTECH EXPO2018/インテル\n・サッカーイベントトークショー\n・空手イベントトークショー\n・バレーボールイベントトークショー\n・ボートレース江戸川イベント\n・大塚製薬主催野球教室\n・野球教室イベント多数（上原投手、岩隈投手などメジャーリーガーやプロ野球選手参加）\n・群馬でのGIANTS関連イベントレギュラー（群馬のGIANTS 応援団長です！）\n・MIZUNO WAVE EMPEROR CUP\n・東京マラソン関連イベント多数\n【見出し】【展示会】\n・JAPAN GOLF FEAR 2024/ダンロップスポーツマーケティング\n・ファクトリーイノベーションweek2023\n・モーターサイクルショー2023/Harley-Davidson\n・JAPANドラッグストアショー/佐藤製薬\n・INCHEM TOKYO/木村化工機\n・IPFJAPAN/住友重機械\n・環境展/株式会社諸岡\n・JIMTOF/三菱電機",
     "careerRight": "【見出し】【オンライン】\n・Tarzan DAY 2023（西川貴教）\n・三菱食品10周年記念オンライン工場見学配信\n・AbemaTV「恋愛ドラマな恋がしたい」新シーズン先行試写会\n・外貨ex byGMOデビュー記念 YouTubeプレミアムライブ\n・クリエイターズマッチアワード\n・野村證券 各社決算説明会\n・骨盤底祭り（RIKACO、知花くらら他）\n・クリエイターズマッチアワード\n・LIXIL 実演販売会\n・ファイザー製薬 ストップ！NO卒中プロジェクト\n・MARUNOUCHI SPORTS FES 2020 LIVE/KADOKAWA（ラグビー日本代表田中史朗、元プロサッカー前園真聖）\n・SONYトライアログ\n・Amazon セミナー\n・帝人新事業記者発表会（Zoom）\n・docomo5Gセミナー\n・brotherセミナー（水野美紀）\n・GMOペパボ 年末総会\n・伊勢丹 丹青会 (友近)\n【見出し】【表彰式/懇親会/パーティー】\n・GMOペバボ社員総会 表彰式＆懇親会（毎年リピート）\n・2023年度メトロアドクリエイティブアワード贈賞式＆懇親会\n・LIXIL秋のリフォームコンテスト表彰式＆懇親会\n・トヨタカローラ南茨木社員大会 表彰＆懇親会\n・浅間商事株式会社キックオフミーティング 表彰式＆懇親会\n・AWSセミナー＆懇親会\n・メディカルフォース「美容医療ミライの日」セミナー＆懇親会\n・川崎信用金庫100周年パーティー＠川崎大師\n・三菱ケミカル社内イベント\n・交通広告グランプリ\n・auPAYマーケットベストショップアワード\n・ANDPAD表彰式\n・明治安田生命保険 北関東ブロック表彰式\n・厚生労働省主催 消費生活協同組合法制定75周年記念厚生労働大臣表彰式\n・Audi Annual Dealer Awards 2022\n・IDOM AWARDS表彰式（中古車ガリバー運営会社）\n・OKI電気表彰式＆トークセッション（元プロ野球選手 宮本慎也）\n・株式会社ジーニーキックオフ 表彰式\n・オカムラプリズム会全国大会2024\n・消防船PRコンテスト授賞式＆パーティー\n・川崎麻世還暦パーティー\n・AIG presents MLB CUP 2023 パーティー（五十嵐亮太、岡島秀樹、岩隈久志）\n・2020ミス・インターナショナル日本代表選出大会\n・たかの友梨エステティックシンデレラ大会\n・JR広告大賞\n・鴻池組150周年記念式典\n・LIXIL新ショールーム竣工パーティー\n・東京マラソン10キロの部表彰式（3年連続）\n・明治安田生命 関東北ブロック表彰式（3年連続）\n・総合住宅メーカー表彰式\n・東京都下水道局コンクール\n・ケアリンピック武蔵野表彰式\n・ジャガーランドローバージャパンオーナーズゴルフトーナメント前夜祭 表彰式（木戸愛、上田桃子、他）\n・鴻巣オープンシニアトーナメント表彰式（プロ多数）\n・魔法の文学館オープニングセレモニー（魔女の宅急便作者 角野栄子、建築家 隈研吾、江戸川区長）\n・千葉県JR京葉線幕張豊砂駅開業さくらの植樹（熊谷千葉県知事、神谷千葉市長）\n・その他、行政機関のセレモニー、式典多数\n【見出し】【タレントトークショー】※敬称略\n・田中圭、松下洸平、高橋愛、高城れに、水野美紀、市川海老蔵、友近、石田ひかり、谷まりあ、都丸紗也華、山村紅葉、PUFFY、武井壮、成宮寛貴、西川貴教、佐野ひなこ、秋元才加、肥野竜也、ゆうこす、LIZA、畑野ひろ子、島谷ひとみ、中孝介、木山裕策、岩舘さほ、松丸亮吾、はるな愛、羽田美智子、森山未來、Matt、川崎麻世、AKB48岩立沙穂、渡辺裕太、ハリー杉山、CHEMISTRY、ゆりやんレトリィバァ、田中律子、SHELLY、江野沢愛美、片寄涼太、金子昇、小柳ルミ子、浅丘ルリ子、眞嶋秀斗、岡部麟、蒼木陣、和田琢磨、舞の海、錦鯉、U字工事、ライス、ザブングル、Wコロン（ねづっち、木曽さんちゅう）、ニューヨーク、三拍子、テツandトモ、ドロンズ石本、スギちゃん、フルーツポンチ、永野、お見送り芸人しんいち、360°モンキーズ、チュートリアル福田、キングコング、クマムシ、インスタントジョンソン、マシンガンズ、ジョイマン、ラランド 、鬼越トマホーク、ハリウッドザコシショウ、完熟フレッシュ、ありんくりん、アクセルホッパー、平野ノラ、アンガールズ田中、桜塚やっくん、スピードワゴン井戸田、はなわ、ナイツ、プロ野球モノマネ軍団、しまぞうZ（錦織圭のモノマネ）、超新塾アイク\n【見出し】【アスリートトークショー】※敬称略\n・サッカー：武田修宏、北澤豪、中澤佑二、槙野智章、鈴木啓太、前園真聖、永島昭浩、茨田陽生（大宮アルディージャ）\n・野球：高橋由伸、松田宣浩、今永昇太、岡本和真、藪恵壹、マック鈴木、福留孝介、井口資仁、山本昌、亀山つとむ、田尾安志、篠塚和典、寺内崇幸、元木大介、槙原寛己、宮本慎也、里崎智也、古城茂幸、真中満、宮本和知、シカゴ・カブス、金子侑司、森脇亮介、平沼翔太、松本哲也、鈴木尚広、小宮山悟、元木大介、上原浩治、岩隈久志、五十嵐亮太、岡島秀樹、荒波翔、川崎憲次郎、黒木知宏（ジョニー黒木）、内藤尚行（ギャオス内藤）、杉本裕太郎、山岡泰輔、石川亮、大塚光二、青島健太、江川卓、阿部慎之助監督、他多数\n・バレー：荒木絵里香\n・ゴルフ：笹生優花、木戸愛、上田桃子、藤田寛之、進藤大介、武市悦宏、近本英恵\n・バスケットボール：西村文男\n・ラグビー：田中史朗、大畑大介、ジェイミージョセフヘッドコーチ\n・陸上：瀬古利彦、谷川真理、秦澄美鈴、青山学院大学 駅伝部 原晋監督\n・空手：植草歩\n・ウィルチェアラグビー：池崎大輔、池透暢\n・パラパワーリフティング：西崎哲男\n・車椅子バスケ：京谷和幸\n・フィットネス：Aya、安井友梨、岡部友\n【見出し】【その他トークショー】※敬称略\n・藤井聡太、野口聡一、隈研吾、友利新、たかの友梨、齋藤正太、魔女の宅急便作者 角野栄子、他多数\n【見出し】【受賞歴】\n・2021年ベストボディジャパン長野大会 グランプリ\n・2021年モデルジャパン 準グランプリ\n・NHK杯 全国高校放送コンテスト 全国大会優秀賞\n・ミス日本コンテスト関東代表 全国大会出場",
@@ -4521,7 +4522,7 @@ const CAST_DATA = [
     "regions": [
       "関西"
     ],
-    "image": "uploads/2021/09/諏訪和美02-3.jpg",
+    "image": "../uploads/2021/09/諏訪和美02-3.jpg",
     "audio": "uploads/2022/07/す_諏訪和美.mp3",
     "sns": {
       "instagram": "",
@@ -4530,7 +4531,7 @@ const CAST_DATA = [
       "facebook": ""
     },
     "images": [
-      "uploads/2021/09/諏訪和美02-3.jpg"
+      "../uploads/2021/09/諏訪和美02-3.jpg"
     ],
     "audios": [
       "uploads/2022/07/す_諏訪和美.mp3"
@@ -4559,7 +4560,7 @@ const CAST_DATA = [
     "regions": [
       "関東"
     ],
-    "image": "uploads/2021/09/1412909119-101320_2.jpg",
+    "image": "../uploads/2021/09/1412909119-101320_2.jpg",
     "audio": "uploads/2023/07/の_野田真紀_日英.mp3",
     "sns": {
       "instagram": "",
@@ -4568,8 +4569,8 @@ const CAST_DATA = [
       "facebook": ""
     },
     "images": [
-      "uploads/2021/09/1412909119-101320_2.jpg",
-      "uploads/2021/09/1412909119-101320_3.jpg"
+      "../uploads/2021/09/1412909119-101320_2.jpg",
+      "../uploads/2021/09/1412909119-101320_3.jpg"
     ],
     "audios": [
       "uploads/2023/07/の_野田真紀_日英.mp3"
@@ -4598,7 +4599,7 @@ const CAST_DATA = [
     "regions": [
       "関東"
     ],
-    "image": "uploads/2022/04/藤里りょうこ03-2-1.jpg",
+    "image": "../uploads/2022/04/藤里りょうこ03-2-1.jpg",
     "audio": "uploads/2022/04/藤里りょうこ.mp3",
     "sns": {
       "instagram": "",
@@ -4607,9 +4608,9 @@ const CAST_DATA = [
       "facebook": ""
     },
     "images": [
-      "uploads/2022/04/藤里りょうこ03-2-1.jpg",
-      "uploads/2021/09/1414335210-079597_4.jpg",
-      "uploads/2021/09/1414335210-079597_3.jpg"
+      "../uploads/2022/04/藤里りょうこ03-2-1.jpg",
+      "../uploads/2021/09/1414335210-079597_4.jpg",
+      "../uploads/2021/09/1414335210-079597_3.jpg"
     ],
     "audios": [
       "uploads/2022/04/藤里りょうこ.mp3"
@@ -4637,7 +4638,7 @@ const CAST_DATA = [
     "regions": [
       "関西"
     ],
-    "image": "uploads/2025/08/永野さおり01-2-2.jpg",
+    "image": "../uploads/2025/08/永野さおり01-2-2.jpg",
     "audio": "uploads/2025/08/な_永野さおり-1.mp3",
     "sns": {
       "instagram": "",
@@ -4646,7 +4647,7 @@ const CAST_DATA = [
       "facebook": ""
     },
     "images": [
-      "uploads/2025/08/永野さおり01-2-2.jpg"
+      "../uploads/2025/08/永野さおり01-2-2.jpg"
     ],
     "audios": [
       "uploads/2025/08/な_永野さおり-1.mp3"
@@ -4677,7 +4678,7 @@ const CAST_DATA = [
     "regions": [
       "関東"
     ],
-    "image": "uploads/2021/09/本田祥子07-3.jpg",
+    "image": "../uploads/2021/09/本田祥子07-3.jpg",
     "audio": "uploads/2024/01/Honda_VoiceSample64k.mp3",
     "sns": {
       "instagram": "https://www.instagram.com/yoshiko_cherry339/",
@@ -4686,9 +4687,9 @@ const CAST_DATA = [
       "facebook": ""
     },
     "images": [
-      "uploads/2021/09/本田祥子07-3.jpg",
-      "uploads/2024/01/本田祥子08-3.jpg",
-      "uploads/2024/01/本田祥子13-2.jpg"
+      "../uploads/2021/09/本田祥子07-3.jpg",
+      "../uploads/2024/01/本田祥子08-3.jpg",
+      "../uploads/2024/01/本田祥子13-2.jpg"
     ],
     "audios": [
       "uploads/2024/01/Honda_VoiceSample64k.mp3"
@@ -4718,7 +4719,7 @@ const CAST_DATA = [
     "regions": [
       "関東"
     ],
-    "image": "uploads/2025/06/花咲ゆり02-2.jpg",
+    "image": "../uploads/2025/06/花咲ゆり02-2.jpg",
     "audio": "",
     "sns": {
       "instagram": "https://www.instagram.com/o_h_a_n_a8787/",
@@ -4727,8 +4728,8 @@ const CAST_DATA = [
       "facebook": ""
     },
     "images": [
-      "uploads/2025/06/花咲ゆり02-2.jpg",
-      "uploads/2025/06/花咲ゆり11-2.jpg"
+      "../uploads/2025/06/花咲ゆり02-2.jpg",
+      "../uploads/2025/06/花咲ゆり11-2.jpg"
     ],
     "careerLeft": "【見出し】【MC】\n・フォーサム2025/参天製薬ランチョンセミナー影ナレ\n・埼玉自民党選挙ウグイス\n【見出し】【CO】\n・アミューズメントエキスポ プライズフェア/SEGA\n・コンテンツ東京/poolbitdesign\n・Japan IT Week秋/Sky\n・Audiホテルイベント＠ウェスティンホテル東京\n・アサヒスーパードライビール缶サンプリングイベント\n・大塚商会セミナー受付\n・MotoGP/全体PR\n・CHANEL銀座プレス向けイベント\n・脱炭素経営EXPO2024/NTTノードエナジー\n・地方自治情報化推進フェア/ピースミールテクノロジー\n・CPG GOLF CUP アテンド\n・第65回日本肺がん学会学術総会/中外製薬\n・ゲームショウ2024/SEGA/ATLUS\n・第67回日本糖尿病学会学術集会/ベーリンガーインゲルハイム\n・第64回日本呼吸器学会学術講演会/ベーリンガーインゲルハイム\n・MISSHA ミシャ イベントスタッフ\n・自費研フェスティバル/Good Things\n・高田馬場遊戯業協会会合\n・Google Cloud Next`23 in Tokyo\n・阪急メンズ東京メンズナイトアワード\n・木製フィットネスマシン展示体験イベント\n・日本アレルギー学会学術大会\n・Audi Q4 e-tron Exhibition Tour\n・川崎フロンターレVSバイエルンミュンヘンVIP運営関連業務　他多数",
     "height": 164,
@@ -4754,7 +4755,7 @@ const CAST_DATA = [
     "regions": [
       "関西"
     ],
-    "image": "uploads/2022/07/川瀬ゆりな04.jpg",
+    "image": "../uploads/2022/07/川瀬ゆりな04.jpg",
     "audio": "uploads/2022/07/か_川瀬ゆりな.mp3",
     "sns": {
       "instagram": "",
@@ -4763,10 +4764,10 @@ const CAST_DATA = [
       "facebook": ""
     },
     "images": [
-      "uploads/2022/07/川瀬ゆりな04.jpg",
-      "uploads/2022/07/川瀬ゆりな13.jpg",
-      "uploads/2022/07/川瀬ゆりな05.jpg",
-      "uploads/2022/07/川瀬ゆりな14.jpg"
+      "../uploads/2022/07/川瀬ゆりな04.jpg",
+      "../uploads/2022/07/川瀬ゆりな13.jpg",
+      "../uploads/2022/07/川瀬ゆりな05.jpg",
+      "../uploads/2022/07/川瀬ゆりな14.jpg"
     ],
     "audios": [
       "uploads/2022/07/か_川瀬ゆりな.mp3"
@@ -4797,7 +4798,7 @@ const CAST_DATA = [
     "regions": [
       "関東"
     ],
-    "image": "uploads/2021/09/1430346958-995968_2.jpg",
+    "image": "../uploads/2021/09/1430346958-995968_2.jpg",
     "audio": "uploads/2022/02/鈴木ゆうこ.mp3",
     "sns": {
       "instagram": "",
@@ -4806,9 +4807,9 @@ const CAST_DATA = [
       "facebook": ""
     },
     "images": [
-      "uploads/2021/09/1430346958-995968_2.jpg",
-      "uploads/2021/09/1430346958-995968_3.jpg",
-      "uploads/2021/09/1430346958-995968_4.jpg"
+      "../uploads/2021/09/1430346958-995968_2.jpg",
+      "../uploads/2021/09/1430346958-995968_3.jpg",
+      "../uploads/2021/09/1430346958-995968_4.jpg"
     ],
     "audios": [
       "uploads/2022/02/鈴木ゆうこ.mp3"
@@ -4839,7 +4840,7 @@ const CAST_DATA = [
     "regions": [
       "関東"
     ],
-    "image": "uploads/2022/09/宮本悠未01-3.jpg",
+    "image": "../uploads/2022/09/宮本悠未01-3.jpg",
     "audio": "",
     "sns": {
       "instagram": "https://www.instagram.com/m_yumi__2000/",
@@ -4848,9 +4849,9 @@ const CAST_DATA = [
       "facebook": ""
     },
     "images": [
-      "uploads/2022/09/宮本悠未01-3.jpg",
-      "uploads/2022/09/宮本悠未10-2.jpg",
-      "uploads/2022/09/宮本悠未25.jpg"
+      "../uploads/2022/09/宮本悠未01-3.jpg",
+      "../uploads/2022/09/宮本悠未10-2.jpg",
+      "../uploads/2022/09/宮本悠未25.jpg"
     ],
     "careerLeft": "【見出し】【モデル】\n・美工パナソニックビューティースタイラーデモ動画\n・大王製紙「エリス HEART SUPPORT Project 世界女の子会議2023」動画\n【見出し】【MCCO】\n・auiPhone新発売プロモーション\n【見出し】【舞台】\n・洗足音楽大学ミュージカルコース シアトリカルリーディング「転校生」野本小百合役\n・ヒロセプロジェクト「神様と過ごした10日間2019」\n【見出し】【受賞歴】\n・Miss World Japan2022神奈川 ファイナリスト\n・2022 Miss Earth Japan大阪\n・2022 Miss Water Osaka",
     "careerRight": "【見出し】【コンパニオン】\n・東京オートサロン/エンパイヤ自動車スパルコ\n・東京ゲームショウ/カプコン\n・ビクターロック祭り/JVCケンウッド\n・TOKYOPACK2022/大阪シーリング印刷\n・サマーソニック/ジャガー・ランドローバー\n・自動認識総合展/サトー\n・あなたが主役の写真展\n・ラリージャパン2022\n・TOKYOパラリンピック1周年イベント/TEAM BEYOND\n・フードシステムソリューション展/AIHO\n・ツーリズムEXPOジャパン/エバー航空\n・洗浄展/カイジョー\n・AMWCジャパン/Eye-Lens Pte Ltd\n・Expert Meeting in Tokyo\n・トンボ展示会＠東京\n・JIMTOF/芝浦機械\n・馬れるMUSEUM\n・Cartierイベント2022\n・カーエレJAPAN/アナログデバイセズ\n・JAPAN IT WEEK関西/ユーザックシステム　他多数",
@@ -4877,7 +4878,7 @@ const CAST_DATA = [
     "regions": [
       "関東"
     ],
-    "image": "uploads/2022/11/IMG_3502.jpeg",
+    "image": "../uploads/2022/11/IMG_3502.jpeg",
     "audio": "uploads/2022/11/は_春原このみ.mp3",
     "sns": {
       "instagram": "https://www.instagram.com/konomisotechnic/?hl=ja",
@@ -4886,10 +4887,10 @@ const CAST_DATA = [
       "facebook": ""
     },
     "images": [
-      "uploads/2022/11/IMG_3502.jpeg",
-      "uploads/2022/11/IMG_3503.jpeg",
-      "uploads/2022/11/IMG_3498.jpeg",
-      "uploads/2022/11/IMG_3504.jpeg"
+      "../uploads/2022/11/IMG_3502.jpeg",
+      "../uploads/2022/11/IMG_3503.jpeg",
+      "../uploads/2022/11/IMG_3498.jpeg",
+      "../uploads/2022/11/IMG_3504.jpeg"
     ],
     "audios": [
       "uploads/2022/11/は_春原このみ.mp3"
@@ -4922,7 +4923,7 @@ const CAST_DATA = [
     "regions": [
       "関東"
     ],
-    "image": "uploads/2021/09/1414437998-021101_2.jpg",
+    "image": "../uploads/2021/09/1414437998-021101_2.jpg",
     "audio": "uploads/2022/07/三次愛_ステージMC.mp3",
     "sns": {
       "instagram": "https://www.instagram.com/aimitsugi/",
@@ -4931,9 +4932,9 @@ const CAST_DATA = [
       "facebook": ""
     },
     "images": [
-      "uploads/2021/09/1414437998-021101_2.jpg",
-      "uploads/2021/09/1414437998-021101_3.jpg",
-      "uploads/2021/09/1414437998-021101_4.jpg"
+      "../uploads/2021/09/1414437998-021101_2.jpg",
+      "../uploads/2021/09/1414437998-021101_3.jpg",
+      "../uploads/2021/09/1414437998-021101_4.jpg"
     ],
     "audios": [
       "uploads/2022/07/三次愛_ステージMC.mp3"
@@ -4968,7 +4969,7 @@ const CAST_DATA = [
     "regions": [
       "関東"
     ],
-    "image": "uploads/2022/04/花咲あんな08-1.jpg",
+    "image": "../uploads/2022/04/花咲あんな08-1.jpg",
     "audio": "uploads/2022/04/は_花咲あんな.mp3",
     "sns": {
       "instagram": "https://www.instagram.com/anna_hanasaki/?hl=ja",
@@ -4977,9 +4978,9 @@ const CAST_DATA = [
       "facebook": ""
     },
     "images": [
-      "uploads/2022/04/花咲あんな08-1.jpg",
-      "uploads/2022/04/花咲あんな15-1.jpg",
-      "uploads/2022/04/花咲あんな07-1.jpg"
+      "../uploads/2022/04/花咲あんな08-1.jpg",
+      "../uploads/2022/04/花咲あんな15-1.jpg",
+      "../uploads/2022/04/花咲あんな07-1.jpg"
     ],
     "audios": [
       "uploads/2022/04/は_花咲あんな.mp3"
@@ -5007,7 +5008,7 @@ const CAST_DATA = [
     "regions": [
       "関東"
     ],
-    "image": "uploads/2022/05/笹井麻美03-1.jpg",
+    "image": "../uploads/2022/05/笹井麻美03-1.jpg",
     "audio": "",
     "sns": {
       "instagram": "https://www.instagram.com/sasaiasami/?hl=ja",
@@ -5016,9 +5017,9 @@ const CAST_DATA = [
       "facebook": ""
     },
     "images": [
-      "uploads/2022/05/笹井麻美03-1.jpg",
-      "uploads/2022/05/笹井麻美16.jpg",
-      "uploads/2022/05/笹井麻美05.jpg"
+      "../uploads/2022/05/笹井麻美03-1.jpg",
+      "../uploads/2022/05/笹井麻美16.jpg",
+      "../uploads/2022/05/笹井麻美05.jpg"
     ],
     "careerLeft": "【見出し】【展示会】\n・食品開発展2023/Sunsweet\n・メンテナンス・レジリエンスTOKYO2023/エクサ\n・民間医局レジナビフェア2023東京/獨協医科大学病院\n・日本ものづくりワールド製造業DX展/VEC\n・リテールテックJAPAN 2023/ドリーム・アーツ\n・商業施設・店舗DX展＆建設DX展/セーフィー\n・次世代薬局EXPO/シンキー\n・JIMTOF2022/ミツトヨ\n・営業支援EXPO夏/セールスフォース\n・HR EXPO/ラクス\n・営業支援EXPO春/セールスフォース\n・設計・製造ソリューション展/セールスフォース\n・リテールテック/セールスフォース\n・ジャパンビルド-建築の先端技術展/テクノホライゾン株式会社エルモカンパニー\n・xTECH EXPO 2019/ビズリーチ\n・生産システム見える化展2018/IFSジャパン\n・エコプロダクツ/環境庁\n・SCF2017/エニイワイヤ\n・外食ビジネスウィーク2017/龍の巣\n・生産システム見える化展2017/NTTデータ関西\n・広告宣伝EXPO/スターティアラボ\n・就職博＠新宿エルタワー/エイム\n・スーパーマーケット・トレードショー2017/ジェーシーエム\n・ET展/IARシステムズ\n・住友不動産「新築そっくりさん大感謝祭」\n・マーケティングテクノロジーフェア/Adobe\n・クラウドデイズ/マイクロソフト\n・ドラッグストアショー/OSG\n・JAPAN IT WEEK春/ハンモック\n・会計・財務EXPO/コンカー\n・ET展/アドバンスド・データ・コントロールズ\n・ニューフードフェア 2015/カネク\n・情報セキュリティEXPO/DDS\n・エコプロダクツ/オール東京62市区町村\n・Embedded Technology/ユークエスト\n・住まい博2013 in パシフィコ横浜\n・ドラッグストアショー/OSG\n・JAPAN IT WEEK春/ハンモック\n・セキュリティーショー/加藤電気\n・震災対策技術展\n・スマートフォン＆モバイルエキスポ秋/niftyクラウド\n・ケーブルテレビショー/沖電気\n・シーフードショー/野村物産平塚屋\n・ニューフードフェア 2015/カネク\n・エネルギーソリューション/竹中工務店\n・東京トラックショー/日立建機\n・下水道展/東京都水道局\n・IEXPO/EMC\n・ESEC/RICOH\n・測量設計ソリューション/福井コンピューター\n・設計製造ソリューション/NTTデータエンジニアシステム",
     "careerRight": "【見出し】【MC】\n・働き方改革エキスポ/IVRy　MCCO\n・パチンコライター来店イベント\n【見出し】【セミナー】\n・J-CaP研究会報告会\n・大塚商会 実践ソリューションフェア\n・IBMセミナーVIP対応\n・住友不動産セミナー\n・楽天株主総会\n・大塚商会 ビジネスソリューションフェア2015\n・ファイザー製薬セミナー\n【見出し】【イベント】\n・東京カメラ部10選・コンテスト入賞者合同写真展\n・トランスコンチネンツ　ららぽーと立川立飛店オープニングイベント\n・ANAクラウンプラザイベント\n・DUNLOPスポンジ娘キャラバン\n・台湾うなぎイベント\n・ジャックダニエルガール\n・でちゃうガール\n・DMMぱちタウンガール\n・PMARTイメージガール\n・ゲームセンターガロパイベント\n・東急ホームズ受付　他多数",
@@ -5045,7 +5046,7 @@ const CAST_DATA = [
     "regions": [
       "関東"
     ],
-    "image": "uploads/2021/09/1618914218-053618_2.jpg",
+    "image": "../uploads/2021/09/1618914218-053618_2.jpg",
     "audio": "",
     "sns": {
       "instagram": "",
@@ -5054,8 +5055,8 @@ const CAST_DATA = [
       "facebook": ""
     },
     "images": [
-      "uploads/2021/09/1618914218-053618_2.jpg",
-      "uploads/2021/09/1618914218-053618_3.jpg"
+      "../uploads/2021/09/1618914218-053618_2.jpg",
+      "../uploads/2021/09/1618914218-053618_3.jpg"
     ],
     "careerLeft": "【見出し】【MC】\n・東海テレビ「名古屋deおもてなしshow」番組MC\n・MID-FM ゲストMC\n・人とくるまのテクノロジー\n【見出し】【その他】\n・ミス日本酒愛知ファイナリスト\n・ベストオブミス愛知ファイナリスト\n・雑誌「フライデー」グラビア",
     "careerRight": "【見出し】【コンパニオン】\n・某外車ショールーム受付\n・各種展示会\n・各種街頭イベント\n・各種キャンペーン",
@@ -5083,7 +5084,7 @@ const CAST_DATA = [
     "regions": [
       "関東"
     ],
-    "image": "uploads/2024/02/茅沼エミル03-2.jpg",
+    "image": "../uploads/2024/02/茅沼エミル03-2.jpg",
     "audio": "",
     "sns": {
       "instagram": "",
@@ -5092,8 +5093,8 @@ const CAST_DATA = [
       "facebook": ""
     },
     "images": [
-      "uploads/2024/02/茅沼エミル03-2.jpg",
-      "uploads/2024/02/茅沼エミル12-2.jpg"
+      "../uploads/2024/02/茅沼エミル03-2.jpg",
+      "../uploads/2024/02/茅沼エミル12-2.jpg"
     ],
     "careerLeft": "【見出し】【MC】\n・セブンイレブン展示会\n・株式会社ジーピー主催カタン日本選手権大会\n・渡邉元『ポーカー教室』パン・ローリング社、販売促進モデル、ステージMC\n・夢ナビライブステージ\n・SEKAI NO OWARI 販促MC\n・日経BPセミナー受付、進行MC\n・CANON量販店キャンペーン「ポケモン撮影会」MCCO\n・統一地方選挙うぐいす\n・神奈川県議会議員選挙うぐいす\n・参議院全国比例選挙うぐいす\n・挙式披露宴司会\n【見出し】【英語コンパニオン】\n・VISA ASIA PACIFIC SENOIR CLIENT COUNCIL受付＆クローク\n・オリゾンシステムズ「Flowmon DAY」受付\n・スマートグリッドエキスポ/三菱重工\n・リテールテック/Intel\n・ガステック/ジャペックス\n・VISA ASIA PACIFIC SENOIR CLIENT COUNCIL 2023受付&クローク\n【見出し】【モデル】\n・ウコンの力レバープラス取材モデル\n・ショップチャンネル「パナソニック家電特集」モデル\n・PK シアター「リアルゲーム『JUDGE～生き残りを賭けた選択～』」予告動画出演\n・実写版「熱血硬派くにおくん」町民役として出演\n・インベカヲリ★作品集『やっぱ月帰るわ、私。』モデル\n・株式会社ジーピー「プライムポーカー」パッケージモデル\n・ショップチャンネル「パナソニック家電」モデル\n・水辺を彩る江戸祭り「日光江戸村」花魁道中モデル\n・インディーズファッションブランド「Untrue」メインショーモデル（2007年～2012年）\n・携帯動画サイトムービーフル、グラビア動画コンテンツ「64の女」出演\n・シブヤコレクション通年契約モデル\n・写真家オチアイレイ氏個展「横濱 DOLLS」作品モデル\n・株式会社 KABUTO 企画 DVD「デジタルガール」出演\n・フォトグラファーハル氏ポストカード及び作品集『Couple Jam』モデル\n・フォトグラファーハル氏作品集『Flesh Love』モデル\n・テキサスホールデムポーカーポータルサイト「POKERZINE」カバーガール\n・ビリヤード雑誌「CUE’S」テキサスホールデム、麻雀関連記事に掲載\n・株式会社ジーピー「プライムポーカー」パッケージモデル、販売促進キャンペーンガール\n・渡邉元『ポーカー教室』パン・ローリング社、販売促進モデル、ステージ MC\n・STUDIO KENTA「サイトコンテンツ」スチール、動画モデル\n【見出し】【アテンドコンパニオン】\n・ジャパンフィッシングショー開会式ステージコンパニオン\n【見出し】【式典/学会/総会/セミナーコンパニオン】\n・三井建設新年会パーティー\n・Thoughtspot Beyond conference\n・Lenovo Partner Advisory Council\n・広告電通賞・贈賞式みずほフィナンシャルグループ株主総会\n・ANA株主総会\n・サントリー株主総会\n・旭化成株主総会\n・医療セミナーゴールデンチャイルド\n・日本高血圧学会/協和発酵キリン\n・SAP SELECT\n・日立パワーソリューションフォーラム\n・IDC セミナー\n・大阪ガス催事セミナー\n・電通年賀会\n・小林製薬展示会\n・第12回統合失調症研究会/アステラス製薬\n・日本神経治療学会/田辺製薬\n・GERD 研究会第19回学術集会\n【見出し】【イベントコンパニオン】\n・AUTOBACS SUPER GT Round2/BMW\n・首都高館内コンシェルジュ\n・SK-Ⅱプロモーションイベント\n・シャープ BtoB フェア アテンドコンパニオン\n・オリエンタルランド「ウィランズの鏡」アテンドコンパニオン\n・東京ファッショングッズトレードショー/主催事務局ブース受付\n・山佐「山佐新機種発表会」でちゃう！ガールズ\n・東急ホームズ「湘南住宅展示場」受付\n・テレビ東京「ビジネスフォーラム」受付\n・ゲームの電撃 感謝祭 2014 ＆ 電撃文庫 春の祭典 2014\n・Circus「ダ・カーポⅢプラチナ・パートナー予約特典配布イベント」（コスプレCO）\n・ROYCE「旅するチョコレートキャンペーン」サンプリングガール\n・阪急交通社「旅行説明会」受付\n・株式会社フリュー「プリクラ機『GYZA』ロケテスト\n・インテル「ビジネスをもっとスマートに。インテル体験イベント」\n・ママまつり「NEC」ブースコンパニオン\n・株式会社ジーピー「カタンの開拓者たち」パッケージモデル、販売促進キャンペーンガール\n・ワールドレディスチャンピオンシップサロンパスカップ/久光製薬\n・ジェットスター「カウントダウンフェスティバル」プロモーションガール\n・DHC「アクネコントロールシリーズ」「F1 スキンケアシリーズ」プロモーションガール\n・日本アロマテラピー協会主催「アロマテラピーフェア」\n・BATJ「KENT ナノテック」お台場合衆国プロモーションガール、ナイトプロモーションガール\n・JT「MEVIUS」「Winston」「マイルドセブン ZERO STYLE」「CAMEL NATURAL」プロモーションガール\n・フィリップモリス「LARK」プロモーション\n・Maruhan キャンペーンガール\n・でちゃう！ガールズ\n・DMM ぱちタウンガール\n・フレッツ光「家電量販店くじ引きイベント」キャンペーンガール\n・ハイネケン「ノベルティ配布イベント」キャンペーンガール\n・NTT ドコモ「保険の窓口テストマーケティング」キャンペーンガール\n・ビオレスキンケア洗顔サンプリングイベント\n・楽園感謝デーイベント運営スタッフ　他多数",
     "careerRight": "【見出し】【展示会コンパニオン】\n・CYCLE MODO TOKYO/ダイアテック\n・HR EXPO/ソニービズネットワークス\n・IIFES/VEC\n・人とくるまのテクノロジー展/カミナシ\n・FOOMA JAPAN/カミナシ\n・国際ホテルレストランショー/カミナシ\n・食品開発展/カミナシ\n・スマート工場EXPO/ドリーム・アーツ、マジセミ、安川電機\n・DX EXPO/マジセミ、マネーフォワード\n・Japan IT week/マジセミ\n・インターフェックス/ファンリード\n・機械要素技術展/タカヤマ\n・SEMICON JAPAN/タカヤマ\n・ジャパンホームビルディングショー/アクセルラボ\n・脱炭素エキスポ/パナソニック＆ヤンマー\n・FOODEX JAPAN/DHA CORPORATION\n・リテールテック/ラクス\n・総務人事経理WEEK/ラクス\n・会計・財務EXPO/ラクス\n・AI業務自動化展/ラクス\n・民間医局レジナビフェア/獨協医科大学病院\n・PAGE/Roland D.G.\n・スマートエネルギーWEEK/パワーエックス\n・化粧品開発展/Shizai\n・ライフスタイルWEEK/Shizai\n・ファッションワールド/Shizai\n・ウェルネスフードジャパン/Shizai\n・ファベックス/ジェーシーエム\n・日本医学会総会/第一三共\n・オルガテック東京/コンフィグラ\n・SDGs・ESG支援エキスポ/関西電力\n・メンテナンス・レジリエンス/エクサ\n・コールセンターCRMデモ&カンファレンス/テクマトリックス\n・国際ロボット展/NACHI、山善\n・JAPAN PACK/イーデーエム\n・IT Week/TOKIUM\n・働き方改革EXPO/テクノホライズン株式会社エルモカンパニー\n・Interop/エイチシーネットワーク、オリゾンシステムズ\n・Japan Noodle Show/天辺ダッシュカンパニー\n・国際物流総合展/YE DIGITAL、理想化学\n・JIMTOF/鍋屋バイテック\n・コンテンツ東京2023/Wovn Technologies\n・商業施設・店舗DX展＆建設DX展/セーフィー\n・コミックマーケット/コロンバスサークル\n・コミックマーケット/株式会社せつな（コスプレCO）\n・コミックマーケット/フロントウィング、あかべぇそふとつぅ合同ブース（コスプレCO）\n・INTEROP/オリゾンシステムズ\n・情報セキュリティEXPO/オリゾンシステムズ\n・情報セキュリティエキスポ関西/オリゾンシステムズ\n・東京ゲームショウ/ソニー・コンピューター・エンターテインメント\n・次世代ワールドホビーフェア/任天堂\n・次世代ワールドホビーフェア/ソニー・コンピューター・エンターテインメント\n・ジャンプフェスタ/任天堂\n・情報セキュリティエキスポ/Jiransoft Japan\n・人とくるまのテクノロジー展/日本ナショナルインスツルメンツ\n・自動車部品＆加工エキスポ/オリンパス\n・スーパーマーケットトレードショー/ジーピー化成\n・東京マラソンエキスポ/マルサンアイ\n・国際物流展/理想化学\n・CEATEC/ソシオネクスト受付\n・vForum Tokyo/チェックポイントソフトウェア\n・エコプロダクツ/東洋紡\n・福祉車両展/HONDA説明員\n・販促エキスポ/アルカ\n・国際モダンヒスピタルショー/ITOKI\n・セキュリティーショー/ティービーアイ\n・ESEC/アイティアクセス\n・高機能金属展/オリンパス\n・ジャパンフィッシングショー/開会式、講演会受付\n・デリカデッセントレードショー/フジッコ\n・Embedded Technology 展/アイティアクセス\n・ホテル＆レストランショー/ホシザキ電機\n・HOSPEX2015/ホシザキ電気\n・アドテック TOKYO/123RF\n・エコプロダクツ/富士通\n・モバックショー/クレオ\n・フードシステムソリューション/中西製作所\n・フードシステムソリューション/ホシザキ電気\n・シーテック/富士通\n・東京国際航空宇宙産業展/板橋区\n・CEATEC/富士通、ソシオネクスト\n・クラウドコンピューティングEXPO/KDDI\n・クラウドコンピューティングEXPO/豊田ハイシステム\n・PV Japan/パナソニック電工\n・JASIS/オックスフォード・インストゥルメンツ\n・JASIS/オリンパス\n・情報セキュリティEXPO/Jiransoft Japan\n・インターフェックス/オリンパス\n・エコ家具エコオフィス EXPO/オムロンフィールドエンジニアリング\n・セブンイレブン商品展示会/小岩井乳業、ハーゲンダッツ\n・CANON EXPO\n・FOODEX JAPAN/主催者ブース VIP 受付\n・人とくるまのテクノロジー展/主催事務局ブース総合受付\n・MF-Tokyo/川崎油工\n・生産と設備 Tokyo/富士通　他多数",
@@ -5122,7 +5123,7 @@ const CAST_DATA = [
     "regions": [
       "関東"
     ],
-    "image": "uploads/2021/09/1573585709-464221_2.jpg",
+    "image": "../uploads/2021/09/1573585709-464221_2.jpg",
     "audio": "uploads/2021/09/や_山口恵梨華.mp3",
     "sns": {
       "instagram": "https://www.instagram.com/trip_foodie.yui/",
@@ -5131,9 +5132,9 @@ const CAST_DATA = [
       "facebook": ""
     },
     "images": [
-      "uploads/2021/09/1573585709-464221_2.jpg",
-      "uploads/2021/09/1573585709-464221_3.jpg",
-      "uploads/2021/09/山口恵梨華31.jpg"
+      "../uploads/2021/09/1573585709-464221_2.jpg",
+      "../uploads/2021/09/1573585709-464221_3.jpg",
+      "../uploads/2021/09/山口恵梨華31.jpg"
     ],
     "audios": [
       "uploads/2021/09/や_山口恵梨華.mp3"
@@ -5164,7 +5165,7 @@ const CAST_DATA = [
       "関東",
       "関西"
     ],
-    "image": "uploads/2025/09/七瀬はるか05-01.jpeg",
+    "image": "../uploads/2025/09/七瀬はるか05-01.jpeg",
     "audio": "",
     "sns": {
       "instagram": "https://www.instagram.com/__nanaharu/",
@@ -5173,10 +5174,10 @@ const CAST_DATA = [
       "facebook": ""
     },
     "images": [
-      "uploads/2025/09/七瀬はるか05-01.jpeg",
-      "uploads/2025/09/七瀬はるか14-01.jpeg",
-      "uploads/2025/09/七瀬はるか08.jpg",
-      "uploads/2025/09/七瀬はるか15.jpg"
+      "../uploads/2025/09/七瀬はるか05-01.jpeg",
+      "../uploads/2025/09/七瀬はるか14-01.jpeg",
+      "../uploads/2025/09/七瀬はるか08.jpg",
+      "../uploads/2025/09/七瀬はるか15.jpg"
     ],
     "careerLeft": "【見出し】【イベントMC】\n・鈴鹿8耐/MOTUL\n・朝日新聞×アルバルク東京バスケット\n・ボールクリニック\n・朝日新聞×S.C.相模原 ファミリーサッカースクール\n・SG 第39回グランプリボートレース住之江ファン招待イベント\n・モバイルキャンペーン\n・阪神タイガースファンクラブ入会案内\n・ライフお客様感謝大抽選会\n・リンクス梅田リンクスる！PON抽選会\n・CITIZEN時計キャンペーン\n・アインズ＆トルペオープンイベント\n・京都ヨドバシピッタリチャレンジ！Go!Go!Go!\n【見出し】【展示会MC】\n・JECA FAIR 2025/きんでん\n・大阪・関西万博/大阪ヘルスケアパビリオンデモキッチン\n・スマートグリッドEXPO/NEC\n・下水道展/南陽、MLR協会\n・グリーンファクトリーEXPO/大成建設\n・インターフェックスジャパン/大成建設\n・建設・測量生産性向上展/日本リグランド\n・リテールテックジャパン/Scandit\n・食博覧会/大阪ガス\n・フィッシングショー大阪/がまかつ\n・セブンイレブン新商品発表会\n・トップバリュ新商品展示会\n【見出し】【学会/セミナーMC】\n・日本透析医学会学実総会\n・日本臨床内科医学会\n・日本内視鏡外科学会総会\n・日本うつ病学会共催セミナー\n・日本泌尿器科学会総会\n・癌治療学会 共催セミナー\n・日本消化器外科学会メディトロニック\n・日本神経学会学術大会\n・TKPコミュニケーションズ医療関係者向けウェビナー\n【見出し】【パーティーMC】\n・イオン北花田ハロウィンパーティーメインステージ\n・某企業創立周年記念パーティー\n・一般社団法人日本通販CRM協会新年賀詞交換会\n・Party Wedding 挙式/披露宴\n・TVB 挙式\n・結婚式2次会\n【見出し】【その他MC】\n・マンションギャラリーナビゲーター\n・参議院/衆議院各政党選挙ウグイス多数",
     "careerRight": "【見出し】【CO】\n・大阪オートメッセ\n・次世代ワールドホビーフェア\n・JTナイトクラブ店頭プロモーション\n・学会PC受付\n・大阪さんま祭り\n・ロハスフェスタ/トヨタブース\n・JVCKENWOOD彩速ナビ体験ツアー\n・日本呼吸器学会学術講演会受付\n・ロレアルパリサンプリング\n・NTTDOCOMO冬春モデルSCイベント\n・セルシー千里正月イベント\n・ガンダムAGEゲイジングバトル体験イベント\n・ブルークローバーキャンペーン\n・万代ドリームワールド/サントリーブースサンプリング\n・レガロガール来店イベント\n・ニベア新商品サンプリング\n・eo光eoモバイルイベント\n・WBCプレス受付\n・万代ファミリーフェスティバル\n・住宅展示会受付\n・ALBi入会キャンペーン\n・OCATスクラッチキャンペーン\n・食博覧会/大阪ガスT&T\n・マンションギャラリー受付\n・ドコモ練り歩きキャンペーン\n・クエルボガール\n・イエガーガール\n・JRA阪急電鉄プレゼンツピクニックガーデンフェスタ\n・JTスヌースプロモーション\n・関西エクステリアフェア/YKKAP\n・タイガー魔法瓶新商品懇談会\n・サークルKサンクス展示会/JT\n・JRAサンプリング\n・東京モーターショー/来賓議員アテンド\n・関西機械要素展/ボーセイキャプティブ\n・スポーツカーショールーム受付\n・大阪マラソンEXPO/mizuno\n・加藤産業新商品発表会/サントリー\n・日本アクセス展示会/フジッコ",
@@ -5206,7 +5207,7 @@ const CAST_DATA = [
     "regions": [
       "関東"
     ],
-    "image": "uploads/2024/03/野村ひとみ05-1.jpg",
+    "image": "../uploads/2024/03/野村ひとみ05-1.jpg",
     "audio": "",
     "sns": {
       "instagram": "https://www.instagram.com/1103trip/?hl=ja",
@@ -5215,9 +5216,9 @@ const CAST_DATA = [
       "facebook": ""
     },
     "images": [
-      "uploads/2024/03/野村ひとみ05-1.jpg",
-      "uploads/2024/03/野村ひとみ15-2.jpg",
-      "uploads/2024/03/野村ひとみ01-2.jpg"
+      "../uploads/2024/03/野村ひとみ05-1.jpg",
+      "../uploads/2024/03/野村ひとみ15-2.jpg",
+      "../uploads/2024/03/野村ひとみ01-2.jpg"
     ],
     "careerLeft": "【見出し】【MC】\n・セブンイレブン展示会\n・マルコとマルオの5日間エポスカードキャンペーン\n・ハイドラフェイシャル　ポップアップキャンパーン\n・ソフトバンク携帯量販店キャンペーン\n・SONYワンセグウォークマンイベント\n・アリオ橋本抽選会\n・浅草ほうづき市\n・HP秋葉原ジャック\n・DMMぱちタウン\n・第3回金沢八景ハーフマラソン　MCCO\n・コンテンツ東京/神風動画　MCCO\n・国際物流総合展/タクテック　MCCO\n【見出し】【モデル】\n・フォーミュラD　広島トヨタ teamDROO-Pレースクイーン\n・町田時代まつりPRモデル\n・flash撮影会\n・VIVAくらぶ撮影会\n・東京写真連盟撮影会\n・全東京写真連盟撮影会2023年度準フォトジェニック\n・三重県松阪市氏郷まつり　冬姫役\n・長野県松代町真田十万石まつり　村松殿\n・宮城県仙台市青葉祭り　阿梅姫\n・新潟県上越市謙信公祭　乃美姫・八重\n・埼玉県行田市忍城時代祭　甲斐姫\n【見出し】【学会/株主総会コンパニオン】\n・Medtec Japan/積水化成品工業\n・モダンホスピタル/HOGY\n・ITEM/東洋メディック\n・日本リウマチ学会総会/グラクソ・スミスクライン\n・日本循環器学会学術集会/第一三共\n・肺癌学会/ファイザー\n・第67回日本透析医学会学術集会・総会/アステラス製薬\n・泌尿器学会/アステラス製薬\n・白内障学会/参天製薬\n・アサヒホールディングス株主総会",
     "careerRight": "【見出し】【展示会コンパニオン】\n・東京ゲームショウ2022/Nex（英語コンパニオン）\n・総務サービスEXPO/デンソーソリューション×アネストシステム\n・TOKYO PACK 2022/大阪シーリング印刷\n・コンテンツ東京/電通\n・東京ゲームショウ/SONY\n・広告宣伝EXPO/トライステージ\n・東京モーターショー/テスラジャパン\n・人とくるま/dSPACE Japan\n・カーエレクトロニクス/旭化成\n・JPCA Show/日本ミルテェック、オーク製作所\n・設計・製造ソリューション展/パナソニックデバイスSUNX\n・JASIS/日立ハイテク\n・IT week 秋/日立ハイテク\n・JASIS/島津製作所\n・CSPI/ティー・アイ・トレーディング\n・CSPI/ミルウォーキーツールジャパン\n・高機能セラミック展/淺田鉄工\n・国際ロボット展/シナノケンシ\n・nanotech2019、2021/NEDO\n・JECAショー/九電工\n・MF‐Tokyo 2019/アマダ\n・IT WEEK/大塚商会\n・Japan IT Week春/カオナビ\n・しんきんフェア2018/NTTデータ\n・スマートファクトリージャパン2018/DTS\n・働き方改革EXPO/Microsoft surface\n・リテールテック/LINEPay、日本ガイシ\n・省エネEXPO/AGS\n・インターロップ/カスペルスキーブース、ゾーホージャパン\n・コールセンターCRMデモ&コンファレンス/富士通\n・Interop Tokyo2022/NTT-AT\n・Interop Tokyo2021/ハーウェイ\n・5G/Iot通信展/日本ガイシ\n・VFORUM/ピュアストレージ\n・IGAS2018/日本HP\n・東京パック2018/大阪シーリング印刷\n・page2019/グローバルグラフィックス\n・スーパーマーケットトレードショー/全国商工会連合会 日本アクセス、江崎グリコ\n・モバックショー/昭和産業\n・医薬品原料国際展/DSP五協フード＆ケミカル\n・CITE Japan/DSP五協フード＆ケミカル\n・ifia JAPAN/DSP五協フード＆ケミカル\n・外食ビジネスウィーク2019/beepnow Systems\n・アグリフード/蒜山ミルキー\n・FOOMA JAPAN/日立産機システム\n・化粧品開発展/CBD日本\n・焼肉展/無限キムチ\n・国際ホテルレストランショー/ポスタス\n・ビューティーワールド/エス･エフ･シー\n・IIFES/明電舎\n・プラントメンテナンスショー/明電舎\n・NEW環境展/フジテック\n・NEW環境展/ケルヒャー\n・下水道展/東京都下水道\n・特許展/日立製作所\n・フランチャイズビジネスEXPO/野元メンテナンスサービス\n・スーパービジネスフォーラム東京/DMG森精機\n・業務フルードパワー見本/ダイキン工業\n・国際物流展/ティー・アイ・トレーディング\n・国際ロボット展/進和\n・スポーツ施設EXPO/太陽工業\n・建築・建材展/太陽工業\n・フューネラルビジネスフェア/いなば園\n・NTT R&Dフォーラム\n・三菱電機アドバンストソリューション\n・Adobe Max Japan 2018/日本HP",
@@ -5250,10 +5251,10 @@ const CAST_DATA = [
     "regions": [
       "関東"
     ],
-    "image": "uploads/2026/04/貴理子02-2.jpg",
+    "image": "../uploads/2026/04/貴理子02-2.jpg",
     "images": [
-      "uploads/2026/04/貴理子02-2.jpg",
-      "uploads/2026/04/貴理子36.jpg"
+      "../uploads/2026/04/貴理子02-2.jpg",
+      "../uploads/2026/04/貴理子36.jpg"
     ],
     "audio": "",
     "audios": [],
@@ -5285,7 +5286,7 @@ const CAST_DATA = [
     "regions": [
       "関東"
     ],
-    "image": "uploads/2025/02/岡村真依04.jpg",
+    "image": "../uploads/2025/02/岡村真依04.jpg",
     "audio": "",
     "sns": {
       "instagram": "https://www.instagram.com/maimai_maai/",
@@ -5294,8 +5295,8 @@ const CAST_DATA = [
       "facebook": ""
     },
     "images": [
-      "uploads/2025/02/岡村真依04.jpg",
-      "uploads/2025/02/岡村真依12-2.jpg"
+      "../uploads/2025/02/岡村真依04.jpg",
+      "../uploads/2025/02/岡村真依12-2.jpg"
     ],
     "careerLeft": "【見出し】【MC】\n・モーターサイクルショー2025/ベビーフェイス・チタニウムパワートークショー\n・FIAフォーミュラE世界選手権 in Tokyo premium lounge\n・あさひかわ菓子博2025/森永製菓\n・LEGO×ワンピースコラボイベントMCCO\n・CC/CRM2025東京/ベリントブースMCCO\n・東京オートサロン2024～2026/アルファレックストークショー\n・care tex 2025/ジーコム\n・WOMAN EXPO 2024 トークセッション\n・国際物流展2024/メイキコウ\n・国際ホテルレストランショー/クリップスMCCO\n・CP＋2024/セコニック・ヴィンチェロ\n・セブンイレブン新製品展示会2023秋\n・セブンイレブン新製品展示会2023～2024春\n・人とくるまのテクノロジー展2023東京/アウマ・エンジニアド・プロダクト\n・人とくるまのテクノロジー展2023名古屋/アウマ・エンジニアド・プロダクト\n・コンテンツ東京2023/オープンエイト\n・マーケティングWEEK/オープンエイト\n・テクノフロンティア/マウザー\n・ID.4 Experience/フォルクスワーゲン\n・CEATEC/太陽誘電MCCO\n・国際物流総合展/西部電気\n・SUPER GT＠富士/AMGホスピラウンジ（2015年～2017年）\n・SUPER GT＠鈴鹿/AMGホスピラウンジ（2015年～2017年）\n・他展示会にてMCCO多数\n【見出し】【モデル】\n・企業案内カタログモデル\n・飲食店ポスターモデル\n・ピーチジョン2013冬TVcm \"胸もいろいろ。ブラもいろいろ\"\n・トヨタWEB cm\n・ストックフォトモデル\n・orz kick ass PV\n・幸せボンビーガール再現VTR\n・27時間TV「めちゃイケ」\n【見出し】【イベントモデル】\n・カメラレッスンモデル\n・ボートレース江戸川イメージガール ewaves\n・ミスブライダルモデルベストスマイル賞\n・東京オートサロン/グラスピット\n・東京オートサロン/ダンロップ\n・東京オートサロン/motul\n・東京モーターサイクルショー/SUZUKI\n・東京ゲームショウ/CAPCOM\n・東京ゲームショウ/SCE\n・東京ゲームショウ/DMMゲームズ\n・東京モーターショー/フォルクスワーゲン\n・東京モーターサイクルショー/BMW\n・ニコニコ超会議/SANYO\n・ニコニコ超会議/陰陽師\n・トヨタカローラ栃木カスタマイズカーイベントモデリスタモデル\n・高尾新台発表会モデル",
     "careerRight": "【見出し】【TV】\n・タックルベリーTVリポーター\n・MSTVチャレンジ女子アナ\n【見出し】【RQ/イメージガール】\n・JKGラウンドガール\n・タックルベリーイメージガール\n・全日本ロードレースレースクイーン\n・スーパー耐久 ST-2クラス towa intec racing\n・ブランパンGTシーリーズアジア富士 Gruppe M racing\n・鈴鹿8耐  au＆テルルkohara racing\n【見出し】【英語コンパニオン】\n・東京モーターショー/ISUZU\n・ISM/トルコ\n・酒とワインのEXPO/cava de olo\n・JIMTOF/トランザーフィルター\n・UNIVERSAL MUSIC STORE HARAJUKU\n・カジノ産業総合展示会（マカオ）/セガサミークリエーション\n・FOODEX/イタリア企業 英語通訳\n・gastech/JERA\n・東京モーターショー/BMW\n・セミコンジャパン/アドバンテスト\n・nanotech/東レ\n・ビューティワールド/セントラルコーポレーション\n・FOOMA JAPAN/前川製作所\n【見出し】【コンパニオン】\n・第二十期ドコモ杯女流棋聖授位式\n・サンケイレディー富士スクラシック女子プロゴルフ表彰式\n・「新しい東北」交流拡大事業報告会\n・浦和競馬業務サポート、式典アテンド\n・江戸川競艇アテンドガールズ ewaves（オープニングセレモニー、表彰式アテンド）\n・GⅠダイヤモンドカップ、GⅠ江戸川大賞、GⅡモーターボート大賞、\n・GⅢオールレディース、ヴィーナスシリーズ第7戦、ルーキーシリーズ第9戦など\n・平塚競輪 GⅠ日本選手権、ガールズ競輪コレクションFⅡ（オープニングセレモニー、表彰式アテンド）\n・eドラフト会議\n・縄文ディズオープニング記念式典　　他多数",
@@ -5321,7 +5322,7 @@ const CAST_DATA = [
     "regions": [
       "関東"
     ],
-    "image": "uploads/2022/03/三咲舞花07-1.jpg",
+    "image": "../uploads/2022/03/三咲舞花07-1.jpg",
     "audio": "",
     "sns": {
       "instagram": "https://www.instagram.com/maikaru720/?hl=ja",
@@ -5330,8 +5331,8 @@ const CAST_DATA = [
       "facebook": ""
     },
     "images": [
-      "uploads/2022/03/三咲舞花07-1.jpg",
-      "uploads/2022/03/三咲舞花12-2.jpg"
+      "../uploads/2022/03/三咲舞花07-1.jpg",
+      "../uploads/2022/03/三咲舞花12-2.jpg"
     ],
     "careerLeft": "【見出し】【MC】\n・インターネット番組\n・お笑い芸人ステージ\n・某企業忘年会\n【見出し】【TV/映画】\n・アクサ生命cm\n・フジテレビ「リーガル・ハイ2」\n・映画「ジャッジ！」\n・TBS「金曜日のスマたち」赤服\n【見出し】【モデル】\n・TSC東京渋谷コレクション夏、冬モデル\n・オールアジアヘアショーモデル\n・ブライダルモデル\n・下着屋ネットWebモデル\n・アクセサリーカタログモデル\n・パーティーグッズ商品コスプレモデル\n・撮影会モデル\n・ストックフォトモデル\n・着物モデル\n・コダックペンタックス撮影会モデル\n【見出し】【イメージガール】\n・でちゃう！ガール\n・新日本プロレスラウンドガール\n【見出し】【舞台】\n・街のメロス（横浜キッドブラザーズ）\n【見出し】【雑誌】\n・でちゃう！\n・オプション\n・VIP STYLE\n・Fロード\n・af imp\n・K-STYLE\n・ワゴニスト\n・宝島\n・るるぶ\n・ギャルパラ\n・LIGHTNINH",
     "careerRight": "【見出し】【CD】\n・カバーアルバム『舞歌』『10 CARAT』\n【見出し】【DVD】\n・レースクイーンメジャーズ『ALL STAR2』\n・レースクイーンメジャーズ『三咲舞花』\n・『M  speculum』\n・CDR『競泳水着1～9』\n【見出し】【グラビアWebサイト】\n・サーキットスター\n・ハイパーレースクイーン\n・トップクイーン\n【見出し】【レースクイーン】\n・2014年～2019年 SUPER BATTLE of MINI\n・D1グランプリ　EXEDY RACING GIRL\n・スーパーGT 石松ポルシェ QUEEN'S TOKYO GIRL\n・スーパーGT Weds sport レースクイーン\n・クイーンズTOKYOコンテストグランプリ\n・インディJAPANレースクイーン\n・スーパーGT RE雨宮ORC RACING LADY\n・2りんかんドライバースタンドイメージガール\n・F1グランプリグリッドガール\n【見出し】【コンパニオン】\n・TOKYO BRAND EXHIBITION AUDEMARS PIGUET\n・ヨコハマフローティングヨットショー/ジャガー・ランドローバー・ジャパン\n・IFSジャパンパートナー事業説明会＆懇親会\n・東京オートサロン/AMS\n・東京オートサロン/太平タイヤ\n・東京オートサロン/EXEDY\n・東京オートサロン/weds sport\n・東京オートサロン/ブランニュー\n・東京オートサロン、大阪オートメッセ/スバルフォトジェニック\n・東京モーターショー/富士通テンイクリプス\n・東京モーターショー/EXEDY\n・東京モーターショー/GOOD YEAR\n・大阪オートメッセ/太平タイヤ\n・ボートショー/BRP\n・東京モーターサイクルショー/SYM\n・インポートカーショー\n・静岡オートスタイル\n・人とくるまのテクノロジー展/EXEDY\n・東京ゲームショウ/グリー\n・三和トレーディング表彰式アテンド\n・レンタルオフィス受付　　他多数",
@@ -5357,7 +5358,7 @@ const CAST_DATA = [
     "regions": [
       "関東"
     ],
-    "image": "uploads/2022/05/中村美里05-1.jpg",
+    "image": "../uploads/2022/05/中村美里05-1.jpg",
     "audio": "",
     "sns": {
       "instagram": "https://www.instagram.com/misato_00/?hl=ja",
@@ -5366,10 +5367,10 @@ const CAST_DATA = [
       "facebook": ""
     },
     "images": [
-      "uploads/2022/05/中村美里05-1.jpg",
-      "uploads/2022/05/中村美里13-1.jpg",
-      "uploads/2022/05/中村美里37.jpg",
-      "uploads/2022/05/中村美里38.jpg"
+      "../uploads/2022/05/中村美里05-1.jpg",
+      "../uploads/2022/05/中村美里13-1.jpg",
+      "../uploads/2022/05/中村美里37.jpg",
+      "../uploads/2022/05/中村美里38.jpg"
     ],
     "careerLeft": "【見出し】【MC】\n・東京おもちゃショー/タカラトミー（うまれて！ウーモ）\n・声優朗読劇フォアレーゼンアフタートークショー\n・SUPER GT/JAFトークショー\n・オートサービスショー/ニッタタイヤ\n・オートアフターマーケットEXPO/ニッタタイヤ\n・ツーリズムEXPO/PARADISE CITY\n・アミューズメントEXPO/プライズフェア\n・セブンイレブン展示会\n・角田信朗さん来店イベント\n・FC EXPO/山梨県 MCCO\n・キャノン量販店イベント\n・就職企業説明会プレゼン/ZeroNetworks\n・KATANA coineal上場前夜祭パーティー\n・クレーンゲーム王国夏祭り\n・日本循環器学会セミナー\n・パチンコ店イベント\n・明治安田生命MYRA表彰式 影ナレ\n・コンサート影アナ\n【見出し】【RQ】\n・2020～2022ENDLESS LADY\n【見出し】【モデル】\n・東京写真連盟撮影会\n・Fresh撮影会\n・ビバくらぶ撮影会\n・グラビアサイト『宝島城』出演\n・docomo×Mr.children25周年WEB cm出演\n・ホットペッパービューティーヘアカタログ\n・メンズナックル2017年9月号2018年12月号\n【見出し】【アテンドコンパニオン】\n・毎日映画コンクール表彰式\n・やる気スイッチ大賞表彰式\n・フォーデイズ全国大会\n・HONDA入社式\n・日本生命2020みんなの全国キャラバン開会式テープカット\n・RH5ジャパンカンファレンス\n【見出し】【イベントコンパニオン】\n・VISA×東京2020キャンペーン\n・サマーソニック2019/レッドブル\n・Rakuten Optimism/master card\n・コカ・コーラ満喫列車キャンペーンガール\n・東京ガールズコレクション2019SS/相模屋\n・東京ガールズコレクション2019AW/マイナビ\n・東京ガールズコレクション2018AW/さくさくパンダ\n・AMD Fan Fes.\n・S2O JAPAN2018/シンハービール\n・SUPER GT/jouz\n・麻布十番納涼祭/アルビオン\n・オーガニックライフTOKYO/ワコール\n・あいたい小町サンプリング",
     "careerRight": "【見出し】【学会コンパニオン】\n・日本リウマチ学会/アステラス製薬\n・ITEM2019/philips\n【見出し】【展示会コンパニオン】\n・FOODEX JAPAN/Sequoia Melogolds\n・東京オートサロン/noco\n・JAPANドラッグストアショー/佐藤製薬\n・ジャパン建材フェア/LIXIL\n・DX総合EXPO/GRANDIT\n・PV EXPO/JAソーラー・ジャパン\n・東京モーターショー/DENSO\n・CEATEC/ザインエレクトロニクス\n・東京ゲームショウ/NTTdocomo\n・東京モーターサイクルショー/ワイズギア\n・東京ゲームショウ/google play\n・JIMTOF/不二越\n・エコプロ/象印マホービン\n・SEMICON JAPAN/Nikon\n・FOOMA JAPAN/デンソーウェーブ\n・働き方改革EXPO/イトーキ\n・機械要素技術展/3M\n・洗浄総合展/中部電力\n・FIT展/トッパン・フォームズ\n・InterBee/テクトロニクス\n・スーパーマーケットトレードショー/Jcm\n・震災対策技術展/JX通信社\n・コンテンツマーケティングEXPO/スターティアラボ\n・PV EXPO/JAソーラージャパン\n・グルメ&ダイニングスタイルショー/京都府商工会連合会\n・地方銀行フードセレクション/京都府商工会連合会\n・下水道展/EXダンビー協会\n・日本アクセス春/サン食品\n・nanotech/栗田工業\n・IT WEEK/ブルーポート\n・ファミリーマート秋冬展示会/コカコーラ\n・ジャパン建材フェア/Bulls\n・高瀬物産フードサービスEXPO/ニチレイ\n・大塚商会秋のソリューションフェア 受付　　他多数",
@@ -5398,7 +5399,7 @@ const CAST_DATA = [
     "regions": [
       "関東"
     ],
-    "image": "uploads/2021/09/1592907628-125271_2.jpg",
+    "image": "../uploads/2021/09/1592907628-125271_2.jpg",
     "audio": "uploads/2022/05/か_かやりんかMC.mp3",
     "sns": {
       "instagram": "https://www.instagram.com/rinrinrinka_0707/?hl=ja",
@@ -5407,10 +5408,10 @@ const CAST_DATA = [
       "facebook": ""
     },
     "images": [
-      "uploads/2021/09/1592907628-125271_2.jpg",
-      "uploads/2021/09/1592907628-125271_3.jpg",
-      "uploads/2021/09/1592907628-125271_4.jpg",
-      "uploads/2022/05/かやりんか10-2.jpg"
+      "../uploads/2021/09/1592907628-125271_2.jpg",
+      "../uploads/2021/09/1592907628-125271_3.jpg",
+      "../uploads/2021/09/1592907628-125271_4.jpg",
+      "../uploads/2022/05/かやりんか10-2.jpg"
     ],
     "audios": [
       "uploads/2022/05/か_かやりんかMC.mp3"
@@ -5443,7 +5444,7 @@ const CAST_DATA = [
       "関東",
       "関西"
     ],
-    "image": "uploads/2025/01/西田ユリ01-2.jpg",
+    "image": "../uploads/2025/01/西田ユリ01-2.jpg",
     "audio": "uploads/2025/01/に_西田ユリ_セミナー.mp3",
     "sns": {
       "instagram": "https://www.instagram.com/nishidayuri_speakingstyle/",
@@ -5452,8 +5453,8 @@ const CAST_DATA = [
       "facebook": ""
     },
     "images": [
-      "uploads/2025/01/西田ユリ01-2.jpg",
-      "uploads/2025/01/西田ユリ10-2.jpg"
+      "../uploads/2025/01/西田ユリ01-2.jpg",
+      "../uploads/2025/01/西田ユリ10-2.jpg"
     ],
     "audios": [
       "uploads/2025/01/に_西田ユリ_セミナー.mp3"
@@ -5483,7 +5484,7 @@ const CAST_DATA = [
     "regions": [
       "関東"
     ],
-    "image": "uploads/2022/02/荒山美和子05-3.jpg",
+    "image": "../uploads/2022/02/荒山美和子05-3.jpg",
     "audio": "uploads/2021/09/あ_荒山美和子.mp3",
     "sns": {
       "instagram": "https://www.instagram.com/ma.melange.tokyo/?hl=ja",
@@ -5492,9 +5493,9 @@ const CAST_DATA = [
       "facebook": ""
     },
     "images": [
-      "uploads/2022/02/荒山美和子05-3.jpg",
-      "uploads/2021/09/荒山美和子06-2-1.jpg",
-      "uploads/2021/09/荒山美和子12-2.jpg"
+      "../uploads/2022/02/荒山美和子05-3.jpg",
+      "../uploads/2021/09/荒山美和子06-2-1.jpg",
+      "../uploads/2021/09/荒山美和子12-2.jpg"
     ],
     "audios": [
       "uploads/2021/09/あ_荒山美和子.mp3"
@@ -5524,7 +5525,7 @@ const CAST_DATA = [
     "regions": [
       "関東"
     ],
-    "image": "uploads/2024/08/吉川亜衣梨01.jpg",
+    "image": "../uploads/2024/08/吉川亜衣梨01.jpg",
     "audio": "",
     "sns": {
       "instagram": "https://www.instagram.com/airinnn1230/",
@@ -5533,10 +5534,10 @@ const CAST_DATA = [
       "facebook": ""
     },
     "images": [
-      "uploads/2024/08/吉川亜衣梨01.jpg",
-      "uploads/2024/08/吉川亜衣梨10.jpg",
-      "uploads/2024/08/吉川亜衣梨02.jpg",
-      "uploads/2024/08/吉川亜衣梨11.jpg"
+      "../uploads/2024/08/吉川亜衣梨01.jpg",
+      "../uploads/2024/08/吉川亜衣梨10.jpg",
+      "../uploads/2024/08/吉川亜衣梨02.jpg",
+      "../uploads/2024/08/吉川亜衣梨11.jpg"
     ],
     "careerLeft": "【見出し】【モデル】\n・「HABA」化粧品 TVCF\n・資生堂「インテグレート」TVCF\n・映像撮影会社GPAトップページダンスモデル\n・ダイエット広告モデル\n・BATTLE of EURO レースクイーン\n・後楽園ボクシング ラウンドガール\n・千葉ロッテマリーンズチアガールM☆Splash!!\n・美容ハーブドリンク広告モデル\n・治療院マーケティング研究所モデル\n【見出し】【ダンサー】\n・プロダンサーとして舞台や展示会など多数出演",
     "careerRight": "【見出し】【コンパニオン】\n・BMW JAPAN 年間売上表彰式アテンド\n・FOODEX/台湾パビリオン開幕式アテンド\n・某企業表彰式アテンド\n・渋谷区キャラクター“あいりっすん”アテンド\n・横浜タイヤ表彰式バニーガール\n・MAYBELLINE新商品発表会\n・ドラッグストアショー/佐藤製薬\n・三和トレーディング船上パーティー\n・旅フェア/ANTA　コンパニオンダンサー\n・LINEカンファレンスオープニングショー出演\n・ミス・マリンちゃんパチンコイベント\n・ぱちタウンガール\n・パチンコ店イベント多数\n・マンションフロントコンシェルジュ多数",
@@ -5561,7 +5562,7 @@ const CAST_DATA = [
     "regions": [
       "関東"
     ],
-    "image": "uploads/2021/08/あおみえり01-3-1.jpg",
+    "image": "../uploads/2021/08/あおみえり01-3-1.jpg",
     "audio": "uploads/2021/08/あ_あおみえり.mp3",
     "sns": {
       "instagram": "https://www.instagram.com/eri.aomi/",
@@ -5570,9 +5571,9 @@ const CAST_DATA = [
       "facebook": ""
     },
     "images": [
-      "uploads/2021/08/あおみえり01-3-1.jpg",
-      "uploads/2021/08/あおみえり10-2.jpg",
-      "uploads/2021/08/あおみえり12-2.jpg"
+      "../uploads/2021/08/あおみえり01-3-1.jpg",
+      "../uploads/2021/08/あおみえり10-2.jpg",
+      "../uploads/2021/08/あおみえり12-2.jpg"
     ],
     "audios": [
       "uploads/2021/08/あ_あおみえり.mp3"
@@ -5601,7 +5602,7 @@ const CAST_DATA = [
     "regions": [
       "その他"
     ],
-    "image": "uploads/2022/02/岡崎奈々07-2.jpg",
+    "image": "../uploads/2022/02/岡崎奈々07-2.jpg",
     "audio": "uploads/2022/02/お_岡崎奈々.mp3",
     "sns": {
       "instagram": "https://www.instagram.com/okazakinana211/?hl=ja",
@@ -5610,8 +5611,8 @@ const CAST_DATA = [
       "facebook": ""
     },
     "images": [
-      "uploads/2022/02/岡崎奈々07-2.jpg",
-      "uploads/2021/09/1493925592-708339_3.jpg"
+      "../uploads/2022/02/岡崎奈々07-2.jpg",
+      "../uploads/2021/09/1493925592-708339_3.jpg"
     ],
     "audios": [
       "uploads/2022/02/お_岡崎奈々.mp3"
@@ -5641,7 +5642,7 @@ const CAST_DATA = [
     "regions": [
       "関東"
     ],
-    "image": "uploads/2022/04/山根愛未08.jpg",
+    "image": "../uploads/2022/04/山根愛未08.jpg",
     "audio": "uploads/2022/04/山根愛未.wav",
     "sns": {
       "instagram": "https://www.instagram.com/mc.manamiyamane/?hl=ja",
@@ -5650,9 +5651,9 @@ const CAST_DATA = [
       "facebook": ""
     },
     "images": [
-      "uploads/2022/04/山根愛未08.jpg",
-      "uploads/2022/04/Img0568.jpg",
-      "uploads/2022/04/山根愛未07.jpg"
+      "../uploads/2022/04/山根愛未08.jpg",
+      "../uploads/2022/04/Img0568.jpg",
+      "../uploads/2022/04/山根愛未07.jpg"
     ],
     "audios": [
       "uploads/2022/04/山根愛未.wav"
@@ -5686,7 +5687,7 @@ const CAST_DATA = [
     "regions": [
       "関東"
     ],
-    "image": "uploads/2022/08/林真梨子04-2.jpg",
+    "image": "../uploads/2022/08/林真梨子04-2.jpg",
     "audio": "uploads/2022/08/2022.5林真梨子＿フリートーク・司会・NA・吹替MP3.mp3",
     "sns": {
       "instagram": "https://www.instagram.com/mariko_hayashi2020/",
@@ -5695,8 +5696,8 @@ const CAST_DATA = [
       "facebook": ""
     },
     "images": [
-      "uploads/2022/08/林真梨子04-2.jpg",
-      "uploads/2022/08/林真梨子12-2.jpg"
+      "../uploads/2022/08/林真梨子04-2.jpg",
+      "../uploads/2022/08/林真梨子12-2.jpg"
     ],
     "audios": [
       "uploads/2022/08/2022.5林真梨子＿フリートーク・司会・NA・吹替MP3.mp3"
