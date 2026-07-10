@@ -534,12 +534,14 @@ function renderAudioSlots() {
           </div>
         </div>`;
     } else {
-      // 未選択
+      // 未選択 — labelで包むことでクリック確実に反応
       return `
         <div class="audio-slot empty" id="audio-slot-${i}">
-          <span style="font-size:24px">🎤</span>
-          <span class="slot-label">ボイスサンプル${i+1}<br>クリックして選択</span>
-          <input type="file" accept="audio/*" onchange="onAudioChange(event,${i})">
+          <label style="display:flex;flex-direction:column;align-items:center;justify-content:center;gap:6px;width:100%;height:100%;cursor:pointer;margin:0">
+            <span style="font-size:24px">🎤</span>
+            <span class="slot-label">ボイスサンプル${i+1}<br>クリックして選択</span>
+            <input type="file" accept="audio/*" style="display:none" onchange="onAudioChange(event,${i})">
+          </label>
         </div>`;
     }
   }).join('');
