@@ -433,7 +433,7 @@ function renderGrid() {
   document.getElementById('header-count').textContent = `合計 ${castData.length} 名`;
   document.getElementById('cast-grid').innerHTML = filtered.map(c => `
     <div class="cast-card">
-      <img src="${(c.images && c.images[0]) || c.image || ''}" alt="${c.name}"
+      <img src="${encodeJaPath((c.images && c.images[0]) || c.image || '')}" alt="${c.name}"
         onerror="this.style.background='#ddd';this.removeAttribute('src')">
       <div class="card-body">
         <div class="card-name">${c.name}</div>
@@ -492,10 +492,14 @@ function getAllSelected(field) {
 // ============================================================
 // 写真・音声スロット
 // ============================================================
+function encodeJaPath(path) {
+  if (!path) return path;
+  return path.split('/').map(seg => /[^\x00-\x7F]/.test(seg) ? encodeURIComponent(seg) : seg).join('/');
+}
 function renderPhotoSlots() {
   document.getElementById('photo-slots').innerHTML = photoSlots.map((slot, i) => `
     <div class="file-slot ${slot.path ? 'has-file' : ''}" id="photo-slot-${i}">
-      ${slot.path ? `<img src="${slot.path}" onerror="this.style.display='none'">` : `<span class="slot-label">📷 写真${i+1}</span>`}
+      ${slot.path ? `<img src="${encodeJaPath(slot.path)}" onerror="this.style.display='none'">` : `<span class="slot-label">📷 写真${i+1}</span>`}
       ${slot.path ? `<span class="slot-name">${slot.displayName || slot.path.split('/').pop()}</span>` : ''}
       <input type="file" accept="image/*" onchange="onPhotoChange(event,${i})">
       <button class="btn-clear-file" onclick="clearPhoto(${i})">✕</button>
