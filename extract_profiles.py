@@ -77,17 +77,40 @@ class ProfileParser(HTMLParser):
             self._current_col_lines.append(f'・{data}')
 
 def parse_profile(path):
+    import re as _re
     p = ProfileParser()
+    text = path.read_text(encoding='utf-8', errors='replace')
     try:
-        p.feed(path.read_text(encoding='utf-8', errors='replace'))
+        p.feed(text)
     except Exception:
         pass
     cols = p._cols_raw
+
+    # 身長・資格をテーブルから抽出
+    height = None
+    qualifications = ''
+    rows = _re.findall(r'<tr>(.*?)</tr>', text, _re.DOTALL)
+    for row in rows:
+        th = _re.search(r'<th[^>]*>(.*?)</th>', row, _re.DOTALL)
+        td = _re.search(r'<td[^>]*>(.*?)</td>', row, _re.DOTALL)
+        if not th or not td:
+            continue
+        th_text = _re.sub(r'<[^>]+>', '', th.group(1)).strip()
+        td_text = _re.sub(r'<[^>]+>', '', td.group(1)).strip()
+        if th_text == '身長':
+            m = _re.search(r'(\d{2,3})', td_text)
+            if m:
+                height = int(m.group(1))
+        elif th_text == '資格':
+            qualifications = td_text
+
     return {
         'images': p.images,
         'audios': p.audios,
         'careerLeft': cols[0] if len(cols) > 0 else '',
         'careerRight': cols[1] if len(cols) > 1 else '',
+        'height': height,
+        'qualifications': qualifications,
     }
 
 updated = 0
@@ -111,6 +134,10 @@ for cast in cast_data:
         cast['careerLeft'] = data['careerLeft']
     if not cast.get('careerRight') and data['careerRight']:
         cast['careerRight'] = data['careerRight']
+    if not cast.get('height') and data['height']:
+        cast['height'] = data['height']
+    if not cast.get('qualifications') and data['qualifications']:
+        cast['qualifications'] = data['qualifications']
     updated += 1
     print(f'✅ {cast["name"]} (id={pid}): 写真{len(cast.get("images",[]))}枚')
 

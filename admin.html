@@ -51,7 +51,7 @@
     /* モーダル */
     .modal-overlay{display:none;position:fixed;inset:0;background:rgba(0,0,0,.5);z-index:1000;align-items:flex-start;justify-content:center;overflow-y:auto;padding:30px 16px}
     .modal-overlay.open{display:flex}
-    .modal{background:#fff;border-radius:12px;width:100%;max-width:680px;padding:28px;position:relative}
+    .modal{background:#fff;border-radius:12px;width:100%;max-width:1200px;padding:28px;position:relative}
     .modal-close{position:absolute;top:16px;right:16px;background:none;border:none;font-size:22px;cursor:pointer;color:#999}
     .modal h2{font-size:18px;margin-bottom:20px;padding-bottom:12px;border-bottom:1px solid #eee}
 
@@ -226,6 +226,19 @@
         <button onclick="addCustomTag('languages')">追加</button>
       </div>
       <div class="custom-tags" id="custom-tags-languages"></div>
+    </div>
+
+    <!-- 身長・資格 -->
+    <div class="form-row">
+      <div class="form-group">
+        <label>身長（cm）</label>
+        <input type="number" id="f-height" min="100" max="220" maxlength="3" placeholder="163" style="width:120px">
+        <span style="font-size:13px;color:#888;margin-left:6px">cm</span>
+      </div>
+      <div class="form-group">
+        <label>資格</label>
+        <textarea id="f-qualifications" rows="8" placeholder="普通自動車免許&#10;英語検定2級&#10;..."></textarea>
+      </div>
     </div>
 
     <!-- 経歴 -->
@@ -480,7 +493,8 @@ function renderAudioSlots() {
       <span style="font-size:20px">${slot.path ? '🎵' : '🎤'}</span>
       <span class="slot-label">ボイスサンプル${i+1}</span>
       ${slot.path ? `<span class="slot-name">${slot.displayName || slot.path.split('/').pop()}</span>` : ''}
-      <input type="file" accept="audio/*" onchange="onAudioChange(event,${i})">
+      ${slot.path && !slot.isBlob ? `<audio controls src="${slot.path}" style="width:100%;margin-top:6px;height:32px"></audio>` : ''}
+      <input type="file" accept="audio/*" onchange="onAudioChange(event,${i})" style="z-index:${slot.path ? 0 : 1}">
       <button class="btn-clear-file" onclick="clearAudio(${i})">✕</button>
     </div>`).join('');
 }
@@ -579,6 +593,8 @@ function resetForm() {
   document.getElementById('f-name').value = '';
   document.getElementById('f-order').value = '0';
   document.getElementById('f-sex').value = '女性';
+  document.getElementById('f-height').value = '';
+  document.getElementById('f-qualifications').value = '';
   document.getElementById('f-career-left').value = '';
   document.getElementById('f-career-right').value = '';
   document.getElementById('f-sns-instagram').value = '';
@@ -610,6 +626,8 @@ function openEditModal(id) {
   document.getElementById('f-name').value = c.name || '';
   document.getElementById('f-order').value = c.order ?? 0;
   document.getElementById('f-sex').value = c.sex || '女性';
+  document.getElementById('f-height').value = c.height || '';
+  document.getElementById('f-qualifications').value = c.qualifications || '';
   document.getElementById('f-career-left').value = c.careerLeft || '';
   document.getElementById('f-career-right').value = c.careerRight || '';
   document.getElementById('f-sns-instagram').value = (c.sns && c.sns.instagram) || '';
@@ -707,6 +725,8 @@ async function submitForm() {
     name,
     order: parseInt(document.getElementById('f-order').value) || 0,
     career: categories.join('、'),
+    height: document.getElementById('f-height').value ? Number(document.getElementById('f-height').value) : null,
+    qualifications: document.getElementById('f-qualifications').value.trim(),
     careerLeft: document.getElementById('f-career-left').value.trim(),
     careerRight: document.getElementById('f-career-right').value.trim(),
     sex: document.getElementById('f-sex').value,
