@@ -81,7 +81,8 @@
     .file-slot img{width:100%;aspect-ratio:3/4;object-fit:cover;border-radius:4px}
     .file-slot .slot-label{font-size:11px;color:#999}
     .file-slot .slot-name{font-size:10px;color:#555;word-break:break-all;max-width:100%}
-    .file-slot input[type=file]{position:absolute;inset:0;opacity:0;cursor:pointer;width:100%;height:100%}
+    .file-slot.empty input[type=file]{position:absolute;inset:0;opacity:0;cursor:pointer;width:100%;height:100%}
+    .file-slot.has-file input[type=file]{display:none}
     .file-slot .btn-clear-file{position:absolute;top:4px;right:4px;background:#e74c3c;color:#fff;border:none;border-radius:50%;width:20px;height:20px;font-size:12px;cursor:pointer;display:none;z-index:2;line-height:20px;text-align:center}
     .file-slot.has-file .btn-clear-file{display:block}
     .file-slot.has-file{border-color:#4bb6c5;cursor:grab}
@@ -499,20 +500,37 @@ function encodeJaPath(path) {
 }
 let dragSrcPhoto = null;
 function renderPhotoSlots() {
-  document.getElementById('photo-slots').innerHTML = photoSlots.map((slot, i) => `
-    <div class="file-slot ${slot.path ? 'has-file' : ''}" id="photo-slot-${i}"
-      draggable="${slot.path ? 'true' : 'false'}"
-      ondragstart="dragSrcPhoto=${i};event.dataTransfer.effectAllowed='move';event.currentTarget.style.opacity='.4'"
-      ondragend="event.currentTarget.style.opacity='1'"
-      ondragover="event.preventDefault();event.dataTransfer.dropEffect='move'"
-      ondragenter="event.currentTarget.classList.add('drag-over')"
-      ondragleave="event.currentTarget.classList.remove('drag-over')"
-      ondrop="event.preventDefault();event.currentTarget.classList.remove('drag-over');dropPhoto(${i})">
-      ${slot.path ? `<img src="${encodeJaPath(slot.path)}" onerror="this.style.display='none'">` : `<span class="slot-label">📷 写真${i+1}</span>`}
-      ${slot.path ? `<span class="slot-name">${slot.displayName || slot.path.split('/').pop()}</span>` : ''}
-      <input type="file" accept="image/*" onchange="onPhotoChange(event,${i})">
-      <button class="btn-clear-file" onclick="clearPhoto(${i})">✕</button>
-    </div>`).join('');
+  document.getElementById('photo-slots').innerHTML = photoSlots.map((slot, i) => {
+    if (slot.path) {
+      // ファイルあり：ドラッグ可能、変更ボタンにのみファイル入力
+      return `
+        <div class="file-slot has-file" id="photo-slot-${i}"
+          draggable="true"
+          ondragstart="dragSrcPhoto=${i};event.dataTransfer.effectAllowed='move';event.currentTarget.style.opacity='.4'"
+          ondragend="event.currentTarget.style.opacity='1'"
+          ondragover="event.preventDefault();event.dataTransfer.dropEffect='move'"
+          ondragenter="event.currentTarget.classList.add('drag-over')"
+          ondragleave="event.currentTarget.classList.remove('drag-over')"
+          ondrop="event.preventDefault();event.currentTarget.classList.remove('drag-over');dropPhoto(${i})">
+          <img src="${encodeJaPath(slot.path)}" onerror="this.style.display='none'">
+          <span class="slot-name">${slot.displayName || slot.path.split('/').pop()}</span>
+          <div style="display:flex;gap:4px;width:100%">
+            <label style="flex:1;padding:4px;background:#f0f0f0;border-radius:6px;font-size:11px;text-align:center;cursor:pointer;position:relative;overflow:hidden">
+              📂 変更
+              <input type="file" accept="image/*" style="position:absolute;inset:0;opacity:0;cursor:pointer" onchange="onPhotoChange(event,${i})">
+            </label>
+          </div>
+          <button class="btn-clear-file" onclick="clearPhoto(${i})">✕</button>
+        </div>`;
+    } else {
+      // 空：クリックでファイル選択
+      return `
+        <div class="file-slot empty" id="photo-slot-${i}">
+          <span class="slot-label">📷 写真${i+1}</span>
+          <input type="file" accept="image/*" onchange="onPhotoChange(event,${i})">
+        </div>`;
+    }
+  }).join('');
 }
 function dropPhoto(toIdx) {
   if (dragSrcPhoto === null || dragSrcPhoto === toIdx) return;
