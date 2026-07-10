@@ -27,6 +27,8 @@ for name in ["js/cast-data.js", "index.html", "profile.html", "company.html", "c
         continue
     text = path.read_text(encoding="utf-8", errors="ignore")
     new_text = text.replace(OLD, "uploads/")
+    # cast-data.js内に混入した ../uploads/ も修正
+    new_text = new_text.replace('"../uploads/', '"uploads/').replace("'../uploads/", "'uploads/")
     if new_text != text:
         path.write_text(new_text, encoding="utf-8")
         print(f"✅ {name}")

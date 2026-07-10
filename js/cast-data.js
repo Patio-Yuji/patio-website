@@ -2612,7 +2612,7 @@ const CAST_DATA = [
     "regions": [
       "関東"
     ],
-    "image": "../uploads/2024/01/柿沼里子01-2.jpg",
+    "image": "uploads/2024/01/柿沼里子01-2.jpg",
     "audio": "uploads/2024/01/か_柿沼里子_VP.mp3",
     "sns": {
       "instagram": "https://www.instagram.com/satokokakinuma/",
@@ -2621,7 +2621,7 @@ const CAST_DATA = [
       "facebook": "https://www.facebook.com/profile.php?id=100009904897446"
     },
     "images": [
-      "../uploads/2024/01/柿沼里子01-2.jpg"
+      "uploads/2024/01/柿沼里子01-2.jpg"
     ],
     "audios": [
       "uploads/2024/01/か_柿沼里子_VP.mp3"
@@ -4292,7 +4292,7 @@ const CAST_DATA = [
     "regions": [
       "関東"
     ],
-    "image": "../uploads/2021/09/1623391651-455975_2.jpg",
+    "image": "uploads/2021/09/1623391651-455975_2.jpg",
     "audio": "uploads/2021/09/た_谷田貴大.mp3",
     "sns": {
       "instagram": "",
@@ -4301,7 +4301,7 @@ const CAST_DATA = [
       "facebook": ""
     },
     "images": [
-      "../uploads/2021/09/1623391651-455975_2.jpg"
+      "uploads/2021/09/1623391651-455975_2.jpg"
     ],
     "audios": [
       "uploads/2021/09/た_谷田貴大.mp3"
@@ -4443,7 +4443,7 @@ const CAST_DATA = [
     "regions": [
       "関東"
     ],
-    "image": "../uploads/2021/09/1623395065-050904_2.jpg",
+    "image": "uploads/2021/09/1623395065-050904_2.jpg",
     "audio": "uploads/2022/04/ひ_久本真菜_イベント.mp3",
     "sns": {
       "instagram": "https://www.instagram.com/mana_hisamoto/?hl=ja",
@@ -4452,7 +4452,7 @@ const CAST_DATA = [
       "facebook": ""
     },
     "images": [
-      "../uploads/2021/09/1623395065-050904_2.jpg"
+      "uploads/2021/09/1623395065-050904_2.jpg"
     ],
     "audios": [
       "uploads/2022/04/ひ_久本真菜_イベント.mp3"
@@ -4522,7 +4522,7 @@ const CAST_DATA = [
     "regions": [
       "関西"
     ],
-    "image": "../uploads/2021/09/諏訪和美02-3.jpg",
+    "image": "uploads/2021/09/諏訪和美02-3.jpg",
     "audio": "uploads/2022/07/す_諏訪和美.mp3",
     "sns": {
       "instagram": "",
@@ -4531,7 +4531,7 @@ const CAST_DATA = [
       "facebook": ""
     },
     "images": [
-      "../uploads/2021/09/諏訪和美02-3.jpg"
+      "uploads/2021/09/諏訪和美02-3.jpg"
     ],
     "audios": [
       "uploads/2022/07/す_諏訪和美.mp3"
@@ -4638,7 +4638,7 @@ const CAST_DATA = [
     "regions": [
       "関西"
     ],
-    "image": "../uploads/2025/08/永野さおり01-2-2.jpg",
+    "image": "uploads/2025/08/永野さおり01-2-2.jpg",
     "audio": "uploads/2025/08/な_永野さおり-1.mp3",
     "sns": {
       "instagram": "",
@@ -4647,7 +4647,7 @@ const CAST_DATA = [
       "facebook": ""
     },
     "images": [
-      "../uploads/2025/08/永野さおり01-2-2.jpg"
+      "uploads/2025/08/永野さおり01-2-2.jpg"
     ],
     "audios": [
       "uploads/2025/08/な_永野さおり-1.mp3"

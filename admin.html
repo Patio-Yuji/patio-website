@@ -459,7 +459,7 @@ function setChecked(checkGroupId, values) {
 }
 
 // カスタムタグ
-let customTags = { categories: [], regions: [], languages: [] };
+let customTags = { categories: [], ages: [], regions: [], languages: [] };
 
 function addCustomTag(field) {
   const inputMap = { categories: 'cat-custom', regions: 'region-custom', languages: 'lang-custom' };
@@ -653,7 +653,7 @@ function resetForm() {
   ['categories','ages','regions','languages'].forEach(f => {
     setChecked('check-' + f, []);
   });
-  customTags = { categories: [], regions: [], languages: [] };
+  customTags = { categories: [], ages: [], regions: [], languages: [] };
   ['categories','regions','languages'].forEach(f => renderCustomTags(f));
   photoSlots = [{},{},{},{}];
   audioSlots = [{},{},{}];
