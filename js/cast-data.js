@@ -3256,10 +3256,8 @@ const CAST_DATA = [
     "regions": [
       "関東"
     ],
-    "image": "uploads/2022/03/月脚めぐみ15-2.jpg",
-    "images": [
-      "uploads/2022/03/月脚めぐみ15-2.jpg"
-    ],
+    "image": "",
+    "images": [],
     "audio": "uploads/2022/03/つ_月脚めぐみNA.mp3",
     "audios": [
       "uploads/2022/03/つ_月脚めぐみNA.mp3"
@@ -5250,9 +5248,9 @@ const CAST_DATA = [
     "regions": [
       "関東"
     ],
-    "image": "../uploads/2026/04/貴理子02-2.jpg",
+    "image": "uploads/2026/04/貴理子36.jpg",
     "images": [
-      "../uploads/2026/04/貴理子02-2.jpg"
+      "uploads/2026/04/貴理子36.jpg"
     ],
     "audio": "",
     "audios": [],
