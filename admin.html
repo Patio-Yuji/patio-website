@@ -519,6 +519,60 @@ function clearAudio(idx) {
 }
 
 // ============================================================
+// プロフィールHTMLから写真・経歴を読み込む
+// ============================================================
+async function loadFromProfileHTML(id) {
+  try {
+    const res = await fetch(`profile/${id}.html`);
+    if (!res.ok) return null;
+    const text = await res.text();
+    const doc = new DOMParser().parseFromString(text, 'text/html');
+
+    // 写真（ギャラリーのメイン画像）
+    const imgEls = doc.querySelectorAll('.staff-profile__mainimg img.js-main-target');
+    const images = [...imgEls].map(el => el.getAttribute('src')).filter(Boolean);
+
+    // 音声
+    const audioEl = doc.querySelector('audio[src]');
+    const audios = audioEl ? [audioEl.getAttribute('src')] : [];
+
+    // 経歴：【見出し】形式に変換
+    let careerDetail = '';
+    const careerBody = doc.querySelector('.staff-career__body');
+    if (careerBody) {
+      const blocks = [];
+      let current = null;
+      careerBody.childNodes.forEach(node => {
+        if (node.nodeType !== 1) return;
+        if (node.classList.contains('staff-career__list')) {
+          // .staff-career__list の中に name + text がある
+          const name = node.querySelector('.staff-career__name');
+          const items = node.querySelectorAll('.staff-career__text li');
+          if (name) {
+            const lines = ['【見出し】' + name.textContent.trim()];
+            items.forEach(li => lines.push('・' + li.textContent.trim()));
+            blocks.push(lines.join('\n'));
+          }
+        } else if (node.classList.contains('staff-career__name')) {
+          current = { title: node.textContent.trim(), items: [] };
+          blocks.push(current);
+        } else if (node.classList.contains('staff-career__text') && current) {
+          node.querySelectorAll('li').forEach(li => current.items.push('・' + li.textContent.trim()));
+        }
+      });
+      careerDetail = blocks.map(b => {
+        if (typeof b === 'string') return b;
+        return ['【見出し】' + b.title, ...b.items].join('\n');
+      }).join('\n\n');
+    }
+
+    return { images, audios, careerDetail };
+  } catch(e) {
+    return null;
+  }
+}
+
+// ============================================================
 // モーダル
 // ============================================================
 function resetForm() {
@@ -576,12 +630,14 @@ function openEditModal(id) {
   customTags.languages = langs.filter(v => !PRESET_LANGS.includes(v));
   ['categories','regions','languages'].forEach(f => renderCustomTags(f));
 
-  // 写真
+  // 写真・音声：cast-data.jsにimages[]があればそれを使い、なければprofileHTMLから読み込む
+  const hasMultiImages = c.images && c.images.length > 1;
+  const hasCareer = !!c.careerDetail;
+
   const imgs = c.images || (c.image ? [c.image] : []);
   photoSlots = [{},{},{},{}];
   imgs.slice(0,4).forEach((p,i) => { photoSlots[i] = { path: p, displayName: p.split('/').pop() }; });
 
-  // 音声
   const auds = c.audios || (c.audio ? [c.audio] : []);
   audioSlots = [{},{},{}];
   auds.slice(0,3).forEach((p,i) => { audioSlots[i] = { path: p, displayName: p.split('/').pop() }; });
@@ -589,6 +645,29 @@ function openEditModal(id) {
   renderPhotoSlots();
   renderAudioSlots();
   document.getElementById('edit-modal').classList.add('open');
+
+  // プロフィールHTMLから補完（写真が1枚のみ or 経歴が未設定の場合）
+  if (!hasMultiImages || !hasCareer) {
+    loadFromProfileHTML(id).then(data => {
+      if (!data) return;
+      // 写真補完
+      if (!hasMultiImages && data.images.length > 0) {
+        photoSlots = [{},{},{},{}];
+        data.images.slice(0,4).forEach((p,i) => { photoSlots[i] = { path: p, displayName: p.split('/').pop() }; });
+        renderPhotoSlots();
+      }
+      // 音声補完
+      if (auds.length === 0 && data.audios.length > 0) {
+        audioSlots = [{},{},{}];
+        data.audios.slice(0,3).forEach((p,i) => { audioSlots[i] = { path: p, displayName: p.split('/').pop() }; });
+        renderAudioSlots();
+      }
+      // 経歴補完
+      if (!hasCareer && data.careerDetail) {
+        document.getElementById('f-career-detail').value = data.careerDetail;
+      }
+    });
+  }
 }
 function closeModal() {
   document.getElementById('edit-modal').classList.remove('open');
