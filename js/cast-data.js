@@ -23,8 +23,8 @@ const CAST_DATA = [
     "regions": [
       "関東"
     ],
-    "image": "https://patio-patio.jp/wp-content/uploads/2021/09/1412909857-334738_2.jpg",
-    "audio": "https://patio-patio.jp/wp-content/uploads/2022/02/か_金子恵理子_発表会日英.mp3",
+    "image": "uploads/2021/09/1412909857-334738_2.jpg",
+    "audio": "uploads/2022/02/か_金子恵理子_発表会日英.mp3",
     "sns": {
       "instagram": "https://www.instagram.com/ericokaneco.3c.communication/",
       "twitter": "",
@@ -52,8 +52,8 @@ const CAST_DATA = [
     "regions": [
       "関東"
     ],
-    "image": "https://patio-patio.jp/wp-content/uploads/2021/09/関本なこ05-2.jpg",
-    "audio": "https://patio-patio.jp/wp-content/uploads/2022/04/せ_関本なこMC.mp3",
+    "image": "uploads/2021/09/関本なこ05-2.jpg",
+    "audio": "uploads/2022/04/せ_関本なこMC.mp3",
     "sns": {
       "instagram": "https://www.instagram.com/nakoringo11/?hl=ja",
       "twitter": "",
@@ -79,8 +79,8 @@ const CAST_DATA = [
     "regions": [
       "関東"
     ],
-    "image": "https://patio-patio.jp/wp-content/uploads/2022/06/IMG_1490.jpg",
-    "audio": "https://patio-patio.jp/wp-content/uploads/2022/06/く_草場浩子-1.mp3",
+    "image": "uploads/2022/06/IMG_1490.jpg",
+    "audio": "uploads/2022/06/く_草場浩子-1.mp3",
     "sns": {
       "instagram": "https://www.instagram.com/aloha.hiro/",
       "twitter": "https://twitter.com/MariaAlohappy",
@@ -106,8 +106,8 @@ const CAST_DATA = [
     "regions": [
       "関東"
     ],
-    "image": "https://patio-patio.jp/wp-content/uploads/2021/09/1505895867-069737_2.jpg",
-    "audio": "https://patio-patio.jp/wp-content/uploads/2022/02/や_矢作奈穂子NA.mp3",
+    "image": "uploads/2021/09/1505895867-069737_2.jpg",
+    "audio": "uploads/2022/02/や_矢作奈穂子NA.mp3",
     "sns": {
       "instagram": "https://www.instagram.com/naoko.yahagi/",
       "twitter": "",
@@ -134,8 +134,8 @@ const CAST_DATA = [
     "regions": [
       "関東"
     ],
-    "image": "https://patio-patio.jp/wp-content/uploads/2022/02/大庭有貴03-2.jpg",
-    "audio": "https://patio-patio.jp/wp-content/uploads/2022/02/大庭有貴.mp3",
+    "image": "uploads/2022/02/大庭有貴03-2.jpg",
+    "audio": "uploads/2022/02/大庭有貴.mp3",
     "sns": {
       "instagram": "https://www.instagram.com/yukioba_yukiee/?hl=ja",
       "twitter": "https://x.com/mc_yukiee",
@@ -166,8 +166,8 @@ const CAST_DATA = [
       "関東",
       "関西"
     ],
-    "image": "https://patio-patio.jp/wp-content/uploads/2023/10/瀬戸あさみ01-2.jpg",
-    "audio": "https://patio-patio.jp/wp-content/uploads/2023/10/せ_瀬戸あさみ_MC.mp3",
+    "image": "uploads/2023/10/瀬戸あさみ01-2.jpg",
+    "audio": "uploads/2023/10/せ_瀬戸あさみ_MC.mp3",
     "sns": {
       "instagram": "https://www.instagram.com/asamin_93/",
       "twitter": "",
@@ -196,8 +196,8 @@ const CAST_DATA = [
     "regions": [
       "関東"
     ],
-    "image": "https://patio-patio.jp/wp-content/uploads/2022/07/和泉ちえ08.jpg",
-    "audio": "https://patio-patio.jp/wp-content/uploads/2022/07/い_和泉ちえ.mp3",
+    "image": "uploads/2022/07/和泉ちえ08.jpg",
+    "audio": "uploads/2022/07/い_和泉ちえ.mp3",
     "sns": {
       "instagram": "https://www.instagram.com/chieri225/",
       "twitter": "https://x.com/chieri225",
@@ -224,8 +224,8 @@ const CAST_DATA = [
     "regions": [
       "関東"
     ],
-    "image": "https://patio-patio.jp/wp-content/uploads/2021/09/佐々木舞05.jpg",
-    "audio": "https://patio-patio.jp/wp-content/uploads/2022/04/さ_佐々木舞2.mp3",
+    "image": "uploads/2021/09/佐々木舞05.jpg",
+    "audio": "uploads/2022/04/さ_佐々木舞2.mp3",
     "sns": {
       "instagram": "https://www.instagram.com/maitrip0818/?hl=ja",
       "twitter": "https://twitter.com/maisasaki0818",
@@ -255,8 +255,8 @@ const CAST_DATA = [
     "regions": [
       "関東"
     ],
-    "image": "https://patio-patio.jp/wp-content/uploads/2022/02/9fd5fe5f24e70742cd7428f8c48af9cf.jpeg",
-    "audio": "https://patio-patio.jp/wp-content/uploads/2022/02/橘ゆり2016.mp3",
+    "image": "uploads/2022/02/9fd5fe5f24e70742cd7428f8c48af9cf.jpeg",
+    "audio": "uploads/2022/02/橘ゆり2016.mp3",
     "sns": {
       "instagram": "https://www.instagram.com/yuri.tachibana.mc/?hl=ja",
       "twitter": "https://x.com/yuritachibanamc",
@@ -285,8 +285,8 @@ const CAST_DATA = [
     "regions": [
       "関東"
     ],
-    "image": "https://patio-patio.jp/wp-content/uploads/2022/02/円城寺佳子27-1.jpg",
-    "audio": "https://patio-patio.jp/wp-content/uploads/2022/02/円城寺佳子_明るめ軽快.mp3",
+    "image": "uploads/2022/02/円城寺佳子27-1.jpg",
+    "audio": "uploads/2022/02/円城寺佳子_明るめ軽快.mp3",
     "sns": {
       "instagram": "https://www.instagram.com/yoshiko_enjoji/?hl=ja",
       "twitter": "https://x.com/yoshiko_enjoji",
@@ -312,8 +312,8 @@ const CAST_DATA = [
     "regions": [
       "関東"
     ],
-    "image": "https://patio-patio.jp/wp-content/uploads/2022/07/堀井ふき01-2.jpg",
-    "audio": "https://patio-patio.jp/wp-content/uploads/2022/07/ほ_堀井ふきMC.mp3",
+    "image": "uploads/2022/07/堀井ふき01-2.jpg",
+    "audio": "uploads/2022/07/ほ_堀井ふきMC.mp3",
     "sns": {
       "instagram": "https://www.instagram.com/fuuu___gram/",
       "twitter": "",
@@ -340,8 +340,8 @@ const CAST_DATA = [
     "regions": [
       "関東"
     ],
-    "image": "https://patio-patio.jp/wp-content/uploads/2022/04/【顔】金子菜々美2024-1.jpg",
-    "audio": "https://patio-patio.jp/wp-content/uploads/2022/04/か_金子菜々美MC.mp3",
+    "image": "uploads/2022/04/【顔】金子菜々美2024-1.jpg",
+    "audio": "uploads/2022/04/か_金子菜々美MC.mp3",
     "sns": {
       "instagram": "https://www.instagram.com/773n.k/",
       "twitter": "https://x.com/nanami_kaneko",
@@ -370,8 +370,8 @@ const CAST_DATA = [
     "regions": [
       "関東"
     ],
-    "image": "https://patio-patio.jp/wp-content/uploads/2026/04/松田理奈03.jpg",
-    "audio": "https://patio-patio.jp/wp-content/uploads/2026/04/ま_松田理奈_ナレーション4パターン.mp3",
+    "image": "uploads/2026/04/松田理奈03.jpg",
+    "audio": "uploads/2026/04/ま_松田理奈_ナレーション4パターン.mp3",
     "sns": {
       "instagram": "https://www.instagram.com/rinamatsuda_mcnr/",
       "twitter": "https://x.com/rinamatsuda",
@@ -398,8 +398,8 @@ const CAST_DATA = [
     "regions": [
       "関東"
     ],
-    "image": "https://patio-patio.jp/wp-content/uploads/2025/04/長谷川朋加03-2.jpg",
-    "audio": "https://patio-patio.jp/wp-content/uploads/2025/04/は_長谷川朋加_自己紹介.mp3",
+    "image": "uploads/2025/04/長谷川朋加03-2.jpg",
+    "audio": "uploads/2025/04/は_長谷川朋加_自己紹介.mp3",
     "sns": {
       "instagram": "https://www.instagram.com/hasegawatomoka/",
       "twitter": "https://x.com/tomokah0c_0",
@@ -426,8 +426,8 @@ const CAST_DATA = [
     "regions": [
       "関東"
     ],
-    "image": "https://patio-patio.jp/wp-content/uploads/2021/09/1493924770-842365_2.jpg",
-    "audio": "https://patio-patio.jp/wp-content/uploads/2024/04/よ_吉岡仁美.mp3",
+    "image": "uploads/2021/09/1493924770-842365_2.jpg",
+    "audio": "uploads/2024/04/よ_吉岡仁美.mp3",
     "sns": {
       "instagram": "https://www.instagram.com/hs2fl/",
       "twitter": "",
@@ -452,7 +452,7 @@ const CAST_DATA = [
     "regions": [
       "関東"
     ],
-    "image": "https://patio-patio.jp/wp-content/uploads/2022/02/美香子05-6-1.jpg",
+    "image": "uploads/2022/02/美香子05-6-1.jpg",
     "audio": "",
     "sns": {
       "instagram": "https://www.instagram.com/minamihimeno_/",
@@ -480,8 +480,8 @@ const CAST_DATA = [
     "regions": [
       "関東"
     ],
-    "image": "https://patio-patio.jp/wp-content/uploads/2025/10/はらあい01-2.jpg",
-    "audio": "https://patio-patio.jp/wp-content/uploads/2025/10/は_はらあい_自己PR.mp3",
+    "image": "uploads/2025/10/はらあい01-2.jpg",
+    "audio": "uploads/2025/10/は_はらあい_自己PR.mp3",
     "sns": {
       "instagram": "",
       "twitter": "https://x.com/haraai_coffee",
@@ -507,8 +507,8 @@ const CAST_DATA = [
     "regions": [
       "関東"
     ],
-    "image": "https://patio-patio.jp/wp-content/uploads/2021/09/1412908940-896678_2.jpg",
-    "audio": "https://patio-patio.jp/wp-content/uploads/2022/06/た_竜瀬葵.mp3",
+    "image": "uploads/2021/09/1412908940-896678_2.jpg",
+    "audio": "uploads/2022/06/た_竜瀬葵.mp3",
     "sns": {
       "instagram": "https://www.instagram.com/aoi_tatsuse/",
       "twitter": "https://twitter.com/accessory_aoiya",
@@ -537,8 +537,8 @@ const CAST_DATA = [
     "regions": [
       "関東"
     ],
-    "image": "https://patio-patio.jp/wp-content/uploads/2022/02/間宮祐子05-5.jpg",
-    "audio": "https://patio-patio.jp/wp-content/uploads/2022/02/ま_間宮祐子_日英.mp3",
+    "image": "uploads/2022/02/間宮祐子05-5.jpg",
+    "audio": "uploads/2022/02/ま_間宮祐子_日英.mp3",
     "sns": {
       "instagram": "https://www.instagram.com/ycrngsk/?hl=ja",
       "twitter": "https://twitter.com/yucoriNGSK",
@@ -569,8 +569,8 @@ const CAST_DATA = [
     "regions": [
       "関東"
     ],
-    "image": "https://patio-patio.jp/wp-content/uploads/2021/09/天野亜希子06-2.jpg",
-    "audio": "https://patio-patio.jp/wp-content/uploads/2022/02/あ_天野亜希子【ストレート・cm・企業ナレ・バラエティ・スポーツ】.mp3",
+    "image": "uploads/2021/09/天野亜希子06-2.jpg",
+    "audio": "uploads/2022/02/あ_天野亜希子【ストレート・cm・企業ナレ・バラエティ・スポーツ】.mp3",
     "sns": {
       "instagram": "https://www.instagram.com/amano0522/?hl=ja",
       "twitter": "https://x.com/amanopigunon",
@@ -599,8 +599,8 @@ const CAST_DATA = [
     "regions": [
       "関西"
     ],
-    "image": "https://patio-patio.jp/wp-content/uploads/2022/04/長谷川杏里07-1.jpg",
-    "audio": "https://patio-patio.jp/wp-content/uploads/2022/04/は_長谷川杏里.mp3",
+    "image": "uploads/2022/04/長谷川杏里07-1.jpg",
+    "audio": "uploads/2022/04/は_長谷川杏里.mp3",
     "sns": {
       "instagram": "",
       "twitter": "",
@@ -627,8 +627,8 @@ const CAST_DATA = [
     "regions": [
       "関東"
     ],
-    "image": "https://patio-patio.jp/wp-content/uploads/2022/03/平川恵04-2.jpg",
-    "audio": "https://patio-patio.jp/wp-content/uploads/2022/03/ひ_平川恵.mp3",
+    "image": "uploads/2022/03/平川恵04-2.jpg",
+    "audio": "uploads/2022/03/ひ_平川恵.mp3",
     "sns": {
       "instagram": "https://www.instagram.com/kei.hirakawa/?hl=ja",
       "twitter": "",
@@ -653,8 +653,8 @@ const CAST_DATA = [
     "regions": [
       "関東"
     ],
-    "image": "https://patio-patio.jp/wp-content/uploads/2021/09/髙橋美香04.jpg",
-    "audio": "https://patio-patio.jp/wp-content/uploads/2022/02/た_髙橋美香.mp3",
+    "image": "uploads/2021/09/髙橋美香04.jpg",
+    "audio": "uploads/2022/02/た_髙橋美香.mp3",
     "sns": {
       "instagram": "https://www.instagram.com/mktkhs1128/?hl=ja",
       "twitter": "https://x.com/mikacharo7",
@@ -685,8 +685,8 @@ const CAST_DATA = [
       "関東",
       "関西"
     ],
-    "image": "https://patio-patio.jp/wp-content/uploads/2022/08/四宮圭06-1.jpg",
-    "audio": "https://patio-patio.jp/wp-content/uploads/2022/08/四宮圭　式典.mp3",
+    "image": "uploads/2022/08/四宮圭06-1.jpg",
+    "audio": "uploads/2022/08/四宮圭　式典.mp3",
     "sns": {
       "instagram": "https://www.instagram.com/kei.shinomiya_mc/",
       "twitter": "https://x.com/pompom_kei",
@@ -713,8 +713,8 @@ const CAST_DATA = [
     "regions": [
       "関東"
     ],
-    "image": "https://patio-patio.jp/wp-content/uploads/2022/02/安藤きょうこ04-4.jpg",
-    "audio": "https://patio-patio.jp/wp-content/uploads/2022/02/あ_安藤きょうこ.mp3",
+    "image": "uploads/2022/02/安藤きょうこ04-4.jpg",
+    "audio": "uploads/2022/02/あ_安藤きょうこ.mp3",
     "sns": {
       "instagram": "https://www.instagram.com/kyon__56/?hl=ja",
       "twitter": "",
@@ -743,8 +743,8 @@ const CAST_DATA = [
     "regions": [
       "関東"
     ],
-    "image": "https://patio-patio.jp/wp-content/uploads/2022/01/内田早紀04-3.jpg",
-    "audio": "https://patio-patio.jp/wp-content/uploads/2022/01/う_内田早紀NA.mp3",
+    "image": "uploads/2022/01/内田早紀04-3.jpg",
+    "audio": "uploads/2022/01/う_内田早紀NA.mp3",
     "sns": {
       "instagram": "",
       "twitter": "https://twitter.com/uchhichi",
@@ -770,8 +770,8 @@ const CAST_DATA = [
     "regions": [
       "関東"
     ],
-    "image": "https://patio-patio.jp/wp-content/uploads/2026/05/東城朱音01-2.jpg",
-    "audio": "https://patio-patio.jp/wp-content/uploads/2026/05/と_東城朱音.mp3",
+    "image": "uploads/2026/05/東城朱音01-2.jpg",
+    "audio": "uploads/2026/05/と_東城朱音.mp3",
     "sns": {
       "instagram": "https://www.instagram.com/_akanetojo_/",
       "twitter": "https://x.com/_akanetojo_",
@@ -797,8 +797,8 @@ const CAST_DATA = [
     "regions": [
       "関東"
     ],
-    "image": "https://patio-patio.jp/wp-content/uploads/2026/05/1d971f2a8440af0c6bc21a77d6873a55.jpg",
-    "audio": "https://patio-patio.jp/wp-content/uploads/2026/05/中嶋絵美_01自己紹介.mp3",
+    "image": "uploads/2026/05/1d971f2a8440af0c6bc21a77d6873a55.jpg",
+    "audio": "uploads/2026/05/中嶋絵美_01自己紹介.mp3",
     "sns": {
       "instagram": "https://www.instagram.com/emi_nakashima1223/",
       "twitter": "https://x.com/emi_nakashima23",
@@ -825,8 +825,8 @@ const CAST_DATA = [
     "regions": [
       "関東"
     ],
-    "image": "https://patio-patio.jp/wp-content/uploads/2025/03/山本美沙07.jpg",
-    "audio": "https://patio-patio.jp/wp-content/uploads/2025/03/お茶cm.mp3",
+    "image": "uploads/2025/03/山本美沙07.jpg",
+    "audio": "uploads/2025/03/お茶cm.mp3",
     "sns": {
       "instagram": "https://www.instagram.com/misa04ray",
       "twitter": "https://x.com/misa_ray",
@@ -852,7 +852,7 @@ const CAST_DATA = [
     "regions": [
       "関東"
     ],
-    "image": "https://patio-patio.jp/wp-content/uploads/2025/02/山口由恵05-2.jpg",
+    "image": "uploads/2025/02/山口由恵05-2.jpg",
     "audio": "",
     "sns": {
       "instagram": "https://www.instagram.com/hpyuue8/",
@@ -882,8 +882,8 @@ const CAST_DATA = [
       "関東",
       "関西"
     ],
-    "image": "https://patio-patio.jp/wp-content/uploads/2022/09/c3e9efe5d181371e5798af632e73b93c.jpg",
-    "audio": "https://patio-patio.jp/wp-content/uploads/2022/09/か_香月かおり_宅録サンプル.mp3",
+    "image": "uploads/2022/09/c3e9efe5d181371e5798af632e73b93c.jpg",
+    "audio": "uploads/2022/09/か_香月かおり_宅録サンプル.mp3",
     "sns": {
       "instagram": "https://www.instagram.com/kaori__flower/",
       "twitter": "https://twitter.com/kaduki_310",
@@ -911,8 +911,8 @@ const CAST_DATA = [
     "regions": [
       "関東"
     ],
-    "image": "https://patio-patio.jp/wp-content/uploads/2025/12/岡崎美玖02-2.jpg",
-    "audio": "https://patio-patio.jp/wp-content/uploads/2025/12/お_岡崎美玖MC.mp3",
+    "image": "uploads/2025/12/岡崎美玖02-2.jpg",
+    "audio": "uploads/2025/12/お_岡崎美玖MC.mp3",
     "sns": {
       "instagram": "https://www.instagram.com/ramen_miku39_/",
       "twitter": "https://x.com/aaamiku39",
@@ -939,8 +939,8 @@ const CAST_DATA = [
     "regions": [
       "関東"
     ],
-    "image": "https://patio-patio.jp/wp-content/uploads/2022/03/望月美麗02-2.jpg",
-    "audio": "https://patio-patio.jp/wp-content/uploads/2022/03/も_望月美麗.mp3",
+    "image": "uploads/2022/03/望月美麗02-2.jpg",
+    "audio": "uploads/2022/03/も_望月美麗.mp3",
     "sns": {
       "instagram": "https://www.instagram.com/mocchie29/?hl=ja",
       "twitter": "",
@@ -969,8 +969,8 @@ const CAST_DATA = [
     "regions": [
       "関東"
     ],
-    "image": "https://patio-patio.jp/wp-content/uploads/2022/11/8f8406f6efd8c899d8f6b58fb409e6d5.jpg",
-    "audio": "https://patio-patio.jp/wp-content/uploads/2022/11/や_山中理恵子.mp3",
+    "image": "uploads/2022/11/8f8406f6efd8c899d8f6b58fb409e6d5.jpg",
+    "audio": "uploads/2022/11/や_山中理恵子.mp3",
     "sns": {
       "instagram": "https://www.instagram.com/rieyamako/",
       "twitter": "https://twitter.com/riekokoroyama",
@@ -1000,7 +1000,7 @@ const CAST_DATA = [
       "関東",
       "その他"
     ],
-    "image": "https://patio-patio.jp/wp-content/uploads/2026/03/水田恵弓02.jpeg",
+    "image": "uploads/2026/03/水田恵弓02.jpeg",
     "audio": "",
     "sns": {
       "instagram": "https://www.instagram.com/megumimizuta/",
@@ -1027,8 +1027,8 @@ const CAST_DATA = [
     "regions": [
       "関東"
     ],
-    "image": "https://patio-patio.jp/wp-content/uploads/2022/05/南青良07-2.jpg",
-    "audio": "https://patio-patio.jp/wp-content/uploads/2022/05/み_南青良MC.mp3",
+    "image": "uploads/2022/05/南青良07-2.jpg",
+    "audio": "uploads/2022/05/み_南青良MC.mp3",
     "sns": {
       "instagram": "https://www.instagram.com/minami.seira_insta/?hl=ja",
       "twitter": "https://x.com/nami_renne",
@@ -1058,8 +1058,8 @@ const CAST_DATA = [
     "regions": [
       "関東"
     ],
-    "image": "https://patio-patio.jp/wp-content/uploads/2021/09/1559764620-214066_2.jpg",
-    "audio": "https://patio-patio.jp/wp-content/uploads/2021/09/い_石崎賢一_日英.mp3",
+    "image": "uploads/2021/09/1559764620-214066_2.jpg",
+    "audio": "uploads/2021/09/い_石崎賢一_日英.mp3",
     "sns": {
       "instagram": "https://www.instagram.com/ishizaki.kenichi/?hl=ja",
       "twitter": "",
@@ -1091,8 +1091,8 @@ const CAST_DATA = [
     "regions": [
       "関東"
     ],
-    "image": "https://patio-patio.jp/wp-content/uploads/2021/09/1618907574-663304_2.jpg",
-    "audio": "https://patio-patio.jp/wp-content/uploads/2022/03/マシューまさるバロン_MC日英.mp3",
+    "image": "uploads/2021/09/1618907574-663304_2.jpg",
+    "audio": "uploads/2022/03/マシューまさるバロン_MC日英.mp3",
     "sns": {
       "instagram": "https://www.instagram.com/matthew_masaru_barron/?hl=ja",
       "twitter": "https://twitter.com/matthewmasaru",
@@ -1119,7 +1119,7 @@ const CAST_DATA = [
     "regions": [
       "関東"
     ],
-    "image": "https://patio-patio.jp/wp-content/uploads/2022/06/西垣峻宏04.jpg",
+    "image": "uploads/2022/06/西垣峻宏04.jpg",
     "audio": "",
     "sns": {
       "instagram": "https://www.instagram.com/mc_nishigaki/",
@@ -1147,8 +1147,8 @@ const CAST_DATA = [
     "regions": [
       "関東"
     ],
-    "image": "https://patio-patio.jp/wp-content/uploads/2021/09/1423105835-345820_2.jpg",
-    "audio": "https://patio-patio.jp/wp-content/uploads/2021/09/こ_古藤ジョウジ.mp3",
+    "image": "uploads/2021/09/1423105835-345820_2.jpg",
+    "audio": "uploads/2021/09/こ_古藤ジョウジ.mp3",
     "sns": {
       "instagram": "",
       "twitter": "https://twitter.com/j2koto",
@@ -1174,8 +1174,8 @@ const CAST_DATA = [
     "regions": [
       "関東"
     ],
-    "image": "https://patio-patio.jp/wp-content/uploads/2021/09/1563434974-844334_2.jpg",
-    "audio": "https://patio-patio.jp/wp-content/uploads/2022/03/き_木曽さんちゅう.mp3",
+    "image": "uploads/2021/09/1563434974-844334_2.jpg",
+    "audio": "uploads/2022/03/き_木曽さんちゅう.mp3",
     "sns": {
       "instagram": "https://www.instagram.com/kisosanchu/?hl=ja",
       "twitter": "https://x.com/kisosanchu1",
@@ -1202,8 +1202,8 @@ const CAST_DATA = [
     "regions": [
       "関東"
     ],
-    "image": "https://patio-patio.jp/wp-content/uploads/2021/09/1598197489-483821_2.jpg",
-    "audio": "https://patio-patio.jp/wp-content/uploads/2022/03/ほ_堀口達哉.mp3",
+    "image": "uploads/2021/09/1598197489-483821_2.jpg",
+    "audio": "uploads/2022/03/ほ_堀口達哉.mp3",
     "sns": {
       "instagram": "",
       "twitter": "",
@@ -1235,8 +1235,8 @@ const CAST_DATA = [
       "関東",
       "関西"
     ],
-    "image": "https://patio-patio.jp/wp-content/uploads/2022/05/吉﨑智宏03-0.jpg",
-    "audio": "https://patio-patio.jp/wp-content/uploads/2022/05/よ_吉﨑智宏.mp3",
+    "image": "uploads/2022/05/吉﨑智宏03-0.jpg",
+    "audio": "uploads/2022/05/よ_吉﨑智宏.mp3",
     "sns": {
       "instagram": "https://www.instagram.com/yoshi_chihiro/?hl=ja",
       "twitter": "https://twitter.com/yoshi_chihiro",
@@ -1261,7 +1261,7 @@ const CAST_DATA = [
     "regions": [
       "関東"
     ],
-    "image": "https://patio-patio.jp/wp-content/uploads/2021/09/1623389547-667546_2.jpg",
+    "image": "uploads/2021/09/1623389547-667546_2.jpg",
     "audio": "",
     "sns": {
       "instagram": "https://www.instagram.com/serryserry/?hl=ja",
@@ -1290,8 +1290,8 @@ const CAST_DATA = [
     "regions": [
       "関東"
     ],
-    "image": "https://patio-patio.jp/wp-content/uploads/2021/09/1422169559-956858_2.jpg",
-    "audio": "https://patio-patio.jp/wp-content/uploads/2022/03/も_森泉宏一.mp3",
+    "image": "uploads/2021/09/1422169559-956858_2.jpg",
+    "audio": "uploads/2022/03/も_森泉宏一.mp3",
     "sns": {
       "instagram": "https://www.instagram.com/mkoichi14/?hl=ja",
       "twitter": "https://twitter.com/mkoichi14",
@@ -1319,7 +1319,7 @@ const CAST_DATA = [
     "regions": [
       "関東"
     ],
-    "image": "https://patio-patio.jp/wp-content/uploads/2021/09/1592910968-868678_2.jpg",
+    "image": "uploads/2021/09/1592910968-868678_2.jpg",
     "audio": "",
     "sns": {
       "instagram": "https://www.instagram.com/wtotakasan/?hl=ja",
@@ -1353,8 +1353,8 @@ const CAST_DATA = [
     "regions": [
       "関東"
     ],
-    "image": "https://patio-patio.jp/wp-content/uploads/2022/06/サイラス・望・セスナ01-2.jpg",
-    "audio": "https://patio-patio.jp/wp-content/uploads/2022/06/サイラス・望・セスナ_cmナレーション集.mp3",
+    "image": "uploads/2022/06/サイラス・望・セスナ01-2.jpg",
+    "audio": "uploads/2022/06/サイラス・望・セスナ_cmナレーション集.mp3",
     "sns": {
       "instagram": "https://www.instagram.com/cyrusnozomusethna/",
       "twitter": "https://twitter.com/cyrusnozomu",
@@ -1379,7 +1379,7 @@ const CAST_DATA = [
     "regions": [
       "関東"
     ],
-    "image": "https://patio-patio.jp/wp-content/uploads/2022/07/青原健太04.jpg",
+    "image": "uploads/2022/07/青原健太04.jpg",
     "audio": "",
     "sns": {
       "instagram": "",
@@ -1406,8 +1406,8 @@ const CAST_DATA = [
     "regions": [
       "関東"
     ],
-    "image": "https://patio-patio.jp/wp-content/uploads/2021/09/1414695731-727148_2.jpg",
-    "audio": "https://patio-patio.jp/wp-content/uploads/2022/03/や_山内真衣.mp3",
+    "image": "uploads/2021/09/1414695731-727148_2.jpg",
+    "audio": "uploads/2022/03/や_山内真衣.mp3",
     "sns": {
       "instagram": "https://www.instagram.com/yamamay1101/?hl=ja",
       "twitter": "",
@@ -1436,8 +1436,8 @@ const CAST_DATA = [
     "regions": [
       "関東"
     ],
-    "image": "https://patio-patio.jp/wp-content/uploads/2021/09/1602500048-294000_2.jpg",
-    "audio": "https://patio-patio.jp/wp-content/uploads/2022/02/は_陽乃舞歌_日英ブライダル.mp3",
+    "image": "uploads/2021/09/1602500048-294000_2.jpg",
+    "audio": "uploads/2022/02/は_陽乃舞歌_日英ブライダル.mp3",
     "sns": {
       "instagram": "",
       "twitter": "",
@@ -1464,8 +1464,8 @@ const CAST_DATA = [
     "regions": [
       "関東"
     ],
-    "image": "https://patio-patio.jp/wp-content/uploads/2024/11/佐生知嘉子03-2-1.jpg",
-    "audio": "https://patio-patio.jp/wp-content/uploads/2024/11/さ_佐生知嘉子NA.mp3",
+    "image": "uploads/2024/11/佐生知嘉子03-2-1.jpg",
+    "audio": "uploads/2024/11/さ_佐生知嘉子NA.mp3",
     "sns": {
       "instagram": "https://www.instagram.com/chikakosasho/",
       "twitter": "",
@@ -1495,8 +1495,8 @@ const CAST_DATA = [
     "regions": [
       "関東"
     ],
-    "image": "https://patio-patio.jp/wp-content/uploads/2021/09/DSC_1758.jpg",
-    "audio": "https://patio-patio.jp/wp-content/uploads/2022/08/①展示会.wav",
+    "image": "uploads/2021/09/DSC_1758.jpg",
+    "audio": "uploads/2022/08/①展示会.wav",
     "sns": {
       "instagram": "https://www.instagram.com/lapis_lazuli0510/",
       "twitter": "https://x.com/tasakiharu0510",
@@ -1526,8 +1526,8 @@ const CAST_DATA = [
     "regions": [
       "関東"
     ],
-    "image": "https://patio-patio.jp/wp-content/uploads/2025/08/山本秀子02-1.jpg",
-    "audio": "https://patio-patio.jp/wp-content/uploads/2025/08/や_山本秀子_日本語＆中国語.mp3",
+    "image": "uploads/2025/08/山本秀子02-1.jpg",
+    "audio": "uploads/2025/08/や_山本秀子_日本語＆中国語.mp3",
     "sns": {
       "instagram": "https://www.instagram.com/hideko_flamenco/",
       "twitter": "",
@@ -1553,8 +1553,8 @@ const CAST_DATA = [
     "regions": [
       "関東"
     ],
-    "image": "https://patio-patio.jp/wp-content/uploads/2022/04/爲澤浩子02-2.jpg",
-    "audio": "https://patio-patio.jp/wp-content/uploads/2022/04/た_爲澤浩子.mp3",
+    "image": "uploads/2022/04/爲澤浩子02-2.jpg",
+    "audio": "uploads/2022/04/た_爲澤浩子.mp3",
     "sns": {
       "instagram": "",
       "twitter": "",
@@ -1581,8 +1581,8 @@ const CAST_DATA = [
     "regions": [
       "関東"
     ],
-    "image": "https://patio-patio.jp/wp-content/uploads/2021/09/1478428720-857607_2.jpg",
-    "audio": "https://patio-patio.jp/wp-content/uploads/2022/06/う_牛尾寿子.mp3",
+    "image": "uploads/2021/09/1478428720-857607_2.jpg",
+    "audio": "uploads/2022/06/う_牛尾寿子.mp3",
     "sns": {
       "instagram": "https://www.instagram.com/chako_ushio/",
       "twitter": "https://twitter.com/chakopetit",
@@ -1608,7 +1608,7 @@ const CAST_DATA = [
     "regions": [
       "関東"
     ],
-    "image": "https://patio-patio.jp/wp-content/uploads/2026/06/b0199f1c2b8f3ae74cfda417f5536f8c.jpg",
+    "image": "uploads/2026/06/b0199f1c2b8f3ae74cfda417f5536f8c.jpg",
     "audio": "",
     "sns": {
       "instagram": "https://www.instagram.com/koa_kokoro/",
@@ -1639,8 +1639,8 @@ const CAST_DATA = [
       "関東",
       "関西"
     ],
-    "image": "https://patio-patio.jp/wp-content/uploads/2025/08/香月まどか01-2.jpg",
-    "audio": "https://patio-patio.jp/wp-content/uploads/2025/08/香月まどか_PV.mp3",
+    "image": "uploads/2025/08/香月まどか01-2.jpg",
+    "audio": "uploads/2025/08/香月まどか_PV.mp3",
     "sns": {
       "instagram": "https://www.instagram.com/m_d_k_710/",
       "twitter": "",
@@ -1666,8 +1666,8 @@ const CAST_DATA = [
     "regions": [
       "関東"
     ],
-    "image": "https://patio-patio.jp/wp-content/uploads/2022/02/IMG_7517.jpeg",
-    "audio": "https://patio-patio.jp/wp-content/uploads/2022/02/や_山本実樹.mp3",
+    "image": "uploads/2022/02/IMG_7517.jpeg",
+    "audio": "uploads/2022/02/や_山本実樹.mp3",
     "sns": {
       "instagram": "https://www.instagram.com/miori_aoishi/?hl=ja",
       "twitter": "https://twitter.com/miori_aoishi",
@@ -1697,8 +1697,8 @@ const CAST_DATA = [
     "regions": [
       "関東"
     ],
-    "image": "https://patio-patio.jp/wp-content/uploads/2021/09/1581492691-028768_2.jpg",
-    "audio": "https://patio-patio.jp/wp-content/uploads/2022/02/し_白石みゆ_日英.mp3",
+    "image": "uploads/2021/09/1581492691-028768_2.jpg",
+    "audio": "uploads/2022/02/し_白石みゆ_日英.mp3",
     "sns": {
       "instagram": "https://www.instagram.com/mc_yuyu_0728/?hl=ja",
       "twitter": "https://twitter.com/myumyu_ss?lang=ja",
@@ -1725,8 +1725,8 @@ const CAST_DATA = [
     "regions": [
       "関東"
     ],
-    "image": "https://patio-patio.jp/wp-content/uploads/2022/02/秋元リコ08.jpg",
-    "audio": "https://patio-patio.jp/wp-content/uploads/2021/09/あ_秋元リコ.mp3",
+    "image": "uploads/2022/02/秋元リコ08.jpg",
+    "audio": "uploads/2021/09/あ_秋元リコ.mp3",
     "sns": {
       "instagram": "https://www.instagram.com/akimotorico/",
       "twitter": "https://x.com/akimotorikopin",
@@ -1751,8 +1751,8 @@ const CAST_DATA = [
     "regions": [
       "関東"
     ],
-    "image": "https://patio-patio.jp/wp-content/uploads/2026/05/93d8fb83ea417813e051721a6821ba93.jpg",
-    "audio": "https://patio-patio.jp/wp-content/uploads/2026/05/0f456d35012a6e7729bb560f06399095.mp3",
+    "image": "uploads/2026/05/93d8fb83ea417813e051721a6821ba93.jpg",
+    "audio": "uploads/2026/05/0f456d35012a6e7729bb560f06399095.mp3",
     "sns": {
       "instagram": "https://www.instagram.com/riii_maru162cm/",
       "twitter": "",
@@ -1778,8 +1778,8 @@ const CAST_DATA = [
     "regions": [
       "関東"
     ],
-    "image": "https://patio-patio.jp/wp-content/uploads/2024/01/柿沼里子01-2.jpg",
-    "audio": "https://patio-patio.jp/wp-content/uploads/2024/01/か_柿沼里子_VP.mp3",
+    "image": "uploads/2024/01/柿沼里子01-2.jpg",
+    "audio": "uploads/2024/01/か_柿沼里子_VP.mp3",
     "sns": {
       "instagram": "https://www.instagram.com/satokokakinuma/",
       "twitter": "",
@@ -1808,8 +1808,8 @@ const CAST_DATA = [
     "regions": [
       "関東"
     ],
-    "image": "https://patio-patio.jp/wp-content/uploads/2022/02/e93f09547f5b95c555a79550d18328e0.jpg",
-    "audio": "https://patio-patio.jp/wp-content/uploads/2022/02/梅野せんり_フォーラムMC.mp3",
+    "image": "uploads/2022/02/e93f09547f5b95c555a79550d18328e0.jpg",
+    "audio": "uploads/2022/02/梅野せんり_フォーラムMC.mp3",
     "sns": {
       "instagram": "https://www.instagram.com/senriumeno/",
       "twitter": "https://twitter.com/umeno_senri",
@@ -1840,8 +1840,8 @@ const CAST_DATA = [
     "regions": [
       "関東"
     ],
-    "image": "https://patio-patio.jp/wp-content/uploads/2023/06/田島葉子03-2.jpg",
-    "audio": "https://patio-patio.jp/wp-content/uploads/2023/06/た_田島葉子_ABC製薬.mp3",
+    "image": "uploads/2023/06/田島葉子03-2.jpg",
+    "audio": "uploads/2023/06/た_田島葉子_ABC製薬.mp3",
     "sns": {
       "instagram": "https://www.instagram.com/yoko___tajima8532/",
       "twitter": "",
@@ -1867,7 +1867,7 @@ const CAST_DATA = [
     "regions": [
       "関東"
     ],
-    "image": "https://patio-patio.jp/wp-content/uploads/2021/09/1545296376-138203_2.jpg",
+    "image": "uploads/2021/09/1545296376-138203_2.jpg",
     "audio": "",
     "sns": {
       "instagram": "https://www.instagram.com/maki_yu1007/?hl=ja",
@@ -1893,8 +1893,8 @@ const CAST_DATA = [
     "regions": [
       "関東"
     ],
-    "image": "https://patio-patio.jp/wp-content/uploads/2025/08/豊田ユミ12-2.jpg",
-    "audio": "https://patio-patio.jp/wp-content/uploads/2025/08/と_豊田ユミ_NA.mp3",
+    "image": "uploads/2025/08/豊田ユミ12-2.jpg",
+    "audio": "uploads/2025/08/と_豊田ユミ_NA.mp3",
     "sns": {
       "instagram": "https://www.instagram.com/yumi_toyoda13/",
       "twitter": "https://x.com/yumitoyoda_mc",
@@ -1920,8 +1920,8 @@ const CAST_DATA = [
     "regions": [
       "関東"
     ],
-    "image": "https://patio-patio.jp/wp-content/uploads/2025/11/07e9edb394c487cb7e48d53e3a3b1bf7.jpg",
-    "audio": "https://patio-patio.jp/wp-content/uploads/2025/11/77ff67c1caa2247b2cc7513fbaec7646.mp3",
+    "image": "uploads/2025/11/07e9edb394c487cb7e48d53e3a3b1bf7.jpg",
+    "audio": "uploads/2025/11/77ff67c1caa2247b2cc7513fbaec7646.mp3",
     "sns": {
       "instagram": "https://www.instagram.com/chibiyurigram/?hl=ja",
       "twitter": "https://x.com/chibiyurigram",
@@ -1946,8 +1946,8 @@ const CAST_DATA = [
     "regions": [
       "関東"
     ],
-    "image": "https://patio-patio.jp/wp-content/uploads/2021/09/山上乃々05-2.jpg",
-    "audio": "https://patio-patio.jp/wp-content/uploads/2021/09/や_山上乃々_明るめプレゼン.wav",
+    "image": "uploads/2021/09/山上乃々05-2.jpg",
+    "audio": "uploads/2021/09/や_山上乃々_明るめプレゼン.wav",
     "sns": {
       "instagram": "https://www.instagram.com/nonono_susume",
       "twitter": "https://x.com/yamagaminono",
@@ -1976,8 +1976,8 @@ const CAST_DATA = [
     "regions": [
       "関東"
     ],
-    "image": "https://patio-patio.jp/wp-content/uploads/2024/09/皆月沙耶02.jpg",
-    "audio": "https://patio-patio.jp/wp-content/uploads/2024/09/み_皆月沙耶_eラーニング.mp3",
+    "image": "uploads/2024/09/皆月沙耶02.jpg",
+    "audio": "uploads/2024/09/み_皆月沙耶_eラーニング.mp3",
     "sns": {
       "instagram": "https://www.instagram.com/minasaya6/?hl=ja",
       "twitter": "https://x.com/6_saya_",
@@ -2005,8 +2005,8 @@ const CAST_DATA = [
       "関東",
       "関西"
     ],
-    "image": "https://patio-patio.jp/wp-content/uploads/2022/02/棟近ちなみ10.jpg",
-    "audio": "https://patio-patio.jp/wp-content/uploads/2022/02/棟近ちなみ_ニュース_2022.mp3",
+    "image": "uploads/2022/02/棟近ちなみ10.jpg",
+    "audio": "uploads/2022/02/棟近ちなみ_ニュース_2022.mp3",
     "sns": {
       "instagram": "https://www.instagram.com/chinami_munechika/?hl=ja",
       "twitter": "https://twitter.com/CHINAMI0430",
@@ -2034,8 +2034,8 @@ const CAST_DATA = [
       "関東",
       "関西"
     ],
-    "image": "https://patio-patio.jp/wp-content/uploads/2025/08/林千寿02-2.jpg",
-    "audio": "https://patio-patio.jp/wp-content/uploads/2025/08/は_林千寿.mp3",
+    "image": "uploads/2025/08/林千寿02-2.jpg",
+    "audio": "uploads/2025/08/は_林千寿.mp3",
     "sns": {
       "instagram": "https://www.instagram.com/kiwa2432/",
       "twitter": "https://x.com/ziu2222",
@@ -2064,8 +2064,8 @@ const CAST_DATA = [
     "regions": [
       "関東"
     ],
-    "image": "https://patio-patio.jp/wp-content/uploads/2023/05/園矢英梨02-2.jpg",
-    "audio": "https://patio-patio.jp/wp-content/uploads/2023/05/そ_園矢英梨_日英.mp3",
+    "image": "uploads/2023/05/園矢英梨02-2.jpg",
+    "audio": "uploads/2023/05/そ_園矢英梨_日英.mp3",
     "sns": {
       "instagram": "https://www.instagram.com/eririn_shi/",
       "twitter": "https://twitter.com/eririn_shi",
@@ -2092,8 +2092,8 @@ const CAST_DATA = [
     "regions": [
       "関東"
     ],
-    "image": "https://patio-patio.jp/wp-content/uploads/2025/03/佐藤愛03-2.jpg",
-    "audio": "https://patio-patio.jp/wp-content/uploads/2025/03/さ_佐藤愛_NA_Eスポーツ.mp3",
+    "image": "uploads/2025/03/佐藤愛03-2.jpg",
+    "audio": "uploads/2025/03/さ_佐藤愛_NA_Eスポーツ.mp3",
     "sns": {
       "instagram": "https://www.instagram.com/satoai07/",
       "twitter": "",
@@ -2122,8 +2122,8 @@ const CAST_DATA = [
     "regions": [
       "関東"
     ],
-    "image": "https://patio-patio.jp/wp-content/uploads/2022/07/中野えり04-2.jpg",
-    "audio": "https://patio-patio.jp/wp-content/uploads/2022/07/な_中野えり-1.mp3",
+    "image": "uploads/2022/07/中野えり04-2.jpg",
+    "audio": "uploads/2022/07/な_中野えり-1.mp3",
     "sns": {
       "instagram": "",
       "twitter": "",
@@ -2153,8 +2153,8 @@ const CAST_DATA = [
     "regions": [
       "関東"
     ],
-    "image": "https://patio-patio.jp/wp-content/uploads/2022/02/勝又楓03-2.jpg",
-    "audio": "https://patio-patio.jp/wp-content/uploads/2022/02/か_勝又楓NA.mp3",
+    "image": "uploads/2022/02/勝又楓03-2.jpg",
+    "audio": "uploads/2022/02/か_勝又楓NA.mp3",
     "sns": {
       "instagram": "https://www.instagram.com/i_am_kaedekatsumata/?hl=ja",
       "twitter": "https://x.com/ohrei23_miss2",
@@ -2181,8 +2181,8 @@ const CAST_DATA = [
     "regions": [
       "関東"
     ],
-    "image": "https://patio-patio.jp/wp-content/uploads/2021/09/内田加奈子08.jpg",
-    "audio": "https://patio-patio.jp/wp-content/uploads/2024/06/う_内田加奈子_MC.mp3",
+    "image": "uploads/2021/09/内田加奈子08.jpg",
+    "audio": "uploads/2024/06/う_内田加奈子_MC.mp3",
     "sns": {
       "instagram": "https://www.instagram.com/kanako_u_415/",
       "twitter": "https://x.com/cana_chang",
@@ -2209,8 +2209,8 @@ const CAST_DATA = [
     "regions": [
       "関東"
     ],
-    "image": "https://patio-patio.jp/wp-content/uploads/2022/03/月脚めぐみ09-2.jpg",
-    "audio": "https://patio-patio.jp/wp-content/uploads/2022/03/つ_月脚めぐみNA.mp3",
+    "image": "uploads/2022/03/月脚めぐみ09-2.jpg",
+    "audio": "uploads/2022/03/つ_月脚めぐみNA.mp3",
     "sns": {
       "instagram": "https://www.instagram.com/meushi0624/",
       "twitter": "https://twitter.com/meushi0624",
@@ -2237,8 +2237,8 @@ const CAST_DATA = [
     "regions": [
       "関東"
     ],
-    "image": "https://patio-patio.jp/wp-content/uploads/2021/09/1414696165-045171_2.jpg",
-    "audio": "https://patio-patio.jp/wp-content/uploads/2021/09/や_山口奈々.mp3",
+    "image": "uploads/2021/09/1414696165-045171_2.jpg",
+    "audio": "uploads/2021/09/や_山口奈々.mp3",
     "sns": {
       "instagram": "",
       "twitter": "",
@@ -2268,8 +2268,8 @@ const CAST_DATA = [
       "関東",
       "関西"
     ],
-    "image": "https://patio-patio.jp/wp-content/uploads/2022/02/青山りか06-2.jpg",
-    "audio": "https://patio-patio.jp/wp-content/uploads/2021/09/あ_青山りかNA.mp3",
+    "image": "uploads/2022/02/青山りか06-2.jpg",
+    "audio": "uploads/2021/09/あ_青山りかNA.mp3",
     "sns": {
       "instagram": "",
       "twitter": "",
@@ -2295,8 +2295,8 @@ const CAST_DATA = [
     "regions": [
       "関東"
     ],
-    "image": "https://patio-patio.jp/wp-content/uploads/2021/09/1598198062-546842_2.jpg",
-    "audio": "https://patio-patio.jp/wp-content/uploads/2023/05/す_須山梨菜.mp3",
+    "image": "uploads/2021/09/1598198062-546842_2.jpg",
+    "audio": "uploads/2023/05/す_須山梨菜.mp3",
     "sns": {
       "instagram": "https://www.instagram.com/suyamarina/",
       "twitter": "https://twitter.com/rinasuyama",
@@ -2324,8 +2324,8 @@ const CAST_DATA = [
     "regions": [
       "関東"
     ],
-    "image": "https://patio-patio.jp/wp-content/uploads/2023/07/柿沼佐智子05-1.jpg",
-    "audio": "https://patio-patio.jp/wp-content/uploads/2023/07/か_柿沼佐智子_DJ.mp3",
+    "image": "uploads/2023/07/柿沼佐智子05-1.jpg",
+    "audio": "uploads/2023/07/か_柿沼佐智子_DJ.mp3",
     "sns": {
       "instagram": "https://www.instagram.com/sachiko_honey/",
       "twitter": "https://twitter.com/sachiko_honey",
@@ -2352,8 +2352,8 @@ const CAST_DATA = [
     "regions": [
       "関東"
     ],
-    "image": "https://patio-patio.jp/wp-content/uploads/2021/09/臼井しずか02-2.jpg",
-    "audio": "https://patio-patio.jp/wp-content/uploads/2022/08/うすいしずかセミナー.mp3",
+    "image": "uploads/2021/09/臼井しずか02-2.jpg",
+    "audio": "uploads/2022/08/うすいしずかセミナー.mp3",
     "sns": {
       "instagram": "",
       "twitter": "",
@@ -2380,8 +2380,8 @@ const CAST_DATA = [
     "regions": [
       "関東"
     ],
-    "image": "https://patio-patio.jp/wp-content/uploads/2022/07/茂木由香06-2.jpg",
-    "audio": "https://patio-patio.jp/wp-content/uploads/2022/07/も_茂木由香.mp3",
+    "image": "uploads/2022/07/茂木由香06-2.jpg",
+    "audio": "uploads/2022/07/も_茂木由香.mp3",
     "sns": {
       "instagram": "https://www.instagram.com/mokaraiboku/",
       "twitter": "",
@@ -2411,8 +2411,8 @@ const CAST_DATA = [
     "regions": [
       "関東"
     ],
-    "image": "https://patio-patio.jp/wp-content/uploads/2021/09/1567229447-900079_2.jpg",
-    "audio": "https://patio-patio.jp/wp-content/uploads/2021/09/あ_荒井ゆき.mp3",
+    "image": "uploads/2021/09/1567229447-900079_2.jpg",
+    "audio": "uploads/2021/09/あ_荒井ゆき.mp3",
     "sns": {
       "instagram": "https://www.instagram.com/yuki.arai_326/?hl=ja",
       "twitter": "https://twitter.com/ms_snowdoll",
@@ -2438,8 +2438,8 @@ const CAST_DATA = [
     "regions": [
       "関東"
     ],
-    "image": "https://patio-patio.jp/wp-content/uploads/2021/09/1414224137-992473_2.jpg",
-    "audio": "https://patio-patio.jp/wp-content/uploads/2023/07/す_鈴木瞳.mp3",
+    "image": "uploads/2021/09/1414224137-992473_2.jpg",
+    "audio": "uploads/2023/07/す_鈴木瞳.mp3",
     "sns": {
       "instagram": "",
       "twitter": "",
@@ -2467,8 +2467,8 @@ const CAST_DATA = [
     "regions": [
       "関東"
     ],
-    "image": "https://patio-patio.jp/wp-content/uploads/2022/06/真波凛07.jpg",
-    "audio": "https://patio-patio.jp/wp-content/uploads/2022/06/ま_真波凛_日英.mp3",
+    "image": "uploads/2022/06/真波凛07.jpg",
+    "audio": "uploads/2022/06/ま_真波凛_日英.mp3",
     "sns": {
       "instagram": "https://www.instagram.com/rin_manami2/",
       "twitter": "https://twitter.com/ring2_run2",
@@ -2493,7 +2493,7 @@ const CAST_DATA = [
     "regions": [
       "関東"
     ],
-    "image": "https://patio-patio.jp/wp-content/uploads/2026/05/cce056e4b43f59a8b099d7128ce87844.jpg",
+    "image": "uploads/2026/05/cce056e4b43f59a8b099d7128ce87844.jpg",
     "audio": "",
     "sns": {
       "instagram": "https://www.instagram.com/aoiyuka_kapimaru/",
@@ -2521,8 +2521,8 @@ const CAST_DATA = [
     "regions": [
       "関東"
     ],
-    "image": "https://patio-patio.jp/wp-content/uploads/2025/02/58d33497d98d24588bbf554ca622b5ed.jpg",
-    "audio": "https://patio-patio.jp/wp-content/uploads/2025/02/し_島崎愛弓_MC.mp3",
+    "image": "uploads/2025/02/58d33497d98d24588bbf554ca622b5ed.jpg",
+    "audio": "uploads/2025/02/し_島崎愛弓_MC.mp3",
     "sns": {
       "instagram": "https://www.instagram.com/ayumishimazaki/?hl=ja",
       "twitter": "https://x.com/AyumiShimazaki",
@@ -2547,7 +2547,7 @@ const CAST_DATA = [
     "regions": [
       "関東"
     ],
-    "image": "https://patio-patio.jp/wp-content/uploads/2021/09/1433299032-488711_2.jpg",
+    "image": "uploads/2021/09/1433299032-488711_2.jpg",
     "audio": "",
     "sns": {
       "instagram": "https://www.instagram.com/kitamana0424/?hl=ja",
@@ -2579,8 +2579,8 @@ const CAST_DATA = [
     "regions": [
       "関東"
     ],
-    "image": "https://patio-patio.jp/wp-content/uploads/2025/02/佐藤美宏01.jpg",
-    "audio": "https://patio-patio.jp/wp-content/uploads/2025/02/さ_佐藤美宏.mp3",
+    "image": "uploads/2025/02/佐藤美宏01.jpg",
+    "audio": "uploads/2025/02/さ_佐藤美宏.mp3",
     "sns": {
       "instagram": "https://www.instagram.com/mihiro.310",
       "twitter": "",
@@ -2608,8 +2608,8 @@ const CAST_DATA = [
     "regions": [
       "関東"
     ],
-    "image": "https://patio-patio.jp/wp-content/uploads/2026/06/8044956cef373028980f7efd87784721.jpg",
-    "audio": "https://patio-patio.jp/wp-content/uploads/2026/06/8aef26016cf92858b65ff3585fe23bbd.mp3",
+    "image": "uploads/2026/06/8044956cef373028980f7efd87784721.jpg",
+    "audio": "uploads/2026/06/8aef26016cf92858b65ff3585fe23bbd.mp3",
     "sns": {
       "instagram": "https://www.instagram.com/chipistagram417/",
       "twitter": "https://x.com/kisechihiro",
@@ -2639,8 +2639,8 @@ const CAST_DATA = [
     "regions": [
       "関東"
     ],
-    "image": "https://patio-patio.jp/wp-content/uploads/2026/06/1e45e0ced6ec0175acad9e05c35a67d8.jpg",
-    "audio": "https://patio-patio.jp/wp-content/uploads/2026/06/97eadbe18fd17fd71c231267af2dd545.mp3",
+    "image": "uploads/2026/06/1e45e0ced6ec0175acad9e05c35a67d8.jpg",
+    "audio": "uploads/2026/06/97eadbe18fd17fd71c231267af2dd545.mp3",
     "sns": {
       "instagram": "https://www.instagram.com/mika_mika_mika620/",
       "twitter": "https://x.com/mika_mika_620",
@@ -2666,8 +2666,8 @@ const CAST_DATA = [
     "regions": [
       "関東"
     ],
-    "image": "https://patio-patio.jp/wp-content/uploads/2022/02/加藤美鈴202202.jpg",
-    "audio": "https://patio-patio.jp/wp-content/uploads/2022/02/か_加藤美鈴.mp3",
+    "image": "uploads/2022/02/加藤美鈴202202.jpg",
+    "audio": "uploads/2022/02/か_加藤美鈴.mp3",
     "sns": {
       "instagram": "https://www.instagram.com/kato_misuzu/?hl=ja",
       "twitter": "",
@@ -2696,8 +2696,8 @@ const CAST_DATA = [
     "regions": [
       "関東"
     ],
-    "image": "https://patio-patio.jp/wp-content/uploads/2022/04/3674af066b9ae6e827f36555e39facd7.jpg",
-    "audio": "https://patio-patio.jp/wp-content/uploads/2022/04/の_野村沙綾_日英.mp3",
+    "image": "uploads/2022/04/3674af066b9ae6e827f36555e39facd7.jpg",
+    "audio": "uploads/2022/04/の_野村沙綾_日英.mp3",
     "sns": {
       "instagram": "https://www.instagram.com/saaya_saya38/?hl=ja",
       "twitter": "https://x.com/saya_nomura38",
@@ -2723,8 +2723,8 @@ const CAST_DATA = [
     "regions": [
       "関東"
     ],
-    "image": "https://patio-patio.jp/wp-content/uploads/2021/09/beauty_1749512798073.jpeg",
-    "audio": "https://patio-patio.jp/wp-content/uploads/2025/06/さ_佐東詩織_展示会（BGM有）.mp3",
+    "image": "uploads/2021/09/beauty_1749512798073.jpeg",
+    "audio": "uploads/2025/06/さ_佐東詩織_展示会（BGM有）.mp3",
     "sns": {
       "instagram": "https://www.instagram.com/tetemaru0406/",
       "twitter": "https://x.com/tetemaru0406",
@@ -2751,7 +2751,7 @@ const CAST_DATA = [
     "regions": [
       "関東"
     ],
-    "image": "https://patio-patio.jp/wp-content/uploads/2026/07/9e28cb786de4bc8b4d1bb59cd33fe4f2.jpg",
+    "image": "uploads/2026/07/9e28cb786de4bc8b4d1bb59cd33fe4f2.jpg",
     "audio": "",
     "sns": {
       "instagram": "https://www.instagram.com/mimi__m0818/",
@@ -2777,7 +2777,7 @@ const CAST_DATA = [
     "regions": [
       "関東"
     ],
-    "image": "https://patio-patio.jp/wp-content/uploads/2023/10/小杉和司05-1.jpg",
+    "image": "uploads/2023/10/小杉和司05-1.jpg",
     "audio": "",
     "sns": {
       "instagram": "https://www.instagram.com/kazushikosugi_01",
@@ -2803,8 +2803,8 @@ const CAST_DATA = [
     "regions": [
       "関東"
     ],
-    "image": "https://patio-patio.jp/wp-content/uploads/2026/03/本田将一郎01-2.jpg",
-    "audio": "https://patio-patio.jp/wp-content/uploads/2026/03/ほ_本田将一郎_実況.m4a",
+    "image": "uploads/2026/03/本田将一郎01-2.jpg",
+    "audio": "uploads/2026/03/ほ_本田将一郎_実況.m4a",
     "sns": {
       "instagram": "",
       "twitter": "",
@@ -2831,8 +2831,8 @@ const CAST_DATA = [
     "regions": [
       "関東"
     ],
-    "image": "https://patio-patio.jp/wp-content/uploads/2022/04/高森てつ03.jpg",
-    "audio": "https://patio-patio.jp/wp-content/uploads/2022/04/た_高森てつ_渋め.mp3",
+    "image": "uploads/2022/04/高森てつ03.jpg",
+    "audio": "uploads/2022/04/た_高森てつ_渋め.mp3",
     "sns": {
       "instagram": "https://www.instagram.com/tetsu_takamori/?hl=ja",
       "twitter": "",
@@ -2861,8 +2861,8 @@ const CAST_DATA = [
     "regions": [
       "関東"
     ],
-    "image": "https://patio-patio.jp/wp-content/uploads/2022/07/2-3.jpg",
-    "audio": "https://patio-patio.jp/wp-content/uploads/2022/07/あ_ATSUHIRO_基本サンプル2パターン.mp3",
+    "image": "uploads/2022/07/2-3.jpg",
+    "audio": "uploads/2022/07/あ_ATSUHIRO_基本サンプル2パターン.mp3",
     "sns": {
       "instagram": "https://www.instagram.com/atsuhiro0613/",
       "twitter": "https://twitter.com/atsuhiro0613",
@@ -2892,7 +2892,7 @@ const CAST_DATA = [
     "regions": [
       "関東"
     ],
-    "image": "https://patio-patio.jp/wp-content/uploads/2021/09/1576376131-234816_2.jpg",
+    "image": "uploads/2021/09/1576376131-234816_2.jpg",
     "audio": "",
     "sns": {
       "instagram": "https://www.instagram.com/ricky_k_888/",
@@ -2919,8 +2919,8 @@ const CAST_DATA = [
     "regions": [
       "関東"
     ],
-    "image": "https://patio-patio.jp/wp-content/uploads/2021/09/1623391651-455975_2.jpg",
-    "audio": "https://patio-patio.jp/wp-content/uploads/2021/09/た_谷田貴大.mp3",
+    "image": "uploads/2021/09/1623391651-455975_2.jpg",
+    "audio": "uploads/2021/09/た_谷田貴大.mp3",
     "sns": {
       "instagram": "",
       "twitter": "",
@@ -2944,7 +2944,7 @@ const CAST_DATA = [
     "regions": [
       "関東"
     ],
-    "image": "https://patio-patio.jp/wp-content/uploads/2022/06/奏希06.jpg",
+    "image": "uploads/2022/06/奏希06.jpg",
     "audio": "",
     "sns": {
       "instagram": "",
@@ -2969,7 +2969,7 @@ const CAST_DATA = [
     "regions": [
       "関東"
     ],
-    "image": "https://patio-patio.jp/wp-content/uploads/2022/06/IMG_2923.jpeg",
+    "image": "uploads/2022/06/IMG_2923.jpeg",
     "audio": "",
     "sns": {
       "instagram": "",
@@ -3002,8 +3002,8 @@ const CAST_DATA = [
     "regions": [
       "関東"
     ],
-    "image": "https://patio-patio.jp/wp-content/uploads/2024/09/IMG_0281ー.jpg",
-    "audio": "https://patio-patio.jp/wp-content/uploads/2024/09/牛島ちえ　自己紹介.mp3",
+    "image": "uploads/2024/09/IMG_0281ー.jpg",
+    "audio": "uploads/2024/09/牛島ちえ　自己紹介.mp3",
     "sns": {
       "instagram": "https://www.instagram.com/chiewasshi/",
       "twitter": "https://twitter.com/tybalt_london",
@@ -3030,8 +3030,8 @@ const CAST_DATA = [
     "regions": [
       "関東"
     ],
-    "image": "https://patio-patio.jp/wp-content/uploads/2021/09/1623395065-050904_2.jpg",
-    "audio": "https://patio-patio.jp/wp-content/uploads/2022/04/ひ_久本真菜_イベント.mp3",
+    "image": "uploads/2021/09/1623395065-050904_2.jpg",
+    "audio": "uploads/2022/04/ひ_久本真菜_イベント.mp3",
     "sns": {
       "instagram": "https://www.instagram.com/mana_hisamoto/?hl=ja",
       "twitter": "https://twitter.com/Mmmaa_Nnnaa",
@@ -3058,7 +3058,7 @@ const CAST_DATA = [
     "regions": [
       "関東"
     ],
-    "image": "https://patio-patio.jp/wp-content/uploads/2022/02/高橋友希07-2-1.jpg",
+    "image": "uploads/2022/02/高橋友希07-2-1.jpg",
     "audio": "",
     "sns": {
       "instagram": "https://www.instagram.com/yuki5ma2yan/?hl=ja",
@@ -3085,8 +3085,8 @@ const CAST_DATA = [
     "regions": [
       "関西"
     ],
-    "image": "https://patio-patio.jp/wp-content/uploads/2021/09/諏訪和美02-3.jpg",
-    "audio": "https://patio-patio.jp/wp-content/uploads/2022/07/す_諏訪和美.mp3",
+    "image": "uploads/2021/09/諏訪和美02-3.jpg",
+    "audio": "uploads/2022/07/す_諏訪和美.mp3",
     "sns": {
       "instagram": "",
       "twitter": "",
@@ -3112,8 +3112,8 @@ const CAST_DATA = [
     "regions": [
       "関東"
     ],
-    "image": "https://patio-patio.jp/wp-content/uploads/2021/09/1412909119-101320_2.jpg",
-    "audio": "https://patio-patio.jp/wp-content/uploads/2023/07/の_野田真紀_日英.mp3",
+    "image": "uploads/2021/09/1412909119-101320_2.jpg",
+    "audio": "uploads/2023/07/の_野田真紀_日英.mp3",
     "sns": {
       "instagram": "",
       "twitter": "https://twitter.com/norino13",
@@ -3139,8 +3139,8 @@ const CAST_DATA = [
     "regions": [
       "関東"
     ],
-    "image": "https://patio-patio.jp/wp-content/uploads/2022/04/藤里りょうこ03-2-1.jpg",
-    "audio": "https://patio-patio.jp/wp-content/uploads/2022/04/藤里りょうこ.mp3",
+    "image": "uploads/2022/04/藤里りょうこ03-2-1.jpg",
+    "audio": "uploads/2022/04/藤里りょうこ.mp3",
     "sns": {
       "instagram": "",
       "twitter": "",
@@ -3165,8 +3165,8 @@ const CAST_DATA = [
     "regions": [
       "関西"
     ],
-    "image": "https://patio-patio.jp/wp-content/uploads/2025/08/永野さおり01-2-2.jpg",
-    "audio": "https://patio-patio.jp/wp-content/uploads/2025/08/な_永野さおり-1.mp3",
+    "image": "uploads/2025/08/永野さおり01-2-2.jpg",
+    "audio": "uploads/2025/08/な_永野さおり-1.mp3",
     "sns": {
       "instagram": "",
       "twitter": "",
@@ -3193,8 +3193,8 @@ const CAST_DATA = [
     "regions": [
       "関東"
     ],
-    "image": "https://patio-patio.jp/wp-content/uploads/2021/09/本田祥子07-3.jpg",
-    "audio": "https://patio-patio.jp/wp-content/uploads/2024/01/Honda_VoiceSample64k.mp3",
+    "image": "uploads/2021/09/本田祥子07-3.jpg",
+    "audio": "uploads/2024/01/Honda_VoiceSample64k.mp3",
     "sns": {
       "instagram": "https://www.instagram.com/yoshiko_cherry339/",
       "twitter": "",
@@ -3220,7 +3220,7 @@ const CAST_DATA = [
     "regions": [
       "関東"
     ],
-    "image": "https://patio-patio.jp/wp-content/uploads/2025/06/花咲ゆり02-2.jpg",
+    "image": "uploads/2025/06/花咲ゆり02-2.jpg",
     "audio": "",
     "sns": {
       "instagram": "https://www.instagram.com/o_h_a_n_a8787/",
@@ -3247,8 +3247,8 @@ const CAST_DATA = [
     "regions": [
       "関西"
     ],
-    "image": "https://patio-patio.jp/wp-content/uploads/2022/07/川瀬ゆりな04.jpg",
-    "audio": "https://patio-patio.jp/wp-content/uploads/2022/07/か_川瀬ゆりな.mp3",
+    "image": "uploads/2022/07/川瀬ゆりな04.jpg",
+    "audio": "uploads/2022/07/か_川瀬ゆりな.mp3",
     "sns": {
       "instagram": "",
       "twitter": "",
@@ -3275,8 +3275,8 @@ const CAST_DATA = [
     "regions": [
       "関東"
     ],
-    "image": "https://patio-patio.jp/wp-content/uploads/2021/09/1430346958-995968_2.jpg",
-    "audio": "https://patio-patio.jp/wp-content/uploads/2022/02/鈴木ゆうこ.mp3",
+    "image": "uploads/2021/09/1430346958-995968_2.jpg",
+    "audio": "uploads/2022/02/鈴木ゆうこ.mp3",
     "sns": {
       "instagram": "",
       "twitter": "",
@@ -3303,7 +3303,7 @@ const CAST_DATA = [
     "regions": [
       "関東"
     ],
-    "image": "https://patio-patio.jp/wp-content/uploads/2022/09/宮本悠未01-3.jpg",
+    "image": "uploads/2022/09/宮本悠未01-3.jpg",
     "audio": "",
     "sns": {
       "instagram": "https://www.instagram.com/m_yumi__2000/",
@@ -3331,8 +3331,8 @@ const CAST_DATA = [
     "regions": [
       "関東"
     ],
-    "image": "https://patio-patio.jp/wp-content/uploads/2022/11/IMG_3502.jpeg",
-    "audio": "https://patio-patio.jp/wp-content/uploads/2022/11/は_春原このみ.mp3",
+    "image": "uploads/2022/11/IMG_3502.jpeg",
+    "audio": "uploads/2022/11/は_春原このみ.mp3",
     "sns": {
       "instagram": "https://www.instagram.com/konomisotechnic/?hl=ja",
       "twitter": "https://twitter.com/konomisotechnic",
@@ -3362,8 +3362,8 @@ const CAST_DATA = [
     "regions": [
       "関東"
     ],
-    "image": "https://patio-patio.jp/wp-content/uploads/2021/09/1414437998-021101_2.jpg",
-    "audio": "https://patio-patio.jp/wp-content/uploads/2022/07/三次愛_ステージMC.mp3",
+    "image": "uploads/2021/09/1414437998-021101_2.jpg",
+    "audio": "uploads/2022/07/三次愛_ステージMC.mp3",
     "sns": {
       "instagram": "https://www.instagram.com/aimitsugi/",
       "twitter": "",
@@ -3394,8 +3394,8 @@ const CAST_DATA = [
     "regions": [
       "関東"
     ],
-    "image": "https://patio-patio.jp/wp-content/uploads/2022/04/花咲あんな08-1.jpg",
-    "audio": "https://patio-patio.jp/wp-content/uploads/2022/04/は_花咲あんな.mp3",
+    "image": "uploads/2022/04/花咲あんな08-1.jpg",
+    "audio": "uploads/2022/04/は_花咲あんな.mp3",
     "sns": {
       "instagram": "https://www.instagram.com/anna_hanasaki/?hl=ja",
       "twitter": "https://twitter.com/0202an",
@@ -3419,7 +3419,7 @@ const CAST_DATA = [
     "regions": [
       "関東"
     ],
-    "image": "https://patio-patio.jp/wp-content/uploads/2022/05/笹井麻美03-1.jpg",
+    "image": "uploads/2022/05/笹井麻美03-1.jpg",
     "audio": "",
     "sns": {
       "instagram": "https://www.instagram.com/sasaiasami/?hl=ja",
@@ -3446,7 +3446,7 @@ const CAST_DATA = [
     "regions": [
       "関東"
     ],
-    "image": "https://patio-patio.jp/wp-content/uploads/2021/09/1618914218-053618_2.jpg",
+    "image": "uploads/2021/09/1618914218-053618_2.jpg",
     "audio": "",
     "sns": {
       "instagram": "",
@@ -3474,7 +3474,7 @@ const CAST_DATA = [
     "regions": [
       "関東"
     ],
-    "image": "https://patio-patio.jp/wp-content/uploads/2024/02/茅沼エミル03-2.jpg",
+    "image": "uploads/2024/02/茅沼エミル03-2.jpg",
     "audio": "",
     "sns": {
       "instagram": "",
@@ -3503,8 +3503,8 @@ const CAST_DATA = [
     "regions": [
       "関東"
     ],
-    "image": "https://patio-patio.jp/wp-content/uploads/2021/09/1573585709-464221_2.jpg",
-    "audio": "https://patio-patio.jp/wp-content/uploads/2021/09/や_山口恵梨華.mp3",
+    "image": "uploads/2021/09/1573585709-464221_2.jpg",
+    "audio": "uploads/2021/09/や_山口恵梨華.mp3",
     "sns": {
       "instagram": "https://www.instagram.com/trip_foodie.yui/",
       "twitter": "https://x.com/01_erika_09",
@@ -3531,7 +3531,7 @@ const CAST_DATA = [
       "関東",
       "関西"
     ],
-    "image": "https://patio-patio.jp/wp-content/uploads/2025/09/七瀬はるか05-01.jpeg",
+    "image": "uploads/2025/09/七瀬はるか05-01.jpeg",
     "audio": "",
     "sns": {
       "instagram": "https://www.instagram.com/__nanaharu/",
@@ -3561,7 +3561,7 @@ const CAST_DATA = [
     "regions": [
       "関東"
     ],
-    "image": "https://patio-patio.jp/wp-content/uploads/2024/03/野村ひとみ05-1.jpg",
+    "image": "uploads/2024/03/野村ひとみ05-1.jpg",
     "audio": "",
     "sns": {
       "instagram": "https://www.instagram.com/1103trip/?hl=ja",
@@ -3588,7 +3588,7 @@ const CAST_DATA = [
     "regions": [
       "関東"
     ],
-    "image": "https://patio-patio.jp/wp-content/uploads/2026/04/貴理子02-2.jpg",
+    "image": "uploads/2026/04/貴理子02-2.jpg",
     "audio": "",
     "sns": {
       "instagram": "https://www.instagram.com/kirikokonzaki/",
@@ -3618,7 +3618,7 @@ const CAST_DATA = [
     "regions": [
       "関東"
     ],
-    "image": "https://patio-patio.jp/wp-content/uploads/2025/02/岡村真依04.jpg",
+    "image": "uploads/2025/02/岡村真依04.jpg",
     "audio": "",
     "sns": {
       "instagram": "https://www.instagram.com/maimai_maai/",
@@ -3644,7 +3644,7 @@ const CAST_DATA = [
     "regions": [
       "関東"
     ],
-    "image": "https://patio-patio.jp/wp-content/uploads/2022/03/三咲舞花07-1.jpg",
+    "image": "uploads/2022/03/三咲舞花07-1.jpg",
     "audio": "",
     "sns": {
       "instagram": "https://www.instagram.com/maikaru720/?hl=ja",
@@ -3670,7 +3670,7 @@ const CAST_DATA = [
     "regions": [
       "関東"
     ],
-    "image": "https://patio-patio.jp/wp-content/uploads/2022/05/中村美里05-1.jpg",
+    "image": "uploads/2022/05/中村美里05-1.jpg",
     "audio": "",
     "sns": {
       "instagram": "https://www.instagram.com/misato_00/?hl=ja",
@@ -3699,8 +3699,8 @@ const CAST_DATA = [
     "regions": [
       "関東"
     ],
-    "image": "https://patio-patio.jp/wp-content/uploads/2021/09/1592907628-125271_2.jpg",
-    "audio": "https://patio-patio.jp/wp-content/uploads/2022/05/か_かやりんかMC.mp3",
+    "image": "uploads/2021/09/1592907628-125271_2.jpg",
+    "audio": "uploads/2022/05/か_かやりんかMC.mp3",
     "sns": {
       "instagram": "https://www.instagram.com/rinrinrinka_0707/?hl=ja",
       "twitter": "https://twitter.com/rinrinrinka0707",
@@ -3729,8 +3729,8 @@ const CAST_DATA = [
       "関東",
       "関西"
     ],
-    "image": "https://patio-patio.jp/wp-content/uploads/2025/01/西田ユリ01-2.jpg",
-    "audio": "https://patio-patio.jp/wp-content/uploads/2025/01/に_西田ユリ_セミナー.mp3",
+    "image": "uploads/2025/01/西田ユリ01-2.jpg",
+    "audio": "uploads/2025/01/に_西田ユリ_セミナー.mp3",
     "sns": {
       "instagram": "https://www.instagram.com/nishidayuri_speakingstyle/",
       "twitter": "https://x.com/yurishi1102",
@@ -3756,8 +3756,8 @@ const CAST_DATA = [
     "regions": [
       "関東"
     ],
-    "image": "https://patio-patio.jp/wp-content/uploads/2022/02/荒山美和子05-3.jpg",
-    "audio": "https://patio-patio.jp/wp-content/uploads/2021/09/あ_荒山美和子.mp3",
+    "image": "uploads/2022/02/荒山美和子05-3.jpg",
+    "audio": "uploads/2021/09/あ_荒山美和子.mp3",
     "sns": {
       "instagram": "https://www.instagram.com/ma.melange.tokyo/?hl=ja",
       "twitter": "",
@@ -3783,7 +3783,7 @@ const CAST_DATA = [
     "regions": [
       "関東"
     ],
-    "image": "https://patio-patio.jp/wp-content/uploads/2024/08/吉川亜衣梨01.jpg",
+    "image": "uploads/2024/08/吉川亜衣梨01.jpg",
     "audio": "",
     "sns": {
       "instagram": "https://www.instagram.com/airinnn1230/",
@@ -3809,8 +3809,8 @@ const CAST_DATA = [
     "regions": [
       "関東"
     ],
-    "image": "https://patio-patio.jp/wp-content/uploads/2021/08/あおみえり01-3-1.jpg",
-    "audio": "https://patio-patio.jp/wp-content/uploads/2021/08/あ_あおみえり.mp3",
+    "image": "uploads/2021/08/あおみえり01-3-1.jpg",
+    "audio": "uploads/2021/08/あ_あおみえり.mp3",
     "sns": {
       "instagram": "https://www.instagram.com/eri.aomi/",
       "twitter": "https://twitter.com/eriny718",
@@ -3835,8 +3835,8 @@ const CAST_DATA = [
     "regions": [
       "その他"
     ],
-    "image": "https://patio-patio.jp/wp-content/uploads/2022/02/岡崎奈々07-2.jpg",
-    "audio": "https://patio-patio.jp/wp-content/uploads/2022/02/お_岡崎奈々.mp3",
+    "image": "uploads/2022/02/岡崎奈々07-2.jpg",
+    "audio": "uploads/2022/02/お_岡崎奈々.mp3",
     "sns": {
       "instagram": "https://www.instagram.com/okazakinana211/?hl=ja",
       "twitter": "https://twitter.com/okanana0211",
@@ -3862,8 +3862,8 @@ const CAST_DATA = [
     "regions": [
       "関東"
     ],
-    "image": "https://patio-patio.jp/wp-content/uploads/2022/04/山根愛未08.jpg",
-    "audio": "https://patio-patio.jp/wp-content/uploads/2022/04/山根愛未.wav",
+    "image": "uploads/2022/04/山根愛未08.jpg",
+    "audio": "uploads/2022/04/山根愛未.wav",
     "sns": {
       "instagram": "https://www.instagram.com/mc.manamiyamane/?hl=ja",
       "twitter": "https://twitter.com/manamiyamane",
@@ -3893,8 +3893,8 @@ const CAST_DATA = [
     "regions": [
       "関東"
     ],
-    "image": "https://patio-patio.jp/wp-content/uploads/2022/08/林真梨子04-2.jpg",
-    "audio": "https://patio-patio.jp/wp-content/uploads/2022/08/2022.5林真梨子＿フリートーク・司会・NA・吹替MP3.mp3",
+    "image": "uploads/2022/08/林真梨子04-2.jpg",
+    "audio": "uploads/2022/08/2022.5林真梨子＿フリートーク・司会・NA・吹替MP3.mp3",
     "sns": {
       "instagram": "https://www.instagram.com/mariko_hayashi2020/",
       "twitter": "",
