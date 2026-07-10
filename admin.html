@@ -734,10 +734,12 @@ function openEditModal(id) {
         data.audios.slice(0,3).forEach((p,i) => { audioSlots[i] = { path: p, displayName: p.split('/').pop() }; });
         renderAudioSlots();
       }
-      // 経歴補完
+      // 経歴補完（ユーザーがすでに入力していたら上書きしない）
       if (!hasCareer) {
-        if (data.careerLeft) document.getElementById('f-career-left').value = data.careerLeft;
-        if (data.careerRight) document.getElementById('f-career-right').value = data.careerRight;
+        if (data.careerLeft && !document.getElementById('f-career-left').value)
+          document.getElementById('f-career-left').value = data.careerLeft;
+        if (data.careerRight && !document.getElementById('f-career-right').value)
+          document.getElementById('f-career-right').value = data.careerRight;
       }
     });
   }
@@ -769,7 +771,7 @@ async function submitForm() {
     }
   }
 
-  const images = photoSlots.map(s => s.path).filter(p => p && !p.startsWith('blob:'));
+  const images = photoSlots.map(s => s.path).filter(p => p && p !== 'selected' && !p.startsWith('blob:'));
   const audios = audioSlots.map(s => s.path).filter(p => p && p !== 'selected' && !p.startsWith('blob:'));
   const categories = getAllSelected('categories');
 
