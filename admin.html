@@ -5,143 +5,107 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>パティオ 管理画面</title>
   <style>
-    * { box-sizing: border-box; margin: 0; padding: 0; }
-    body { font-family: 'Helvetica Neue', Arial, sans-serif; background: #f0f2f5; color: #333; }
+    *{box-sizing:border-box;margin:0;padding:0}
+    body{font-family:'Helvetica Neue',Arial,sans-serif;background:#f0f2f5;color:#333}
 
-    /* ログイン画面 */
-    #login-screen {
-      display: flex; align-items: center; justify-content: center;
-      min-height: 100vh; background: #23222f;
-    }
-    #login-box {
-      background: #fff; border-radius: 12px; padding: 40px;
-      width: 340px; text-align: center; box-shadow: 0 8px 32px rgba(0,0,0,0.3);
-    }
-    #login-box h1 { font-size: 20px; margin-bottom: 8px; color: #23222f; }
-    #login-box p { font-size: 13px; color: #888; margin-bottom: 24px; }
-    #login-box input {
-      width: 100%; padding: 12px; border: 1px solid #ddd; border-radius: 8px;
-      font-size: 15px; margin-bottom: 12px;
-    }
-    #login-box button {
-      width: 100%; padding: 12px; background: #4bb6c5; color: #fff;
-      border: none; border-radius: 8px; font-size: 15px; cursor: pointer;
-    }
-    #login-box button:hover { background: #3aa0af; }
-    #login-error { color: #e74c3c; font-size: 13px; margin-top: 8px; }
+    /* ログイン */
+    #login-screen{display:flex;align-items:center;justify-content:center;min-height:100vh;background:#23222f}
+    #login-box{background:#fff;border-radius:12px;padding:40px;width:340px;text-align:center;box-shadow:0 8px 32px rgba(0,0,0,.3)}
+    #login-box h1{font-size:20px;margin-bottom:8px;color:#23222f}
+    #login-box p{font-size:13px;color:#888;margin-bottom:24px}
+    #login-box input{width:100%;padding:12px;border:1px solid #ddd;border-radius:8px;font-size:15px;margin-bottom:12px}
+    #login-box button{width:100%;padding:12px;background:#4bb6c5;color:#fff;border:none;border-radius:8px;font-size:15px;cursor:pointer}
+    #login-error{color:#e74c3c;font-size:13px;margin-top:8px}
 
-    /* メイン画面 */
-    #main-screen { display: none; }
-    header {
-      background: #23222f; color: #fff; padding: 16px 24px;
-      display: flex; align-items: center; justify-content: space-between;
-    }
-    header h1 { font-size: 18px; }
-    header span { font-size: 13px; color: #aaa; }
-    .logout-btn {
-      background: transparent; border: 1px solid #666; color: #ccc;
-      padding: 6px 14px; border-radius: 6px; cursor: pointer; font-size: 13px;
-    }
+    /* メイン */
+    #main-screen{display:none}
+    header{background:#23222f;color:#fff;padding:16px 24px;display:flex;align-items:center;justify-content:space-between}
+    header h1{font-size:18px}
+    .logout-btn{background:transparent;border:1px solid #666;color:#ccc;padding:6px 14px;border-radius:6px;cursor:pointer;font-size:13px}
 
-    .toolbar {
-      background: #fff; padding: 16px 24px; border-bottom: 1px solid #e0e0e0;
-      display: flex; align-items: center; gap: 12px; flex-wrap: wrap;
-    }
-    .btn-add {
-      background: #4bb6c5; color: #fff; border: none;
-      padding: 10px 20px; border-radius: 8px; cursor: pointer; font-size: 14px;
-      font-weight: bold;
-    }
-    .btn-add:hover { background: #3aa0af; }
-    .btn-save {
-      background: #27ae60; color: #fff; border: none;
-      padding: 10px 20px; border-radius: 8px; cursor: pointer; font-size: 14px;
-      font-weight: bold;
-    }
-    .btn-save:hover { background: #219a52; }
-    .search-box {
-      padding: 9px 14px; border: 1px solid #ddd; border-radius: 8px;
-      font-size: 14px; width: 220px;
-    }
-    .count-label { font-size: 13px; color: #888; margin-left: auto; }
+    .toolbar{background:#fff;padding:16px 24px;border-bottom:1px solid #e0e0e0;display:flex;align-items:center;gap:12px;flex-wrap:wrap}
+    .btn-primary{background:#4bb6c5;color:#fff;border:none;padding:10px 18px;border-radius:8px;cursor:pointer;font-size:14px;font-weight:bold}
+    .btn-primary:hover{background:#3aa0af}
+    .btn-success{background:#27ae60;color:#fff;border:none;padding:10px 18px;border-radius:8px;cursor:pointer;font-size:14px;font-weight:bold}
+    .btn-success:hover{background:#219a52}
+    .btn-folder{background:#8e44ad;color:#fff;border:none;padding:10px 18px;border-radius:8px;cursor:pointer;font-size:14px}
+    .btn-folder:hover{background:#7d3c98}
+    .search-box{padding:9px 14px;border:1px solid #ddd;border-radius:8px;font-size:14px;width:200px}
+    .folder-status{font-size:12px;color:#888;padding:4px 10px;background:#f5f5f5;border-radius:6px}
+    .folder-status.ok{color:#27ae60;background:#eafaf1}
 
-    /* キャスト一覧 */
-    .cast-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-      gap: 16px; padding: 24px;
-    }
-    .cast-card {
-      background: #fff; border-radius: 10px; overflow: hidden;
-      box-shadow: 0 2px 8px rgba(0,0,0,0.08); transition: transform 0.2s;
-    }
-    .cast-card:hover { transform: translateY(-2px); }
-    .cast-card img {
-      width: 100%; aspect-ratio: 3/4; object-fit: cover; background: #eee;
-    }
-    .cast-card .card-body { padding: 12px; }
-    .cast-card .card-name { font-weight: bold; font-size: 14px; margin-bottom: 4px; }
-    .cast-card .card-career { font-size: 11px; color: #888; margin-bottom: 10px; line-height: 1.4; }
-    .card-actions { display: flex; gap: 6px; }
-    .btn-edit {
-      flex: 1; padding: 6px; background: #f0f0f0; border: none;
-      border-radius: 6px; cursor: pointer; font-size: 12px;
-    }
-    .btn-edit:hover { background: #e0e0e0; }
-    .btn-delete {
-      padding: 6px 10px; background: #fdecea; border: none;
-      border-radius: 6px; cursor: pointer; font-size: 12px; color: #e74c3c;
-    }
-    .btn-delete:hover { background: #fad7d3; }
+    /* グリッド */
+    .cast-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(190px,1fr));gap:16px;padding:24px}
+    .cast-card{background:#fff;border-radius:10px;overflow:hidden;box-shadow:0 2px 8px rgba(0,0,0,.08);transition:transform .2s}
+    .cast-card:hover{transform:translateY(-2px)}
+    .cast-card img{width:100%;aspect-ratio:3/4;object-fit:cover;background:#eee}
+    .card-body{padding:12px}
+    .card-name{font-weight:bold;font-size:14px;margin-bottom:4px}
+    .card-cats{font-size:11px;color:#888;margin-bottom:10px;line-height:1.4}
+    .card-actions{display:flex;gap:6px}
+    .btn-edit{flex:1;padding:6px;background:#f0f0f0;border:none;border-radius:6px;cursor:pointer;font-size:12px}
+    .btn-edit:hover{background:#e0e0e0}
+    .btn-del{padding:6px 10px;background:#fdecea;border:none;border-radius:6px;cursor:pointer;font-size:12px;color:#e74c3c}
+    .btn-del:hover{background:#fad7d3}
 
     /* モーダル */
-    .modal-overlay {
-      display: none; position: fixed; inset: 0;
-      background: rgba(0,0,0,0.5); z-index: 1000;
-      align-items: flex-start; justify-content: center; overflow-y: auto; padding: 40px 16px;
-    }
-    .modal-overlay.open { display: flex; }
-    .modal {
-      background: #fff; border-radius: 12px; width: 100%; max-width: 600px;
-      padding: 28px; position: relative;
-    }
-    .modal h2 { font-size: 18px; margin-bottom: 20px; padding-bottom: 12px; border-bottom: 1px solid #eee; }
-    .modal-close {
-      position: absolute; top: 16px; right: 16px;
-      background: none; border: none; font-size: 22px; cursor: pointer; color: #999;
-    }
-    .form-group { margin-bottom: 16px; }
-    .form-group label { display: block; font-size: 13px; font-weight: bold; margin-bottom: 6px; color: #555; }
-    .form-group input, .form-group textarea, .form-group select {
-      width: 100%; padding: 10px 12px; border: 1px solid #ddd;
-      border-radius: 8px; font-size: 14px;
-    }
-    .form-group textarea { height: 60px; resize: vertical; }
-    .form-row { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
-    .tag-input-wrap { display: flex; flex-wrap: wrap; gap: 6px; padding: 8px; border: 1px solid #ddd; border-radius: 8px; min-height: 44px; }
-    .tag { background: #e8f4f8; color: #2980b9; padding: 3px 10px; border-radius: 20px; font-size: 12px; display: flex; align-items: center; gap: 4px; }
-    .tag .remove-tag { cursor: pointer; color: #999; font-size: 14px; }
-    .tag-input { border: none; outline: none; font-size: 13px; min-width: 80px; padding: 2px; }
-    .preview-img { width: 80px; height: 107px; object-fit: cover; border-radius: 6px; border: 1px solid #ddd; margin-top: 8px; background: #f0f0f0; }
-    .form-hint { font-size: 11px; color: #999; margin-top: 4px; }
-    .modal-footer { margin-top: 20px; display: flex; gap: 10px; justify-content: flex-end; }
-    .btn-cancel { padding: 10px 20px; background: #f0f0f0; border: none; border-radius: 8px; cursor: pointer; font-size: 14px; }
-    .btn-submit { padding: 10px 24px; background: #4bb6c5; color: #fff; border: none; border-radius: 8px; cursor: pointer; font-size: 14px; font-weight: bold; }
+    .modal-overlay{display:none;position:fixed;inset:0;background:rgba(0,0,0,.5);z-index:1000;align-items:flex-start;justify-content:center;overflow-y:auto;padding:30px 16px}
+    .modal-overlay.open{display:flex}
+    .modal{background:#fff;border-radius:12px;width:100%;max-width:680px;padding:28px;position:relative}
+    .modal-close{position:absolute;top:16px;right:16px;background:none;border:none;font-size:22px;cursor:pointer;color:#999}
+    .modal h2{font-size:18px;margin-bottom:20px;padding-bottom:12px;border-bottom:1px solid #eee}
 
-    /* 保存後の案内 */
-    #save-guide {
-      display: none; position: fixed; bottom: 24px; right: 24px;
-      background: #27ae60; color: #fff; border-radius: 10px;
-      padding: 16px 20px; max-width: 320px; box-shadow: 0 4px 16px rgba(0,0,0,0.2);
-      font-size: 13px; line-height: 1.6; z-index: 2000;
-    }
-    #save-guide strong { display: block; font-size: 14px; margin-bottom: 6px; }
-    #save-guide .close-guide { float: right; background: none; border: none; color: #fff; cursor: pointer; font-size: 18px; margin-top: -4px; }
+    .form-group{margin-bottom:16px}
+    .form-group label{display:block;font-size:13px;font-weight:bold;margin-bottom:6px;color:#555}
+    .form-group input[type=text],.form-group input[type=number],.form-group textarea,.form-group select{width:100%;padding:10px 12px;border:1px solid #ddd;border-radius:8px;font-size:14px}
+    .form-group textarea{resize:vertical;min-height:80px}
+    .form-row{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+    .form-hint{font-size:11px;color:#999;margin-top:4px}
+
+    /* チェックボックスグループ */
+    .check-group{display:flex;flex-wrap:wrap;gap:8px;padding:10px;border:1px solid #ddd;border-radius:8px;background:#fafafa}
+    .check-item{display:flex;align-items:center;gap:5px;font-size:13px;cursor:pointer}
+    .check-item input{cursor:pointer;width:15px;height:15px}
+    .check-custom{display:flex;gap:6px;margin-top:8px}
+    .check-custom input[type=text]{flex:1;padding:7px 10px;border:1px solid #ddd;border-radius:6px;font-size:13px}
+    .check-custom button{padding:7px 12px;background:#eee;border:none;border-radius:6px;cursor:pointer;font-size:13px}
+    .check-custom button:hover{background:#ddd}
+    .custom-tags{display:flex;flex-wrap:wrap;gap:5px;margin-top:6px}
+    .tag{background:#e8f4f8;color:#2980b9;padding:3px 10px;border-radius:20px;font-size:12px;display:flex;align-items:center;gap:4px}
+    .tag .rm{cursor:pointer;color:#999;font-size:14px}
+
+    /* ファイルアップロード */
+    .file-upload-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:10px}
+    .file-upload-grid.audio-grid{grid-template-columns:repeat(3,1fr)}
+    .file-slot{border:2px dashed #ddd;border-radius:8px;padding:10px;text-align:center;position:relative;min-height:120px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:6px}
+    .file-slot img{width:100%;aspect-ratio:3/4;object-fit:cover;border-radius:4px}
+    .file-slot .slot-label{font-size:11px;color:#999}
+    .file-slot .slot-name{font-size:10px;color:#555;word-break:break-all;max-width:100%}
+    .file-slot input[type=file]{position:absolute;inset:0;opacity:0;cursor:pointer;width:100%;height:100%}
+    .file-slot .btn-clear-file{position:absolute;top:4px;right:4px;background:#e74c3c;color:#fff;border:none;border-radius:50%;width:20px;height:20px;font-size:12px;cursor:pointer;display:none;z-index:2;line-height:20px;text-align:center}
+    .file-slot.has-file .btn-clear-file{display:block}
+    .file-slot.has-file{border-color:#4bb6c5}
+    .audio-slot{border:2px dashed #ddd;border-radius:8px;padding:14px;position:relative;min-height:70px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:6px}
+    .audio-slot .slot-label{font-size:11px;color:#999}
+    .audio-slot .slot-name{font-size:11px;color:#555;word-break:break-all;text-align:center}
+    .audio-slot input[type=file]{position:absolute;inset:0;opacity:0;cursor:pointer;width:100%;height:100%}
+    .audio-slot .btn-clear-file{position:absolute;top:4px;right:4px;background:#e74c3c;color:#fff;border:none;border-radius:50%;width:20px;height:20px;font-size:12px;cursor:pointer;display:none;z-index:2;line-height:20px;text-align:center}
+    .audio-slot.has-file .btn-clear-file{display:block}
+    .audio-slot.has-file{border-color:#4bb6c5}
+
+    .modal-footer{margin-top:24px;display:flex;gap:10px;justify-content:flex-end}
+    .btn-cancel{padding:10px 20px;background:#f0f0f0;border:none;border-radius:8px;cursor:pointer;font-size:14px}
+    .btn-submit{padding:10px 24px;background:#4bb6c5;color:#fff;border:none;border-radius:8px;cursor:pointer;font-size:14px;font-weight:bold}
+
+    /* 保存ガイド */
+    #save-guide{display:none;position:fixed;bottom:24px;right:24px;background:#27ae60;color:#fff;border-radius:10px;padding:16px 20px;max-width:340px;box-shadow:0 4px 16px rgba(0,0,0,.2);font-size:13px;line-height:1.7;z-index:2000}
+    #save-guide strong{display:block;font-size:14px;margin-bottom:6px}
+    #save-guide .close-guide{float:right;background:none;border:none;color:#fff;cursor:pointer;font-size:18px;margin-top:-4px}
   </style>
 </head>
 <body>
 
-<!-- ログイン画面 -->
+<!-- ログイン -->
 <div id="login-screen">
   <div id="login-box">
     <h1>🔑 パティオ 管理画面</h1>
@@ -152,27 +116,29 @@
   </div>
 </div>
 
-<!-- メイン画面 -->
+<!-- メイン -->
 <div id="main-screen">
   <header>
     <h1>🎤 パティオ キャスト管理</h1>
-    <div style="display:flex;align-items:center;gap:16px;">
-      <span id="header-count"></span>
+    <div style="display:flex;align-items:center;gap:12px">
+      <span id="header-count" style="font-size:13px;color:#aaa"></span>
       <button class="logout-btn" onclick="doLogout()">ログアウト</button>
     </div>
   </header>
 
   <div class="toolbar">
-    <button class="btn-add" onclick="openAddModal()">＋ キャストを追加</button>
-    <button class="btn-save" onclick="saveData()">💾 cast-data.js を保存</button>
+    <button class="btn-primary" onclick="openAddModal()">＋ キャストを追加</button>
+    <button class="btn-success" onclick="saveData()">💾 cast-data.js を保存</button>
+    <button class="btn-folder" onclick="pickFolder()" id="folder-btn">📁 保存先フォルダを選択</button>
+    <span class="folder-status" id="folder-status">未選択（ファイルアップロード前に選択してください）</span>
     <input type="text" class="search-box" id="search-input" placeholder="名前・カテゴリで検索..." oninput="renderGrid()">
-    <span class="count-label" id="count-label"></span>
+    <span style="font-size:13px;color:#888;margin-left:auto" id="count-label"></span>
   </div>
 
   <div class="cast-grid" id="cast-grid"></div>
 </div>
 
-<!-- 編集・追加モーダル -->
+<!-- 編集モーダル -->
 <div class="modal-overlay" id="edit-modal">
   <div class="modal">
     <button class="modal-close" onclick="closeModal()">✕</button>
@@ -190,69 +156,115 @@
       </div>
     </div>
 
+    <!-- 性別 -->
     <div class="form-group">
-      <label>カテゴリ（Enterで追加）</label>
-      <div class="tag-input-wrap" id="tag-categories" onclick="this.querySelector('.tag-input').focus()">
-        <input class="tag-input" placeholder="MC/司会..." onkeydown="addTag(event,'categories')">
-      </div>
+      <label>性別</label>
+      <select id="f-sex">
+        <option value="女性">女性</option>
+        <option value="男性">男性</option>
+        <option value="その他">その他</option>
+      </select>
     </div>
 
-    <div class="form-row">
-      <div class="form-group">
-        <label>性別</label>
-        <select id="f-sex">
-          <option value="女性">女性</option>
-          <option value="男性">男性</option>
-          <option value="その他">その他</option>
-        </select>
-      </div>
-      <div class="form-group">
-        <label>年代（Enterで追加）</label>
-        <div class="tag-input-wrap" id="tag-ages" onclick="this.querySelector('.tag-input').focus()">
-          <input class="tag-input" placeholder="20~30代..." onkeydown="addTag(event,'ages')">
-        </div>
-      </div>
-    </div>
-
-    <div class="form-row">
-      <div class="form-group">
-        <label>対応地域（Enterで追加）</label>
-        <div class="tag-input-wrap" id="tag-regions" onclick="this.querySelector('.tag-input').focus()">
-          <input class="tag-input" placeholder="関東..." onkeydown="addTag(event,'regions')">
-        </div>
-      </div>
-      <div class="form-group">
-        <label>対応言語（Enterで追加）</label>
-        <div class="tag-input-wrap" id="tag-languages" onclick="this.querySelector('.tag-input').focus()">
-          <input class="tag-input" placeholder="英語..." onkeydown="addTag(event,'languages')">
-        </div>
-      </div>
-    </div>
-
+    <!-- カテゴリ -->
     <div class="form-group">
-      <label>プロフィール写真URL</label>
-      <input type="text" id="f-image" placeholder="https://..." oninput="updatePreview()">
-      <img id="img-preview" class="preview-img" src="" alt="プレビュー" onerror="this.style.display='none'" style="display:none">
-      <p class="form-hint">uploadsフォルダに入れた場合：uploads/2024/01/ファイル名.jpg</p>
+      <label>カテゴリ（複数選択可）</label>
+      <div class="check-group" id="check-categories">
+        <label class="check-item"><input type="checkbox" value="MC/司会"> MC/司会</label>
+        <label class="check-item"><input type="checkbox" value="アナウンサー"> アナウンサー</label>
+        <label class="check-item"><input type="checkbox" value="ナレーター"> ナレーター</label>
+        <label class="check-item"><input type="checkbox" value="コンパニオン"> コンパニオン</label>
+        <label class="check-item"><input type="checkbox" value="モデル"> モデル</label>
+        <label class="check-item"><input type="checkbox" value="役者"> 役者</label>
+        <label class="check-item"><input type="checkbox" value="声優"> 声優</label>
+        <label class="check-item"><input type="checkbox" value="ラジオDJ"> ラジオDJ</label>
+        <label class="check-item"><input type="checkbox" value="宅録"> 宅録</label>
+        <label class="check-item"><input type="checkbox" value="講師"> 講師</label>
+      </div>
+      <div class="check-custom">
+        <input type="text" id="cat-custom" placeholder="その他のカテゴリを追加...">
+        <button onclick="addCustomTag('categories')">追加</button>
+      </div>
+      <div class="custom-tags" id="custom-tags-categories"></div>
     </div>
 
+    <!-- 年代 -->
     <div class="form-group">
-      <label>ボイスサンプルURL</label>
-      <input type="text" id="f-audio" placeholder="https://...">
+      <label>年代</label>
+      <div class="check-group" id="check-ages">
+        <label class="check-item"><input type="checkbox" value="10代以下"> 10代以下</label>
+        <label class="check-item"><input type="checkbox" value="20~30代"> 20〜30代</label>
+        <label class="check-item"><input type="checkbox" value="40代以上"> 40代以上</label>
+      </div>
     </div>
 
+    <!-- 対応地域 -->
     <div class="form-group">
-      <label>SNS（Instagram）</label>
+      <label>対応地域</label>
+      <div class="check-group" id="check-regions">
+        <label class="check-item"><input type="checkbox" value="関東"> 関東</label>
+        <label class="check-item"><input type="checkbox" value="関西"> 関西</label>
+        <label class="check-item"><input type="checkbox" value="その他"> その他</label>
+      </div>
+      <div class="check-custom">
+        <input type="text" id="region-custom" placeholder="その他の地域を追加...">
+        <button onclick="addCustomTag('regions')">追加</button>
+      </div>
+      <div class="custom-tags" id="custom-tags-regions"></div>
+    </div>
+
+    <!-- 対応言語 -->
+    <div class="form-group">
+      <label>対応言語</label>
+      <div class="check-group" id="check-languages">
+        <label class="check-item"><input type="checkbox" value="英語"> 英語</label>
+        <label class="check-item"><input type="checkbox" value="中国語"> 中国語</label>
+        <label class="check-item"><input type="checkbox" value="バイリンガル"> バイリンガル</label>
+      </div>
+      <div class="check-custom">
+        <input type="text" id="lang-custom" placeholder="その他の言語を追加...">
+        <button onclick="addCustomTag('languages')">追加</button>
+      </div>
+      <div class="custom-tags" id="custom-tags-languages"></div>
+    </div>
+
+    <!-- 経歴 -->
+    <div class="form-group">
+      <label>経歴</label>
+      <textarea id="f-career-detail" placeholder="例：&#10;【見出し】テレビ出演&#10;・〇〇番組（TBS）&#10;・△△番組（NTV）&#10;&#10;【見出し】MC実績&#10;・展示会MC&#10;・式典司会"></textarea>
+      <p class="form-hint">「【見出し】タイトル」で見出しを作れます。項目は改行して入力してください。</p>
+    </div>
+
+    <!-- SNS -->
+    <div class="form-group">
+      <label>Instagram</label>
       <input type="text" id="f-sns-instagram" placeholder="https://www.instagram.com/...">
     </div>
     <div class="form-row">
       <div class="form-group">
-        <label>SNS（Twitter/X）</label>
+        <label>Twitter / X</label>
         <input type="text" id="f-sns-twitter" placeholder="https://twitter.com/...">
       </div>
       <div class="form-group">
-        <label>SNS（YouTube）</label>
+        <label>YouTube</label>
         <input type="text" id="f-sns-youtube" placeholder="https://youtube.com/...">
+      </div>
+    </div>
+
+    <!-- 写真 -->
+    <div class="form-group">
+      <label>プロフィール写真（最大4枚）</label>
+      <p class="form-hint" style="margin-bottom:8px">📁 保存先フォルダを選択した状態でファイルを選ぶと、uploadsフォルダに自動保存されます</p>
+      <div class="file-upload-grid" id="photo-slots">
+        <!-- JS で生成 -->
+      </div>
+    </div>
+
+    <!-- 音声 -->
+    <div class="form-group">
+      <label>ボイスサンプル（最大3つ）</label>
+      <div class="file-upload-grid audio-grid" id="audio-slots">
+        <!-- JS で生成 -->
       </div>
     </div>
 
@@ -263,7 +275,7 @@
   </div>
 </div>
 
-<!-- 保存後の案内 -->
+<!-- 保存ガイド -->
 <div id="save-guide">
   <button class="close-guide" onclick="document.getElementById('save-guide').style.display='none'">✕</button>
   <strong>✅ cast-data.js をダウンロードしました</strong>
@@ -274,23 +286,30 @@
 
 <script>
 // ============================================================
-// パスワード設定（変更可能）
+// 設定
 // ============================================================
 const PASSWORD = 'patio2024';
+const CUSTOM_FIELD_MAP = {
+  categories: { checkId: 'check-categories', customInputId: 'cat-custom' },
+  regions:    { checkId: 'check-regions',    customInputId: 'region-custom' },
+  languages:  { checkId: 'check-languages',  customInputId: 'lang-custom' },
+};
 
 // ============================================================
-// データ
+// 状態
 // ============================================================
 let castData = [];
 let editingId = null;
-const tagData = { categories: [], ages: [], regions: [], languages: [] };
+let rootDirHandle = null;
+// 写真・音声のスロット状態 { path: string, file: File|null }
+let photoSlots = [{},{},{},{}];
+let audioSlots = [{},{},{}];
 
 // ============================================================
 // ログイン
 // ============================================================
 function doLogin() {
-  const pw = document.getElementById('pw-input').value;
-  if (pw === PASSWORD) {
+  if (document.getElementById('pw-input').value === PASSWORD) {
     document.getElementById('login-screen').style.display = 'none';
     document.getElementById('main-screen').style.display = 'block';
     loadData();
@@ -305,110 +324,228 @@ function doLogout() {
 }
 
 // ============================================================
+// フォルダ選択（File System Access API）
+// ============================================================
+async function pickFolder() {
+  if (!window.showDirectoryPicker) {
+    alert('このブラウザはフォルダ選択に対応していません。\nGoogle Chrome または Edge をお使いください。');
+    return;
+  }
+  try {
+    rootDirHandle = await window.showDirectoryPicker({ mode: 'readwrite' });
+    document.getElementById('folder-status').textContent = '✅ ' + rootDirHandle.name;
+    document.getElementById('folder-status').className = 'folder-status ok';
+  } catch(e) {
+    if (e.name !== 'AbortError') alert('フォルダの選択に失敗しました: ' + e.message);
+  }
+}
+
+async function saveFileToUploads(file, castId, index, type) {
+  if (!rootDirHandle) return null;
+  const now = new Date();
+  const yyyy = now.getFullYear();
+  const mm = String(now.getMonth() + 1).padStart(2, '0');
+  const ext = file.name.split('.').pop();
+  const safeName = `cast_${castId}_${type}${index + 1}.${ext}`;
+  const subPath = `uploads/${yyyy}/${mm}/${safeName}`;
+  try {
+    let dir = rootDirHandle;
+    for (const part of ['uploads', String(yyyy), mm]) {
+      dir = await dir.getDirectoryHandle(part, { create: true });
+    }
+    const fh = await dir.getFileHandle(safeName, { create: true });
+    const w = await fh.createWritable();
+    await w.write(file);
+    await w.close();
+    return subPath;
+  } catch(e) {
+    console.error('ファイル保存エラー:', e);
+    return null;
+  }
+}
+
+// ============================================================
 // データ読み込み
 // ============================================================
 function loadData() {
-  if (typeof CAST_DATA !== 'undefined') {
-    castData = JSON.parse(JSON.stringify(CAST_DATA));
-    renderGrid();
-  } else {
-    fetch('js/cast-data.js')
-      .then(r => r.text())
-      .then(text => {
-        const json = text.replace(/^const CAST_DATA\s*=\s*/, '').replace(/;\s*$/, '');
-        castData = JSON.parse(json);
-        renderGrid();
-      })
-      .catch(() => {
-        castData = [];
-        renderGrid();
-        alert('cast-data.js の読み込みに失敗しました。\nGitHub Pages上か、ローカルサーバー経由で開いてください。');
-      });
-  }
+  fetch('js/cast-data.js')
+    .then(r => r.text())
+    .then(text => {
+      const json = text.replace(/^const CAST_DATA\s*=\s*/, '').replace(/;\s*$/, '');
+      castData = JSON.parse(json);
+      renderGrid();
+    })
+    .catch(() => {
+      castData = [];
+      renderGrid();
+      alert('cast-data.js の読み込みに失敗しました。\nGitHub Pages上か、ローカルサーバー経由で開いてください。');
+    });
 }
 
 // ============================================================
-// 一覧表示
+// 一覧
 // ============================================================
 function renderGrid() {
-  const q = document.getElementById('search-input').value.trim().toLowerCase();
+  const q = (document.getElementById('search-input').value || '').trim().toLowerCase();
   const filtered = q
     ? castData.filter(c =>
         c.name.toLowerCase().includes(q) ||
-        (c.career || '').toLowerCase().includes(q) ||
-        (c.categories || []).join('').toLowerCase().includes(q)
-      )
+        (c.categories || []).join('').toLowerCase().includes(q) ||
+        (c.career || '').toLowerCase().includes(q))
     : castData;
-
   document.getElementById('count-label').textContent = `${filtered.length} / ${castData.length} 件`;
   document.getElementById('header-count').textContent = `合計 ${castData.length} 名`;
-
-  const grid = document.getElementById('cast-grid');
-  grid.innerHTML = filtered.map(c => `
+  document.getElementById('cast-grid').innerHTML = filtered.map(c => `
     <div class="cast-card">
-      <img src="${c.image || ''}" alt="${c.name}" onerror="this.style.background='#ddd';this.src=''">
+      <img src="${(c.images && c.images[0]) || c.image || ''}" alt="${c.name}"
+        onerror="this.style.background='#ddd';this.removeAttribute('src')">
       <div class="card-body">
         <div class="card-name">${c.name}</div>
-        <div class="card-career">${(c.categories || []).join(' / ') || c.career || ''}</div>
+        <div class="card-cats">${(c.categories || []).join(' / ') || ''}</div>
         <div class="card-actions">
           <button class="btn-edit" onclick="openEditModal(${c.id})">✏️ 編集</button>
-          <button class="btn-delete" onclick="deleteCast(${c.id})">🗑</button>
+          <button class="btn-del" onclick="deleteCast(${c.id})">🗑</button>
         </div>
       </div>
-    </div>
-  `).join('');
+    </div>`).join('');
 }
 
 // ============================================================
-// タグ操作
+// チェックボックス操作
 // ============================================================
-function renderTags(field) {
-  const wrap = document.getElementById('tag-' + field);
-  const input = wrap.querySelector('.tag-input');
-  wrap.querySelectorAll('.tag').forEach(t => t.remove());
-  tagData[field].forEach((tag, i) => {
-    const el = document.createElement('span');
-    el.className = 'tag';
-    el.innerHTML = `${tag} <span class="remove-tag" onclick="removeTag('${field}',${i})">×</span>`;
-    wrap.insertBefore(el, input);
+function getChecked(checkGroupId) {
+  return [...document.querySelectorAll(`#${checkGroupId} input[type=checkbox]:checked`)].map(el => el.value);
+}
+function setChecked(checkGroupId, values) {
+  document.querySelectorAll(`#${checkGroupId} input[type=checkbox]`).forEach(el => {
+    el.checked = values.includes(el.value);
   });
 }
-function addTag(event, field) {
-  if (event.key !== 'Enter' && event.key !== ',') return;
-  event.preventDefault();
-  const input = event.target;
+
+// カスタムタグ
+let customTags = { categories: [], regions: [], languages: [] };
+
+function addCustomTag(field) {
+  const inputMap = { categories: 'cat-custom', regions: 'region-custom', languages: 'lang-custom' };
+  const input = document.getElementById(inputMap[field]);
   const val = input.value.trim();
-  if (val && !tagData[field].includes(val)) {
-    tagData[field].push(val);
-    renderTags(field);
+  if (!val) return;
+  // チェックボックスに既にある値なら無視
+  const exists = [...document.querySelectorAll(`#check-${field} input`)].some(el => el.value === val);
+  if (!exists && !customTags[field].includes(val)) {
+    customTags[field].push(val);
+    renderCustomTags(field);
   }
   input.value = '';
 }
-function removeTag(field, index) {
-  tagData[field].splice(index, 1);
-  renderTags(field);
+function removeCustomTag(field, idx) {
+  customTags[field].splice(idx, 1);
+  renderCustomTags(field);
+}
+function renderCustomTags(field) {
+  document.getElementById(`custom-tags-${field}`).innerHTML =
+    customTags[field].map((t, i) =>
+      `<span class="tag">${t} <span class="rm" onclick="removeCustomTag('${field}',${i})">×</span></span>`
+    ).join('');
+}
+function getAllSelected(field) {
+  const checked = getChecked(`check-${field}`);
+  return [...checked, ...customTags[field]];
+}
+
+// ============================================================
+// 写真・音声スロット
+// ============================================================
+function renderPhotoSlots() {
+  document.getElementById('photo-slots').innerHTML = photoSlots.map((slot, i) => `
+    <div class="file-slot ${slot.path ? 'has-file' : ''}" id="photo-slot-${i}">
+      ${slot.path ? `<img src="${slot.path}" onerror="this.style.display='none'">` : `<span class="slot-label">📷 写真${i+1}</span>`}
+      ${slot.path ? `<span class="slot-name">${slot.displayName || slot.path.split('/').pop()}</span>` : ''}
+      <input type="file" accept="image/*" onchange="onPhotoChange(event,${i})">
+      <button class="btn-clear-file" onclick="clearPhoto(${i})">✕</button>
+    </div>`).join('');
+}
+function renderAudioSlots() {
+  document.getElementById('audio-slots').innerHTML = audioSlots.map((slot, i) => `
+    <div class="audio-slot ${slot.path ? 'has-file' : ''}" id="audio-slot-${i}">
+      <span style="font-size:20px">${slot.path ? '🎵' : '🎤'}</span>
+      <span class="slot-label">ボイスサンプル${i+1}</span>
+      ${slot.path ? `<span class="slot-name">${slot.displayName || slot.path.split('/').pop()}</span>` : ''}
+      <input type="file" accept="audio/*" onchange="onAudioChange(event,${i})">
+      <button class="btn-clear-file" onclick="clearAudio(${i})">✕</button>
+    </div>`).join('');
+}
+async function onPhotoChange(event, idx) {
+  const file = event.target.files[0];
+  if (!file) return;
+  if (rootDirHandle) {
+    const id = editingId || ('new_' + Date.now());
+    const path = await saveFileToUploads(file, id, idx, 'photo');
+    if (path) {
+      photoSlots[idx] = { path, displayName: file.name, file };
+      renderPhotoSlots();
+      return;
+    }
+  }
+  // フォルダ未選択の場合はプレビューのみ
+  const url = URL.createObjectURL(file);
+  photoSlots[idx] = { path: url, displayName: file.name, file, isBlob: true };
+  renderPhotoSlots();
+}
+async function onAudioChange(event, idx) {
+  const file = event.target.files[0];
+  if (!file) return;
+  if (rootDirHandle) {
+    const id = editingId || ('new_' + Date.now());
+    const path = await saveFileToUploads(file, id, idx, 'audio');
+    if (path) {
+      audioSlots[idx] = { path, displayName: file.name, file };
+      renderAudioSlots();
+      return;
+    }
+  }
+  audioSlots[idx] = { path: 'selected', displayName: file.name, file, isBlob: true };
+  renderAudioSlots();
+}
+function clearPhoto(idx) {
+  event.stopPropagation();
+  photoSlots[idx] = {};
+  renderPhotoSlots();
+}
+function clearAudio(idx) {
+  event.stopPropagation();
+  audioSlots[idx] = {};
+  renderAudioSlots();
 }
 
 // ============================================================
 // モーダル
 // ============================================================
+function resetForm() {
+  document.getElementById('f-name').value = '';
+  document.getElementById('f-order').value = '0';
+  document.getElementById('f-sex').value = '女性';
+  document.getElementById('f-career-detail').value = '';
+  document.getElementById('f-sns-instagram').value = '';
+  document.getElementById('f-sns-twitter').value = '';
+  document.getElementById('f-sns-youtube').value = '';
+  ['categories','ages','regions','languages'].forEach(f => {
+    setChecked('check-' + f, []);
+  });
+  customTags = { categories: [], regions: [], languages: [] };
+  ['categories','regions','languages'].forEach(f => renderCustomTags(f));
+  photoSlots = [{},{},{},{}];
+  audioSlots = [{},{},{}];
+  renderPhotoSlots();
+  renderAudioSlots();
+}
 function openAddModal() {
   editingId = null;
   document.getElementById('modal-title').textContent = 'キャストを追加';
   document.getElementById('f-id').value = '';
-  document.getElementById('f-name').value = '';
-  document.getElementById('f-order').value = '0';
-  document.getElementById('f-sex').value = '女性';
-  document.getElementById('f-image').value = '';
-  document.getElementById('f-audio').value = '';
-  document.getElementById('f-sns-instagram').value = '';
-  document.getElementById('f-sns-twitter').value = '';
-  document.getElementById('f-sns-youtube').value = '';
-  document.getElementById('img-preview').style.display = 'none';
-  ['categories','ages','regions','languages'].forEach(f => { tagData[f] = []; renderTags(f); });
+  resetForm();
   document.getElementById('edit-modal').classList.add('open');
 }
-
 function openEditModal(id) {
   const c = castData.find(x => x.id === id);
   if (!c) return;
@@ -418,50 +555,91 @@ function openEditModal(id) {
   document.getElementById('f-name').value = c.name || '';
   document.getElementById('f-order').value = c.order ?? 0;
   document.getElementById('f-sex').value = c.sex || '女性';
-  document.getElementById('f-image').value = c.image || '';
-  document.getElementById('f-audio').value = c.audio || '';
+  document.getElementById('f-career-detail').value = c.careerDetail || '';
   document.getElementById('f-sns-instagram').value = (c.sns && c.sns.instagram) || '';
   document.getElementById('f-sns-twitter').value = (c.sns && c.sns.twitter) || '';
   document.getElementById('f-sns-youtube').value = (c.sns && c.sns.youtube) || '';
-  ['categories','ages','regions','languages'].forEach(f => {
-    tagData[f] = [...(c[f] || [])]; renderTags(f);
-  });
-  updatePreview();
+
+  // チェックボックス
+  const PRESET_CATS = ['MC/司会','アナウンサー','ナレーター','コンパニオン','モデル','役者','声優','ラジオDJ','宅録','講師'];
+  const PRESET_LANGS = ['英語','中国語','バイリンガル'];
+  const PRESET_REGIONS = ['関東','関西','その他'];
+  const cats = c.categories || [];
+  setChecked('check-categories', cats.filter(v => PRESET_CATS.includes(v)));
+  customTags.categories = cats.filter(v => !PRESET_CATS.includes(v));
+  setChecked('check-ages', c.ages || []);
+  const regions = c.regions || [];
+  setChecked('check-regions', regions.filter(v => PRESET_REGIONS.includes(v)));
+  customTags.regions = regions.filter(v => !PRESET_REGIONS.includes(v));
+  const langs = c.languages || [];
+  setChecked('check-languages', langs.filter(v => PRESET_LANGS.includes(v)));
+  customTags.languages = langs.filter(v => !PRESET_LANGS.includes(v));
+  ['categories','regions','languages'].forEach(f => renderCustomTags(f));
+
+  // 写真
+  const imgs = c.images || (c.image ? [c.image] : []);
+  photoSlots = [{},{},{},{}];
+  imgs.slice(0,4).forEach((p,i) => { photoSlots[i] = { path: p, displayName: p.split('/').pop() }; });
+
+  // 音声
+  const auds = c.audios || (c.audio ? [c.audio] : []);
+  audioSlots = [{},{},{}];
+  auds.slice(0,3).forEach((p,i) => { audioSlots[i] = { path: p, displayName: p.split('/').pop() }; });
+
+  renderPhotoSlots();
+  renderAudioSlots();
   document.getElementById('edit-modal').classList.add('open');
 }
-
 function closeModal() {
   document.getElementById('edit-modal').classList.remove('open');
 }
 
-function updatePreview() {
-  const url = document.getElementById('f-image').value.trim();
-  const img = document.getElementById('img-preview');
-  if (url) { img.src = url; img.style.display = 'block'; }
-  else { img.style.display = 'none'; }
-}
-
-function submitForm() {
+async function submitForm() {
   const name = document.getElementById('f-name').value.trim();
   if (!name) { alert('名前は必須です'); return; }
 
+  const id = editingId || Date.now();
+
+  // フォルダ選択済みの場合、blobのファイルを保存
+  if (rootDirHandle) {
+    for (let i = 0; i < 4; i++) {
+      if (photoSlots[i].file && photoSlots[i].isBlob) {
+        const path = await saveFileToUploads(photoSlots[i].file, id, i, 'photo');
+        if (path) photoSlots[i] = { ...photoSlots[i], path, isBlob: false };
+      }
+    }
+    for (let i = 0; i < 3; i++) {
+      if (audioSlots[i].file && audioSlots[i].isBlob) {
+        const path = await saveFileToUploads(audioSlots[i].file, id, i, 'audio');
+        if (path) audioSlots[i] = { ...audioSlots[i], path, isBlob: false };
+      }
+    }
+  }
+
+  const images = photoSlots.map(s => s.path).filter(p => p && !p.startsWith('blob:'));
+  const audios = audioSlots.map(s => s.path).filter(p => p && p !== 'selected' && !p.startsWith('blob:'));
+  const categories = getAllSelected('categories');
+
   const entry = {
-    id: editingId || Date.now(),
+    id,
     name,
     order: parseInt(document.getElementById('f-order').value) || 0,
-    career: tagData.categories.join('、'),
+    career: categories.join('、'),
+    careerDetail: document.getElementById('f-career-detail').value.trim(),
     sex: document.getElementById('f-sex').value,
-    ages: [...tagData.ages],
-    categories: [...tagData.categories],
-    languages: [...tagData.languages],
-    regions: [...tagData.regions],
-    image: document.getElementById('f-image').value.trim(),
-    audio: document.getElementById('f-audio').value.trim(),
+    ages: getAllSelected('ages'),
+    categories,
+    languages: getAllSelected('languages'),
+    regions: getAllSelected('regions'),
+    image: images[0] || '',
+    images,
+    audio: audios[0] || '',
+    audios,
     sns: {
       instagram: document.getElementById('f-sns-instagram').value.trim(),
       twitter: document.getElementById('f-sns-twitter').value.trim(),
       youtube: document.getElementById('f-sns-youtube').value.trim(),
-      facebook: ''
+      facebook: (castData.find(x=>x.id===editingId)?.sns?.facebook) || ''
     }
   };
 
@@ -471,24 +649,22 @@ function submitForm() {
   } else {
     castData.push(entry);
   }
-
   closeModal();
   renderGrid();
 }
 
 function deleteCast(id) {
   const c = castData.find(x => x.id === id);
-  if (!c) return;
-  if (!confirm(`「${c.name}」を削除しますか？`)) return;
+  if (!c || !confirm(`「${c.name}」を削除しますか？`)) return;
   castData = castData.filter(x => x.id !== id);
   renderGrid();
 }
 
 // ============================================================
-// 保存（cast-data.js ダウンロード）
+// 保存
 // ============================================================
 function saveData() {
-  const sorted = [...castData].sort((a, b) => (a.order || 0) - (b.order || 0));
+  const sorted = [...castData].sort((a,b) => (a.order||0)-(b.order||0));
   const content = 'const CAST_DATA = ' + JSON.stringify(sorted, null, 2) + ';\n';
   const blob = new Blob([content], { type: 'text/javascript' });
   const a = document.createElement('a');
