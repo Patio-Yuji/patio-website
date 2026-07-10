@@ -89,6 +89,8 @@ def parse_profile(path):
     # 身長・資格をテーブルから抽出
     height = None
     qualifications = ''
+    hobbies = ''
+    skills = ''
     rows = _re.findall(r'<tr>(.*?)</tr>', text, _re.DOTALL)
     for row in rows:
         th = _re.search(r'<th[^>]*>(.*?)</th>', row, _re.DOTALL)
@@ -103,6 +105,10 @@ def parse_profile(path):
                 height = int(m.group(1))
         elif th_text == '資格':
             qualifications = td_text
+        elif th_text == '趣味':
+            hobbies = td_text
+        elif th_text == '特技':
+            skills = td_text
 
     return {
         'images': p.images,
@@ -111,6 +117,8 @@ def parse_profile(path):
         'careerRight': cols[1] if len(cols) > 1 else '',
         'height': height,
         'qualifications': qualifications,
+        'hobbies': hobbies,
+        'skills': skills,
     }
 
 updated = 0
@@ -138,6 +146,10 @@ for cast in cast_data:
         cast['height'] = data['height']
     if not cast.get('qualifications') and data['qualifications']:
         cast['qualifications'] = data['qualifications']
+    if not cast.get('hobbies') and data['hobbies']:
+        cast['hobbies'] = data['hobbies']
+    if not cast.get('skills') and data['skills']:
+        cast['skills'] = data['skills']
     updated += 1
     print(f'✅ {cast["name"]} (id={pid}): 写真{len(cast.get("images",[]))}枚')
 
